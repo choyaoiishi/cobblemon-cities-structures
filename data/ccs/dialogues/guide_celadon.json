@@ -1,0 +1,137 @@
+{
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();"
+    },
+    "player": {
+      "face": "q.player.face();",
+      "name": {
+        "type": "expression",
+        "expression": "q.player.username"
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "welcome_1",
+      "speaker": "npc",
+      "lines": [
+        "Welcome to Celadon City! A beautiful city of cherry blossoms!"
+      ],
+      "clientActions": [
+        "q.face.play_animation('win');"
+      ],
+      "input": "q.dialogue.set_page('welcome_2');"
+    },
+    {
+      "id": "welcome_2",
+      "speaker": "npc",
+      "lines": [
+        "What would you like to learn about?"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "Gym",
+            "value": "gym",
+            "action": [
+              "q.dialogue.set_page('gym_1');"
+            ]
+          },
+          {
+            "text": "Game Corner",
+            "value": "game_corner",
+            "action": [
+              "q.dialogue.set_page('game_corner_1');"
+            ]
+          },
+          {
+            "text": "Fuchsia City",
+            "value": "map",
+            "action": [
+              "t.npc_data = q.player.get_npc_data(q.npc); t.next_page = t.npc_data.map_gave == 1 ? 'map_gave' : 'map_1'; q.dialogue.set_page(t.next_page)"
+            ]
+          },
+          {
+            "text": "Nothing",
+            "value": "nothing",
+            "action": [
+              "q.dialogue.set_page('quitter');"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "map_1",
+      "speaker": "npc",
+      "lines": [
+        "Heading to Fuchsia City? Here, take this MAP!"
+      ],
+      "input": [
+        "q.run_command('loot give ' + q.player.username() + ' loot ccs:maps/fuchsia');",
+        "q.player.play_sound_on_server('ccs:item_get','blocks');",
+        "q.player.set_npc_variable(q.npc, 'map_gave', 1);",
+        "q.dialogue.close();"
+      ]
+    },
+    {
+      "id": "map_gave",
+      "speaker": "npc",
+      "lines": [
+        "Use that MAP to find your way to Fuchsia City! Travel safe!"
+      ],
+      "input": "q.dialogue.close();"
+    },
+    {
+      "id": "gym_1",
+      "speaker": "npc",
+      "lines": [
+        "Celadon Gym's Leader is Erika. She is a user of Grass-type Pokémon, and at one with nature."
+      ],
+      "input": "q.dialogue.set_page('gym_2');"
+    },
+    {
+      "id": "gym_2",
+      "speaker": "npc",
+      "lines": [
+        "She might appear docile because of her flower arranging. But she's not one to be taken lightly!"
+      ],
+      "input": "q.dialogue.close();"
+    },
+    {
+      "id": "game_corner_1",
+      "speaker": "npc",
+      "lines": [
+        "Celadon takes pride in its efforts to keep the city beautiful."
+      ],
+      "input": "q.dialogue.set_page('game_corner_2');"
+    },
+    {
+      "id": "game_corner_2",
+      "speaker": "npc",
+      "lines": [
+        "That's why the Game Corner is bad for our city's image."
+      ],
+      "clientActions": [
+        "q.face.play_animation('lose');"
+      ],
+      "input": "q.dialogue.close();"
+    },
+    {
+      "id": "quitter",
+      "speaker": "npc",
+      "lines": [
+        "See you around!"
+      ],
+      "input": "q.dialogue.close();",
+      "escapeAction": "q.dialogue.close();"
+    }
+  ]
+}

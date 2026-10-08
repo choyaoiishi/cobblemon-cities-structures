@@ -1,0 +1,15 @@
+{
+    "template_pools": "ccs:fuchsia/houses/start",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:houses/fuchsia/start",
+                "processors": "ccs:fuchsia/general",
+                "projection": "rigid"
+            }
+        }
+    ]
+}

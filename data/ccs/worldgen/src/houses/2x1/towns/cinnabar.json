@@ -1,0 +1,18 @@
+[
+	{
+		"location": "ccs:houses/cinnabar/2x1/pillar"
+	},
+	{
+		"location": "ccs:houses/cinnabar/2x1/cactus"
+	},
+	{
+		"weight": 100,
+		"element": {
+			"element_type": "lithostitched:limited",
+			"delegate": {
+				"location": "ccs:houses/cinnabar/2x1/food_truck"
+			},
+			"limit": 1
+		}
+	}
+]

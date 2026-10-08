@@ -1,0 +1,15 @@
+{
+    "template_pools": "ccs:cerulean/houses/start",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:houses/cerulean/start",
+                "processors": "ccs:cerulean/general",
+                "projection": "rigid"
+            }
+        }
+    ]
+}

@@ -1,0 +1,102 @@
+{
+    "processors": [
+        {
+            "processor_type": "lithostitched:reference",
+            "processor_lists": [
+                "ccs:saffron/base",
+                "ccs:saffron/berry"
+            ]
+        },
+        {
+            "processor_type": "lithostitched:block_swap",
+            "blocks": {
+                // "minecraft:stripped_warped_hyphae": "minecraft:stripped_crimson_hyphae",
+                // "minecraft:prismarine_bricks": "minecraft:magenta_concrete",
+                // "minecraft:stripped_spruce_wood": "minecraft:smooth_quartz",
+                // "minecraft:stripped_oak_wood": "minecraft:white_terracotta",
+                // "minecraft:stone_brick_stairs": "minecraft:crimson_stairs",
+                // "minecraft:stone_brick_stairs": "minecraft:crimson_stairs",
+                // "minecraft:stone_brick_wall": "minecraft:crimson_fence",
+                // "minecraft:stone_bricks": "minecraft:crimson_planks",
+                // "minecraft:stone_brick_slab": "minecraft:crimson_slab",
+                "minecraft:oak_leaves": "minecraft:dark_oak_leaves",
+                "minecraft:spruce_trapdoor": "minecraft:dark_oak_trapdoor",
+                "minecraft:spruce_fence": "minecraft:dark_oak_fence",
+                "minecraft:spruce_door": "minecraft:dark_oak_door",
+                "minecraft:spruce_slab": "minecraft:dark_oak_slab",
+                "minecraft:spruce_planks": "minecraft:polished_tuff",
+               
+                "cobblemon:black_plaque": "cobblemon:magenta_plaque",
+               
+                // lamp
+                "minecraft:polished_blackstone_wall": "minecraft:andesite_wall",
+                "minecraft:brick_slab": "minecraft:quartz_slab"
+            }
+        },
+        {
+            "processor_type": "lithostitched:reference",
+            "processor_lists": [
+                "ccs:others/blue",
+                "ccs:others/red",
+                "ccs:others/magenta",
+                "ccs:others/polished_tuff/polished_tuff"
+            ]
+        },
+        {
+            "processor_type": "lithostitched:condition",
+            "random_mode": "per_piece",
+            "if_true": {
+                "type": "lithostitched:all_of",
+                "conditions": [
+                    {
+                        "type": "lithostitched:matching_blocks",
+                        "blocks": "minecraft:red_tulip",
+                        "match_type": "input"
+                    }
+                ]
+            },
+            "then": {
+                "processor_type": "lithostitched:set_block",
+                "state_provider": {
+                    "type": "minecraft:weighted_state_provider",
+                    "entries": [
+                        {
+                            "weight": 1,
+                            "data": {
+                                "Name": "minecraft:pink_tulip"
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "data": {
+                                "Name": "minecraft:allium"
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "data": {
+                                "Name": "minecraft:red_tulip"
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "data": {
+                                "Name": "minecraft:white_tulip"
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "data": {
+                                "Name": "minecraft:poppy"
+                            }
+                        }
+                    ]
+                },
+                "random_mode": "per_piece"
+            },
+            "else": {
+                "processor_type": "minecraft:nop"
+            }
+        }
+    ]
+}

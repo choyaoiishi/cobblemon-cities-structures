@@ -1,0 +1,18 @@
+[
+	{
+		"location": "ccs:houses/viridian/2x1/wheat",
+		"processors": "ccs:viridian/base"
+	},
+	{
+		"location": "ccs:houses/viridian/2x1/potato",
+		"processors": "ccs:viridian/base"
+	},
+	{
+		"location": "ccs:houses/viridian/2x1/carrot",
+		"processors": "ccs:viridian/base"
+	},
+	{
+		"location": "ccs:houses/viridian/2x1/sugarcane",
+		"processors": "ccs:viridian/base"
+	}
+]

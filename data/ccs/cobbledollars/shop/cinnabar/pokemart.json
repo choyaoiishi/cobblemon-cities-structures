@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Specials",
+    "offers": [
+      {
+        "item": "cobblemon:slate_ball",
+        "price": "2000"
+      },
+      {
+        "item": "cobblemon:level_ball",
+        "price": "6500"
+      },
+      {
+        "item": "cobblemon:dusk_ball",
+        "price": "12500"
+      }
+      
+    ]
+  },
+  {
+    "name": "Boosters",
+    "offers": [
+      {
+        "item": "cobblemon:x_speed",
+        "price": "3500"
+      },
+      {
+        "item": "cobblemon:x_accuracy",
+        "price": "9500"
+      }
+    ]
+  }
+]

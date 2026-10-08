@@ -1,0 +1,82 @@
+{
+    "template_pools": "ccs:vermilion/houses/2x1",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:houses/2x1/battlepad",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:vermilion/general"
+                },
+                "limit": 1
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:houses/vermilion/2x1/forklift",
+                "processors": "ccs:vermilion/general",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:houses/vermilion/2x1/forklifts",
+                "processors": "ccs:vermilion/general",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:houses/vermilion/2x1/container_1",
+                "processors": "ccs:vermilion/general",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:houses/vermilion/2x1/container_2",
+                "processors": "ccs:vermilion/general",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:houses/vermilion/2x1/container_3",
+                "processors": "ccs:vermilion/general",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:houses/vermilion/2x1/container_4",
+                "processors": "ccs:vermilion/general",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:houses/vermilion/2x1/pile",
+                "processors": "ccs:vermilion/general",
+                "projection": "rigid"
+            }
+        }
+    ]
+}

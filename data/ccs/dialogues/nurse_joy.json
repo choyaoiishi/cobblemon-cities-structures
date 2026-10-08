@@ -1,0 +1,90 @@
+{
+  "initializationAction": [
+    "c.npc.set_chatting();",
+    "v.healer = c.npc.find_nearby_block('cobblemon:healing_machine');",
+    "v.has_healer = v.healer != 0;",
+    "v.full_health = c.player.is_party_at_full_health();",
+    "v.has_charge = v.has_healer == true && v.full_health == false && q.player.can_heal_at_healer(v.healer) == true;",
+    "v.landing_page = !v.has_healer ? 'no_healer' : (v.full_health ? 'full_health' : (v.has_charge ? 'has_charge' : 'no_charge'));"
+  ],
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();"
+    },
+    "player": {
+      "face": "q.player.face();",
+      "name": {
+        "type": "expression",
+        "expression": "q.player.username"
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "greeting",
+      "speaker": "npc",
+      "lines": ["Hello, and welcome to the Pokémon Center.","We restore your tired Pokémon to full health."],
+      "input": "q.dialogue.set_page(v.landing_page);",
+      "clientActions": [
+        "q.face.play_animation('win');"
+      ]
+    },
+    {
+      "id": "no_healer",
+      "speaker": "npc",
+      "lines": ["I can't find my healing machine..."],
+      "clientActions": [
+        "q.face.play_animation('lose');"
+      ],
+      "input": "q.dialogue.close();"
+    },
+    {
+      "id": "full_health",
+      "speaker": "npc",
+      "lines": ["Your Pokémon are at full health!"],
+      "input": "q.dialogue.close();"
+    },
+    {
+      "id": "no_charge",
+      "speaker": "npc",
+      "lines": ["The machines are busy! Please come back later!"],
+      "input": "q.dialogue.close();"
+    },
+    {
+      "id": "has_charge",
+      "speaker": "npc",
+      "lines": ["Would you like to rest your Pokémon?"],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Yes",
+            "value": "yes",
+            "action": [
+              "v.callback_dialogue = 'sacchi_healed';",
+              "c.npc.run_action_effect('npc_heal_player_pokemon');",
+              "q.player.play_sound_on_server('ccs:healed','blocks');",
+              "q.dialogue.close();"
+            ]
+          },
+          {
+            "text": "No",
+            "value": "no",
+            "action": "q.dialogue.set_page('bye');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bye",
+      "speaker": "npc",
+      "lines": ["We hope to see you again!"],
+      "input": "q.dialogue.close();"
+    }
+  ]
+}

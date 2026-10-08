@@ -1,0 +1,21 @@
+{
+    "template_pools": "ccs:cinnabar/decos",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:decos/lamp",
+                "processors": "ccs:cinnabar/general",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 5,
+            "element": {
+                "element_type": "minecraft:empty_pool_element"
+            }
+        }
+    ]
+}

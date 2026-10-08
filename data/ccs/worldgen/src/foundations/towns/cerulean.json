@@ -1,0 +1,13 @@
+[
+	{
+		"weight": 150,
+		"element": {
+			"element_type": "lithostitched:limited",
+			"delegate": {
+				"location": "ccs:foundations/3x2",
+				"processors": "ccs:cerulean/base"
+			},
+			"limit": 1
+		}
+	}
+]

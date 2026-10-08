@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Specials",
+    "offers": [
+      {
+        "item": "cobblemon:slate_ball",
+        "price": "2000"
+      },
+      {
+        "item": "cobblemon:heavy_ball",
+        "price": "6500"
+      },
+      {
+        "item": "cobblemon:moon_ball",
+        "price": "6500"
+      },
+      {
+        "item": "cobblemon:timer_ball",
+        "price": "12500"
+      }
+      
+    ]
+  },
+  {
+    "name": "Boosters",
+    "offers": [
+      {
+        "item": "cobblemon:x_attack",
+        "price": "5500"
+      },
+      {
+        "item": "cobblemon:x_defence",
+        "price": "5000"
+      }
+    ]
+  }
+]

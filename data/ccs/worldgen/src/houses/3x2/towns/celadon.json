@@ -1,0 +1,13 @@
+[
+	{
+		"weight": 100,
+		"element": {
+			"element_type": "lithostitched:limited",
+			"delegate": {
+				"location": "ccs:houses/celadon/3x2/game_center"
+			},
+			"limit": 1
+		}
+	},
+	"modern"
+]

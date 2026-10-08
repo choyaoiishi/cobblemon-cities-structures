@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Foods",
+    "offers": [
+      {
+        "item": "cobblemon:lava_cookie",
+        "price": "1000"
+      },
+      {
+        "item": "minecraft:cooked_beef",
+        "price": "1000"
+      },
+      {
+        "item": "minecraft:cooked_chicken",
+        "price": "1000"
+      }
+    ]
+  }
+]

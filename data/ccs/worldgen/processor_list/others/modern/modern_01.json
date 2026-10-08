@@ -1,0 +1,14 @@
+{
+    "processors": [
+        {
+            "processor_type": "lithostitched:block_swap",
+            "blocks": {
+                "minecraft:light_gray_concrete": "minecraft:polished_andesite",
+                "minecraft:gray_concrete": "minecraft:polished_andesite",
+                "minecraft:black_concrete": "minecraft:polished_andesite",
+                "minecraft:black_stained_glass": "minecraft:white_stained_glass",
+                "minecraft:black_stained_glass_pane": "minecraft:white_stained_glass_pane"
+            }
+        }
+    ]
+}

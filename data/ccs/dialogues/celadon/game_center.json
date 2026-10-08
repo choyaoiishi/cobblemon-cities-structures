@@ -1,0 +1,237 @@
+{
+  "initializationAction": [],
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();"
+    }
+  },
+  "pages": [
+    {
+      "id": "p_0",
+      "speaker": "npc",
+      "lines": [],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": "t.next_page = q.player.main_held_item.is_of('cobblemon:relic_coin_sack') ? 'exchange_prizes' : 'held_coins'; q.dialogue.set_page(t.next_page);"
+      }
+    },
+    {
+      "id": "held_coins",
+      "speaker": "npc",
+      "lines": [
+        "Welcome! You can exchange your coins for fabulous prizes here!"
+      ],
+      "input": [
+        "q.dialogue.set_page('held_coins_2');"
+      ]
+    },
+    {
+      "id": "held_coins_2",
+      "speaker": "npc",
+      "lines": [
+        "Please hold Relic Coin Sack in your main hand to exchange prizes."
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    },
+    {
+      "id": "exchange_prizes",
+      "speaker": "npc",
+      "lines": [
+        "Welcome! You can exchange your coins for fabulous prizes here!"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "Abra: 2 sacks",
+            "value": "Abra",
+            "isSelectable": "v.coins_count = q.player.main_held_item.count(); v.coins_count >= 2",
+            "action": [
+              "v.chosen_prize = 'abra';",
+              "v.deduct_amount = 2;",
+              "q.dialogue.set_page('give_pokemon');"
+            ]
+          },
+          {
+            "text": "Clefairy: 5 sacks",
+            "value": "Clefairy",
+            "isSelectable": "v.coins_count = q.player.main_held_item.count(); v.coins_count >= 5",
+            "action": [
+              "v.chosen_prize = 'clefairy';",
+              "v.deduct_amount = 5;",
+              "q.dialogue.set_page('give_pokemon');"
+            ]
+          },
+          {
+            "text": "Dratini: 24 sacks",
+            "value": "Dratini",
+            "isSelectable": "v.coins_count = q.player.main_held_item.count(); v.coins_count >= 24",
+            "action": [
+              "v.chosen_prize = 'Dratini';",
+              "v.deduct_amount = 24;",
+              "q.dialogue.set_page('give_pokemon');"
+            ]
+          },
+          {
+            "text": "Next Page >>",
+            "value": "next_page",
+            "action": [
+              "q.dialogue.set_page('exchange_prizes_2');"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "exchange_prizes_2",
+      "speaker": "npc",
+      "lines": [
+        "Welcome! You can exchange your coins for fabulous prizes here!"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "Scyther: 32 sacks",
+            "value": "Scyther",
+            "isSelectable": "v.coins_count = q.player.main_held_item.count(); v.coins_count >= 32",
+            "action": [
+              "v.chosen_prize = 'Scyther';",
+              "v.deduct_amount = 32;",
+              "q.dialogue.set_page('give_pokemon');"
+            ]
+          },
+          {
+            "text": "Porygon: 64 sacks",
+            "value": "Porygon",
+            "isSelectable": "v.coins_count = q.player.main_held_item.count(); v.coins_count >= 64",
+            "action": [
+              "v.chosen_prize = 'Porygon';",
+              "v.deduct_amount = 64;",
+              "q.dialogue.set_page('give_pokemon');"
+            ]
+          },
+          {
+            "text": "Ice Beam: 25 sacks",
+            "value": "Ice Beam",
+            "isSelectable": "v.coins_count = q.player.main_held_item.count(); v.coins_count >= 25",
+            "action": [
+              "v.chosen_prize = 'icebeam';",
+              "v.deduct_amount = 25;",
+              "q.dialogue.set_page('give_tm');"
+            ]
+          },
+          {
+            "text": "<< Back",
+            "value": "prev_page",
+            "action": [
+              "q.dialogue.set_page('exchange_prizes');"
+            ]
+          },
+          {
+            "text": "Next Page >>",
+            "value": "next_page",
+            "action": [
+              "q.dialogue.set_page('exchange_prizes_3');"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "exchange_prizes_3",
+      "speaker": "npc",
+      "lines": [
+        "Welcome! You can exchange your coins for fabulous prizes here!"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "Thunder Bolt: 25 sacks",
+            "value": "Thunder Bolt",
+            "isSelectable": "v.coins_count = q.player.main_held_item.count(); v.coins_count >= 25",
+            "action": [
+              "v.chosen_prize = 'thunderbolt';",
+              "v.deduct_amount = 25;",
+              "q.dialogue.set_page('give_tm');"
+            ]
+          },
+          {
+            "text": "Flamethrower: 25 sacks",
+            "value": "Flamethrower",
+            "isSelectable": "v.coins_count = q.player.main_held_item.count(); v.coins_count >= 25",
+            "action": [
+              "v.chosen_prize = 'flamethrower';",
+              "v.deduct_amount = 25;",
+              "q.dialogue.set_page('give_tm');"
+            ]
+          },
+          {
+            "text": "Shadow Ball: 27 sacks",
+            "value": "Shadow Ball",
+            "isSelectable": "v.coins_count = q.player.main_held_item.count(); v.coins_count >= 27",
+            "action": [
+              "v.chosen_prize = 'shadowball';",
+              "v.deduct_amount = 27;",
+              "q.dialogue.set_page('give_tm');"
+            ]
+          },
+          {
+            "text": "<< Back",
+            "value": "prev_page",
+            "action": [
+              "q.dialogue.set_page('exchange_prizes_2');"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "give_tm",
+      "speaker": "npc",
+      "lines": [
+        "Here is your prize TM!"
+      ],
+      "input": [
+        "q.run_command('givetm ' + v.chosen_prize + ' ' + q.player.username());",
+        "q.player.play_sound_on_server('ccs:item_get','blocks');",
+        "q.dialogue.set_page('remove_coins');"
+      ]
+    },
+    {
+      "id": "give_pokemon",
+      "speaker": "npc",
+      "lines": [
+        "Here is your prize Pokémon!"
+      ],
+      "input": [
+        "q.run_command('pokegiveother ' + q.player.username() + ' ' + v.chosen_prize);",
+        "q.player.play_sound_on_server('ccs:pokemon_get','blocks');",
+        "q.dialogue.set_page('remove_coins');"
+      ]
+    },
+    {
+      "id": "remove_coins",
+      "speaker": "npc",
+      "lines": [],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": "q.run_command('/item modify entity ' + q.player.username() + ' weapon.mainhand {\"function\": \"minecraft:set_count\",\"count\": -' + v.deduct_amount + ',\"add\": true}'); q.dialogue.set_page('p_0');"
+      }
+    }
+  ]
+}

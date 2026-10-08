@@ -1,0 +1,27 @@
+{
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "destination": "ccs:cinnabar",
+                            "decoration": "minecraft:banner_red",
+                            "function": "minecraft:exploration_map",
+                            
+                            "zoom": 4
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": "Cinnabar City",
+                            "target": "item_name"
+                        }
+                    ],
+                    "name": "minecraft:map"
+                }
+            ],
+            "rolls": 1
+        }
+    ]
+}

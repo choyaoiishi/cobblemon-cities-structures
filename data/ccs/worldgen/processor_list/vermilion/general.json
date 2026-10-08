@@ -1,0 +1,95 @@
+{
+    "processors": [
+        {
+            "processor_type": "lithostitched:reference",
+            "processor_lists": [
+                "ccs:vermilion/base",
+                "ccs:vermilion/berry"
+            ]
+        },
+        {
+            "processor_type": "lithostitched:block_swap",
+            "blocks": {
+                "minecraft:stripped_warped_hyphae": "minecraft:stripped_acacia_wood",
+                "minecraft:prismarine_bricks": "minecraft:orange_concrete",
+                "minecraft:stripped_oak_wood": "minecraft:smooth_quartz",
+                "minecraft:stripped_spruce_wood": "minecraft:stripped_oak_wood",
+                "minecraft:polished_blackstone_brick_stairs": "minecraft:waxed_cut_copper_stairs",
+                "minecraft:polished_blackstone_brick_slab": "minecraft:waxed_cut_copper_slab",
+            //    furnies
+                "cobblefurnies:black_sofa": "cobblefurnies:yellow_sofa",
+                "cobblefurnies:black_armchair": "cobblefurnies:yellow_armchair",
+                "cobblefurnies:black_dark_table": "cobblefurnies:yellow_dark_table",
+                "cobblefurnies:black_poke_wool": "cobblefurnies:yellow_poke_wool",
+                "cobblefurnies:black_poke_wool_carpet": "cobblefurnies:yellow_poke_wool_carpet",
+                "cobblemon:black_plaque": "cobblemon:yellow_plaque",
+                "cobblemon:campfire_pot_black": "cobblemon:campfire_pot_yellow",
+                "minecraft:black_bed": "minecraft:yellow_bed",
+                "minecraft:orange_terracotta": "minecraft:orange_concrete",
+                // lamp
+                "minecraft:polished_blackstone_wall": "minecraft:andesite_wall",
+                // deco
+                "minecraft:oak_leaves": "minecraft:air",
+                "minecraft:brick_slab": "minecraft:andesite_slab"
+            }
+        },
+        {
+            "processor_type": "lithostitched:reference",
+            "processor_lists": [
+                "ccs:others/blue",
+                "ccs:others/red",
+                "ccs:others/orange"
+            ]
+        },
+        {
+            "processor_type": "lithostitched:condition",
+            "random_mode": "per_piece",
+            "if_true": {
+                "type": "lithostitched:all_of",
+                "conditions": [
+                    {
+                        "type": "lithostitched:matching_blocks",
+                        "blocks": "minecraft:red_tulip",
+                        "match_type": "input"
+                    }
+                ]
+            },
+            "then": {
+                "processor_type": "lithostitched:set_block",
+                "state_provider": {
+                    "type": "minecraft:weighted_state_provider",
+                    "entries": [
+                        {
+                            "weight": 1,
+                            "data": {
+                                "Name": "minecraft:dandelion"
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "data": {
+                                "Name": "minecraft:oxeye_daisy"
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "data": {
+                                "Name": "minecraft:azure_bluet"
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "data": {
+                                "Name": "minecraft:orange_tulip"
+                            }
+                        }
+                    ]
+                },
+                "random_mode": "per_piece"
+            },
+            "else": {
+                "processor_type": "minecraft:nop"
+            }
+        }
+    ]
+}

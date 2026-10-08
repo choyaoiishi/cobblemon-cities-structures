@@ -1,0 +1,42 @@
+{
+  "hitbox": "player",
+  "names": [
+    ""
+  ],
+  "isMovable": false,
+  "isInvulnerable": true,
+  "canDespawn": false,
+  "ai": [
+    {
+      "type": "apply_behaviours",
+      "behaviours": [
+        "cobblemon:resource_identifier",
+        "cobblemon:stationary"
+      ]
+    }
+  ],
+  "config": [
+    {
+      "variableName": "resource_identifier",
+      "type": "TEXT",
+      "defaultValue": "ccs:poke_ball"
+    },
+    {
+      "variableName": "item_name",
+      "displayName": "item_name",
+      "type": "TEXT",
+      "defaultValue": ""
+    },
+    {
+      "variableName": "item_id",
+      "displayName": "item_id",
+      "type": "TEXT",
+      "defaultValue": ""
+    }
+  ],
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "ccs:item_loot"
+  },
+  "hideNameTag": true
+}

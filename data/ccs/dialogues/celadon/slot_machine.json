@@ -1,0 +1,246 @@
+{
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "line_0",
+      "speaker": "npc",
+      "lines": [
+        "[ SLOT MACHINE ]"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "Play",
+            "value": "play",
+            "action": [
+              "t.next_page = q.player.main_held_item.is_of('cobblemon:relic_coin') ? 'insert_coins' : 'held_coins';",
+              "q.dialogue.set_page(t.next_page);"
+            ]
+          },
+          {
+            "text": "Leave",
+            "value": "bye",
+            "action": [
+              "q.dialogue.set_page('bye');"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "held_coins",
+      "speaker": "npc",
+      "lines": [
+        "Hold Relic Coins in your main hand to play."
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    },
+    {
+      "id": "insert_coins",
+      "speaker": "npc",
+      "lines": [
+        "Insert how many coins?"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "1 Coin",
+            "value": "1",
+            "isSelectable": "v.coins_count = q.player.main_held_item.count(); v.coins_count >= 1",
+            "action": [
+              "v.coins_inserted = 1;",
+              "q.player.play_sound_on_server('ccs:slot_machine/insert_coin','blocks');",
+              "q.dialogue.set_page('slot_init');"
+            ]
+          },
+          {
+            "text": "10 Coins",
+            "value": "10",
+            "isSelectable": "v.coins_count >= 10",
+            "action": [
+              "v.coins_inserted = 10;",
+              "q.player.play_sound_on_server('ccs:slot_machine/insert_coin','blocks');",
+              "q.dialogue.set_page('slot_init');"
+            ]
+          },
+          {
+            "text": "50 Coins",
+            "value": "50",
+            "isSelectable": "v.coins_count >= 50",
+            "action": [
+              "v.coins_inserted = 50;",
+              "q.player.play_sound_on_server('ccs:slot_machine/insert_coin','blocks');",
+              "q.dialogue.set_page('slot_init');"
+            ]
+          },
+          {
+            "text": "Leave",
+            "value": "bye",
+            "action": [
+              "q.dialogue.set_page('bye');"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "slot_init",
+      "speaker": "npc",
+      "lines": [],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": "q.run_command('/item modify entity ' + q.player.username() + ' weapon.mainhand {\"function\": \"minecraft:set_count\",\"count\": -' + v.coins_inserted + ',\"add\": true}'); v.tried_1 = 0; v.tried_2 = 0; v.tried_3 = 0; v.num_1 = 1; v.num_2 = 1; v.num_3 = 1; q.dialogue.set_page('spin_1');"
+      }
+    },
+    {
+      "id": "spin_1",
+      "speaker": "npc",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "'[ ' + v.num_1 + ' | ? | ? ]'"
+        }
+      ],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.1,
+        "allowSkip": false,
+        "action": "v.num_1 = q.random(1, 2, 3, 4, 5, 6, 7, 8, 9); v.tried_1 = v.tried_1 + 1; v.tried_1 < 10 ? q.dialogue.set_page('spin_1') : q.dialogue.set_page('spin_2');"
+      }
+    },
+    {
+      "id": "spin_2",
+      "speaker": "npc",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "'[ ' + v.num_1 + ' | ' + v.num_2 + ' | ? ]'"
+        }
+      ],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.1,
+        "allowSkip": false,
+        "action": "v.num_2 = q.random(1, 2, 3, 4, 5, 6, 7, 8, 9); v.tried_2 = v.tried_2 + 1; v.tried_2 < 10 ? q.dialogue.set_page('spin_2') : q.dialogue.set_page('spin_3');"
+      }
+    },
+    {
+      "id": "spin_3",
+      "speaker": "npc",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "'[ ' + v.num_1 + ' | ' + v.num_2 + ' | ' + v.num_3 + ' ]'"
+        }
+      ],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.1,
+        "allowSkip": false,
+        "action": "v.num_3 = q.random(1, 2, 3, 4, 5, 6, 7, 8, 9); v.tried_3 = v.tried_3 + 1; v.tried_3 < 10 ? q.dialogue.set_page('spin_3') : q.dialogue.set_page('calculate');"
+      }
+    },
+    {
+      "id": "calculate",
+      "speaker": "npc",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "'[ ' + v.num_1 + ' | ' + v.num_2 + ' | ' + v.num_3 + ' ]'"
+        }
+      ],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.5,
+        "allowSkip": false,
+        "action": "v.jackpot = (v.num_1 == v.num_2) && (v.num_2 == v.num_3); v.win = (v.num_1 == v.num_2) || (v.num_2 == v.num_3) || (v.num_1 == v.num_3); v.next_page = v.jackpot ? 'jackpot' : (v.win ? 'win' : 'lose'); q.player.play_sound_on_server('ccs:slot_machine/' + v.next_page, 'blocks'); q.dialogue.set_page(v.next_page);"
+      }
+    },
+    {
+      "id": "give_coins",
+      "speaker": "npc",
+      "lines": [],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.1,
+        "allowSkip": false,
+        "action": "q.run_command('give ' + q.player.username() + ' cobblemon:relic_coin ' + v.coins_inserted * v.payout); q.dialogue.close();"
+      }
+    },
+    {
+      "id": "jackpot",
+      "speaker": "npc",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "'[ ' + v.num_1 + ' | ' + v.num_2 + ' | ' + v.num_3 + ' ]'"
+        },
+        {
+          "type": "expression",
+          "expression": "'JACKPOT! You win ' + (v.coins_inserted * 15) + ' Coins!'"
+        }
+      ],
+      "input": [
+        "v.payout = 15;",
+        "q.dialogue.set_page('give_coins');"
+      ]
+    },
+    {
+      "id": "win",
+      "speaker": "npc",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "'[ ' + v.num_1 + ' | ' + v.num_2 + ' | ' + v.num_3 + ' ]'"
+        },
+        {
+          "type": "expression",
+          "expression": "'WINNER! You win ' + (v.coins_inserted * 2) + ' Coins!'"
+        }
+      ],
+      "input": [
+        "v.payout = 2;",
+        "q.dialogue.set_page('give_coins');"
+      ]
+    },
+    {
+      "id": "lose",
+      "speaker": "npc",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "'[ ' + v.num_1 + ' | ' + v.num_2 + ' | ' + v.num_3 + ' ]'"
+        },
+        "NO MATCH! Better luck next time!"
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    },
+    {
+      "id": "bye",
+      "speaker": "npc",
+      "lines": [
+        "Thank you for playing!"
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    }
+  ]
+}

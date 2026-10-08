@@ -1,0 +1,145 @@
+{
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();"
+    },
+    "player": {
+      "face": "q.player.face();",
+      "name": {
+        "type": "expression",
+        "expression": "q.player.username"
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "welcome_1",
+      "speaker": "npc",
+      "lines": [
+        "Welcome to Saffron City! Shining Golden Land of Commerce!"
+      ],
+      "clientActions": [
+        "q.face.play_animation('win');"
+      ],
+      "input": "q.dialogue.set_page('welcome_2');"
+    },
+    {
+      "id": "welcome_2",
+      "speaker": "npc",
+      "lines": [
+        "What would you like to learn about?"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "Gym",
+            "value": "gym",
+            "action": [
+              "q.dialogue.set_page('gym_1');"
+            ]
+          },
+          {
+            "text": "Silph Co",
+            "value": "silph",
+            "action": [
+              "q.dialogue.set_page('silph');"
+            ]
+          },
+          {
+            "text": "Cinnabar City",
+            "value": "map",
+            "action": [
+              "t.npc_data = q.player.get_npc_data(q.npc); t.next_page = t.npc_data.map_gave == 1 ? 'map_gave' : 'map_1'; q.dialogue.set_page(t.next_page)"
+            ]
+          },
+          {
+            "text": "Nothing",
+            "value": "nothing",
+            "action": [
+              "q.dialogue.set_page('quitter');"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "map_1",
+      "speaker": "npc",
+      "lines": [
+        "Heading to Cinnabar City? Here, take this MAP!"
+      ],
+      "input": [
+        "q.run_command('loot give ' + q.player.username() + ' loot ccs:maps/cinnabar');",
+        "q.player.play_sound_on_server('ccs:item_get','blocks');",
+        "q.player.set_npc_variable(q.npc, 'map_gave', 1);",
+        "q.dialogue.close();"
+      ]
+    },
+    {
+      "id": "map_gave",
+      "speaker": "npc",
+      "lines": [
+        "Use that MAP to find your way to Cinnabar City! Travel safe!"
+      ],
+      "input": "q.dialogue.close();"
+    },
+    {
+      "id": "gym_1",
+      "speaker": "npc",
+      "lines": [
+        "Yo! Champ in the making! Sabrina's Pokémon use psychic power instead of force."
+      ],
+      "input": "q.dialogue.set_page('gym_2');"
+    },
+    {
+      "id": "gym_2",
+      "speaker": "npc",
+      "lines": [
+        "Fighting Pokémon are especially weak against Psychic Pokémon."
+      ],
+      "input": "q.dialogue.set_page('gym_3');"
+    },
+    {
+      "id": "gym_3",
+      "speaker": "npc",
+      "lines": [
+        "They'll get destroyed before they can even aim a punch!"
+      ],
+      "input": "q.dialogue.close();"
+    },
+    {
+      "id": "silph",
+      "speaker": "npc",
+      "lines": [
+        "Those thugs that took over our building. Their Boss said he was looking for strong Pokémon."
+      ],
+      "clientActions": [
+        "q.face.play_animation('lose');"
+      ],
+      "input": "q.dialogue.set_page('silph_2');"
+    },
+    {
+      "id": "silph_2",
+      "speaker": "npc",
+      "lines": [
+        "I hope our President managed to avoid trouble."
+      ],
+      "input": "q.dialogue.close();"
+    },
+    {
+      "id": "quitter",
+      "speaker": "npc",
+      "lines": [
+        "See you around!"
+      ],
+      "input": "q.dialogue.close();",
+      "escapeAction": "q.dialogue.close();"
+    }
+  ]
+}

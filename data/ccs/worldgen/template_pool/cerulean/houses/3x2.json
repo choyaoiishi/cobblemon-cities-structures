@@ -1,0 +1,33 @@
+{
+    "template_pools": "ccs:cerulean/houses/3x2",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 150,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:houses/cerulean/3x2/gym",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:cerulean/general"
+                },
+                "limit": 1,
+                "min_depth": 3
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:houses/cerulean/3x2/pool",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:cerulean/general"
+                },
+                "limit": 1
+            }
+        }
+    ]
+}

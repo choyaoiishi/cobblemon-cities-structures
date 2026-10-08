@@ -1,0 +1,11 @@
+[
+  {
+    "name": "Coins",
+    "offers": [
+      {
+        "item": "cobblemon:relic_coin",
+        "price": "1000"
+      }
+    ]
+  }
+]

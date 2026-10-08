@@ -1,0 +1,324 @@
+{
+    "template_pools": "ccs:saffron/city_npc",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:city_npc/general/000",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:saffron/general"
+                },
+                "limit": 1
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:city_npc/general/001",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:saffron/general"
+                },
+                "limit": 1
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:city_npc/general/002",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:saffron/general"
+                },
+                "limit": 1
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:city_npc/general/003",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:saffron/general"
+                },
+                "limit": 1
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:city_npc/general/004",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:saffron/general"
+                },
+                "limit": 1
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:city_npc/general/005",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:saffron/general"
+                },
+                "limit": 1
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:city_npc/general/006",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:saffron/general"
+                },
+                "limit": 1
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:city_npc/general/007",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:saffron/general"
+                },
+                "limit": 1
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:city_npc/general/008",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:saffron/general"
+                },
+                "limit": 1
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:city_npc/general/009",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:saffron/general"
+                },
+                "limit": 1
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:city_npc/general/010",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:saffron/general"
+                },
+                "limit": 1
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:city_npc/general/011",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:saffron/general"
+                },
+                "limit": 1
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:city_npc/general/012",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:saffron/general"
+                },
+                "limit": 1
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:city_npc/general/013",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:saffron/general"
+                },
+                "limit": 1
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:city_npc/general/014",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:saffron/general"
+                },
+                "limit": 1
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:city_npc/general/015",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:saffron/general"
+                },
+                "limit": 1
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:city_npc/general/016",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:saffron/general"
+                },
+                "limit": 1
+            }
+        },
+        {
+            "weight": 150,
+            "element": {
+                "element_type": "lithostitched:guaranteed",
+                "delegate": {
+                    "location": "ccs:city_npc/saffron/guide",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:saffron/general"
+                },
+                "count": 1
+            }
+        },
+        {
+            "weight": 150,
+            "element": {
+                "element_type": "lithostitched:guaranteed",
+                "delegate": {
+                    "location": "ccs:city_npc/saffron/shopkeeper_2",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:saffron/general"
+                },
+                "count": 1
+            }
+        },
+        {
+            "weight": 20,
+            "element": {
+                "element_type": "minecraft:empty_pool_element"
+            }
+        },
+        {
+            "weight": 20,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:city_npc/saffron/000",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:saffron/general"
+                },
+                "limit": 1
+            }
+        },
+        {
+            "weight": 20,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:city_npc/saffron/001",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:saffron/general"
+                },
+                "limit": 1
+            }
+        },
+        {
+            "weight": 20,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:city_npc/saffron/002",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:saffron/general"
+                },
+                "limit": 1
+            }
+        },
+        {
+            "weight": 20,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:city_npc/saffron/003",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:saffron/general"
+                },
+                "limit": 1
+            }
+        },
+        {
+            "weight": 20,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:city_npc/saffron/004",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:saffron/general"
+                },
+                "limit": 1
+            }
+        }
+    ]
+}

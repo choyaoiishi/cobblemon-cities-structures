@@ -1,0 +1,151 @@
+{
+    "processors": [
+        {
+            "processor_type": "lithostitched:reference",
+            "processor_lists": [
+                "ccs:celadon/base",
+                "ccs:celadon/berry"
+            ]
+        },
+        {
+            "processor_type": "lithostitched:block_swap",
+            "blocks": {
+                "minecraft:stripped_warped_hyphae": "minecraft:stripped_cherry_wood",
+                "minecraft:prismarine_bricks": "minecraft:pink_concrete",
+                "minecraft:stripped_spruce_wood": "minecraft:quartz_bricks",
+                "minecraft:stripped_oak_wood": "minecraft:smooth_quartz",
+                "minecraft:stone_brick_stairs": "minecraft:cherry_stairs",
+                // "minecraft:stone_brick_wall": "minecraft:cherry_fence",
+                // "minecraft:stone_bricks": "minecraft:cherry_planks",
+                // "minecraft:stone_brick_slab": "minecraft:cherry_slab",
+                "minecraft:spruce_planks": "minecraft:cherry_planks",
+                "minecraft:spruce_slab": "minecraft:cherry_slab",
+                "minecraft:spruce_trapdoor": "minecraft:dark_oak_trapdoor",
+                "minecraft:spruce_fence": "minecraft:dark_oak_fence",
+                "minecraft:spruce_door": "minecraft:dark_oak_door",
+                // furnies
+                "cobblefurnies:black_sofa": "cobblefurnies:green_sofa",
+                "cobblefurnies:black_armchair": "cobblefurnies:green_armchair",
+                "cobblefurnies:black_dark_table": "cobblefurnies:green_dark_table",
+                "cobblefurnies:black_poke_wool": "cobblefurnies:green_poke_wool",
+                "cobblefurnies:black_poke_wool_carpet": "cobblefurnies:green_poke_wool_carpet",
+                "cobblemon:black_plaque": "cobblemon:green_plaque",
+                "cobblemon:campfire_pot_black": "cobblemon:campfire_pot_green",
+                "minecraft:black_bed": "minecraft:green_bed",
+                // lamp
+                "minecraft:polished_blackstone_wall": "minecraft:andesite_wall",
+                // deco
+                "minecraft:brick_slab": "minecraft:quartz_slab"
+                
+            }
+        },
+        {
+            "processor_type": "lithostitched:reference",
+            "processor_lists": [
+                "ccs:others/blue",
+                "ccs:others/red",
+                "ccs:others/pink"
+            ]
+        },
+        {
+            "processor_type": "lithostitched:condition",
+            "random_mode": "per_piece",
+            "if_true": {
+                "type": "lithostitched:all_of",
+                "conditions": [
+                    {
+                        "type": "lithostitched:matching_blocks",
+                        "blocks": "minecraft:red_tulip",
+                        "match_type": "input"
+                    }
+                ]
+            },
+            "then": {
+                "processor_type": "lithostitched:set_block",
+                "state_provider": {
+                    "type": "minecraft:weighted_state_provider",
+                    "entries": [
+                        {
+                            "weight": 1,
+                            "data": {
+                                "Name": "minecraft:poppy"
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "data": {
+                                "Name": "minecraft:allium"
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "data": {
+                                "Name": "minecraft:white_tulip"
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "data": {
+                                "Name": "minecraft:pink_tulip"
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "data": {
+                                "Name": "minecraft:red_tulip"
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "data": {
+                                "Name": "minecraft:lily_of_the_valley"
+                            }
+                        }
+                    ]
+                },
+                "random_mode": "per_piece"
+            },
+            "else": {
+                "processor_type": "minecraft:nop"
+            }
+        },
+        {
+            "processor_type": "lithostitched:condition",
+            "random_mode": "per_block",
+            "if_true": {
+                "type": "lithostitched:all_of",
+                "conditions": [
+                    {
+                        "type": "lithostitched:matching_blocks",
+                        "blocks": "minecraft:oak_leaves",
+                        "match_type": "input"
+                    }
+                ]
+            },
+            "then": {
+                "processor_type": "lithostitched:set_block",
+                "state_provider": {
+                    "type": "minecraft:weighted_state_provider",
+                    "entries": [
+                        {
+                            "weight": 5,
+                            "data": {
+                                "Name": "minecraft:azalea_leaves"
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "data": {
+                                "Name": "minecraft:flowering_azalea_leaves"
+                            }
+                        }
+                    ]
+                },
+                "random_mode": "per_block"
+            },
+            "else": {
+                "processor_type": "minecraft:nop"
+            }
+        }
+    ]
+}

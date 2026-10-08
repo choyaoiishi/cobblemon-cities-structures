@@ -1,0 +1,42 @@
+{
+    "template_pools": "ccs:celadon/roads",
+    "fallback": "ccs:terminator",
+    "elements": [
+        {
+            "weight": 5,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:roads/s",
+                "processors": "ccs:celadon/base",
+                "projection": "terrain_matching"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:roads/t",
+                "processors": "ccs:celadon/base",
+                "projection": "terrain_matching"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:roads/c",
+                "processors": "ccs:celadon/base",
+                "projection": "terrain_matching"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:roads/x",
+                "processors": "ccs:celadon/base",
+                "projection": "terrain_matching"
+            }
+        }
+    ]
+}

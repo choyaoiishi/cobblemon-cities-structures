@@ -1,0 +1,15 @@
+{
+    "template_pools": "ccs:cinnabar/houses/start",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:houses/cinnabar/start",
+                "processors": "ccs:cinnabar/general",
+                "projection": "rigid"
+            }
+        }
+    ]
+}

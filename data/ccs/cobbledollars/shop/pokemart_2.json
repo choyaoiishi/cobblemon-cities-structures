@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Specials",
+    "offers": [
+      {
+        "item": "cobblemon:quick_ball",
+        "price": "10000"
+      },
+      {
+        "item": "cobblemon:nest_ball",
+        "price": "10000"
+      },
+      {
+        "item": "cobblemon:dusk_ball",
+        "price": "10000"
+      },
+      {
+        "item": "cobblemon:timer_ball",
+        "price": "10000"
+      },
+      {
+        "item": "cobblemon:net_ball",
+        "price": "10000"
+      },
+      {
+        "item": "cobblemon:dive_ball",
+        "price": "10000"
+      }
+    ]
+  },
+  {
+    "name": "Boosters",
+    "offers": [
+      {
+        "item": "cobblemon:x_attack",
+        "price": "5500"
+      },
+      {
+        "item": "cobblemon:x_defence",
+        "price": "5000"
+      },
+      {
+        "item": "cobblemon:x_special_attack",
+        "price": "3500"
+      },
+      {
+        "item": "cobblemon:x_special_defence",
+        "price": "3500"
+      },
+      {
+        "item": "cobblemon:x_speed",
+        "price": "3500"
+      },
+      {
+        "item": "cobblemon:x_accuracy",
+        "price": "9500"
+      },
+      {
+        "item": "cobblemon:dire_hit",
+        "price": "6500"
+      },
+      {
+        "item": "cobblemon:guard_spec",
+        "price": "7000"
+      }
+    ]
+  }
+]

@@ -1,0 +1,54 @@
+{
+    "template_pools": "ccs:cerulean/houses/2x1",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:houses/2x1/battlepad",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:cerulean/general"
+                },
+                "limit": 1
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:houses/cerulean/2x1/food_truck",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:cerulean/general"
+                },
+                "limit": 1
+            }
+        },
+        {
+            "weight": 50,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:houses/cerulean/2x1/camper_van",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:cerulean/general"
+                },
+                "limit": 2
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:houses/2x1/tree",
+                "processors": "ccs:cerulean/general",
+                "projection": "rigid"
+            }
+        }
+    ]
+}

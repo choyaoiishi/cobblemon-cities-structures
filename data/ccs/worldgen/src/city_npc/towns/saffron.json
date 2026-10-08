@@ -1,0 +1,52 @@
+[
+	{
+		"weight": 20,
+		"element": {
+			"element_type": "lithostitched:limited",
+			"delegate": {
+				"location": "ccs:city_npc/saffron/000"
+			},
+			"limit": 1
+		}
+	},
+	{
+		"weight": 20,
+		"element": {
+			"element_type": "lithostitched:limited",
+			"delegate": {
+				"location": "ccs:city_npc/saffron/001"
+			},
+			"limit": 1
+		}
+	},
+	{
+		"weight": 20,
+		"element": {
+			"element_type": "lithostitched:limited",
+			"delegate": {
+				"location": "ccs:city_npc/saffron/002"
+			},
+			"limit": 1
+		}
+	},
+	{
+		"weight": 20,
+		"element": {
+			"element_type": "lithostitched:limited",
+			"delegate": {
+				"location": "ccs:city_npc/saffron/003"
+			},
+			"limit": 1
+		}
+	},
+	{
+		"weight": 20,
+		"element": {
+			"element_type": "lithostitched:limited",
+			"delegate": {
+				"location": "ccs:city_npc/saffron/004"
+			},
+			"limit": 1
+		}
+	}
+]

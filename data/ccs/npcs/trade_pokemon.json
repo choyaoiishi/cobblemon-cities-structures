@@ -1,0 +1,55 @@
+{
+  "hitbox": "player",
+  "names": [
+    ""
+  ],
+  "canDespawn": false,
+  "ai": [
+    {
+      "type": "apply_behaviours",
+      "behaviours": [
+        "cobblemon:core",
+        "cobblemon:resource_identifier",
+        "cobblemon:stationary",
+        "cobblemon:looks_at_players"
+      ]
+    }
+  ],
+  "config": [
+    {
+      "variableName": "target_pokemon",
+      "displayName": "target_pokemon",
+      "type": "TEXT",
+      "defaultValue": ""
+    },
+    {
+      "variableName": "target_pokemon_name",
+      "displayName": "target_pokemon_name",
+      "type": "TEXT",
+      "defaultValue": ""
+    },
+    {
+      "variableName": "pokemon",
+      "displayName": "pokemon",
+      "type": "TEXT",
+      "defaultValue": ""
+    },
+    {
+      "variableName": "pokemon_name",
+      "displayName": "pokemon_name",
+      "type": "TEXT",
+      "defaultValue": ""
+    },
+    {
+      "variableName": "nick",
+      "displayName": "nick",
+      "type": "TEXT",
+      "defaultValue": ""
+    }
+  ],
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "ccs:trade_pokemon"
+  },
+  "hideNameTag": true
+}

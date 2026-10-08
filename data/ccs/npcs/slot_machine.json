@@ -1,0 +1,34 @@
+{
+  "hitbox": {
+    "width": 1.3,
+    "height": 2.3
+  },
+  "isMovable": false,
+  "isInvulnerable": true,
+  "names": [
+    ""
+  ],
+  "canDespawn": false,
+  "ai": [
+    {
+      "type": "apply_behaviours",
+      "behaviours": [
+        "cobblemon:core",
+        "cobblemon:resource_identifier",
+        "cobblemon:stationary"
+      ]
+    }
+  ],
+  "config": [
+    {
+      "variableName": "resource_identifier",
+      "type": "TEXT",
+      "defaultValue": "ccs:placeholder"
+    }
+  ],
+  "hideNameTag": true,
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "ccs:slot_machine"
+  }
+}

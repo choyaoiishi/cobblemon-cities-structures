@@ -1,0 +1,20 @@
+{
+  "hitbox": "player",
+  "names": [
+    "base"
+  ],
+  "canDespawn": false,
+  "ai": [
+    {
+      "type": "apply_behaviours",
+      "behaviours": [
+        "cobblemon:core",
+        "cobblemon:resource_identifier",
+        "cobblemon:chatter_npc",
+        "cobblemon:stationary",
+        "cobblemon:looks_at_players"
+      ]
+    }
+  ],
+  "hideNameTag": true
+}

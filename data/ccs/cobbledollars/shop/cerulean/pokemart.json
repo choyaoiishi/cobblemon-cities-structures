@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Specials",
+    "offers": [
+      {
+        "item": "cobblemon:azure_ball",
+        "price": "2000"
+      },
+      {
+        "item": "cobblemon:lure_ball",
+        "price": "6500"
+      },
+      {
+        "item": "cobblemon:net_ball",
+        "price": "6500"
+      },
+      {
+        "item": "cobblemon:dive_ball",
+        "price": "6500"
+      },
+      {
+        "item": "cobblemon:quick_ball",
+        "price": "12500"
+      }
+    ]
+  },
+  {
+    "name": "Boosters",
+    "offers": [
+      {
+        "item": "cobblemon:x_special_attack",
+        "price": "3500"
+      },
+      {
+        "item": "cobblemon:x_special_defence",
+        "price": "3500"
+      }
+    ]
+  }
+]

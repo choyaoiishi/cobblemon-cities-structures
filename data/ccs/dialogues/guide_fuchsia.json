@@ -1,0 +1,139 @@
+{
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();"
+    },
+    "player": {
+      "face": "q.player.face();",
+      "name": {
+        "type": "expression",
+        "expression": "q.player.username"
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "welcome_1",
+      "speaker": "npc",
+      "lines": [
+        "Welcome to Fuchsia City! A historic village that has become new."
+      ],
+      "input": "q.dialogue.set_page('welcome_2');"
+    },
+    {
+      "id": "welcome_2",
+      "speaker": "npc",
+      "lines": [
+        "What would you like to learn about?"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "Gym",
+            "value": "gym",
+            "action": [
+              "q.dialogue.set_page('gym_1');"
+            ]
+          },
+          {
+            "text": "Food",
+            "value": "food",
+            "action": [
+              "q.dialogue.set_page('food_1');"
+            ]
+          },
+          {
+            "text": "Saffron City",
+            "value": "map",
+            "action": [
+              "t.npc_data = q.player.get_npc_data(q.npc); t.next_page = t.npc_data.map_gave == 1 ? 'map_gave' : 'map_1'; q.dialogue.set_page(t.next_page)"
+            ]
+          },
+          {
+            "text": "Nothing",
+            "value": "nothing",
+            "action": [
+              "q.dialogue.set_page('quitter');"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "map_1",
+      "speaker": "npc",
+      "lines": [
+        "Heading to Saffron City? Here, take this MAP!"
+      ],
+      "input": [
+        "q.run_command('loot give ' + q.player.username() + ' loot ccs:maps/saffron');",
+        "q.player.play_sound_on_server('ccs:item_get','blocks');",
+        "q.player.set_npc_variable(q.npc, 'map_gave', 1);",
+        "q.dialogue.close();"
+      ]
+    },
+    {
+      "id": "map_gave",
+      "speaker": "npc",
+      "lines": [
+        "Use that MAP to find your way to Saffron City! Travel safe!"
+      ],
+      "input": "q.dialogue.close();"
+    },
+    {
+      "id": "gym_1",
+      "speaker": "npc",
+      "lines": [
+        "KOGA, the poisonous ninja master, is our Gym Leader!"
+      ],
+      "input": "q.dialogue.set_page('gym_2');"
+    },
+    {
+      "id": "gym_2",
+      "speaker": "npc",
+      "lines": [
+        "Watch out for TOXIC! When afflicted by TOXIC, POKEMON suffer more and more as battle progresses!"
+      ],
+      "input": "q.dialogue.close();"
+    },
+    {
+      "id": "food_1",
+      "speaker": "npc",
+      "lines": [
+        "You have to try our famous ponigiri and the hearty leek and potato stew!"
+      ],
+      "input": "q.dialogue.set_page('food_2');"
+    },
+    {
+      "id": "food_2",
+      "speaker": "npc",
+      "lines": [
+        "Every bite carries a traditional artisan taste, perfected through generations!"
+      ],
+      "input": "q.dialogue.set_page('food_3');"
+    },
+    {
+      "id": "food_3",
+      "speaker": "npc",
+      "lines": [
+        "You can buy them right at the food truck!"
+      ],
+      "input": "q.dialogue.close();"
+    },
+    {
+      "id": "quitter",
+      "speaker": "npc",
+      "lines": [
+        "Enjoy the historic sights!"
+      ],
+      "input": "q.dialogue.close();",
+      "escapeAction": "q.dialogue.close();"
+    }
+  ]
+}

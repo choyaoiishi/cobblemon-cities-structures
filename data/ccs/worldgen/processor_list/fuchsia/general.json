@@ -1,0 +1,86 @@
+{
+    "processors": [
+        {
+            "processor_type": "lithostitched:block_swap",
+            "blocks": {
+                "minecraft:stripped_warped_hyphae": "minecraft:stripped_dark_oak_wood",
+                "minecraft:prismarine_bricks": "minecraft:light_blue_concrete",
+                "minecraft:stripped_spruce_wood": "minecraft:stripped_dark_oak_wood",
+                "minecraft:stripped_oak_wood": "minecraft:smooth_quartz",
+                "minecraft:stone_brick_stairs": "minecraft:andesite_stairs",
+                "minecraft:stone_brick_wall": "minecraft:andesite_wall",
+                "minecraft:stone_bricks": "minecraft:andesite_planks",
+                "minecraft:stone_brick_slab": "minecraft:andesite_slab",
+                "minecraft:oak_leaves": "minecraft:mangrove_leaves",
+                
+                // "minecraft:spruce_trapdoor": "minecraft:mangrove_trapdoor",
+                // "minecraft:spruce_fence": "minecraft:mangrove_fence",
+                // "minecraft:spruce_door": "minecraft:mangrove_door",
+                // "minecraft:spruce_slab": "minecraft:mangrove_slab",
+                // furnies
+                "cobblefurnies:black_sofa": "cobblefurnies:brown_sofa",
+                "cobblefurnies:black_armchair": "cobblefurnies:brown_armchair",
+                "cobblefurnies:black_dark_table": "cobblefurnies:brown_dark_table",
+                "cobblefurnies:black_poke_wool": "cobblefurnies:brown_poke_wool",
+                "cobblefurnies:black_poke_wool_carpet": "cobblefurnies:brown_poke_wool_carpet",
+                "minecraft:black_bed": "minecraft:brown_bed",
+                "cobblemon:black_plaque": "cobblemon:purple_plaque",
+                "cobblemon:campfire_pot_black": "cobblemon:campfire_pot_brown",
+                // lamp
+                "minecraft:polished_blackstone_wall": "minecraft:andesite_wall",
+                "minecraft:stone": "minecraft:cobblestone",
+                "minecraft:brick_slab": "minecraft:stone_slab"
+            }
+        },
+        {
+            "processor_type": "lithostitched:reference",
+            "processor_lists": [
+                "ccs:others/cobblestone/mossy_stone",
+                "ccs:fuchsia/base",
+                "ccs:fuchsia/berry",
+                "ccs:others/blue",
+                "ccs:others/red",
+                "ccs:others/purple",
+                "ccs:others/light_blue"
+            ]
+        },
+        {
+            "processor_type": "lithostitched:condition",
+            "random_mode": "per_piece",
+            "if_true": {
+                "type": "lithostitched:all_of",
+                "conditions": [
+                    {
+                        "type": "lithostitched:matching_blocks",
+                        "blocks": "minecraft:red_tulip",
+                        "match_type": "input"
+                    }
+                ]
+            },
+            "then": {
+                "processor_type": "lithostitched:set_block",
+                "state_provider": {
+                    "type": "minecraft:weighted_state_provider",
+                    "entries": [
+                        {
+                            "weight": 1,
+                            "data": {
+                                "Name": "minecraft:blue_orchid"
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "data": {
+                                "Name": "minecraft:cornflower"
+                            }
+                        }
+                    ]
+                },
+                "random_mode": "per_piece"
+            },
+            "else": {
+                "processor_type": "minecraft:nop"
+            }
+        }
+    ]
+}

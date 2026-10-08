@@ -1,0 +1,13 @@
+[
+	{
+		"weight": 100,
+		"element": {
+			"element_type": "lithostitched:limited",
+			"delegate": {
+				"location": "ccs:houses/pewter/3x2/museum",
+				"processors": "ccs:pewter/museum"
+			},
+			"limit": 1
+		}
+	}
+]

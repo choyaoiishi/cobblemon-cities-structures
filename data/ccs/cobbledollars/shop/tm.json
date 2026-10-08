@@ -1,0 +1,16 @@
+[
+  {
+    "name": "TM",
+    "offers": [
+      {
+        "item": "cobblemon:technical_machine",
+        "price": "500",
+        "components": {
+          "cobblemon:tm_move": {
+            "move": "hydrocannon"
+          }
+        }
+      }
+    ]
+  }
+]

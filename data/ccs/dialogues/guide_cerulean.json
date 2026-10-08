@@ -1,0 +1,139 @@
+{
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();"
+    },
+    "player": {
+      "face": "q.player.face();",
+      "name": {
+        "type": "expression",
+        "expression": "q.player.username"
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "welcome_1",
+      "speaker": "npc",
+      "lines": [
+        "Welcome to Cerulean City! Beautiful city with flowing water and blooming flowers!"
+      ],
+      "input": "q.dialogue.set_page('welcome_2');"
+    },
+    {
+      "id": "welcome_2",
+      "speaker": "npc",
+      "lines": [
+        "What would you like to learn about?"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "Gym",
+            "value": "gym",
+            "action": [
+              "q.dialogue.set_page('gym_1');"
+            ]
+          },
+          {
+            "text": "Casteliacone",
+            "value": "casteliacone",
+            "action": [
+              "q.dialogue.set_page('casteliacone_1');"
+            ]
+          },
+          {
+            "text": "Vermilion City",
+            "value": "map",
+            "action": [
+              "t.npc_data = q.player.get_npc_data(q.npc); t.next_page = t.npc_data.map_gave == 1 ? 'map_gave' : 'map_1'; q.dialogue.set_page(t.next_page)"
+            ]
+          },
+          {
+            "text": "Nothing",
+            "value": "nothing",
+            "action": [
+              "q.dialogue.set_page('quitter');"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "map_1",
+      "speaker": "npc",
+      "lines": [
+        "Heading to Vermilion City? Here, take this MAP!"
+      ],
+      "input": [
+        "q.run_command('loot give ' + q.player.username() + ' loot ccs:maps/vermilion');",
+        "q.player.play_sound_on_server('ccs:item_get','blocks');",
+        "q.player.set_npc_variable(q.npc, 'map_gave', 1);",
+        "q.dialogue.close();"
+      ]
+    },
+    {
+      "id": "map_gave",
+      "speaker": "npc",
+      "lines": [
+        "Use that MAP to find your way to Vermilion City! Travel safe!"
+      ],
+      "input": "q.dialogue.close();"
+    },
+    {
+      "id": "gym_1",
+      "speaker": "npc",
+      "lines": [
+        "Yo! Champ in the making! Let me give you some advice! The Leader, Misty, is a pro who uses Water-type Pokémon."
+      ],
+      "input": "q.dialogue.set_page('gym_2');"
+    },
+    {
+      "id": "gym_2",
+      "speaker": "npc",
+      "lines": [
+        "You can drain all their water with Grass-type Pokémon."
+      ],
+      "input": "q.dialogue.set_page('gym_3');"
+    },
+    {
+      "id": "gym_3",
+      "speaker": "npc",
+      "lines": [
+        "Or, you might use Electric-type Pokémon and zap them!"
+      ],
+      "input": "q.dialogue.close();"
+    },
+    {
+      "id": "casteliacone_1",
+      "speaker": "npc",
+      "lines": [
+        "You should try our city's specialty, Casteliacone! It's a delicious soft-serve vanilla ice cream!"
+      ],
+      "input": "q.dialogue.set_page('casteliacone_2');"
+    },
+    {
+      "id": "casteliacone_2",
+      "speaker": "npc",
+      "lines": [
+        "You can buy them at the food truck!"
+      ],
+      "input": "q.dialogue.close();"
+    },
+    {
+      "id": "quitter",
+      "speaker": "npc",
+      "lines": [
+        "See you around!"
+      ],
+      "input": "q.dialogue.close();",
+      "escapeAction": "q.dialogue.close();"
+    }
+  ]
+}

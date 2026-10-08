@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Foods",
+    "offers": [
+      {
+        "item": "cobblemon:ponigiri",
+        "price": "1000"
+      },
+      {
+        "item": "cobblemon:leek_and_potato_stew",
+        "price": "1000"
+      },
+      {
+        "item": "minecraft:cooked_cod",
+        "price": "1000"
+      }
+    ]
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "type": "lithostitched:select",
+  "config": {
+    "features": [
+      {
+        "predicate": {
+          "type": "lithostitched:in_structure",
+          "structure": "ccs:pewter",
+          "search_range": 32
+        },
+        "feature": "ccs:oaks"
+      },
+      {
+        "predicate": {
+          "type": "lithostitched:in_structure",
+          "structure": "ccs:fuchsia",
+          "search_range": 32
+        },
+        "feature": "ccs:oaks"
+      },
+      {
+        "predicate": {
+          "type": "lithostitched:in_structure",
+          "structure": "ccs:saffron",
+          "search_range": 32
+        },
+        "feature": "ccs:oaks"
+      },
+      {
+        "predicate": {
+          "type": "lithostitched:in_structure",
+          "structure": "ccs:cerulean",
+          "search_range": 32
+        },
+        "feature": "ccs:birch"
+      },
+      {
+        "predicate": {
+          "type": "lithostitched:in_structure",
+          "structure": "ccs:vermilion",
+          "search_range": 32
+        },
+        "feature": "minecraft:acacia"
+      },
+      {
+        "predicate": {
+          "type": "lithostitched:in_structure",
+          "structure": "ccs:celadon",
+          "search_range": 32
+        },
+        "feature": "ccs:cherry"
+      },
+      {
+        "predicate": {
+          "type": "lithostitched:in_structure",
+          "structure": "ccs:viridian",
+          "search_range": 32
+        },
+        "feature": "ccs:oaks"
+      },
+      {
+        "predicate": {
+          "type": "lithostitched:in_structure",
+          "structure": "ccs:cinnabar",
+          "search_range": 32
+        },
+        "feature": "ccs:dead_tree"
+      }
+    ]
+  }
+}

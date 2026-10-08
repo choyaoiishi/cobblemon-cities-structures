@@ -1,0 +1,22 @@
+{
+	"name": "ccs:trees",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:feature_pool_element",
+				"feature": "ccs:trees",
+				"projection": "rigid"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:feature_pool_element",
+				"feature": "ccs:cobblemon_trees",
+				"projection": "rigid"
+			}
+		}
+	]
+}

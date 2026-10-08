@@ -1,0 +1,43 @@
+{
+  "hitbox": "player",
+  "names": [
+    ""
+  ],
+  "canDespawn": false,
+  "ai": [
+    {
+      "type": "apply_behaviours",
+      "behaviours": [
+        "cobblemon:core",
+        "cobblemon:resource_identifier",
+        "cobblemon:stationary",
+        "cobblemon:looks_at_players"
+      ]
+    }
+  ],
+  "config": [
+    {
+      "variableName": "line_1",
+      "displayName": "line_1",
+      "type": "TEXT",
+      "defaultValue": ""
+    },
+    {
+      "variableName": "line_2",
+      "displayName": "line_2",
+      "type": "TEXT",
+      "defaultValue": ""
+    },
+    {
+      "variableName": "line_3",
+      "displayName": "line_3",
+      "type": "TEXT",
+      "defaultValue": ""
+    }
+  ],
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "ccs:chat"
+  },
+  "hideNameTag": true
+}

@@ -1,0 +1,15 @@
+{
+    "template_pools": "ccs:saffron/houses/start",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:houses/saffron/start",
+                "processors": "ccs:saffron/general",
+                "projection": "rigid"
+            }
+        }
+    ]
+}

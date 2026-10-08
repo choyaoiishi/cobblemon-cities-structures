@@ -1,0 +1,15 @@
+{
+	"template_pools": "ccs:#town_id/decos",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"location": "ccs:decos/lamp"
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:empty_pool_element"
+			}
+		}
+	]
+}

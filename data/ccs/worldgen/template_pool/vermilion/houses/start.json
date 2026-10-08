@@ -1,0 +1,15 @@
+{
+    "template_pools": "ccs:vermilion/houses/start",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:houses/vermilion/start",
+                "processors": "ccs:vermilion/general",
+                "projection": "rigid"
+            }
+        }
+    ]
+}

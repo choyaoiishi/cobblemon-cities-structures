@@ -1,0 +1,20 @@
+{
+  "hitbox": "player",
+  "names": [
+    "Nurse Joy"
+  ],
+  "ai": [
+    {
+      "type": "apply_behaviours",
+      "behaviours": [
+        "cobblemon:looks_around",
+        "cobblemon:core"
+      ]
+    }
+  ],
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "ccs:nurse_joy"
+  },
+  "canDespawn": false
+}

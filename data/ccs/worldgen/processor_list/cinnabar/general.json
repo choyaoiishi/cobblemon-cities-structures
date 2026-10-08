@@ -1,0 +1,85 @@
+{
+    "processors": [
+        {
+            "processor_type": "lithostitched:reference",
+            "processor_lists": [
+                "ccs:cinnabar/base",
+                "ccs:cinnabar/berry"
+            ]
+        },
+        {
+            "processor_type": "lithostitched:block_swap",
+            "blocks": {
+                "minecraft:prismarine_bricks": "minecraft:cobblestone",
+                "minecraft:stripped_warped_hyphae": "minecraft:polished_blackstone_bricks",
+                "minecraft:stripped_spruce_wood": "minecraft:stripped_dark_oak_wood",
+                "minecraft:stripped_oak_wood": "minecraft:spruce_planks",
+                "minecraft:stone_brick_wall": "minecraft:nether_brick_wall",
+                "minecraft:stone_brick_stairs": "minecraft:polished_blackstone_stairs",
+                "minecraft:stone_bricks": "minecraft:cobblestone",
+                "minecraft:stone_brick_slab": "minecraft:nether_brick_slab",
+                "minecraft:oak_leaves": "minecraft:dark_oak_leaves",
+                "minecraft:spruce_planks": "minecraft:dark_oak_planks",
+                "minecraft:spruce_trapdoor": "minecraft:dark_oak_trapdoor",
+                "minecraft:spruce_fence": "minecraft:dark_oak_fence",
+                "minecraft:spruce_door": "minecraft:dark_oak_door",
+                "minecraft:spruce_slab": "minecraft:dark_oak_slab",
+                // furnies
+                "cobblemon:black_plaque": "cobblemon:red_plaque",
+                
+                "minecraft:black_concrete": "minecraft:cobblestone",
+                // lamp
+                // "minecraft:polished_blackstone_wall": "minecraft:nether_brick_wall",
+                // deco
+                "minecraft:brick_slab": "minecraft:air"
+                // "minecraft:oak_leaves": "minecraft:air"
+            }
+        },
+        {
+            "processor_type": "lithostitched:reference",
+            "processor_lists": [
+                "ccs:others/blue",
+                "ccs:others/red",
+                "ccs:others/cobblestone/blackstone"
+            ]
+        },
+        {
+            "processor_type": "lithostitched:condition",
+            "random_mode": "per_piece",
+            "if_true": {
+                "type": "lithostitched:all_of",
+                "conditions": [
+                    {
+                        "type": "lithostitched:matching_blocks",
+                        "blocks": "minecraft:red_tulip",
+                        "match_type": "input"
+                    }
+                ]
+            },
+            "then": {
+                "processor_type": "lithostitched:set_block",
+                "state_provider": {
+                    "type": "minecraft:weighted_state_provider",
+                    "entries": [
+                        {
+                            "weight": 1,
+                            "data": {
+                                "Name": "minecraft:dead_bush"
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "data": {
+                                "Name": "minecraft:torchflower"
+                            }
+                        }
+                    ]
+                },
+                "random_mode": "per_piece"
+            },
+            "else": {
+                "processor_type": "minecraft:nop"
+            }
+        }
+    ]
+}

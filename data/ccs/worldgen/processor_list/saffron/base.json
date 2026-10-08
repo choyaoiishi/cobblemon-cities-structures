@@ -1,0 +1,14 @@
+{
+    "processors": [
+        {
+            "processor_type": "lithostitched:block_swap",
+            "blocks": {
+                // base
+                "minecraft:crying_obsidian": "minecraft:polished_andesite",
+                "minecraft:obsidian": "minecraft:polished_andesite",
+                "minecraft:birch_log": "minecraft:light_gray_concrete_powder",
+                "minecraft:birch_wood": "minecraft:gray_concrete_powder"
+            }
+        }
+    ]
+}

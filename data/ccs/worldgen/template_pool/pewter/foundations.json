@@ -1,0 +1,60 @@
+{
+    "template_pools": "ccs:pewter/foundations",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:foundations/1x1",
+                "processors": "ccs:pewter/base",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:foundations/2x1",
+                "processors": "ccs:pewter/base",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 3,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:foundations/2x2",
+                "processors": "ccs:pewter/base",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 150,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:foundations/3x2",
+                    "processors": "ccs:pewter/base",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid"
+                },
+                "limit": 1,
+                "min_depth": 5
+            }
+        },
+        {
+            "weight": 150,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:foundations/3x2",
+                    "processors": "ccs:pewter/base",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid"
+                },
+                "limit": 1
+            }
+        }
+    ]
+}

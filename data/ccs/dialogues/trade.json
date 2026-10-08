@@ -1,0 +1,79 @@
+{
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();"
+    },
+    "player": {
+      "face": "q.player.face();",
+      "name": {
+        "type": "expression",
+        "expression": "q.player.username"
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "page_1",
+      "speaker": "npc",
+      "lines": [
+        "magikarp for 500g!"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "go",
+            "value": "go",
+            "action": [
+              "q.run_command('/execute as ' + q.player.username() + ' run cobblemerchant open shop');",
+              "q.dialogue.close();"
+            ]
+          },
+          {
+            "text": "trade",
+            "value": "trade",
+            "isSelectable": "q.player.data.trade_magikarp6 != true;",
+            "action": [
+              "q.dialogue.set_page(q.run_command('cobbledollars query ' + q.player.username()) >= 3 ? 'trade' : 'broke')"
+            ]
+          },
+          {
+            "text": "Nothing",
+            "value": "nothing",
+            "action": [
+              "q.dialogue.close();"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "trade",
+      "speaker": "npc",
+      "lines": [
+        "here you go!"
+      ],
+      "input": [
+        "q.run_command('cobbledollars remove ' + q.player.username() + ' 50000000');",
+        "q.run_command('pokegiveother ' + q.player.username() + ' magikarp');",
+        "t.data = q.player.data();",
+        "t.data.trade_magikarp6 = true;",
+        "q.player.save_data();",
+        "q.dialogue.close();"
+      ]
+    },
+    {
+      "id": "broke",
+      "speaker": "npc",
+      "lines": [
+        "You don't have enough money!"
+      ],
+      "input": "q.dialogue.close();"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();"
+    }
+  },
+  "pages": [
+    {
+      "id": "line_1",
+      "speaker": "npc",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "q.npc.config.line_1"
+        }
+      ],
+      "input": [
+        "q.npc.config.line_2 != '' ? q.dialogue.set_page('line_2') : q.dialogue.close();"
+      ]
+    },
+    {
+      "id": "line_2",
+      "speaker": "npc",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "q.npc.config.line_2"
+        }
+      ],
+      "input": [
+        "q.npc.config.line_3 != '' ? q.dialogue.set_page('line_3') : q.dialogue.close();"
+      ]
+    },
+    {
+      "id": "line_3",
+      "speaker": "npc",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "q.npc.config.line_3"
+        }
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    }
+  ]
+}

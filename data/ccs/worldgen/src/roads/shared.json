@@ -1,0 +1,27 @@
+{
+	"template_pools": "ccs:#town_id/roads",
+	"fallback": "ccs:terminator",
+	"elements": [
+		{
+			"weight": 5,
+			"location": "ccs:roads/s",
+			"processors": "ccs:#town_id/base",
+			"projection": "terrain_matching"
+		},
+		{
+			"location": "ccs:roads/t",
+			"processors": "ccs:#town_id/base",
+			"projection": "terrain_matching"
+		},
+		{
+			"location": "ccs:roads/c",
+			"processors": "ccs:#town_id/base",
+			"projection": "terrain_matching"
+		},
+		{
+			"location": "ccs:roads/x",
+			"processors": "ccs:#town_id/base",
+			"projection": "terrain_matching"
+		}
+	]
+}

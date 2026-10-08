@@ -1,0 +1,50 @@
+  [
+    {
+      "tag": "minecraft:logs",
+      "price": "10"
+    },
+    {
+      "tag": "cobblemon:apricorns",
+      "price": "10"
+    },
+    {
+      "item": "minecraft:gold_nugget",
+      "price": "500"
+    },
+    {
+      "item": "minecraft:gold_ingot",
+      "price": "4500"
+    },
+    {
+      "item": "minecraft:gold_block",
+      "price": "40500"
+    },
+    {
+      "item": "cobblemon:relic_coin",
+      "price": "500"
+    },
+    {
+      "item": "cobblemon:relic_coin_pouch",
+      "price": "4500"
+    },
+    {
+      "item": "cobblemon:relic_coin_sack",
+      "price": "40500"
+    },
+    {
+      "tag": "cobblemon:tier_1_poke_balls",
+      "price": "1000"
+    },
+    {
+      "tag": "cobblemon:tier_2_poke_balls",
+      "price": "3000"
+    },
+    {
+      "tag": "cobblemon:tier_3_poke_balls",
+      "price": "6000"
+    },
+    {
+      "tag": "cobblemon:potions",
+      "price": "100"
+    }
+  ]

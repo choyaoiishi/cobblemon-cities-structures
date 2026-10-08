@@ -1,0 +1,162 @@
+{
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();"
+    },
+    "player": {
+      "face": "q.player.face();",
+      "name": {
+        "type": "expression",
+        "expression": "q.player.username"
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "welcome_1",
+      "speaker": "npc",
+      "lines": [
+        "Welcome to Pewter City! The Stone Gray City!"
+      ],
+      "input": "q.dialogue.set_page('welcome_2');"
+    },
+    {
+      "id": "welcome_2",
+      "speaker": "npc",
+      "lines": [
+        "What would you like to learn about?"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "Gym",
+            "value": "gym",
+            "action": [
+              "q.dialogue.set_page('gym_1');"
+            ]
+          },
+          {
+            "text": "Museum",
+            "value": "museum",
+            "action": [
+              "q.dialogue.set_page('museum_1');"
+            ]
+          },
+          {
+            "text": "Pewter Crunchies",
+            "value": "crunchies",
+            "action": [
+              "q.dialogue.set_page('crunchies_1');"
+            ]
+          },
+          {
+            "text": "Cerulean City",
+            "value": "map",
+            "action": [
+              "t.npc_data = q.player.get_npc_data(q.npc); t.next_page = t.npc_data.map_gave == 1 ? 'map_gave' : 'map_1'; q.dialogue.set_page(t.next_page)"
+            ]
+          },
+          {
+            "text": "Nothing",
+            "value": "nothing",
+            "action": [
+              "q.dialogue.set_page('quitter');"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "map_1",
+      "speaker": "npc",
+      "lines": [
+        "Heading to Cerulean City? Here, take this MAP!"
+      ],
+      "input": [
+        "q.run_command('loot give ' + q.player.username() + ' loot ccs:maps/cerulean');",
+        "q.player.play_sound_on_server('ccs:item_get','blocks');",
+        "q.player.set_npc_variable(q.npc, 'map_gave', 1);",
+        "q.dialogue.close();"
+      ]
+    },
+    {
+      "id": "map_gave",
+      "speaker": "npc",
+      "lines": [
+        "Use that MAP to find your way to Cerulean City! Travel safe!"
+      ],
+      "input": "q.dialogue.close();"
+    },
+    {
+      "id": "gym_1",
+      "speaker": "npc",
+      "lines": [
+        "Hiya! You're here to challenge the Gym, aren't you? BROCK is looking for new challengers!"
+      ],
+      "input": "q.dialogue.set_page('gym_2');"
+    },
+    {
+      "id": "gym_2",
+      "speaker": "npc",
+      "lines": [
+        "His Pokémon are all hard as rock and have true- grit determination! That's right! His Pokémon are all Rock types!"
+      ],
+      "input": "q.dialogue.close();"
+    },
+    {
+      "id": "museum_1",
+      "speaker": "npc",
+      "lines": [
+        "There is a museum here. I heard someone suspicious is hanging around inside."
+      ],
+      "input": "q.dialogue.set_page('museum_2');"
+    },
+    {
+      "id": "museum_2",
+      "speaker": "npc",
+      "lines": [
+        "They also feature a rare chunk of amber recovered from the mines!"
+      ],
+      "input": "q.dialogue.close();"
+    },
+    {
+      "id": "crunchies_1",
+      "speaker": "npc",
+      "lines": [
+        "You gotta try our local speciality Pewter Crunchies! They are rugged, bumpy and brown. Hard to stop eating after just one."
+      ],
+      "input": "q.dialogue.set_page('crunchies_2');"
+    },
+    {
+      "id": "crunchies_2",
+      "speaker": "npc",
+      "lines": [
+        "Oh, and you're probably going to want some tea after eating them. Pewter Crunchies can make you thirsty."
+      ],
+      "input": "q.dialogue.set_page('crunchies_3');"
+    },
+    {
+      "id": "crunchies_3",
+      "speaker": "npc",
+      "lines": [
+        "There really is nothing like a hot cup of tea to go with your Pewter Crunchies!"
+      ],
+      "input": "q.dialogue.close();"
+    },
+    {
+      "id": "quitter",
+      "speaker": "npc",
+      "lines": [
+        "If you have the right stuff, go take on BROCK!"
+      ],
+      "input": "q.dialogue.close();",
+      "escapeAction": "q.dialogue.close();"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+	{
+		"location": "ccs:houses/pewter/2x1/fossil_1"
+	},
+	{
+		"location": "ccs:houses/pewter/2x1/fossil_2"
+	},
+	{
+		"weight": 5,
+		"location": "ccs:houses/pewter/2x1/pillar"
+	},
+	{
+		"weight": 100,
+		"element": {
+			"element_type": "lithostitched:limited",
+			"delegate": {
+				"location": "ccs:houses/pewter/2x1/food_truck"
+			},
+			"limit": 1
+		}
+	}
+]

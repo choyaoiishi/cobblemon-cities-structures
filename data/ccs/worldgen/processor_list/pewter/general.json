@@ -1,0 +1,86 @@
+{
+    "processors": [
+        {
+            "processor_type": "lithostitched:reference",
+            "processor_lists": [
+                "ccs:pewter/base",
+                "ccs:pewter/berry"
+            ]
+        },
+        {
+            "processor_type": "lithostitched:block_swap",
+            "blocks": {
+                "minecraft:stripped_warped_hyphae": "minecraft:stripped_dark_oak_wood",
+                "minecraft:prismarine_bricks": "minecraft:spruce_planks",
+                "minecraft:stripped_spruce_wood": "minecraft:stone_bricks",
+                "minecraft:stripped_oak_wood": "minecraft:gray_concrete",
+                // furnies
+                "cobblefurnies:black_armchair": "cobblefurnies:gray_armchair",
+                "cobblefurnies:black_sofa": "cobblefurnies:gray_sofa",
+                "cobblefurnies:black_dark_table": "cobblefurnies:gray_dark_table",
+                "cobblefurnies:black_poke_wool": "cobblefurnies:gray_poke_wool",
+                "cobblefurnies:black_poke_wool_carpet": "cobblefurnies:gray_poke_wool_carpet",
+                "minecraft:black_bed": "minecraft:gray_bed",
+                "cobblemon:black_plaque": "cobblemon:gray_plaque",
+                "cobblemon:campfire_pot_black": "cobblemon:campfire_pot_gray",
+                // deco
+                "minecraft:polished_blackstone_wall": "minecraft:andesite_wall",
+                "minecraft:brick_slab": "minecraft:andesite_slab"
+            }
+        },
+        {
+            "processor_type": "lithostitched:reference",
+            "processor_lists": [
+                "ccs:others/blue",
+                "ccs:others/red",
+                "ccs:others/gray_to_stone",
+                "ccs:others/cobblestone/mossy_stone",
+                "ccs:others/spruce_planks"
+            ]
+        },
+        {
+            "processor_type": "lithostitched:condition",
+            "random_mode": "per_piece",
+            "if_true": {
+                "type": "lithostitched:all_of",
+                "conditions": [
+                    {
+                        "type": "lithostitched:matching_blocks",
+                        "blocks": "minecraft:red_tulip",
+                        "match_type": "input"
+                    }
+                ]
+            },
+            "then": {
+                "processor_type": "lithostitched:set_block",
+                "state_provider": {
+                    "type": "minecraft:weighted_state_provider",
+                    "entries": [
+                        {
+                            "weight": 1,
+                            "data": {
+                                "Name": "minecraft:azure_bluet"
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "data": {
+                                "Name": "minecraft:white_tulip"
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "data": {
+                                "Name": "minecraft:oxeye_daisy"
+                            }
+                        }
+                    ]
+                },
+                "random_mode": "per_piece"
+            },
+            "else": {
+                "processor_type": "minecraft:nop"
+            }
+        }
+    ]
+}

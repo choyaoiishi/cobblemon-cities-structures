@@ -1,0 +1,202 @@
+{
+	"template_pools": "ccs:#town_id/city_npc",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"location": "ccs:city_npc/general/000"
+				},
+				"limit": 1
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"location": "ccs:city_npc/general/001"
+				},
+				"limit": 1
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"location": "ccs:city_npc/general/002"
+				},
+				"limit": 1
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"location": "ccs:city_npc/general/003"
+				},
+				"limit": 1
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"location": "ccs:city_npc/general/004"
+				},
+				"limit": 1
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"location": "ccs:city_npc/general/005"
+				},
+				"limit": 1
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"location": "ccs:city_npc/general/006"
+				},
+				"limit": 1
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"location": "ccs:city_npc/general/007"
+				},
+				"limit": 1
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"location": "ccs:city_npc/general/008"
+				},
+				"limit": 1
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"location": "ccs:city_npc/general/009"
+				},
+				"limit": 1
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"location": "ccs:city_npc/general/010"
+				},
+				"limit": 1
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"location": "ccs:city_npc/general/011"
+				},
+				"limit": 1
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"location": "ccs:city_npc/general/012"
+				},
+				"limit": 1
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"location": "ccs:city_npc/general/013"
+				},
+				"limit": 1
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"location": "ccs:city_npc/general/014"
+				},
+				"limit": 1
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"location": "ccs:city_npc/general/015"
+				},
+				"limit": 1
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"location": "ccs:city_npc/general/016"
+				},
+				"limit": 1
+			}
+		},
+		{
+			"weight": 150,
+			"element": {
+				"element_type": "lithostitched:guaranteed",
+				"delegate": {
+					"location": "ccs:city_npc/#town_id/guide"
+				},
+				"count": 1
+			}
+		},
+		{
+			"weight": 150,
+			"element": {
+				"element_type": "lithostitched:guaranteed",
+				"delegate": {
+					"location": "ccs:city_npc/#town_id/shopkeeper_2"
+				},
+				"count": 1
+			}
+		},
+		{
+			"weight": 20,
+			"element": {
+				"element_type": "minecraft:empty_pool_element"
+			}
+		}
+	]
+}

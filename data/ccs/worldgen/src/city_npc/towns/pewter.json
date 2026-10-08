@@ -1,0 +1,52 @@
+[
+	{
+		"weight": 20,
+		"element": {
+			"element_type": "lithostitched:limited",
+			"delegate": {
+				"location": "ccs:city_npc/pewter/000"
+			},
+			"limit": 1
+		}
+	},
+	{
+		"weight": 20,
+		"element": {
+			"element_type": "lithostitched:limited",
+			"delegate": {
+				"location": "ccs:city_npc/pewter/001"
+			},
+			"limit": 1
+		}
+	},
+	{
+		"weight": 20,
+		"element": {
+			"element_type": "lithostitched:limited",
+			"delegate": {
+				"location": "ccs:city_npc/pewter/002"
+			},
+			"limit": 1
+		}
+	},
+	{
+		"weight": 20,
+		"element": {
+			"element_type": "lithostitched:limited",
+			"delegate": {
+				"location": "ccs:city_npc/pewter/003"
+			},
+			"limit": 1
+		}
+	},
+	{
+		"weight": 20,
+		"element": {
+			"element_type": "lithostitched:limited",
+			"delegate": {
+				"location": "ccs:city_npc/pewter/004"
+			},
+			"limit": 1
+		}
+	}
+]

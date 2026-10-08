@@ -1,0 +1,22 @@
+[
+	{
+		"location": "ccs:houses/fuchsia/2x1/pond"
+	},
+	{
+		"location": "ccs:houses/fuchsia/2x1/torii"
+	},
+	{
+		"weight": 5,
+		"location": "ccs:houses/fuchsia/2x1/bamboo"
+	},
+	{
+		"weight": 100,
+		"element": {
+			"element_type": "lithostitched:limited",
+			"delegate": {
+				"location": "ccs:houses/fuchsia/2x1/food_truck"
+			},
+			"limit": 1
+		}
+	}
+]

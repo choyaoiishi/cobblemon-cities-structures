@@ -1,0 +1,10 @@
+{
+	"template_pools": "ccs:#town_id/center",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"location": "ccs:foundations/center",
+			"processors": "ccs:#town_id/base"
+		}
+	]
+}

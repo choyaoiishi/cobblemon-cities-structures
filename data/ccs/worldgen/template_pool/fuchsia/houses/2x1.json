@@ -1,0 +1,59 @@
+{
+    "template_pools": "ccs:fuchsia/houses/2x1",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:houses/2x1/battlepad",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:fuchsia/general"
+                },
+                "limit": 1
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:houses/fuchsia/2x1/pond",
+                "processors": "ccs:fuchsia/general",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:houses/fuchsia/2x1/torii",
+                "processors": "ccs:fuchsia/general",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 5,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:houses/fuchsia/2x1/bamboo",
+                "processors": "ccs:fuchsia/general",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:houses/fuchsia/2x1/food_truck",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:fuchsia/general"
+                },
+                "limit": 1
+            }
+        }
+    ]
+}

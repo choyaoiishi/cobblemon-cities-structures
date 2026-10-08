@@ -1,0 +1,42 @@
+{
+    "template_pools": "ccs:saffron/roads",
+    "fallback": "ccs:terminator",
+    "elements": [
+        {
+            "weight": 5,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:roads/s",
+                "processors": "ccs:saffron/base",
+                "projection": "terrain_matching"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:roads/t",
+                "processors": "ccs:saffron/base",
+                "projection": "terrain_matching"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:roads/c",
+                "processors": "ccs:saffron/base",
+                "projection": "terrain_matching"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:roads/x",
+                "processors": "ccs:saffron/base",
+                "projection": "terrain_matching"
+            }
+        }
+    ]
+}

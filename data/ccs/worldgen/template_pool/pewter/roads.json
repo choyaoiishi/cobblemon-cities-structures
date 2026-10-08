@@ -1,0 +1,42 @@
+{
+    "template_pools": "ccs:pewter/roads",
+    "fallback": "ccs:terminator",
+    "elements": [
+        {
+            "weight": 5,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:roads/s",
+                "processors": "ccs:pewter/base",
+                "projection": "terrain_matching"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:roads/t",
+                "processors": "ccs:pewter/base",
+                "projection": "terrain_matching"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:roads/c",
+                "processors": "ccs:pewter/base",
+                "projection": "terrain_matching"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:roads/x",
+                "processors": "ccs:pewter/base",
+                "projection": "terrain_matching"
+            }
+        }
+    ]
+}

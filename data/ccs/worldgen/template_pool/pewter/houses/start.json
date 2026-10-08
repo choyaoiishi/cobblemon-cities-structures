@@ -1,0 +1,15 @@
+{
+    "template_pools": "ccs:pewter/houses/start",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:houses/pewter/start",
+                "processors": "ccs:pewter/general",
+                "projection": "rigid"
+            }
+        }
+    ]
+}

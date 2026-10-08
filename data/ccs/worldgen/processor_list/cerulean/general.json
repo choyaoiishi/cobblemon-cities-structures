@@ -1,0 +1,103 @@
+{
+    "processors": [
+        {
+            "processor_type": "lithostitched:reference",
+            "processor_lists": [
+                "ccs:cerulean/base",
+                "ccs:cerulean/berry"
+            ]
+        },
+        {
+            "processor_type": "lithostitched:block_swap",
+            "blocks": {
+                // "minecraft:stripped_warped_hyphae": "minecraft:stripped_cherry_wood",
+                "minecraft:prismarine_bricks": "minecraft:light_blue_concrete",
+                "minecraft:stripped_spruce_wood": "minecraft:quartz_bricks",
+                "minecraft:stripped_oak_wood": "minecraft:smooth_quartz",
+                "minecraft:chiseled_stone_bricks": "minecraft:chiseled_quartz_block",
+                "minecraft:stone_brick_stairs": "minecraft:quartz_stairs",
+                "minecraft:stone_bricks": "minecraft:quartz_bricks",
+                "minecraft:spruce_planks": "minecraft:quartz_block",
+                // "minecraft:polished_blackstone_brick_stairs": "minecraft:prismarine_brick_stairs",
+                // "minecraft:polished_blackstone_brick_slab": "minecraft:prismarine_brick_slab",
+                // furnies
+                "cobblefurnies:black_sofa": "cobblefurnies:cyan_sofa",
+                "cobblefurnies:black_armchair": "cobblefurnies:cyan_armchair",
+                "cobblefurnies:black_dark_table": "cobblefurnies:cyan_dark_table",
+                "cobblefurnies:black_poke_wool": "cobblefurnies:cyan_poke_wool",
+                "cobblefurnies:black_poke_wool_carpet": "cobblefurnies:cyan_poke_wool_carpet",
+                "cobblemon:black_plaque": "cobblemon:cyan_plaque",
+                "cobblemon:campfire_pot_black": "cobblemon:campfire_pot_cyan",
+                "minecraft:black_bed": "minecraft:cyan_bed",
+                // lamp
+                "minecraft:polished_blackstone_wall": "minecraft:andesite_wall",
+                // deco
+                "minecraft:brick_slab": "minecraft:quartz_slab"
+            }
+        },
+        {
+            "processor_type": "lithostitched:reference",
+            "processor_lists": [
+                "ccs:others/red",
+                "ccs:others/blue",
+                "ccs:others/light_blue"
+            ]
+        },
+        {
+            "processor_type": "lithostitched:condition",
+            "random_mode": "per_piece",
+            "if_true": {
+                "type": "lithostitched:all_of",
+                "conditions": [
+                    {
+                        "type": "lithostitched:matching_blocks",
+                        "blocks": "minecraft:red_tulip",
+                        "match_type": "input"
+                    }
+                ]
+            },
+            "then": {
+                "processor_type": "lithostitched:set_block",
+                "state_provider": {
+                    "type": "minecraft:weighted_state_provider",
+                    "entries": [
+                       {
+                        "weight": 1,
+                        "data": {
+                            "Name": "minecraft:blue_orchid"
+                        }
+                    },
+                    {
+                        "weight": 1,
+                        "data": {
+                            "Name": "minecraft:cornflower"
+                        }
+                    },
+                    {
+                        "weight": 1,
+                        "data": {
+                            "Name": "minecraft:azure_bluet"
+                        }
+                    },
+                    {
+                        "weight": 1,
+                        "data": {
+                            "Name": "minecraft:white_tulip"
+                        }
+                    },
+                    {
+                        "weight": 1,
+                        "data": {
+                            "Name": "minecraft:oxeye_daisy"
+                        }
+                    }
+                    ]
+                },
+                "random_mode": "per_piece"
+            },
+            "else": {
+                "processor_type": "minecraft:nop"
+            }
+        }
+    ]
+}

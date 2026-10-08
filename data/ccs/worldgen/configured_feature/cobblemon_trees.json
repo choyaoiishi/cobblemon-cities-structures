@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "cobblemon:black_apricorn_tree",
+        "placement": []
+      },
+      {
+        "feature": "cobblemon:blue_apricorn_tree",
+        "placement": []
+      },
+      {
+        "feature": "cobblemon:green_apricorn_tree",
+        "placement": []
+      },
+      {
+        "feature": "cobblemon:pink_apricorn_tree",
+        "placement": []
+      },
+      {
+        "feature": "cobblemon:red_apricorn_tree",
+        "placement": []
+      },
+      {
+        "feature": "cobblemon:white_apricorn_tree",
+        "placement": []
+      },
+      {
+        "feature": "cobblemon:yellow_apricorn_tree",
+        "placement": []
+      },
+      {
+        "feature": "cobblemon:saccharine_tree",
+        "placement": []
+      }
+    ]
+  }
+}

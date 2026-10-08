@@ -1,0 +1,15 @@
+{
+    "template_pools": "ccs:celadon/houses/start",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:houses/celadon/start",
+                "processors": "ccs:celadon/general",
+                "projection": "rigid"
+            }
+        }
+    ]
+}

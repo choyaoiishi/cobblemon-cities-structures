@@ -1,0 +1,23 @@
+[
+	{
+		"weight": 100,
+		"element": {
+			"element_type": "lithostitched:limited",
+			"delegate": {
+				"location": "ccs:houses/cerulean/2x1/food_truck"
+			},
+			"limit": 1
+		}
+	},
+	{
+		"weight": 50,
+		"element": {
+			"element_type": "lithostitched:limited",
+			"delegate": {
+				"location": "ccs:houses/cerulean/2x1/camper_van"
+			},
+			"limit": 2
+		}
+	},
+	"tree"
+]

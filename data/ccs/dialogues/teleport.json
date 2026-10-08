@@ -1,0 +1,26 @@
+{
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();"
+    }
+  },
+  "pages": [
+    {
+      "id": "page_1",
+      "speaker": "npc",
+      "lines": [
+        "Abra!"
+      ],
+      "input": {
+        "type": "auto-continue",
+        "delay": 1,
+        "allowSkip": true,
+        "action": "t.x = q.npc.x() + q.npc.config.offset_x; t.y = q.npc.y() + q.npc.config.offset_y; t.z = q.npc.z() + q.npc.config.offset_z; q.run_command('tp ' + q.player.username() + ' ' + t.x + ' ' + t.y + ' ' + t.z); q.dialogue.close();"
+      }
+    }
+  ]
+}

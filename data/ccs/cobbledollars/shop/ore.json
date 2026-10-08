@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Ores",
+    "offers": [
+      {
+        "item": "minecraft:coal_ore",
+        "price": "500"
+      },{
+        "item": "minecraft:copper_ore",
+        "price": "1000"
+      },
+      {
+        "item": "minecraft:iron_ore",
+        "price": "2500"
+      },
+      {
+        "item": "minecraft:gold_ore",
+        "price": "4500"
+      }
+    ]
+  }
+]

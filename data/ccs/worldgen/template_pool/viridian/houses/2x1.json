@@ -1,0 +1,55 @@
+{
+    "template_pools": "ccs:viridian/houses/2x1",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:houses/2x1/battlepad",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:viridian/general"
+                },
+                "limit": 1
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:houses/viridian/2x1/wheat",
+                "processors": "ccs:viridian/base",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:houses/viridian/2x1/potato",
+                "processors": "ccs:viridian/base",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:houses/viridian/2x1/carrot",
+                "processors": "ccs:viridian/base",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:houses/viridian/2x1/sugarcane",
+                "processors": "ccs:viridian/base",
+                "projection": "rigid"
+            }
+        }
+    ]
+}

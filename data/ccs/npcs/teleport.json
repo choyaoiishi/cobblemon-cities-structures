@@ -1,0 +1,53 @@
+{
+  "hitbox": "player",
+  "names": [
+    "Abra"
+  ],
+  "isMovable": false,
+  "isInvulnerable": true,
+  "canDespawn": false,
+  "ai": [
+    {
+      "type": "apply_behaviours",
+      "behaviours": [
+        "cobblemon:core",
+        "cobblemon:resource_identifier",
+        "cobblemon:stationary",
+        "cobblemon:looks_at_players"
+      ]
+    }
+  ],
+  "config": [
+    {
+      "variableName": "resource_identifier",
+      "type": "TEXT",
+      "defaultValue": "cobblemon:abra"
+    },
+    {
+      "variableName": "offset_x",
+      "displayName": "offset_x",
+      "description": "offset_x",
+      "type": "NUMBER",
+      "defaultValue": "0"
+    },
+    {
+      "variableName": "offset_y",
+      "displayName": "offset_y",
+      "description": "offset_y",
+      "type": "NUMBER",
+      "defaultValue": "0"
+    },
+    {
+      "variableName": "offset_z",
+      "displayName": "offset_z",
+      "description": "offset_z",
+      "type": "NUMBER",
+      "defaultValue": "0"
+    }
+  ],
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "ccs:teleport"
+  },
+  "hideNameTag": true
+}

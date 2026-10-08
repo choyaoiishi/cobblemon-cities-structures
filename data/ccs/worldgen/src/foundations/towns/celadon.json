@@ -1,0 +1,18 @@
+[
+	{
+		"weight": 150,
+		"element": {
+			"element_type": "lithostitched:limited",
+			"delegate": {
+				"location": "ccs:foundations/3x2",
+				"processors": "ccs:celadon/base"
+			},
+			"limit": 1
+		}
+	},
+	{
+		"weight": 50,
+		"location": "ccs:foundations/2x2",
+		"processors": "ccs:celadon/general"
+	}
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Foods",
+    "offers": [
+      {
+        "item": "cobblemon:pewter_crunchies",
+        "price": "1000"
+      },
+      {
+        "item": "minecraft:bread",
+        "price": "500"
+      },
+      {
+        "item": "minecraft:baked_potato",
+        "price": "500"
+      }
+    ]
+  }
+]

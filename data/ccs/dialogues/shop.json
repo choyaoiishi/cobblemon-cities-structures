@@ -1,0 +1,113 @@
+{
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();"
+    }
+  },
+  "pages": [
+    {
+      "id": "line_0",
+      "speaker": "npc",
+      "lines": [],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": "t.next_page = q.npc.config.line_1 != '' ? 'line_1' : 'shop'; q.dialogue.set_page(t.next_page)"
+      }
+    },
+    {
+      "id": "line_1",
+      "speaker": "npc",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "q.npc.config.line_1"
+        }
+      ],
+      "input": [
+        "t.next_page = q.npc.config.line_2 != '' ? 'line_2' : 'shop';",
+        "q.dialogue.set_page(t.next_page)"
+      ]
+    },
+    {
+      "id": "line_2",
+      "speaker": "npc",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "q.npc.config.line_2"
+        }
+      ],
+      "input": [
+        "t.next_page = q.npc.config.line_3 != '' ? 'line_3' : 'shop';",
+        "q.dialogue.set_page(t.next_page)"
+      ]
+    },
+    {
+      "id": "line_3",
+      "speaker": "npc",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "q.npc.config.line_3"
+        }
+      ],
+      "input": [
+        "q.dialogue.set_page('shop');"
+      ]
+    },
+    {
+      "id": "shop",
+      "speaker": "npc",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "q.npc.config.line_shop"
+        }
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "Buy",
+            "value": "buy",
+            "action": [
+              "q.run_command('/execute as ' + q.player.username() + ' run cobblemerchant open shop ccs:' + q.npc.config.shop);"
+            ]
+          },
+          {
+            "text": "Sell",
+            "value": "sell",
+            "isVisible": "q.npc.config.bank != ''", 
+            "action": [
+              "q.run_command('/execute as ' + q.player.username() + ' run cobblemerchant open bank ccs:'+q.npc.config.bank);"
+            ]
+          },
+          {
+            "text": "See ya!",
+            "value": "bye",
+            "action": [
+              "q.dialogue.set_page('bye');"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "bye",
+      "speaker": "npc",
+      "lines": [
+        "Please come again!"
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    }
+  ]
+}

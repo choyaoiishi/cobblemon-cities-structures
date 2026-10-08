@@ -1,0 +1,128 @@
+{
+  "initializationAction": [
+    "v.player_party = q.player.party();",
+    "t.target_pokemon = q.npc.config.target_pokemon;",
+    "v.target_pokemon = v.player_party.find_by_properties('species=cobblemon:'+ t.target_pokemon);",
+    "v.target_pokemon_uuid = v.target_pokemon != 0.0 ? v.target_pokemon.id() : 0;",
+
+    "v.line_1 = 'test 1';",
+    "v.line_traded = 'test 1';",
+
+    "v.line_1 = q.random('Hello there! Do you want to trade your AAA for BBB?', 'Hi! Do you have AAA? Want to trade it for BBB?', 'I m looking for AAA! Wanna trade one for BBB?');",
+    "v.line_traded = q.random('The BBB you traded to me went and evolved!', 'How is my old BBB? My AAA is doing great!', 'Isnt my old BBB great?', 'Hi! The AAA you traded me is doing great!', 'Hi, how is my old BBB doing?');",
+    
+    "v.line_thanks = q.random('Thanks pal!', 'Hey thanks!', 'Thanks!');",
+    "v.line_bye = q.random('Well, if you dont want to...', 'That is too bad.', 'Awww! Oh well...', 'You dont have one either? Gee, that is really disappointing...', 'You dont want to trade? Aww...');",
+
+    "v.line_1 = q.replace(v.line_1, 'AAA', q.npc.config.target_pokemon_name);",
+    "v.line_1 = q.replace(v.line_1, 'BBB', q.npc.config.pokemon_name);",
+    "v.line_traded = q.replace(v.line_traded, 'AAA', q.npc.config.target_pokemon_name);",
+    "v.line_traded = q.replace(v.line_traded, 'BBB', q.npc.config.pokemon_name);"
+  ],
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();"
+    }
+  },
+  "pages": [
+    {
+      "id": "line_0",
+      "speaker": "npc",
+      "lines": [],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": "t.npc_data = q.player.get_npc_data(q.npc); t.next_page = t.npc_data.traded == 1 ? 'traded' : 'line_1';q.dialogue.set_page(t.next_page)"
+      }
+    },
+    {
+      "id": "line_1",
+      "speaker": "npc",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "v.line_1;"
+        }
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "Yes",
+            "value": "Yes",
+            "isSelectable": "v.target_pokemon_uuid != 0;",
+            "action": [
+              "q.dialogue.set_page('trade');"
+            ]
+          },
+          {
+            "text": "No",
+            "value": "No",
+            "action": [
+              "q.dialogue.set_page('bye');"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "trade",
+      "speaker": "npc",
+      "lines": [
+        "Okay, connect the cable like so!"
+      ],
+      "input": [
+        "v.player_party.remove_by_id(v.target_pokemon_uuid);",
+        "q.run_command('pokegiveother ' + q.player.username() + ' ' + q.npc.config.pokemon + ' ottype=NPC ot=Unknown nick=' + q.npc.config.nick);",
+        "q.player.play_sound_on_server('ccs:pokemon_get','blocks');",
+        "q.player.set_npc_variable(q.npc, 'traded', 1);",
+        "q.dialogue.set_page('trade_2');"
+      ]
+    },
+    {
+      "id": "trade_2",
+      "speaker": "npc",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "v.line_thanks;"
+        }
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    },
+    {
+      "id": "traded",
+      "speaker": "npc",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "v.line_traded;"
+        }
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    },
+    {
+      "id": "bye",
+      "speaker": "npc",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "v.line_bye;"
+        }
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    }
+  ]
+}

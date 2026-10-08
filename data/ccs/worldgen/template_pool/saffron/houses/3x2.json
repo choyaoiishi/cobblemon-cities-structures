@@ -1,0 +1,46 @@
+{
+    "template_pools": "ccs:saffron/houses/3x2",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 150,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:houses/saffron/3x2/gym",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:saffron/general"
+                },
+                "limit": 1,
+                "min_depth": 3
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "lithostitched:delegating",
+                "delegate": {
+                    "location": "ccs:houses/3x2/modern_4",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:saffron/modern"
+                },
+                "allow_bounding_box_collisions": true
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "lithostitched:delegating",
+                "delegate": {
+                    "location": "ccs:houses/3x2/modern_5",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:saffron/modern"
+                },
+                "allow_bounding_box_collisions": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,95 @@
+{
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();"
+    }
+  },
+  "pages": [
+    {
+      "id": "line_0",
+      "speaker": "npc",
+      "lines": [],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": "t.npc_data = q.player.get_npc_data(q.npc); t.next_page = t.npc_data.tm_gave == 1 ? 'tm_gave' : 'line_1';q.dialogue.set_page(t.next_page)"
+      }
+    },
+    {
+      "id": "line_1",
+      "speaker": "npc",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "q.npc.config.line_1"
+        }
+      ],
+      "input": [
+        "t.next_page = q.npc.config.line_2 != '' ? 'line_2' : 'give_tm';",
+        "q.dialogue.set_page(t.next_page)"
+      ]
+    },
+    {
+      "id": "line_2",
+      "speaker": "npc",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "q.npc.config.line_2"
+        }
+      ],
+      "input": [
+        "t.next_page = q.npc.config.line_3 != '' ? 'line_3' : 'give_tm';",
+        "q.dialogue.set_page(t.next_page)"
+      ]
+    },
+    {
+      "id": "line_3",
+      "speaker": "npc",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "q.npc.config.line_3"
+        }
+      ],
+      "input": [
+        "q.dialogue.set_page('give_tm');"
+      ]
+    },
+    {
+      "id": "give_tm",
+      "speaker": "npc",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "q.npc.config.line_give_tm"
+        }
+      ],
+      "input": [
+        "t.tm = q.npc.config.tm;",
+        "q.run_command('givetm ' + t.tm + ' ' +  q.player.username());",
+        "q.player.play_sound_on_server('ccs:item_get','blocks');",
+        "q.player.set_npc_variable(q.npc, 'tm_gave', 1);",
+        "q.dialogue.set_page('tm_gave');"
+      ]
+    },
+    {
+      "id": "tm_gave",
+      "speaker": "npc",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "q.npc.config.line_tm_gave"
+        }
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    }
+  ]
+}

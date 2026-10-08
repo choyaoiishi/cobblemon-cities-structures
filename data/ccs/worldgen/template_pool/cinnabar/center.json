@@ -1,0 +1,15 @@
+{
+    "template_pools": "ccs:cinnabar/center",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:foundations/center",
+                "processors": "ccs:cinnabar/base",
+                "projection": "rigid"
+            }
+        }
+    ]
+}

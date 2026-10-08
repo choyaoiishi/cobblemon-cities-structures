@@ -1,0 +1,15 @@
+{
+    "template_pools": "ccs:viridian/houses/start",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:houses/viridian/start",
+                "processors": "ccs:viridian/general",
+                "projection": "rigid"
+            }
+        }
+    ]
+}

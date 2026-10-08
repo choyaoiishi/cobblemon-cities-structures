@@ -1,0 +1,64 @@
+{
+	"type": "lithostitched:jigsaw",
+	"biomes": "#ccs:viridian",
+	"adapt_noise": false,
+	"spawn_overrides": {},
+	"terrain_adaptation": "none",
+	"start_pool": "ccs:viridian/center",
+	"size": 20,
+	"step": "surface_structures",
+	"start_height": {
+		"absolute": -19
+	},
+	"project_start_to_heightmap": "WORLD_SURFACE_WG",
+	"max_distance_from_center": 70,
+	"use_expansion_hack": true,
+	"pool_aliases": [
+		{
+			"type": "direct",
+			"alias": "ccs:roads",
+			"target": "ccs:viridian/roads"
+		},
+		{
+			"type": "direct",
+			"alias": "ccs:houses/1x1",
+			"target": "ccs:viridian/houses/1x1"
+		},
+		{
+			"type": "direct",
+			"alias": "ccs:houses/2x1",
+			"target": "ccs:viridian/houses/2x1"
+		},
+		{
+			"type": "direct",
+			"alias": "ccs:houses/2x2",
+			"target": "ccs:viridian/houses/2x2"
+		},
+		{
+			"type": "direct",
+			"alias": "ccs:houses/3x2",
+			"target": "ccs:viridian/houses/3x2"
+		},
+		{
+			"type": "direct",
+			"alias": "ccs:houses/start",
+			"target": "ccs:viridian/houses/start"
+		},
+		{
+			"type": "direct",
+			"alias": "ccs:foundations",
+			"target": "ccs:viridian/foundations"
+		},
+		{
+			"type": "direct",
+			"alias": "ccs:decos",
+			"target": "ccs:viridian/decos"
+		},
+		{
+			"type": "direct",
+			"alias": "ccs:city_npc",
+			"target": "ccs:viridian/city_npc"
+		}
+	],
+	"liquid_settings": "ignore_waterlogging"
+}

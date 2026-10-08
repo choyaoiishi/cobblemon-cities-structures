@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Specials",
+    "offers": [
+      {
+        "item": "cobblemon:roseate_ball",
+        "price": "2000"
+      },
+      {
+        "item": "cobblemon:heal_ball",
+        "price": "2500"
+      },
+      {
+        "item": "cobblemon:love_ball",
+        "price": "6500"
+      },
+      {
+        "item": "cobblemon:dream_ball",
+        "price": "12500"
+      }
+    ]
+  },
+  {
+    "name": "Boosters",
+    "offers": [
+      {
+        "item": "cobblemon:dire_hit",
+        "price": "6500"
+      },
+      {
+        "item": "cobblemon:guard_spec",
+        "price": "7000"
+      }
+    ]
+  }
+]

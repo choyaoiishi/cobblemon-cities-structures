@@ -1,0 +1,27 @@
+{
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "destination": "ccs:vermilion",
+                            "decoration": "minecraft:banner_orange",
+                            "function": "minecraft:exploration_map",
+                            
+                            "zoom": 4
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": "Vermilion City",
+                            "target": "item_name"
+                        }
+                    ],
+                    "name": "minecraft:map"
+                }
+            ],
+            "rolls": 1
+        }
+    ]
+}

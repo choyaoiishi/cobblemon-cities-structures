@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Foods",
+    "offers": [
+      {
+        "item": "cobblemon:casteliacone",
+        "price": "1000"
+      },
+      {
+        "item": "cobblemon:open_faced_sandwich",
+        "price": "2500"
+      },
+      {
+        "item": "cobblemon:berry_juice",
+        "price": "500"
+      }
+    ]
+  }
+]

@@ -1,0 +1,121 @@
+{
+    "processors": [
+        {
+            "processor_type": "lithostitched:condition",
+            "random_mode": "per_piece",
+            "if_true": {
+                "type": "lithostitched:all_of",
+                "conditions": [
+                    {
+                        "type": "lithostitched:matching_blocks",
+                        "blocks": "minecraft:wheat",
+                        "match_type": "input"
+                    }
+                ]
+            },
+            "then": {
+                "processor_type": "lithostitched:set_block",
+                "state_provider": {
+                    "type": "minecraft:weighted_state_provider",
+                    "entries": [
+                        {
+                            "weight": 1,
+                            "data": {
+                                "Name": "cobblemon:oran_berry",
+                                "Properties": {
+                                    "age": "5"
+                                }
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "data": {
+                                "Name": "cobblemon:persim_berry",
+                                "Properties": {
+                                    "age": "5"
+                                }
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "data": {
+                                "Name": "cobblemon:rawst_berry",
+                                "Properties": {
+                                    "age": "5"
+                                }
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "data": {
+                                "Name": "cobblemon:pinap_berry",
+                                "Properties": {
+                                    "age": "5"
+                                }
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "data": {
+                                "Name": "cobblemon:occa_berry",
+                                "Properties": {
+                                    "age": "5"
+                                }
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "data": {
+                                "Name": "cobblemon:shuca_berry",
+                                "Properties": {
+                                    "age": "5"
+                                }
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "data": {
+                                "Name": "cobblemon:payapa_berry",
+                                "Properties": {
+                                    "age": "5"
+                                }
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "data": {
+                                "Name": "cobblemon:charti_berry",
+                                "Properties": {
+                                    "age": "5"
+                                }
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "data": {
+                                "Name": "cobblemon:haban_berry",
+                                "Properties": {
+                                    "age": "5"
+                                }
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "data": {
+                                "Name": "cobblemon:colbur_berry",
+                                "Properties": {
+                                    "age": "5"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "preserve_state": false,
+                "random_mode": "per_piece"
+            },
+            "else": {
+                "processor_type": "minecraft:nop"
+            }
+        }
+    ]
+}

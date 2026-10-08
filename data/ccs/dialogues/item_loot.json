@@ -1,0 +1,64 @@
+{
+  "speakers": {
+    "player": {
+      "name": {
+        "type": "expression",
+        "expression": "q.player.name"
+      },
+      "face": "q.player.face();"
+    }
+  },
+  "pages": [
+    {
+      "id": "line_0",
+      "speaker": "npc",
+      "lines": [],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": "t.npc_data = q.player.get_npc_data(q.npc); t.next_page = t.npc_data.item_looted == 1 ? 'item_looted' : 'line_1'; q.dialogue.set_page(t.next_page)"
+      }
+    },
+    {
+      "id": "line_1",
+      "speaker": "player",
+      "lines": [],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": [
+          "q.run_command('give ' + q.player.username() + ' ' + q.npc.config.item_id + ' 1');",
+          "q.player.play_sound_on_server('ccs:item_get','blocks');",
+          "q.player.set_npc_variable(q.npc, 'item_looted', 1);",
+          "q.dialogue.set_page('line_2')"
+        ]
+      }
+    },
+    {
+      "id": "line_2",
+      "speaker": "player",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "'You found a ' + q.npc.config.item_name + '!'"
+        }
+      ],
+      "action": [],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    },
+    {
+      "id": "item_looted",
+      "speaker": "player",
+      "lines": [
+        "You've already claimed this loot!"
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    }
+  ]
+}

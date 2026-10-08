@@ -1,0 +1,17 @@
+{
+    "processors": [
+        {
+            "processor_type": "lithostitched:block_swap",
+            "blocks": {
+                // "minecraft:quartz_slab": "minecraft:nether_brick_slab",
+                "minecraft:quartz_pillar": "minecraft:black_wool",
+                "minecraft:quartz_block": "minecraft:black_wool",
+                "minecraft:light_gray_concrete": "minecraft:gray_wool",
+                "minecraft:gray_concrete": "minecraft:polished_tuff",
+                "minecraft:black_concrete": "minecraft:gray_wool"
+                // "minecraft:black_stained_glass": "minecraft:glass",
+                // "minecraft:black_stained_glass_pane": "minecraft:glass_pane"
+            }
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "processors": [
+        {
+            "processor_type": "lithostitched:block_swap",
+            "blocks": {
+                "minecraft:crying_obsidian": "minecraft:smooth_quartz",
+                "minecraft:obsidian": "minecraft:quartz_block",
+                // road side
+                "minecraft:birch_log": "minecraft:light_gray_concrete_powder",
+                // road
+                "minecraft:birch_wood": "minecraft:light_gray_concrete"
+            }
+        }
+    ]
+}
