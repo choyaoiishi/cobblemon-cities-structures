@@ -66,6 +66,9 @@ jobs:
         uses: Kira-NT/mc-publish@v3
         with:
           files: dist/*.jar
+          loaders: |
+            fabric
+            neoforge
 
           modrinth-id: IqCPvv9e
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
