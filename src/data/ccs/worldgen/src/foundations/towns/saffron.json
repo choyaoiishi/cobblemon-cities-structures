@@ -1,0 +1,12 @@
+[
+	{
+		"weight": 10,
+		"location": "ccs:foundations/2x2",
+		"processors": "ccs:#town_id/base"
+	},
+	{
+		"weight": 10,
+		"location": "ccs:foundations/3x2",
+		"processors": "ccs:#town_id/base"
+	}
+]

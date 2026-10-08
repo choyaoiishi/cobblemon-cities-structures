@@ -1,0 +1,13 @@
+{
+  "name": "ccs:placeholder",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "ccs:placeholder",
+      "model": "ccs:placeholder.geo",
+      "texture": "",
+      "layers": []
+    }
+  ]
+}

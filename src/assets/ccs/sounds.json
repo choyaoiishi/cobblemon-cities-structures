@@ -1,0 +1,44 @@
+{
+  "item_get": {
+    "category": "block",
+    "sounds": [
+      "ccs:item_get"
+    ]
+  },
+  "pokemon_get": {
+    "category": "block",
+    "sounds": [
+      "ccs:pokemon_get"
+    ]
+  },
+  "healed": {
+    "category": "block",
+    "sounds": [
+      "ccs:healed"
+    ]
+  },
+  "slot_machine/insert_coin": {
+    "category": "block",
+    "sounds": [
+      "ccs:slot_machine/insert_coin"
+    ]
+  },
+  "slot_machine/win": {
+    "category": "block",
+    "sounds": [
+      "ccs:slot_machine/win"
+    ]
+  },
+  "slot_machine/lose": {
+    "category": "block",
+    "sounds": [
+      "ccs:slot_machine/lose"
+    ]
+  },
+  "slot_machine/jackpot": {
+    "category": "block",
+    "sounds": [
+      "ccs:slot_machine/jackpot"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "ccs:lass",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:standard",
+      "model": "cobblemon:steve.geo",
+      "texture": "ccs:textures/npcs/layered-assets/base.png",
+      "layers": [
+        {
+          "name": "cloth",
+          "texture": "ccs:textures/npcs/layered-assets/lass.png"
+        },
+        {
+          "name": "eye",
+          "texture": "ccs:textures/npcs/layered-assets/eye_1.png"
+        },
+        {
+          "name": "eyelash",
+          "texture": "ccs:textures/npcs/layered-assets/eyelash.png"
+        }
+      ]
+    }
+  ]
+}

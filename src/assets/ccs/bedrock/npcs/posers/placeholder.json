@@ -1,0 +1,12 @@
+{
+	"maxScale": 1.5,
+	"poses": {
+		"standing": {
+			"poseName": "standing",
+			"poseTypes": [
+				"STAND"
+			],
+			"animations": []
+		}
+	}
+}

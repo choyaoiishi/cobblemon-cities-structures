@@ -1,0 +1,50 @@
+modLoader = 'javafml'
+loaderVersion = '[1,)'
+license = 'MPL-2.0'
+showAsResourcePack = false
+
+mods = [
+	{ modId = "cobblemon_cities_structures", version = "1.0.09", displayName = "Cobblemon Cities & Structures", description = "Adds pokemon cities, gyms and structures!", authors = "ChoyaOiishi", logoFile = "pack.png" }
+]
+
+[[dependencies.cobblemon_cities_structures]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.21.2)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.cobblemon_cities_structures]]
+modId = "cobblemon"
+type = "required"
+versionRange = "[1.8.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.cobblemon_cities_structures]]
+modId = "rctmod"
+type = "required"
+versionRange = "[0.19.0-beta,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.cobblemon_cities_structures]]
+modId = "lithostitched"
+type = "required"
+versionRange = "[1.8.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.cobblemon_cities_structures]]
+modId = "cobblefurnies"
+type = "required"
+versionRange = "[1.2,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.cobblemon_cities_structures]]
+modId = "cobbledollars"
+type = "required"
+versionRange = "[2.0.0+Beta-6.1+1.21.1,)"
+ordering = "NONE"
+side = "BOTH"
