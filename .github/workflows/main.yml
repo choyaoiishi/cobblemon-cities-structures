@@ -1,18 +1,26 @@
+name: Publish
+
 on:
   workflow_dispatch:
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     permissions:
       contents: write
+
     steps:
-      - uses: Kira-NT/mc-publish@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Publish to Modrinth
+        uses: Kira-NT/mc-publish@v3
         with:
           files: dist/*.jar
-          # Only include this section if you wish to publish your assets to Modrinth.
+
           modrinth-id: IqCPvv9e
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
 
-          # Only include this section if you wish to publish your assets to CurseForge.
           # curseforge-id: 394468
           # curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
