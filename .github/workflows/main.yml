@@ -8,8 +8,7 @@ jobs:
     steps:
       - uses: Kira-NT/mc-publish@v3
         with:
-          files: dist/!(*-@(dev|sources|javadoc)).jar
-
+          files: dist/*.jar
           # Only include this section if you wish to publish your assets to Modrinth.
           modrinth-id: IqCPvv9e
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
