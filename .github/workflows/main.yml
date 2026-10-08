@@ -1,0 +1,16 @@
+jobs:
+  build:
+    permissions:
+      contents: write
+    steps:
+      - uses: Kira-NT/mc-publish@v3
+        with:
+          files: dist/!(*-@(dev|sources|javadoc)).jar
+
+          # Only include this section if you wish to publish your assets to Modrinth.
+          modrinth-id: IqCPvv9e
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+
+          # Only include this section if you wish to publish your assets to CurseForge.
+          # curseforge-id: 394468
+          # curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
