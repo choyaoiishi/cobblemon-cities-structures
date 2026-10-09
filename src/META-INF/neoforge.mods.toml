@@ -4,7 +4,7 @@ license = 'MPL-2.0'
 showAsResourcePack = false
 
 mods = [
-	{ modId = "cobblemon_cities_structures", version = "1.0.09", displayName = "Cobblemon Cities & Structures", description = "Adds pokemon cities, gyms and structures!", authors = "ChoyaOiishi", logoFile = "pack.png" }
+	{ modId = "cobblemon_cities_structures", version = "1.0.10", displayName = "Cobblemon Cities & Structures", description = "Adds pokemon cities, gyms and structures!", authors = "ChoyaOiishi", logoFile = "pack.png" }
 ]
 
 [[dependencies.cobblemon_cities_structures]]

@@ -1,3 +1,6 @@
+### 09-10-2026 - 1.0.10
+- fix waystone processor list error
+
 ### 08-10-2026 - 1.0.09
 - packaged into a single mod
 
