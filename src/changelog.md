@@ -1,3 +1,22 @@
+### 13-10-2026 - 1.0.11
+battle:
+- add pre-battle dialogue and win dialogue
+- add give item, tm, pokemon on win
+
+saffron:
+- add silph co building
+- add option to toggle the silph co reward:
+	- /function ccs:silph/set_fixed_reward
+	- /function ccs:silph/set_random_reward
+
+textures:
+- change textures to 2 pixel height eye
+- add new textures for npc, rockets, rivals and leaders
+
+gameplay:
+- add welcome diagloue and teleport to pewter option after choosen the starter
+- add key trainers to the cities. radical red can now progress up to cinnabar gym
+
 ### 09-10-2026 - 1.0.10
 - fix waystone processor list error
 

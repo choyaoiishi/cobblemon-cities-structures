@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "picked_starter": {
+      "trigger": "cobblemon:pick_starter"
+    }
+  },
+  "rewards": {
+    "function": "ccs:open_config"
+  }
+}

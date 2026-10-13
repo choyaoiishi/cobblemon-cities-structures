@@ -1,0 +1,181 @@
+{
+  "initializationAction": "(q.npc.is_in_battle_with(q.player) || !q.npc.is_doing_activity('minecraft:idle', 'cobblemon:battling')) ? q.dialogue.close()",
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();"
+    }
+  },
+  "pages": [
+    {
+      "id": "line_0",
+      "speaker": "npc",
+      "lines": [],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": "v.npc_data = q.player.get_npc_data(q.npc); t.next_page = q.player.data.win == 1 ? 'win' : (v.npc_data.won == 1 ? 'pre_won' : (q.npc.config.line_1 != '' ? 'line_1' : 'battle')); q.dialogue.set_page(t.next_page)"
+      }
+    },
+    {
+      "id": "line_1",
+      "speaker": "npc",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "q.npc.config.line_1"
+        }
+      ],
+      "input": [
+        "t.next_page = q.npc.config.line_2 != '' ? 'line_2' : 'battle';",
+        "q.dialogue.set_page(t.next_page)"
+      ]
+    },
+    {
+      "id": "line_2",
+      "speaker": "npc",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "q.npc.config.line_2"
+        }
+      ],
+      "input": [
+        "t.next_page = q.npc.config.line_3 != '' ? 'line_3' : 'battle';",
+        "q.dialogue.set_page(t.next_page)"
+      ]
+    },
+    {
+      "id": "line_3",
+      "speaker": "npc",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "q.npc.config.line_3"
+        }
+      ],
+      "input": [
+        "q.dialogue.set_page('battle');"
+      ]
+    },
+    {
+      "id": "battle",
+      "speaker": "npc",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "q.npc.config.line_battle"
+        }
+      ],
+      "input": [
+       "q.npc.config.advancement != '' ? q.run_command('/execute at @e[type=marker,tag=' + q.npc.config.advancement + '_pos,limit=1,sort=nearest] run tp ' + q.player.username() + ' ~ ~ ~ facing entity ' + q.npc.uuid() );",
+        "q.run_command('tbcs battle ' + q.npc.config.battle_type + ' ' + q.player.username() + ' vs ' + q.npc.uuid() + ' as rctmod:' + q.npc.config.trainer_id);"
+      ]
+    },
+    {
+      "id": "win",
+      "speaker": "npc",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "q.npc.config.line_win"
+        }
+      ],
+      "input": [
+        "t.data = q.player.data(); t.data.win = 0; q.player.save_data();",
+        "q.player.set_npc_variable(q.npc, 'won', 1);",
+        "q.player.set_npc_variable(q.npc, 'last_win', q.system_time_millis());",
+        "q.npc.config.advancement != '' ? q.run_command('/rctmod player set progress '+q.player.username()+' after ' + q.npc.config.trainer_id);",
+        "q.npc.config.advancement != '' ? q.run_command('/advancement grant '+q.player.username()+' only rctmod:trainers/defeat_' +q.npc.config.advancement);",
+        "t.npc_data = q.player.get_npc_data(q.npc);",
+        "t.next_page = q.npc.config.tm != '' || q.npc.config.item != '' ? (t.npc_data.item_gave == 1 ? 'tm_gave' : 'give_tm') : 'bye';",
+        "t.next_page = q.npc.config.pokemon != '' && t.npc_data.item_gave != 1 ? 'give_pokemon' : t.next_page;",
+        "q.dialogue.set_page(t.next_page)"
+      ]
+    },
+    {
+      "id": "give_tm",
+      "speaker": "npc",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "q.npc.config.line_give_tm"
+        }
+      ],
+      "input": [
+        "q.npc.config.tm != '' ? q.run_command('givetm ' +  q.npc.config.tm + ' ' +  q.player.username()) : q.run_command('give ' + q.player.username() + ' ' + q.npc.config.item_id + ' 1');",
+        "q.player.play_sound_on_server('ccs:item_get','blocks');",
+        "q.player.set_npc_variable(q.npc, 'item_gave', 1);",
+        "q.dialogue.set_page('tm_gave');"
+      ]
+    },
+    {
+      "id": "give_pokemon",
+      "speaker": "npc",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "q.npc.config.line_give_tm"
+        }
+      ],
+      "input": [
+        "q.run_command('pokegiveother ' + q.player.username() + ' ' + q.npc.config.pokemon);",
+        "q.player.play_sound_on_server('ccs:pokemon_get','blocks');",
+        "q.player.set_npc_variable(q.npc, 'item_gave', 1);",
+        "q.dialogue.set_page('tm_gave');"
+      ]
+    },
+    {
+      "id": "tm_gave",
+      "speaker": "npc",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "q.npc.config.line_tm_gave"
+        }
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    },
+    {
+      "id": "pre_won",
+      "speaker": "npc",
+      "lines": [],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": "t.next_page = (q.system_time_millis() - v.npc_data.last_win) > 30000 ? 'line_1' : 'won'; q.dialogue.set_page(t.next_page)"
+      }
+    },
+    {
+      "id": "won",
+      "speaker": "npc",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "q.npc.config.line_won"
+        }
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    },
+    {
+      "id": "bye",
+      "speaker": "npc",
+      "lines": [],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": "q.dialogue.close();"
+      }
+    }
+  ]
+}

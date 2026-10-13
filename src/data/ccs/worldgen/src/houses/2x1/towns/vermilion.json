@@ -19,5 +19,15 @@
 	},
 	{
 		"location": "ccs:houses/vermilion/2x1/pile"
+	},
+	{
+		"weight": 100,
+		"element": {
+			"element_type": "lithostitched:limited",
+			"delegate": {
+				"location": "ccs:houses/vermilion/2x1/brendan"
+			},
+			"limit": 1
+		}
 	}
 ]

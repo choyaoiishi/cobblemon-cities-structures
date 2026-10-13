@@ -13,8 +13,8 @@
           "texture": "ccs:textures/npcs/layered-assets/shopkeeper.png"
         },
         {
-          "name": "hair",
-          "texture": "ccs:textures/npcs/layered-assets/hair_1.png"
+          "name": "eye",
+          "texture": "ccs:textures/npcs/layered-assets/eye_1.png"
         }
       ]
     }

@@ -7,3 +7,5 @@
 
 ### rctmod
 /rctmod trainer summon_persistent team_rocket_grunt ~ ~ ~ {attributes:[{id:"minecraft:generic.movement_speed",base:0.0d}]}
+
+/summon minecraft:marker ~ ~ ~ {Tags:["boss_giovanni_1_pos"]}

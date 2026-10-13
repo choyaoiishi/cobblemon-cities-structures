@@ -9,10 +9,6 @@
       "texture": "ccs:textures/npcs/layered-assets/base.png",
       "layers": [
         {
-          "name": "eye",
-          "texture": "ccs:textures/npcs/layered-assets/eye_1.png"
-        },
-        {
           "name": "cloth",
           "texture": "ccs:textures/npcs/layered-assets/scientist.png"
         }

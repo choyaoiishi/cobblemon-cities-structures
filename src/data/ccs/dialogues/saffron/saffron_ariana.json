@@ -1,0 +1,171 @@
+{
+  "initializationAction": "(q.npc.is_in_battle_with(q.player) || !q.npc.is_doing_activity('minecraft:idle', 'cobblemon:battling')) ? q.dialogue.close()",
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();"
+    },
+    "npc2": {
+      "name": "Archer",
+      "face": {
+        "type": "artificial",
+        "modelType": "npc",
+        "identifier": "ccs:rocket/archer",
+        "isLeftSide": false,
+        "aspects": []
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "line_0",
+      "speaker": "npc",
+      "lines": [],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": "t.npc_data = q.player.get_npc_data(q.npc); t.next_page = q.player.data.win == 1 ? 'win' : (t.npc_data.won == 1 ? 'won' : 'line_1'); q.dialogue.set_page(t.next_page)"
+      }
+    },
+    {
+      "id": "line_1",
+      "speaker": "npc",
+      "lines": [
+        "Looks like we found our intruder."
+      ],
+      "input": [
+        "q.dialogue.set_page('line_2');"
+      ]
+    },
+    {
+      "id": "line_2",
+      "speaker": "npc2",
+      "lines": [
+        "Wait a sec... This is the punk I ran into at Pewter!"
+      ],
+      "input": [
+        "q.dialogue.set_page('line_3');"
+      ]
+    },
+    {
+      "id": "line_3",
+      "speaker": "npc",
+      "lines": [
+        "Wow, you lost to this loser?"
+      ],
+      "input": [
+        "q.dialogue.set_page('line_4');"
+      ]
+    },
+    {
+      "id": "line_4",
+      "speaker": "npc2",
+      "lines": [
+        "Quiet, I'm sure my Mightyena gave this punk a scare."
+      ],
+      "input": [
+        "q.dialogue.set_page('line_5');"
+      ]
+    },
+    {
+      "id": "line_5",
+      "speaker": "npc",
+      "lines": [
+        "Your Mightyena doesn't even have Intimidate."
+      ],
+      "input": [
+        "q.dialogue.set_page('line_6');"
+      ]
+    },
+    {
+      "id": "line_6",
+      "speaker": "npc2",
+      "lines": [
+        "Would you SHUT UP Ari?! We've got things to deal with here."
+      ],
+      "input": [
+        "q.dialogue.set_page('battle');"
+      ]
+    },
+    {
+      "id": "battle",
+      "speaker": "npc",
+      "lines": [
+        "Fine. Sorry kid, looks like your fun ends here."
+      ],
+      "input": [
+        "q.npc.config.advancement != '' ? q.run_command('/tp '+q.player.username()+' @e[type=marker,tag=' + q.npc.config.advancement + '_pos,limit=1,sort=nearest]');",
+        "q.run_command('tbcs battle ' + q.npc.config.battle_type + ' ' + q.player.username() + ' vs ' + q.npc.uuid() + ' as rctmod:' + q.npc.config.trainer_id);"
+      ]
+    },
+    {
+      "id": "win",
+      "speaker": "npc",
+      "lines": [
+        "Damn it. I really hate them kids. I'm shocked. Boss won't be happy about this."
+      ],
+      "input": [
+        "t.data = q.player.data(); t.data.win = 0; q.player.save_data();",
+        "q.player.set_npc_variable(q.npc, 'won', 1);",
+        "q.npc.config.advancement != '' ? q.run_command('/rctmod player set progress '+q.player.username()+' after ' + q.npc.config.trainer_id);",
+        "q.npc.config.advancement != '' ? q.run_command('/advancement grant '+q.player.username()+' only rctmod:trainers/defeat_' +q.npc.config.advancement);",
+        "t.next_page = q.npc.config.tm != '' ? 'give_tm' : 'bye';",
+        "q.dialogue.set_page(t.next_page)"
+      ]
+    },
+    {
+      "id": "give_tm",
+      "speaker": "npc",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "q.npc.config.line_give_tm"
+        }
+      ],
+      "input": [
+        "t.tm = q.npc.config.tm;",
+        "q.run_command('givetm ' + t.tm + ' ' +  q.player.username());",
+        "q.player.play_sound_on_server('ccs:item_get','blocks');",
+        "q.dialogue.set_page('tm_gave');"
+      ]
+    },
+    {
+      "id": "tm_gave",
+      "speaker": "npc",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "q.npc.config.line_tm_gave"
+        }
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    },
+    {
+      "id": "won",
+      "speaker": "npc",
+      "lines": [
+        "Pray you don't meet me again."
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    },
+    {
+      "id": "bye",
+      "speaker": "npc",
+      "lines": [],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": "q.dialogue.close();"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+scoreboard objectives add ccs_temp dummy

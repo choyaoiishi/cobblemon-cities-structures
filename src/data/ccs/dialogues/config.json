@@ -1,0 +1,105 @@
+{
+  "speakers": {
+    "npc": {
+      "name": "Professor Oak",
+      "face": {
+        "type": "artificial",
+        "modelType": "npc",
+        "identifier": "ccs:prof_oak",
+        "aspects": []
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "welcome",
+      "speaker": "npc",
+      "lines": [
+        "Hello there! Welcome to Cobblemon Cities & Structures! My name is Oak. People call me the Pokémon Professor!"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "Next",
+            "value": "next",
+            "action": [
+              "q.dialogue.set_page('main_menu');"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "main_menu",
+      "speaker": "npc",
+      "lines": [
+        "Before you set off on your journey, let us adjust a few settings!"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "Start at Pewter City",
+            "value": "tp_pewter",
+            "action": [
+              "q.dialogue.set_page('tp_pewter');"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "tp_pewter",
+      "speaker": "npc",
+      "lines": [
+        "Do you wish to start your journey at Pewter City?"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "Yes, take me there!",
+            "value": "confirm_tp",
+            "action": [
+              "q.dialogue.set_page('tp_to_pewter');"
+            ]
+          },
+          {
+            "text": "Back",
+            "value": "back",
+            "action": [
+              "q.dialogue.set_page('main_menu');"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "tp_to_pewter",
+      "speaker": "npc",
+      "lines": [
+        "Hold on tight! I am locating Pewter City for you now..."
+      ],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": "q.run_command('/execute as ' + q.player.username() + ' run function ccs:tp_spawn');q.dialogue.set_page('tp_done');"
+      }
+    },
+    {
+      "id": "tp_done",
+      "speaker": "npc",
+      "lines": [
+        "All set! Enjoy your journey ahead!"
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    }
+  ]
+}

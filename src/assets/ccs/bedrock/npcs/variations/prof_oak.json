@@ -1,0 +1,13 @@
+{
+  "name": "ccs:prof_oak",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:standard",
+      "model": "cobblemon:steve.geo",
+      "texture": "ccs:textures/npcs/prof_oak.png",
+      "layers": []
+    }
+  ]
+}

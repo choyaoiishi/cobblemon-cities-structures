@@ -1,0 +1,22 @@
+{
+  "name": "ccs:leaders/koga",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:standard",
+      "model": "cobblemon:steve.geo",
+      "texture": "ccs:textures/npcs/layered-assets/base.png",
+      "layers": [
+        {
+          "name": "cloth",
+          "texture": "ccs:textures/npcs/layered-assets/koga.png"
+        },
+        {
+          "name": "eye",
+          "texture": "ccs:textures/npcs/layered-assets/eye_2.png"
+        }
+      ]
+    }
+  ]
+}

@@ -11,6 +11,14 @@
         {
           "name": "cloth",
           "texture": "ccs:textures/npcs/layered-assets/camper.png"
+        },
+        {
+          "name": "eye",
+          "texture": "ccs:textures/npcs/layered-assets/eye_3.png"
+        },
+        {
+          "name": "eyebrown",
+          "texture": "ccs:textures/npcs/layered-assets/eyebrown.png"
         }
       ]
     }

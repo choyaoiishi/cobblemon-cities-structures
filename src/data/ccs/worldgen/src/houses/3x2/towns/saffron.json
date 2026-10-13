@@ -1,3 +1,31 @@
 [
-	"modern"
+	"modern",
+	{
+		"weight": 150,
+		"element": {
+			"element_type": "lithostitched:delegating",
+			"delegate": {
+				"location": "ccs:houses/saffron/3x2/silph",
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ccs:saffron/general"
+			},
+			"allow_bounding_box_collisions": true,
+			"forced_count": 1
+		}
+	},
+	{
+		"weight": 150,
+		"element": {
+			"element_type": "lithostitched:delegating",
+			"delegate": {
+				"location": "ccs:houses/saffron/3x2/silph_01",
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ccs:saffron/general"
+			},
+			"allow_bounding_box_collisions": true,
+			"forced_count": 1
+		}
+	}
 ]

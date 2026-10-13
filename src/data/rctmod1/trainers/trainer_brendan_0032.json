@@ -1,0 +1,51 @@
+{
+  "name": "Rocket Admins Archer \u0026 Ariana",
+  "identity": "Rocket Admin Archer",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "maxSelectMargin": 0.15
+    }
+  },
+  "battleFormat": "GEN_9_SINGLES",
+  "battleRules": {
+    "maxItemUses": 2
+  },
+  "bag": [
+    {
+      "item": "cobblemon:full_restore",
+      "quantity": 2
+    }
+  ],
+  "team": [
+    {
+      "species": "incineroar",
+      "gender": "FEMALE",
+      "level": 1,
+      "nature": "adamant",
+      "ability": "intimidate",
+      "moveset": [
+        "fakeout",
+        "partingshot",
+        "darkestlariat",
+        "firepunch"
+      ],
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 252,
+        "atk": 252,
+        "spe": 6
+      },
+      "heldItem": [
+        "sitrus_berry"
+      ]
+    }
+  ]
+}

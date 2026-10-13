@@ -1,0 +1,122 @@
+{
+  "hitbox": "player",
+  "names": [
+    ""
+  ],
+  "hideNameTag": true,
+  "isMovable": false,
+  "canDespawn": false,
+  "isInvulnerable": true,
+  "allowProjectileHits": false,
+  "ai": [
+    {
+      "type": "apply_behaviours",
+      "behaviours": [
+        "cobblemon:core",
+        "cobblemon:resource_identifier",
+        "cobblemon:looks_at_players",
+        "cobblemon:dialogue_selection"
+      ]
+    }
+  ],
+  "config": [
+    {
+      "variableName": "dialogue_selection",
+      "displayName": "cobblemon.entity.variable.dialogue_selection.name",
+      "description": "cobblemon.entity.variable.dialogue_selection.desc",
+      "type": "TEXT",
+      "defaultValue": "ccs:battle"
+    },
+    {
+      "variableName": "line_1",
+      "displayName": "line_1",
+      "type": "TEXT",
+      "defaultValue": ""
+    },
+    {
+      "variableName": "line_2",
+      "displayName": "line_2",
+      "type": "TEXT",
+      "defaultValue": ""
+    },
+    {
+      "variableName": "line_3",
+      "displayName": "line_3",
+      "type": "TEXT",
+      "defaultValue": ""
+    },
+    {
+      "variableName": "line_battle",
+      "displayName": "line_battle",
+      "type": "TEXT",
+      "defaultValue": ""
+    },
+    {
+      "variableName": "line_win",
+      "displayName": "line_win",
+      "type": "TEXT",
+      "defaultValue": ""
+    },
+    {
+      "variableName": "line_won",
+      "displayName": "line_won",
+      "type": "TEXT",
+      "defaultValue": ""
+    },
+    {
+      "variableName": "trainer_id",
+      "displayName": "trainer_id",
+      "type": "TEXT",
+      "defaultValue": ""
+    },
+    {
+      "variableName": "advancement",
+      "displayName": "advancement",
+      "type": "TEXT",
+      "defaultValue": ""
+    },
+    {
+      "variableName": "line_give_tm",
+      "displayName": "line_give_tm",
+      "type": "TEXT",
+      "defaultValue": ""
+    },
+    {
+      "variableName": "line_tm_gave",
+      "displayName": "line_tm_gave",
+      "type": "TEXT",
+      "defaultValue": ""
+    },
+    {
+      "variableName": "tm",
+      "displayName": "tm",
+      "type": "TEXT",
+      "defaultValue": ""
+    },
+    {
+      "variableName": "pokemon",
+      "displayName": "pokemon",
+      "type": "TEXT",
+      "defaultValue": ""
+    },
+    {
+      "variableName": "item_id",
+      "displayName": "item_id",
+      "type": "TEXT",
+      "defaultValue": ""
+    },
+    {
+      "variableName": "battle_type",
+      "displayName": "battle_type",
+      "type": "TEXT",
+      "defaultValue": "GEN_9_SINGLES"
+    },
+    {
+      "variableName": "on_player_wins",
+      "displayName": "npc.variable.on_player_wins.name",
+      "description": "npc.variable.on_player_wins.desc",
+      "type": "TEXT",
+      "defaultValue": "t.data = q.player.data(); t.data.win = 1; q.player.save_data(); q.npc.run_dialogue(q.player, 'ccs:battle');"
+    }
+  ]
+}
