@@ -73,5 +73,7 @@ jobs:
           modrinth-id: IqCPvv9e
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
 
-          version-type: alpha
+          curseforge-id: 1733927
+          curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
+
           changelog-file: latest-changelog.md
