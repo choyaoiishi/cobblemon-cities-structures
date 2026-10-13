@@ -17,7 +17,8 @@
     "rctmod": ">=0.19.0-beta",
     "lithostitched": ">=1.8.0+beta6",
     "cobblefurnies": ">=1.2",
-    "cobbledollars": ">=2.0.0+Beta-6.1+1.21.1"
+    "cobbledollars": ">=2.0.0+Beta-6.1+1.21.1",
+    "tbcs": ">=0.15.0-beta"
   },
   "icon": "pack.png"
 }

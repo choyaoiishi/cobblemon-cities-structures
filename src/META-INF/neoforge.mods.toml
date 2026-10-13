@@ -48,3 +48,10 @@ type = "required"
 versionRange = "[2.0.0+Beta-6.1+1.21.1,)"
 ordering = "NONE"
 side = "BOTH"
+
+[[dependencies.cobblemon_cities_structures]]
+modId = "tbcs"
+type = "required"
+versionRange = "[0.15.0-beta,)"
+ordering = "NONE"
+side = "BOTH"
