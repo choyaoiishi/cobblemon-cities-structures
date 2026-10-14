@@ -10,7 +10,8 @@
                             "decoration": "minecraft:banner_red",
                             "function": "minecraft:exploration_map",
                             
-                            "zoom": 4
+                            "zoom": 4,
+"skip_existing_chunks": false
                         },
                         {
                             "function": "minecraft:set_name",

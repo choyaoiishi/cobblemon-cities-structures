@@ -9,7 +9,7 @@
                             "destination": "ccs:pewter",
                             "decoration": "minecraft:banner_gray",
                             "function": "minecraft:exploration_map",
-                            
+                            "search_radius": 100,
                             "zoom": 4,
                             "skip_existing_chunks": false
                         },

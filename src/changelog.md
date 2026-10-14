@@ -1,3 +1,11 @@
+### 14-10-2026 - 1.0.12
+- add optional starter kit and start radical red series in the welcome dialogue
+- change pewter search radius to 100
+- add names for npc
+- add new items that can be sold to pokemart
+- make all exploration map skip_existing_chunks to false
+- disable vanilla mobs spawn in the cities 
+
 ### 13-10-2026 - 1.0.11
 battle:
 - add pre-battle dialogue and win dialogue
