@@ -1,9 +1,7 @@
 {
     "replace": false,
     "values": [
-        "minecraft:stony_shore",
-        "minecraft:windswept_gravelly_hills",
-        "minecraft:stony_peaks",
-        "minecraft:windswept_hills"
+        "#cobblemon:is_mountain",
+        "#cobblemon:is_peak"
     ]
 }

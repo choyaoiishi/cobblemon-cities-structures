@@ -1,8 +1,6 @@
 {
     "replace": false,
     "values": [
-        "minecraft:sunflower_plains",
-        "minecraft:plains",
-        "minecraft:meadow"
+        "#cobblemon:is_plains"
     ]
 }

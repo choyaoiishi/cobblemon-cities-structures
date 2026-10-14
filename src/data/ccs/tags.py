@@ -2,62 +2,32 @@ import os
 import json
 
 TOWN_BIOMES = {
-    "pallet": [
-        "minecraft:plains",
-        "minecraft:meadow",
-        "minecraft:sunflower_plains"
-    ],
     "viridian": [
-        "minecraft:forest",
-        "minecraft:birch_forest",
-        "minecraft:old_growth_birch_forest",
-        "minecraft:flower_forest"
+        "#cobblemon:is_forest"
     ],
     "pewter": [
-        "minecraft:stony_shore",
-        "minecraft:windswept_gravelly_hills",
-        "minecraft:stony_peaks",
-        "minecraft:windswept_hills"
+        "#cobblemon:is_mountain",
+        "#cobblemon:is_peak"
     ],
     "cerulean": [
-        "minecraft:beach",
-        "minecraft:warm_ocean",
-        "minecraft:ocean",
-        "minecraft:lukewarm_ocean"
+        "#cobblemon:is_ocean",
+        "#cobblemon:is_beach",
+        "#cobblemon:is_river"
     ],
     "vermilion": [
-        "minecraft:savanna",
-        "minecraft:savanna_plateau",
-        "minecraft:windswept_savanna"
-    ],
-    "lavender": [
-        "minecraft:dark_forest",
-        "minecraft:taiga",
-        "minecraft:old_growth_pine_taiga"
+        "#cobblemon:is_savanna"
     ],
     "celadon": [
-        "minecraft:flower_forest",
-        "minecraft:meadow",
-        "minecraft:cherry_grove"
+        "#cobblemon:is_floral"
     ],
     "fuchsia": [
-        "minecraft:swamp",
-        "minecraft:mangrove_swamp"
+        "#cobblemon:is_swamp"
     ],
     "saffron": [
-        "minecraft:sunflower_plains",
-        "minecraft:plains",
-        "minecraft:meadow"
+        "#cobblemon:is_plains"
     ],
     "cinnabar": [
-        "minecraft:badlands",
-        "minecraft:wooded_badlands",
-        "minecraft:eroded_badlands"
-    ],
-    "indigo_plateau": [
-        "minecraft:windswept_gravelly_hills",
-        "minecraft:stony_peaks",
-        "minecraft:jagged_peaks"
+        "#cobblemon:is_badlands"
     ]
 }
 

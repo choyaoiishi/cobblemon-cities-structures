@@ -1,9 +1,8 @@
 {
     "replace": false,
     "values": [
-        "minecraft:beach",
-        "minecraft:warm_ocean",
-        "minecraft:ocean",
-        "minecraft:lukewarm_ocean"
+        "#cobblemon:is_ocean",
+        "#cobblemon:is_beach",
+        "#cobblemon:is_river"
     ]
 }

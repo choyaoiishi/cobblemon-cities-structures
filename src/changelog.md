@@ -5,6 +5,8 @@
 - add new items that can be sold to pokemart
 - make all exploration map skip_existing_chunks to false
 - disable vanilla mobs spawn in the cities 
+- change cities biome to cobblemon tags
+- fix celadon not showing 3x2 buildings
 
 ### 13-10-2026 - 1.0.11
 battle:
