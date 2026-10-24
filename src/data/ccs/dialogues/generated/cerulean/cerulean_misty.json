@@ -1,0 +1,119 @@
+{
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();"
+    }
+  },
+  "pages": [
+    {
+      "id": "line_0",
+      "speaker": "npc",
+      "lines": [],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": [
+          "t.next_page = q.run_script('ccs:battle__landing');",
+          "q.dialogue.set_page(t.next_page);"
+        ]
+      }
+    },
+    {
+      "id": "line_1",
+      "speaker": "npc",
+      "lines": [
+        "Hi, you're a new face! Trainers who want to turn pro have to have a policy about Pok\u00e9mon!"
+      ],
+      "input": [
+        "q.dialogue.set_page('line_2');"
+      ]
+    },
+    {
+      "id": "line_2",
+      "speaker": "npc",
+      "lines": [
+        "What is your approach when you catch Pok\u00e9mon?"
+      ],
+      "input": [
+        "q.dialogue.set_page('battle');"
+      ]
+    },
+    {
+      "id": "battle",
+      "speaker": "npc",
+      "lines": [
+        "My policy is an all-out offensive with water-type Pok\u00e9mon!"
+      ],
+      "input": [
+        "v.advancement='leader_misty';",
+        "q.player.set_npc_variable(q.npc, 'advancement', v.advancement);",
+        "q.player.set_npc_variable(q.npc, 'trainer_id', 'leader_misty_019f');",
+        "q.dialogue.close();",
+        "!q.is_blank(v.advancement) ? q.run_command('/execute at @e[type=marker,tag=' + v.advancement + '_pos,limit=1,sort=nearest] run tp ' + q.player.username() + ' ~ ~ ~ facing entity ' + q.npc.uuid() );",
+        "q.run_command('tbcs battle GEN_9_SINGLES ' + q.player.username() + ' vs ' + q.npc.uuid() + ' as rctmod:leader_misty_019f')"
+      ]
+    },
+    {
+      "id": "win",
+      "speaker": "npc",
+      "lines": [
+        "Wow! You're too much! All right! You can have the Cascade Badge to show you beat me!"
+      ],
+      "input": [
+        "v.reward_type='tm';",
+        "v.reward='waterpulse';",
+        "t.next_page = q.run_script('ccs:battle__landing_win');",
+        "q.dialogue.set_page(t.next_page)"
+      ]
+    },
+    {
+      "id": "reward_give",
+      "speaker": "npc",
+      "lines": [
+        "You can also have my favorite TM!"
+      ],
+      "input": [
+        "q.run_script('ccs:give_reward');",
+        "q.dialogue.set_page('reward_gave');"
+      ]
+    },
+    {
+      "id": "reward_gave",
+      "speaker": "npc",
+      "lines": [
+        "TM03 teaches Water Pulse. Use it on an aquatic Pok\u00e9mon!"
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    },
+    {
+      "id": "won",
+      "speaker": "npc",
+      "lines": [
+        "TM03 teaches Water Pulse. Use it on an aquatic Pok\u00e9mon!"
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    },
+    {
+      "id": "bye",
+      "speaker": "npc",
+      "lines": [],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": [
+          "q.dialogue.close();"
+        ]
+      }
+    }
+  ]
+}

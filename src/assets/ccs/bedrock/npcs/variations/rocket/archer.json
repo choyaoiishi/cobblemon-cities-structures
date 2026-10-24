@@ -6,13 +6,7 @@
       "aspects": [],
       "poser": "cobblemon:standard",
       "model": "cobblemon:steve.geo",
-      "texture": "ccs:textures/npcs/layered-assets/base.png",
-      "layers": [
-        {
-          "name": "cloth",
-          "texture": "ccs:textures/npcs/layered-assets/archer.png"
-        }
-      ]
+      "texture": "ccs:textures/npcs/baked/rocket/archer_var_0.png"
     }
   ]
 }

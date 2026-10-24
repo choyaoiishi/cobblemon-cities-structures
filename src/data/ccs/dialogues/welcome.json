@@ -1,0 +1,241 @@
+{
+  "speakers": {
+    "npc": {
+      "name": "Professor Oak",
+      "face": {
+        "type": "artificial",
+        "modelType": "npc",
+        "identifier": "ccs:prof_oak",
+        "aspects": []
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "welcome",
+      "speaker": "npc",
+      "lines": [
+        "Hello there! Welcome to Cobblemon Cities & Structures! My name is Oak. People call me the Pokémon Professor!"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "Next",
+            "value": "next",
+            "action": [
+              "v.data = q.player.data();",
+              "q.dialogue.set_page('main_menu');"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "main_menu",
+      "speaker": "npc",
+      "lines": [
+        "Now, before you set off on your journey, let us adjust a few settings!"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "Start Radical Red Series",
+            "value": "radical_red",
+            "isSelectable": "v.data.series_started!=1",
+            "action": [
+              "q.dialogue.set_page('radical_red');"
+            ]
+          },
+          {
+            "text": "Get Starter Kit",
+            "value": "starter_kit",
+            "isSelectable": "v.data.kit_received!=1",
+            "action": [
+              "q.dialogue.set_page('starter_kit');"
+            ]
+          },
+          {
+            "text": "Start at Pewter City",
+            "value": "tp_pewter",
+            "action": [
+              "q.dialogue.set_page('tp_pewter');"
+            ]
+          },
+          {
+            "text": "Close Menu",
+            "value": "close",
+            "action": [
+              "q.dialogue.close();"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "radical_red",
+      "speaker": "npc",
+      "lines": [
+        "Do you wish to start the Radical Red series directly?"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "Yes",
+            "value": "yes",
+            "action": [
+              "q.run_command('rctmod player set series radicalred ' + q.player.username());",
+              "v.data.series_started = 1; q.player.save_data();",
+              "q.dialogue.set_page('series_started');"
+            ]
+          },
+          {
+            "text": "Back",
+            "value": "back",
+            "action": [
+              "q.dialogue.set_page('main_menu');"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "starter_kit",
+      "speaker": "npc",
+      "lines": [
+        "Do you wish to receive your starter kit?"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "Yes",
+            "value": "yes",
+            "action": [
+              "q.run_command('execute as ' + q.player.username() + ' run function ccs:starter_kit');",
+              "q.player.play_sound_on_server('ccs:item_get', 'blocks');",
+              "v.data.kit_received = 1; q.player.save_data();",
+              "q.dialogue.set_page('kit_received');"
+            ]
+          },
+          {
+            "text": "Back",
+            "value": "back",
+            "action": [
+              "q.dialogue.set_page('main_menu');"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "series_started",
+      "speaker": "npc",
+      "lines": [
+        "The Radical Red series has been enabled!"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "Back to menu",
+            "value": "back",
+            "action": [
+              "q.dialogue.set_page('main_menu');"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "kit_received",
+      "speaker": "npc",
+      "lines": [
+        "Starter kit received!"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "Back to menu",
+            "value": "back",
+            "action": [
+              "q.dialogue.set_page('main_menu');"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "tp_pewter",
+      "speaker": "npc",
+      "lines": [
+        "Do you wish to start your journey directly at Pewter City?"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "Yes, take me there!",
+            "value": "confirm_tp",
+            "action": [
+              "q.dialogue.set_page('tp_to_pewter');"
+            ]
+          },
+          {
+            "text": "Back",
+            "value": "back",
+            "action": [
+              "q.dialogue.set_page('main_menu');"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "tp_to_pewter",
+      "speaker": "npc",
+      "lines": [
+        "Just wait a moment! Locating Pewter City..."
+      ],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": [
+          "q.run_command('execute as ' + q.player.username() + ' run function ccs:tp_spawn');",
+          "q.dialogue.set_page('tp_done');"
+        ]
+      }
+    },
+    {
+      "id": "tp_done",
+      "speaker": "npc",
+      "lines": [
+        "All set! A world of dreams and adventures with Pokémon awaits! Let's go!"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "Done",
+            "value": "done",
+            "action": [
+              "q.dialogue.close();"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

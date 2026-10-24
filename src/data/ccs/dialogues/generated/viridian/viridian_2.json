@@ -1,0 +1,94 @@
+{
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();"
+    }
+  },
+  "pages": [
+    {
+      "id": "line_0",
+      "speaker": "npc",
+      "lines": [],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": [
+          "v.reward_type='tm';",
+          "v.reward='dreameater';",
+          "t.reward_landing = q.run_script('ccs:reward__landing');",
+          "t.next_page = t.reward_landing == 'reward_give' ? 'line_1' : t.reward_landing;",
+          "q.dialogue.set_page(t.next_page)"
+        ]
+      }
+    },
+    {
+      "id": "reward_give",
+      "speaker": "npc",
+      "lines": [
+        "Here, you can have this TM."
+      ],
+      "input": [
+        "q.run_script('ccs:give_reward');",
+        "q.dialogue.set_page('reward_gave');"
+      ]
+    },
+    {
+      "id": "reward_gave",
+      "speaker": "npc",
+      "lines": [
+        "TM42 contains Dream Eater... ...Snore..."
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    },
+    {
+      "id": "bye",
+      "speaker": "npc",
+      "lines": [],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": [
+          "q.dialogue.close();"
+        ]
+      }
+    },
+    {
+      "id": "line_1",
+      "speaker": "npc",
+      "lines": [
+        "Yawn! I must have dozed off in the sun."
+      ],
+      "input": [
+        "q.dialogue.set_page('line_2');"
+      ]
+    },
+    {
+      "id": "line_2",
+      "speaker": "npc",
+      "lines": [
+        "I had this dream about a Drowzee eating my dream."
+      ],
+      "input": [
+        "q.dialogue.set_page('line_3');"
+      ]
+    },
+    {
+      "id": "line_3",
+      "speaker": "npc",
+      "lines": [
+        "What's this? Where did this TM come from? This is spooky!"
+      ],
+      "input": [
+        "q.dialogue.set_page('reward_give');"
+      ]
+    }
+  ]
+}

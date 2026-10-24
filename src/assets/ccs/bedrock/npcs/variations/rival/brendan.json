@@ -6,17 +6,7 @@
       "aspects": [],
       "poser": "cobblemon:standard",
       "model": "cobblemon:steve.geo",
-      "texture": "ccs:textures/npcs/layered-assets/base.png",
-      "layers": [
-        {
-          "name": "eye",
-          "texture": "ccs:textures/npcs/layered-assets/eye_1.png"
-        },
-        {
-          "name": "cloth",
-          "texture": "ccs:textures/npcs/layered-assets/brendan.png"
-        }
-      ]
+      "texture": "ccs:textures/npcs/baked/rival/brendan_var_0.png"
     }
   ]
 }

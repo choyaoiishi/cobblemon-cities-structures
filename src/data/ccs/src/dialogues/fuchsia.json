@@ -1,0 +1,80 @@
+{
+    "1": {
+        "trade": [
+            "slowbro",
+            "Slowbro",
+            "lickitung",
+            "Lickitung",
+            "Marc"
+        ]
+    },
+    "2": {
+        "lines": [
+            "I'm the FISHING GURU's older brother! I simply Looove fishing!"
+        ],
+        "reward": [
+            "item",
+            "cobblemon:poke_rod[custom_name=\\'\"Good Rod\"\\',lore=[\\'{\"text\":\"A new, good-quality fishing rod.\",\"color\":\"gray\"}\\'],enchantments={levels:{\"lure\":2}},rarity=\"rare\"]",
+            "Take this and fish, young one!",
+            "Fishing is a way of life! From the seas to rivers, go out and land the big one, young one!"
+        ]
+    },
+    "pokemart": {
+        "lines": [],
+        "shop": [
+            "fuchsia/pokemart",
+            "pokemart",
+            "Welcome! What do you need?",
+            "Please come again!"
+        ]
+    },
+    "food_truck": {
+        "lines": [],
+        "shop": [
+            "fuchsia/ponigiri",
+            "",
+            "Welcome! What do you need?",
+            "Please come again!"
+        ]
+    },
+    "brendan": {
+        "lines": [
+            "Oh hey! Fancy meeting you here. You took down the boss, huh?",
+            "I'm really sorry I couldn't be there for it, but I was never really worried about you. ",
+            "I've recently obtained the Mega Ring, so I'd like to put myself to the test!"
+        ],
+        "battle": [
+            "trainer_brendan_0039",
+            "I see you've got one too! Let's not hold back then!",
+            "I feel the gap between us shrinking each time. I know I can do it! But, thanks for being a sport as always.",
+            "Safe travels pal!",
+            "trainer_brendan_2"
+        ],
+        "reward": [
+            "tm",
+            "rocksmash",
+            "With Sabrina's badge, you should be able to use this.",
+            "Safe travels pal!"
+        ]
+    },
+    "koga": {
+        "lines": [
+            "Fwahahaha! A mere child like you dares to challenge me?",
+            "Very well, I shall show you true terror as a ninja master!"
+        ],
+        "battle": [
+            "leader_koga_01a2",
+            "You shall feel the despair of poison and sleep techniques!",
+            "Humph! You have proven your worth! Here! Take the Soul Badge!",
+            "When afflicted by Toxic, Pokémon suffer more and more as battle progresses! It will surely terrorize foes!",
+            "leader_koga"
+        ],
+        "reward": [
+            "tm",
+            "toxic",
+            "Ah! Take this too!",
+            "Sealed within that TM06 lies Toxic! It is a secret technique dating back some four hundred years."
+        ]
+    }
+}
+

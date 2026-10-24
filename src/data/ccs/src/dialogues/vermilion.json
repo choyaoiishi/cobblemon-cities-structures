@@ -1,0 +1,78 @@
+{
+    "1": {
+        "trade": [
+            "spearow",
+            "Spearow",
+            "farfetchd",
+            "Farfetch\\'d",
+            "Dux"
+        ]
+    },
+    "2": {
+        "trade": [
+            "nidorino",
+            "Nidorino",
+            "nidorina",
+            "Nidorina",
+            "Terry"
+        ]
+    },
+    "3": {
+        "lines": [
+            "I'm the FISHING GURU! I simply Looove fishing!"
+        ],
+        "reward": [
+            "item",
+            "cobblemon:poke_rod[custom_name=\\'{\"text\":\"Old Rod\",\"color\":\"white\"}\\',lore=[\\'{\"text\":\"An old and beat-up fishing rod. \",\"color\":\"gray\"}\\'],enchantments={levels:{\"lure\":1}}]",
+            "Take this and fish, young one!",
+            "Fishing is a way of life! From the seas to rivers, go out and land the big one, young one!"
+        ]
+    },
+    "pokemart": {
+        "lines": [],
+        "shop": [
+            "vermilion/pokemart",
+            "pokemart",
+            "Welcome! What do you need?",
+            "Please come again!"
+        ]
+    },
+    "surge": {
+        "lines": [
+            "Hey, kid! What do you think you're doing here? You won't live long in combat!",
+            "That's for sure! I tell you kid, electric Pokémon saved me during the war!"
+        ],
+        "battle": [
+            "leader_lt_surge_01a0",
+            "They zapped my enemies into paralysis! The same as I'll do to you!",
+            "Whoa! You're the real deal, kid! Fine then, take the Thunder Badge!",
+            "A little word of advice, kid! Electricity is sure powerful! But, it's useless against ground-type Pokémon!",
+            "leader_lt_surge"
+        ],
+        "reward": [
+            "tm",
+            "shockwave",
+            "You're special, kid! Take this!",
+            "TM34 contains Shock Wave! Teach it to an Electric Pokémon!"
+        ]
+    },
+    "brendan": {
+        "lines": [
+            "Oh hey! It's been a while. I've snagged two badges since we first met."
+        ],
+        "battle": [
+            "trainer_brendan_0032",
+            "You too huh? I thought so! Let's put each other to the test.",
+            "You're seriously just a step ahead of me. It's admirable, really.",
+            "The Lucky Egg speeds up training significantly. I hope you put it to good use. Well, it's back to training for me.",
+            "trainer_brendan_1"
+        ],
+        "reward": [
+            "item",
+            "cobblemon:lucky_egg",
+            "I've got another useful item for you, my friend.",
+            "The Lucky Egg speeds up training significantly. I hope you put it to good use. Well, it's back to training for me."
+        ]
+    }
+}
+

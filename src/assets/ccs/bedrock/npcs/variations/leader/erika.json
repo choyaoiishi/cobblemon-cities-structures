@@ -1,0 +1,12 @@
+{
+  "name": "ccs:leaders/erika",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:standard",
+      "model": "cobblemon:steve.geo",
+      "texture": "ccs:textures/npcs/baked/leader/erika_var_0.png"
+    }
+  ]
+}

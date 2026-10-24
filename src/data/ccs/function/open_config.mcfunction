@@ -1,1 +1,0 @@
-opendialogue ccs:config @s

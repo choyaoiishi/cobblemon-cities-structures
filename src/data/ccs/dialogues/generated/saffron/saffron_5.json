@@ -1,0 +1,74 @@
+{
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();"
+    }
+  },
+  "pages": [
+    {
+      "id": "line_0",
+      "speaker": "npc",
+      "lines": [],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": [
+          "v.reward_type='item';",
+          "v.reward='cobblemon:poke_rod[custom_name='\"Super Rod\"',lore=[\\'{\"text\":\"An awesome, high-tech fishing rod.\",\"color\":\"gray\"}\\'],enchantments={levels:{\"lure\":3}},rarity=\"epic\"]';",
+          "t.reward_landing = q.run_script('ccs:reward__landing');",
+          "t.next_page = t.reward_landing == 'reward_give' ? 'line_1' : t.reward_landing;",
+          "q.dialogue.set_page(t.next_page)"
+        ]
+      }
+    },
+    {
+      "id": "reward_give",
+      "speaker": "npc",
+      "lines": [
+        "Take this and fish!"
+      ],
+      "input": [
+        "q.run_script('ccs:give_reward');",
+        "q.dialogue.set_page('reward_gave');"
+      ]
+    },
+    {
+      "id": "reward_gave",
+      "speaker": "npc",
+      "lines": [
+        "Use the Super Rod in any water to catch different Pok\u00e9mon!"
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    },
+    {
+      "id": "bye",
+      "speaker": "npc",
+      "lines": [],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": [
+          "q.dialogue.close();"
+        ]
+      }
+    },
+    {
+      "id": "line_1",
+      "speaker": "npc",
+      "lines": [
+        "I'm the fishing guru's brother! I love to fish!"
+      ],
+      "input": [
+        "q.dialogue.set_page('reward_give');"
+      ]
+    }
+  ]
+}

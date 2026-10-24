@@ -1,0 +1,43 @@
+{
+    "variants": {
+        "ccs:textures/npcs/baked/leader/blaine_var_0.png": "outlined_sprite:ccs/leader/blaine_var_0.png",
+        "ccs:textures/npcs/baked/leader/brock_var_0.png": "outlined_sprite:ccs/leader/brock_var_0.png",
+        "ccs:textures/npcs/baked/leader/clair_var_0.png": "outlined_sprite:ccs/leader/clair_var_0.png",
+        "ccs:textures/npcs/baked/leader/erika_var_0.png": "outlined_sprite:ccs/leader/erika_var_0.png",
+        "ccs:textures/npcs/baked/leader/koga_var_0.png": "outlined_sprite:ccs/leader/koga_var_0.png",
+        "ccs:textures/npcs/baked/leader/lt_surge_var_0.png": "outlined_sprite:ccs/leader/lt_surge_var_0.png",
+        "ccs:textures/npcs/baked/leader/misty_var_0.png": "outlined_sprite:ccs/leader/misty_var_0.png",
+        "ccs:textures/npcs/baked/leader/sabrina_var_0.png": "outlined_sprite:ccs/leader/sabrina_var_0.png",
+        "ccs:textures/npcs/baked/npc/breeder_var_0.png": "outlined_sprite:ccs/npc/breeder_var_0.png",
+        "ccs:textures/npcs/baked/npc/bugcatcher_var_0.png": "outlined_sprite:ccs/npc/bugcatcher_var_0.png",
+        "ccs:textures/npcs/baked/npc/camper_var_0.png": "outlined_sprite:ccs/npc/camper_var_0.png",
+        "ccs:textures/npcs/baked/npc/fisher_var_0.png": "outlined_sprite:ccs/npc/fisher_var_0.png",
+        "ccs:textures/npcs/baked/npc/gentleman_var_0.png": "outlined_sprite:ccs/npc/gentleman_var_0.png",
+        "ccs:textures/npcs/baked/npc/guitarist_var_0.png": "outlined_sprite:ccs/npc/guitarist_var_0.png",
+        "ccs:textures/npcs/baked/npc/hiker_var_0.png": "outlined_sprite:ccs/npc/hiker_var_0.png",
+        "ccs:textures/npcs/baked/npc/lass_var_0.png": "outlined_sprite:ccs/npc/lass_var_0.png",
+        "ccs:textures/npcs/baked/npc/ninja_var_0.png": "outlined_sprite:ccs/npc/ninja_var_0.png",
+        "ccs:textures/npcs/baked/npc/nurse_joy_var_0.png": "outlined_sprite:ccs/npc/nurse_joy_var_0.png",
+        "ccs:textures/npcs/baked/npc/prof_oak_var_0.png": "outlined_sprite:ccs/npc/prof_oak_var_0.png",
+        "ccs:textures/npcs/baked/npc/psychic_var_0.png": "outlined_sprite:ccs/npc/psychic_var_0.png",
+        "ccs:textures/npcs/baked/npc/richboy_var_0.png": "outlined_sprite:ccs/npc/richboy_var_0.png",
+        "ccs:textures/npcs/baked/npc/scientist_var_0.png": "outlined_sprite:ccs/npc/scientist_var_0.png",
+        "ccs:textures/npcs/baked/npc/shopkeeper_var_0.png": "outlined_sprite:ccs/npc/shopkeeper_var_0.png",
+        "ccs:textures/npcs/baked/npc/swimmer_var_0.png": "outlined_sprite:ccs/npc/swimmer_var_0.png",
+        "ccs:textures/npcs/baked/npc/youngster_var_0.png": "outlined_sprite:ccs/npc/youngster_var_0.png",
+        "ccs:textures/placeholder.png": "outlined_sprite:ccs/other/pokeball_var_0.png",
+        "ccs:textures/npcs/baked/rival/brendan_var_0.png": "outlined_sprite:ccs/rival/brendan_var_0.png",
+        "ccs:textures/npcs/baked/rival/may_var_0.png": "outlined_sprite:ccs/rival/may_var_0.png",
+        "ccs:textures/npcs/baked/rival/terry_var_0.png": "outlined_sprite:ccs/rival/terry_var_0.png",
+        "ccs:textures/npcs/baked/rocket/archer_var_0.png": "outlined_sprite:ccs/rocket/archer_var_0.png",
+        "ccs:textures/npcs/baked/rocket/ariana_var_0.png": "outlined_sprite:ccs/rocket/ariana_var_0.png",
+        "ccs:textures/npcs/baked/rocket/giovanni_var_0.png": "outlined_sprite:ccs/rocket/giovanni_var_0.png",
+        "ccs:textures/npcs/baked/rocket/grunt_var_0.png": "outlined_sprite:ccs/rocket/grunt_var_0.png",
+        "default": "model:0"
+    },
+    "modelConfigs": [
+        {
+            "baseScale": 1.0
+        }
+    ]
+}

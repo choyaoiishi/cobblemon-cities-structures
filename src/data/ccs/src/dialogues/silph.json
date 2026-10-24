@@ -1,0 +1,137 @@
+{
+    "1": {
+        "lines": [],
+        "battle": [
+            "team_rocket_grunt_017a",
+            "Hey kid! What are you doing here?",
+            "I goofed!",
+            "Silph Co. will be merged with Team Rocket!"
+        ]
+    },
+    "2": {
+        "lines": [],
+        "battle": [
+            "team_rocket_grunt_017b",
+            "Team Rocket has taken command of Silph Co.!",
+            "Arrgh!",
+            "Fwahahaha! My boss has been after this place!"
+        ]
+    },
+    "3": {
+        "lines": [],
+        "battle": [
+            "scientist_connor_0150",
+            "Help! I'm a Silph employee.",
+            "How did you know I was a Rocket?",
+            "I work for both Silph and Team Rocket!"
+        ]
+    },
+    "4": {
+        "lines": [
+            "Eeek! No! Stop! Help!",
+            "Oh, you're not with Team Rocket. I'm sorry, I thought..."
+        ],
+        "reward": [
+            "tm",
+            "thunderwave",
+            "I'm sorry. Here, please take this!",
+            "Thunder Wave paralyzes the target Pokémon. It may be unable to move in battle."
+        ]
+    },
+    "5": {
+        "lines": [],
+        "battle": [
+            "scientist_jerry_0151",
+            "I support Team Rocket more than Silph!",
+            "You really got me!",
+            "Humph... Team Rocket said if I helped, they'd let me study Pokémon!"
+        ]
+    },
+    "6": {
+        "lines": [],
+        "battle": [
+            "team_rocket_grunt_017c",
+            "Intruder spotted!",
+            "Who are you?",
+            "I better tell the boss on 7F!"
+        ]
+    },
+    "7": {
+        "lines": [],
+        "battle": [
+            "team_rocket_grunt_017d",
+            "Whaaat? There shouldn't be any children here?",
+            "Oh goodness!",
+            "It's not smart to pick a fight with Team Rocket!"
+        ]
+    },
+    "8": {
+        "lines": [],
+        "battle": [
+            "scientist_jose_0152",
+            "We study Poké Ball technology on this floor!",
+            "Dang! Blast it!",
+            "We worked on the ultimate Poké Ball that can catch anything!"
+        ]
+    },
+    "9": {
+        "lines": [
+            "Team Rocket was after the Master Ball, which can catch any Pokémon!"
+        ]
+    },
+    "10": {
+        "lines": [],
+        "battle": [
+            "team_rocket_grunt_017e",
+            "Enough of your silly games!",
+            "No continues left!",
+            "Are you satisfied with beating me? Then go on home!"
+        ]
+    },
+    "11": {
+        "lines": [],
+        "battle": [
+            "team_rocket_grunt_017f",
+            "Stop right there! Don't you move!",
+            "Don't... Please!",
+            "So, you want to see my boss?"
+        ]
+    },
+    "gary": {
+        "lines": [
+            "What kept you? Hahaha! I thought you'd turn up if I waited here!",
+            "I guess Team Rocket slowed you down! Not that I care!"
+        ],
+        "battle": [
+            "rival_terry_01b0",
+            "I saw you in Saffron, so I decided to see if you got better!",
+            "Oh ho! So you are ready for the boss!",
+            "Well! I'm heading to the Pokémon League to kick out the Elite Four! I'll become the world's most powerful trainer! Smell ya!",
+            "rival_terry_2"
+        ]
+    },
+    "lapras": {
+        "lines": [
+            "Oh! Hi! You're not with Team Rocket!",
+            "You came to save us? Why, thank you!"
+        ],
+        "reward": [
+            "pokemon",
+            "lapras",
+            "I want you to have this Pokémon for saving us.",
+            "It's Lapras. It's very intelligent and will be much better off with you!"
+        ]
+    },
+    "giovanni": {
+        "lines": [
+            "Ah! So we meet again! The president and I are discussing a vital business proposition."
+        ],
+        "battle": [
+            "boss_giovanni_015d",
+            "Keep your nose out of grown-up matters... Or, experience a world of pain!",
+            "Arrgh!! I lost again!?",
+            "Blast it all! You ruined our plans for Silph! But Team Rocket will never fall! Never forget that all Pokémon exist for Team Rocket!",
+            "boss_giovanni_2"
+        ]
+    }
+}

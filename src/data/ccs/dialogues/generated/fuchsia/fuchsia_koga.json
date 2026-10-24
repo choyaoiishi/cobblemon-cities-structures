@@ -1,0 +1,119 @@
+{
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();"
+    }
+  },
+  "pages": [
+    {
+      "id": "line_0",
+      "speaker": "npc",
+      "lines": [],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": [
+          "t.next_page = q.run_script('ccs:battle__landing');",
+          "q.dialogue.set_page(t.next_page);"
+        ]
+      }
+    },
+    {
+      "id": "line_1",
+      "speaker": "npc",
+      "lines": [
+        "Fwahahaha! A mere child like you dares to challenge me?"
+      ],
+      "input": [
+        "q.dialogue.set_page('line_2');"
+      ]
+    },
+    {
+      "id": "line_2",
+      "speaker": "npc",
+      "lines": [
+        "Very well, I shall show you true terror as a ninja master!"
+      ],
+      "input": [
+        "q.dialogue.set_page('battle');"
+      ]
+    },
+    {
+      "id": "battle",
+      "speaker": "npc",
+      "lines": [
+        "You shall feel the despair of poison and sleep techniques!"
+      ],
+      "input": [
+        "v.advancement='leader_koga';",
+        "q.player.set_npc_variable(q.npc, 'advancement', v.advancement);",
+        "q.player.set_npc_variable(q.npc, 'trainer_id', 'leader_koga_01a2');",
+        "q.dialogue.close();",
+        "!q.is_blank(v.advancement) ? q.run_command('/execute at @e[type=marker,tag=' + v.advancement + '_pos,limit=1,sort=nearest] run tp ' + q.player.username() + ' ~ ~ ~ facing entity ' + q.npc.uuid() );",
+        "q.run_command('tbcs battle GEN_9_SINGLES ' + q.player.username() + ' vs ' + q.npc.uuid() + ' as rctmod:leader_koga_01a2')"
+      ]
+    },
+    {
+      "id": "win",
+      "speaker": "npc",
+      "lines": [
+        "Humph! You have proven your worth! Here! Take the Soul Badge!"
+      ],
+      "input": [
+        "v.reward_type='tm';",
+        "v.reward='toxic';",
+        "t.next_page = q.run_script('ccs:battle__landing_win');",
+        "q.dialogue.set_page(t.next_page)"
+      ]
+    },
+    {
+      "id": "reward_give",
+      "speaker": "npc",
+      "lines": [
+        "Ah! Take this too!"
+      ],
+      "input": [
+        "q.run_script('ccs:give_reward');",
+        "q.dialogue.set_page('reward_gave');"
+      ]
+    },
+    {
+      "id": "reward_gave",
+      "speaker": "npc",
+      "lines": [
+        "Sealed within that TM06 lies Toxic! It is a secret technique dating back some four hundred years."
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    },
+    {
+      "id": "won",
+      "speaker": "npc",
+      "lines": [
+        "When afflicted by Toxic, Pok\u00e9mon suffer more and more as battle progresses! It will surely terrorize foes!"
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    },
+    {
+      "id": "bye",
+      "speaker": "npc",
+      "lines": [],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": [
+          "q.dialogue.close();"
+        ]
+      }
+    }
+  ]
+}

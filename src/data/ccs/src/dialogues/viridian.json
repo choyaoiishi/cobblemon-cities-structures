@@ -1,0 +1,53 @@
+{
+    "1": {
+        "trade": [
+            "abra",
+            "Abra",
+            "mrmime",
+            "Mr Mime",
+            "Marcel"
+        ]
+    },
+    "2": {
+        "lines": [
+            "Yawn! I must have dozed off in the sun.",
+            "I had this dream about a Drowzee eating my dream.",
+            "What's this? Where did this TM come from? This is spooky!"
+        ],
+        "reward": [
+            "tm",
+            "dreameater",
+            "Here, you can have this TM.",
+            "TM42 contains Dream Eater... ...Snore..."
+        ]
+    },
+    "pokemart": {
+        "lines": [],
+        "shop": [
+            "viridian/pokemart",
+            "pokemart",
+            "Welcome! What do you need?",
+            "Please come again!"
+        ]
+    },
+    "clair": {
+        "lines": [
+            "Ah, a challenger finally arrives. I was about to take a nap.",
+            "Although I'm the newly appointed Gym Leader of the Kanto region, I was once a leader in Johto. So, this is nothing new to me.",
+            "Lance may be considered the world's dragon master, but I'm a close second!"
+        ],
+        "battle": [
+            "leader_clair_004a",
+            "Do you still dare to take me on? Fine, let's do this!",
+            "Years of being defeated as a Gym Leader have changed my perspective, although I haven't been humbled like that in a while. ",
+            "This move strikes fear in its foes. You don't want to miss it.",
+            "leader_clair"
+        ],
+        "reward": [
+            "tm",
+            "dragonpulse",
+            "Take this.",
+            "TM59 contains Dragon Pulse. It's a huge blast of draconicn energy. Teach it to a Dragon-type. Since you're off to the Pokémon League, this may help you."
+        ]
+    }
+}

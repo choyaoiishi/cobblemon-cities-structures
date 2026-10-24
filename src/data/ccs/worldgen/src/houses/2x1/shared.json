@@ -18,6 +18,69 @@
 			{
 				"location": "ccs:houses/2x1/tree"
 			}
+		],
+		"basic": [
+			{
+				"weight": 5,
+				"location": "ccs:houses/2x1/small"
+			},
+			{
+				"weight": 5,
+				"location": "ccs:houses/2x1/small_1"
+			}
+		],
+		
+		"modern_2": [
+			{
+				"weight": 10,
+				"element": {
+					"element_type": "lithostitched:delegating",
+					"delegate": {
+						"location": "ccs:houses/2x1/modern_5",
+						"processors": "ccs:#town_id/modern_2"
+					},
+					"allow_bounding_box_collisions": true
+				}
+			},
+			{
+				"weight": 10,
+				"element": {
+					"element_type": "lithostitched:delegating",
+					"delegate": {
+						"location": "ccs:houses/2x1/modern_6",
+						"processors": "ccs:#town_id/modern_2"
+					},
+					"allow_bounding_box_collisions": true
+				}
+			},
+			{
+				"weight": 10,
+				"element": {
+					"element_type": "lithostitched:delegating",
+					"delegate": {
+						"location": "ccs:houses/2x1/modern_7",
+						"processors": "ccs:#town_id/modern_2"
+					},
+					"allow_bounding_box_collisions": true
+				}
+			}
+		],
+		"modern_3": [
+			{
+				"weight": 5,
+				"location": "ccs:houses/2x1/modern_6",
+				"processors": "ccs:#town_id/modern_2"
+			},
+			{
+				"weight": 5,
+				"location": "ccs:houses/2x1/modern_5",
+				"processors": "ccs:#town_id/modern_2"
+			},
+			{
+				"weight": 5,
+				"location": "ccs:houses/2x1/modern_7",
+				"processors": "ccs:#town_id/modern_2"
+			}
 		]
 	}
 }

@@ -1,0 +1,43 @@
+{
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();"
+    }
+  },
+  "pages": [
+    {
+      "id": "line_1",
+      "speaker": "npc",
+      "lines": [
+        "It is true that a higher level Pokemon will be more powerful..."
+      ],
+      "input": [
+        "q.dialogue.set_page('line_2');"
+      ]
+    },
+    {
+      "id": "line_2",
+      "speaker": "npc",
+      "lines": [
+        "But, all Pokemon will have weak points against specific types."
+      ],
+      "input": [
+        "q.dialogue.set_page('line_3');"
+      ]
+    },
+    {
+      "id": "line_3",
+      "speaker": "npc",
+      "lines": [
+        "So, there is no universally strong Pokemon."
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    }
+  ]
+}

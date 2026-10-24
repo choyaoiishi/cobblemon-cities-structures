@@ -10,9 +10,7 @@ TOWN_BIOMES = {
         "#cobblemon:is_peak"
     ],
     "cerulean": [
-        "#cobblemon:is_ocean",
-        "#cobblemon:is_beach",
-        "#cobblemon:is_river"
+        "#cobblemon:is_lukewarm_and_temperate_ocean"
     ],
     "vermilion": [
         "#cobblemon:is_savanna"

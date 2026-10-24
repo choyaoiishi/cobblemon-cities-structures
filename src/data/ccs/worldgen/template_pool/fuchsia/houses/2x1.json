@@ -19,22 +19,13 @@
             "weight": 1,
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "location": "ccs:houses/fuchsia/2x1/pond",
-                "processors": "ccs:fuchsia/general",
-                "projection": "rigid"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
                 "location": "ccs:houses/fuchsia/2x1/torii",
                 "processors": "ccs:fuchsia/general",
                 "projection": "rigid"
             }
         },
         {
-            "weight": 5,
+            "weight": 2,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "ccs:houses/fuchsia/2x1/bamboo",
@@ -53,6 +44,24 @@
                     "processors": "ccs:fuchsia/general"
                 },
                 "limit": 1
+            }
+        },
+        {
+            "weight": 5,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:houses/2x1/small",
+                "processors": "ccs:fuchsia/general",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 5,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:houses/2x1/small_1",
+                "processors": "ccs:fuchsia/general",
+                "projection": "rigid"
             }
         }
     ]

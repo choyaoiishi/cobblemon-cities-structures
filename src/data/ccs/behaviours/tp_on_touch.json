@@ -1,0 +1,30 @@
+{
+  "name": "tp_on_touch",
+  "description": "tp_on_touch",
+  "configurations": [
+    {
+      "type": "add_variables",
+      "variables": [
+        {
+          "variableName": "tp_marker",
+          "displayName": "tp_marker",
+          "description": "tp_marker",
+          "type": "TEXT",
+          "defaultValue": ""
+        }
+      ]
+    },
+    {
+      "type": "add_tasks_to_activity",
+      "activity": "idle",
+      "tasksByPriority": {
+        "0": [
+          {
+            "type": "run_script",
+            "script": "ccs:tp_on_touch"
+          }
+        ]
+      }
+    }
+  ]
+}

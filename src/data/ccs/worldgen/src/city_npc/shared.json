@@ -7,16 +7,6 @@
 			"element": {
 				"element_type": "lithostitched:limited",
 				"delegate": {
-					"location": "ccs:city_npc/general/000"
-				},
-				"limit": 1
-			}
-		},
-		{
-			"weight": 1,
-			"element": {
-				"element_type": "lithostitched:limited",
-				"delegate": {
 					"location": "ccs:city_npc/general/001"
 				},
 				"limit": 1
@@ -168,6 +158,46 @@
 				"element_type": "lithostitched:limited",
 				"delegate": {
 					"location": "ccs:city_npc/general/016"
+				},
+				"limit": 1
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"location": "ccs:city_npc/general/017"
+				},
+				"limit": 1
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"location": "ccs:city_npc/general/018"
+				},
+				"limit": 1
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"location": "ccs:city_npc/general/019"
+				},
+				"limit": 1
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"location": "ccs:city_npc/general/020"
 				},
 				"limit": 1
 			}

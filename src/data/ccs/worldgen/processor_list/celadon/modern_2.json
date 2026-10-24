@@ -1,0 +1,56 @@
+{
+    "processors": [
+        {
+            "processor_type": "lithostitched:block_swap",
+            "blocks": {
+                "minecraft:lime_terracotta": "minecraft:green_concrete"
+            }
+        },
+        {
+            "processor_type": "lithostitched:reference",
+            "processor_lists": [
+                "ccs:celadon/base",
+                "ccs:others/green",
+                "ccs:celadon/general"
+            ]
+        },
+        {
+            "processor_type": "lithostitched:condition",
+            "random_mode": "per_piece",
+            "if_true": {
+                "type": "lithostitched:all_of",
+                "conditions": [
+                    {
+                        "type": "lithostitched:matching_blocks",
+                        "blocks": "minecraft:mangrove_slab",
+                        "match_type": "input"
+                    }
+                ]
+            },
+            "then": {
+                "processor_type": "lithostitched:set_block",
+                "state_provider": {
+                    "type": "minecraft:weighted_state_provider",
+                    "entries": [
+                        {
+                            "weight": 1,
+                            "data": {
+                                "Name": "minecraft:mangrove_slab"
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "data": {
+                                "Name": "minecraft:cherry_slab"
+                            }
+                        }
+                    ]
+                },
+                "random_mode": "per_piece"
+            },
+            "else": {
+                "processor_type": "minecraft:nop"
+            }
+        }
+    ]
+}

@@ -5,28 +5,15 @@
         {
             "weight": 150,
             "element": {
-                "element_type": "lithostitched:limited",
+                "element_type": "lithostitched:delegating",
                 "delegate": {
-                    "location": "ccs:houses/cerulean/3x2/gym",
+                    "location": "ccs:houses/cerulean/3x2/cave",
+                    "processors": "ccs:cerulean/cave",
                     "element_type": "minecraft:single_pool_element",
-                    "projection": "rigid",
-                    "processors": "ccs:cerulean/general"
+                    "projection": "rigid"
                 },
-                "limit": 1,
-                "min_depth": 3
-            }
-        },
-        {
-            "weight": 100,
-            "element": {
-                "element_type": "lithostitched:limited",
-                "delegate": {
-                    "location": "ccs:houses/cerulean/3x2/pool",
-                    "element_type": "minecraft:single_pool_element",
-                    "projection": "rigid",
-                    "processors": "ccs:cerulean/general"
-                },
-                "limit": 1
+                "allow_bounding_box_collisions": true,
+                "forced_count": 1
             }
         }
     ]

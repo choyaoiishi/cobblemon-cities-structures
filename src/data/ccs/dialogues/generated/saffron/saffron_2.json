@@ -1,0 +1,74 @@
+{
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();"
+    }
+  },
+  "pages": [
+    {
+      "id": "line_0",
+      "speaker": "npc",
+      "lines": [],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": [
+          "v.reward_type='tm';",
+          "v.reward='psychic';",
+          "t.reward_landing = q.run_script('ccs:reward__landing');",
+          "t.next_page = t.reward_landing == 'reward_give' ? 'line_1' : t.reward_landing;",
+          "q.dialogue.set_page(t.next_page)"
+        ]
+      }
+    },
+    {
+      "id": "reward_give",
+      "speaker": "npc",
+      "lines": [
+        "You wanted this!"
+      ],
+      "input": [
+        "q.run_script('ccs:give_reward');",
+        "q.dialogue.set_page('reward_gave');"
+      ]
+    },
+    {
+      "id": "reward_gave",
+      "speaker": "npc",
+      "lines": [
+        "TM29 is psychic! It lowers special stats."
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    },
+    {
+      "id": "bye",
+      "speaker": "npc",
+      "lines": [],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": [
+          "q.dialogue.close();"
+        ]
+      }
+    },
+    {
+      "id": "line_1",
+      "speaker": "npc",
+      "lines": [
+        "...Wait! Don't say a word!"
+      ],
+      "input": [
+        "q.dialogue.set_page('reward_give');"
+      ]
+    }
+  ]
+}

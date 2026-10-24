@@ -1,39 +1,26 @@
 {
   "hitbox": "player",
   "names": [
-    ""
+    "Teleport"
   ],
+  "hideNameTag": true,
   "isMovable": false,
-  "isInvulnerable": true,
   "canDespawn": false,
+  "isInvulnerable": true,
+  "allowProjectileHits": false,
   "ai": [
     {
       "type": "apply_behaviours",
       "behaviours": [
-        "cobblemon:core",
         "cobblemon:resource_identifier",
-        "cobblemon:stationary",
-        "cobblemon:looks_at_players"
+        "ccs:tp_on_touch"
       ]
-    }
-  ],
-  "config": [
-    {
-      "variableName": "resource_identifier",
-      "type": "TEXT",
-      "defaultValue": "cobblemon:abra"
     },
     {
-      "variableName": "offset_y",
-      "displayName": "offset_y",
-      "description": "offset_y",
-      "type": "NUMBER",
-      "defaultValue": "0"
+      "type": "set_variables",
+      "variableValues": {
+        "resource_identifier": "ccs:placeholder"
+      }
     }
-  ],
-  "interaction": {
-    "type": "dialogue",
-    "dialogue": "ccs:teleport"
-  },
-  "hideNameTag": true
+  ]
 }

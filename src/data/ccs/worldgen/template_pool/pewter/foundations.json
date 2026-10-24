@@ -12,7 +12,7 @@
             }
         },
         {
-            "weight": 2,
+            "weight": 10,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "ccs:foundations/2x1",
@@ -21,12 +21,17 @@
             }
         },
         {
-            "weight": 3,
+            "weight": 150,
             "element": {
-                "element_type": "minecraft:single_pool_element",
-                "location": "ccs:foundations/2x2",
-                "processors": "ccs:pewter/base",
-                "projection": "rigid"
+                "element_type": "lithostitched:guaranteed",
+                "delegate": {
+                    "location": "ccs:foundations/2x2",
+                    "processors": "ccs:pewter/base",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid"
+                },
+                "count": 3,
+                "min_depth": 2
             }
         },
         {
@@ -34,26 +39,13 @@
             "element": {
                 "element_type": "lithostitched:limited",
                 "delegate": {
-                    "location": "ccs:foundations/3x2",
+                    "location": "ccs:foundations/2x2",
                     "processors": "ccs:pewter/base",
                     "element_type": "minecraft:single_pool_element",
                     "projection": "rigid"
                 },
                 "limit": 1,
-                "min_depth": 5
-            }
-        },
-        {
-            "weight": 150,
-            "element": {
-                "element_type": "lithostitched:limited",
-                "delegate": {
-                    "location": "ccs:foundations/3x2",
-                    "processors": "ccs:pewter/base",
-                    "element_type": "minecraft:single_pool_element",
-                    "projection": "rigid"
-                },
-                "limit": 1
+                "min_depth": 3
             }
         }
     ]

@@ -1,0 +1,44 @@
+{
+  "name": "chat_on_seen",
+  "description": "chat_on_seen",
+  "configurations": [
+    {
+      "type": "add_variables",
+      "variables": [
+        {
+          "variableName": "chat_on_seen_enable",
+          "displayName": "chat_on_seen_enable",
+          "description": "chat_on_seen_enable",
+          "type": "BOOLEAN",
+          "defaultValue": "false"
+        },
+        {
+          "variableName": "chat_range",
+          "displayName": "chat_range",
+          "description": "chat_range",
+          "type": "NUMBER",
+          "defaultValue": "8"
+        },
+        {
+          "variableName": "chat_cooldown_ticks",
+          "displayName": "chat_cooldown_ticks",
+          "description": "chat_cooldown_ticks",
+          "type": "NUMBER",
+          "defaultValue": "600"
+        }
+      ]
+    },
+    {
+      "type": "add_tasks_to_activity",
+      "activity": "idle",
+      "tasksByPriority": {
+        "0": [
+          {
+            "type": "run_script",
+            "script": "ccs:chat_on_seen"
+          }
+        ]
+      }
+    }
+  ]
+}

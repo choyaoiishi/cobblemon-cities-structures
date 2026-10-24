@@ -2,22 +2,13 @@
 	{
 		"weight": 150,
 		"element": {
-			"element_type": "lithostitched:limited",
+			"element_type": "lithostitched:guaranteed",
 			"delegate": {
-				"location": "ccs:foundations/3x2",
+				"location": "ccs:foundations/2x2",
 				"processors": "ccs:celadon/base"
 			},
-			"limit": 1
+			"count": 1,
+			"min_depth": 2
 		}
-	},
-	{
-		"weight": 10,
-		"location": "ccs:foundations/2x2",
-		"processors": "ccs:celadon/general"
-	},
-	{
-		"weight": 10,
-		"location": "ccs:foundations/3x2",
-		"processors": "ccs:#town_id/base"
 	}
 ]

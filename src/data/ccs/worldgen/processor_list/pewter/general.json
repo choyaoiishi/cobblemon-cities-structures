@@ -25,7 +25,9 @@
                 "cobblemon:campfire_pot_black": "cobblemon:campfire_pot_gray",
                 // deco
                 "minecraft:polished_blackstone_wall": "minecraft:andesite_wall",
-                "minecraft:brick_slab": "minecraft:andesite_slab"
+                "minecraft:brick_slab": "minecraft:andesite_slab",
+
+                "minecraft:stone": "minecraft:cobblestone"
             }
         },
         {

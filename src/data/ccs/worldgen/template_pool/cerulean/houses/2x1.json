@@ -49,6 +49,24 @@
                 "processors": "ccs:cerulean/general",
                 "projection": "rigid"
             }
+        },
+        {
+            "weight": 5,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:houses/2x1/small",
+                "processors": "ccs:cerulean/general",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 5,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:houses/2x1/small_1",
+                "processors": "ccs:cerulean/general",
+                "projection": "rigid"
+            }
         }
     ]
 }

@@ -19,7 +19,7 @@
       "gender": "FEMALE",
       "level": 1,
       "nature": "adamant",
-      "ability": "intimidate",
+      "ability": "pickup",
       "moveset": [
         "splash"
       ],
@@ -36,9 +36,7 @@
         "atk": 252,
         "spe": 6
       },
-      "heldItem": [
-        "sitrus_berry"
-      ]
+      "heldItem": []
     }
   ]
 }

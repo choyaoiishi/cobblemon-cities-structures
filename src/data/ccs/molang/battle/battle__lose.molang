@@ -1,0 +1,1 @@
+q.run_script('ccs:chat__set_cooldown');

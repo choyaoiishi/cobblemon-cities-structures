@@ -17,7 +17,10 @@
         "type": "auto-continue",
         "delay": 0.01,
         "allowSkip": false,
-        "action": "t.npc_data = q.player.get_npc_data(q.npc); t.next_page = t.npc_data.item_gave == 1 ? 'item_gave' : 'line_1'; v.item_gave_line = t.npc_data.item_gave == 1 ? t.npc_data.item_gave_line : ''; q.dialogue.set_page(t.next_page)"
+        "action": [
+          "t.next_page = q.run_script('ccs:reward__landing_president');",
+          "q.dialogue.set_page(t.next_page);"
+        ]
       }
     },
     {
@@ -34,33 +37,28 @@
         "I have to thank you in some way! Because I am rich, I can give you anything!"
       ],
       "input": [
-        "v.item_id = q.player.data.silph_random_rewards != 1 ? 'cobblemon:master_ball' : q.random('cobblemon:rare_candy', 'minecraft:diamond', 'cobblemon:full_restore','cobblemon:master_ball');",
-        "v.item_qty = v.item_id == 'cobblemon:master_ball' ? 1 : 10;",
-        "v.item_gave_line = v.item_id == 'cobblemon:master_ball' ? 'You cant buy that anywhere! It is our secret prototype Master Ball! It will catch any Pokémon without fail! You should be quiet about using it, though.' : 'I hope these gifts from my personal vault can reward our hero a little bit!';",
-        "q.dialogue.set_page('give_item')"
+        
+        "q.dialogue.set_page('reward_give')"
       ]
     },
     {
-      "id": "give_item",
+      "id": "reward_give",
       "speaker": "npc",
       "lines": [
         "Here, maybe this will do!"
       ],
       "input": [
-        "q.run_command('give ' + q.player.username() + ' ' + v.item_id + ' ' + v.item_qty);",
-        "q.player.play_sound_on_server('ccs:item_get','blocks');",
-        "q.player.set_npc_variable(q.npc, 'item_gave', 1);",
-        "q.player.set_npc_variable(q.npc, 'item_gave_line', v.item_gave_line);",
-        "q.dialogue.set_page('item_gave');"
+        "q.run_script('ccs:give_reward');",
+        "q.dialogue.set_page('reward_gave');"
       ]
     },
     {
-      "id": "item_gave",
+      "id": "reward_gave",
       "speaker": "npc",
       "lines": [
         {
           "type": "expression",
-          "expression": "v.item_gave_line"
+          "expression": "v.reward_gave_line"
         }
       ],
       "input": [

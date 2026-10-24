@@ -1,0 +1,12 @@
+{
+  "name": "ccs:guitarist",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:standard",
+      "model": "cobblemon:steve.geo",
+      "texture": "ccs:textures/npcs/baked/npc/guitarist_var_0.png"
+    }
+  ]
+}

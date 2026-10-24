@@ -1,0 +1,118 @@
+{
+  "name": "cerulean_cave",
+  "type": "cobblemon:natural",
+  "spawns": [
+    {
+      "species": "Parasect",
+      "bucket": "common",
+      "spawnablePositionType": "grounded",
+      "weight": 20.0,
+      "levelRange": "68-70",
+      "phases": "1-5"
+    },
+    {
+      "species": "Golbat",
+      "bucket": "common",
+      "spawnablePositionType": "grounded",
+      "weight": 20.0,
+      "levelRange": "68-70",
+      "phases": "1-5"
+    },
+    {
+      "species": "Machamp",
+      "bucket": "common",
+      "spawnablePositionType": "grounded",
+      "weight": 20.0,
+      "levelRange": "68-70",
+      "phases": "1-2"
+    },
+    {
+      "species": "Conkeldurr",
+      "bucket": "common",
+      "spawnablePositionType": "grounded",
+      "weight": 20.0,
+      "levelRange": "68-70",
+      "phases": "2-3"
+    },
+    {
+      "species": "Primeape",
+      "bucket": "common",
+      "spawnablePositionType": "grounded",
+      "weight": 20.0,
+      "levelRange": "68-70",
+      "phases": "3-4"
+    },
+    {
+      "species": "Medicham",
+      "bucket": "common",
+      "spawnablePositionType": "grounded",
+      "weight": 20.0,
+      "levelRange": "68-70",
+      "phases": "4-5"
+    },
+    {
+      "species": "Lopunny",
+      "bucket": "uncommon",
+      "spawnablePositionType": "grounded",
+      "weight": 10.0,
+      "levelRange": "68-70",
+      "phases": "1-2"
+    },
+    {
+      "species": "Audino",
+      "bucket": "uncommon",
+      "spawnablePositionType": "grounded",
+      "weight": 10.0,
+      "levelRange": "68-70",
+      "phases": "3-4"
+    },
+    {
+      "species": "Gardevoir",
+      "bucket": "uncommon",
+      "spawnablePositionType": "grounded",
+      "weight": 5.0,
+      "levelRange": "68-70",
+      "phases": "4-5"
+    },
+    {
+      "species": "Alakazam",
+      "bucket": "uncommon",
+      "spawnablePositionType": "grounded",
+      "weight": 10.0,
+      "levelRange": "68-70",
+      "phases": "1-2"
+    },
+    {
+      "species": "Reuniclus",
+      "bucket": "uncommon",
+      "spawnablePositionType": "grounded",
+      "weight": 10.0,
+      "levelRange": "68-70",
+      "phases": "4-5"
+    },
+    {
+      "species": "Magneton",
+      "bucket": "common",
+      "spawnablePositionType": "grounded",
+      "weight": 20.0,
+      "levelRange": "68-70",
+      "phases": "1-5"
+    },
+    {
+      "species": "Duraludon",
+      "bucket": "rare",
+      "spawnablePositionType": "grounded",
+      "weight": 8.0,
+      "levelRange": "68-70",
+      "phases": "1-2"
+    },
+    {
+      "species": "Excadrill",
+      "bucket": "rare",
+      "spawnablePositionType": "grounded",
+      "weight": 8.0,
+      "levelRange": "68-70",
+      "phases": "4-5"
+    }
+  ]
+}

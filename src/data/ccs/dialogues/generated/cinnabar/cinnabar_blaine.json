@@ -1,0 +1,109 @@
+{
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();"
+    }
+  },
+  "pages": [
+    {
+      "id": "line_0",
+      "speaker": "npc",
+      "lines": [],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": [
+          "t.next_page = q.run_script('ccs:battle__landing');",
+          "q.dialogue.set_page(t.next_page);"
+        ]
+      }
+    },
+    {
+      "id": "line_1",
+      "speaker": "npc",
+      "lines": [
+        "Hah! I am Blaine! I am the Leader of Cinnabar Gym!"
+      ],
+      "input": [
+        "q.dialogue.set_page('battle');"
+      ]
+    },
+    {
+      "id": "battle",
+      "speaker": "npc",
+      "lines": [
+        "My fiery Pok\u00e9mon will incinerate all challengers! Hah! You better have Burn Heal!"
+      ],
+      "input": [
+        "v.advancement='leader_blaine';",
+        "q.player.set_npc_variable(q.npc, 'advancement', v.advancement);",
+        "q.player.set_npc_variable(q.npc, 'trainer_id', 'leader_blaine_01a3');",
+        "q.dialogue.close();",
+        "!q.is_blank(v.advancement) ? q.run_command('/execute at @e[type=marker,tag=' + v.advancement + '_pos,limit=1,sort=nearest] run tp ' + q.player.username() + ' ~ ~ ~ facing entity ' + q.npc.uuid() );",
+        "q.run_command('tbcs battle GEN_9_SINGLES ' + q.player.username() + ' vs ' + q.npc.uuid() + ' as rctmod:leader_blaine_01a3')"
+      ]
+    },
+    {
+      "id": "win",
+      "speaker": "npc",
+      "lines": [
+        "I have burnt out! You have earned the Volcano Badge!"
+      ],
+      "input": [
+        "v.reward_type='tm';",
+        "v.reward='fireblast';",
+        "t.next_page = q.run_script('ccs:battle__landing_win');",
+        "q.dialogue.set_page(t.next_page)"
+      ]
+    },
+    {
+      "id": "reward_give",
+      "speaker": "npc",
+      "lines": [
+        "Here, you can have this too!"
+      ],
+      "input": [
+        "q.run_script('ccs:give_reward');",
+        "q.dialogue.set_page('reward_gave');"
+      ]
+    },
+    {
+      "id": "reward_gave",
+      "speaker": "npc",
+      "lines": [
+        "TM38 contains Fire Blast! Teach it to fire-type Pok\u00e9mon! Charmeleon or Ponyta would be good bets!"
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    },
+    {
+      "id": "won",
+      "speaker": "npc",
+      "lines": [
+        "Fire Blast is the ultimate fire technique! Don't waste it on water Pok\u00e9mon!"
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    },
+    {
+      "id": "bye",
+      "speaker": "npc",
+      "lines": [],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": [
+          "q.dialogue.close();"
+        ]
+      }
+    }
+  ]
+}

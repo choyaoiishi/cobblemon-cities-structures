@@ -4,7 +4,7 @@
 		"element": {
 			"element_type": "lithostitched:limited",
 			"delegate": {
-				"location": "ccs:city_npc/viridian/000"
+				"location": "ccs:city_npc/viridian/002"
 			},
 			"limit": 1
 		}

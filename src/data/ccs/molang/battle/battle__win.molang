@@ -1,0 +1,18 @@
+q.run_script('ccs:chat__set_cooldown');
+t.data = q.player.data(); 
+t.data.win = 1; 
+q.player.save_data(); 
+
+q.player.set_npc_variable(q.npc, 'won', 1);
+t.cooldown = q.player.world.game_time + (20 * 120);
+q.player.set_npc_variable(q.npc, 'win_cooldown', t.cooldown);
+
+t.advancement = q.player.get_npc_variable(q.npc, 'advancement');
+t.trainer_id = q.player.get_npc_variable(q.npc, 'trainer_id');
+
+!q.is_blank(t.advancement) ? {
+	q.run_command('/rctmod player set progress '+ q.player.username() + ' after ' + t.trainer_id);
+	q.run_command('/advancement grant ' + q.player.username() + ' only rctmod:trainers/defeat_' + t.advancement);
+};
+
+q.npc.run_dialogue(q.player, q.npc.config.dialogue_selection);

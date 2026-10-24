@@ -1,14 +1,13 @@
 {
-  "hitbox": {
-    "width": 1.3,
-    "height": 2.3
-  },
+  "hitbox": "player",
+  "hideNameTag": true,
   "isMovable": false,
-  "isInvulnerable": true,
-  "names": [
-    ""
-  ],
   "canDespawn": false,
+  "isInvulnerable": true,
+  "allowProjectileHits": false,
+  "names": [
+    "Slot Machine"
+  ],
   "ai": [
     {
       "type": "apply_behaviours",
@@ -17,16 +16,14 @@
         "cobblemon:resource_identifier",
         "cobblemon:stationary"
       ]
-    }
-  ],
-  "config": [
+    },
     {
-      "variableName": "resource_identifier",
-      "type": "TEXT",
-      "defaultValue": "ccs:placeholder"
+      "type": "set_variables",
+      "variableValues": {
+        "resource_identifier": "ccs:pc"
+      }
     }
   ],
-  "hideNameTag": true,
   "interaction": {
     "type": "dialogue",
     "dialogue": "ccs:slot_machine"

@@ -1,0 +1,33 @@
+{
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();"
+    }
+  },
+  "pages": [
+    {
+      "id": "line_1",
+      "speaker": "npc",
+      "lines": [
+        "Even if they are the same level, Pokemon can have very different abilities."
+      ],
+      "input": [
+        "q.dialogue.set_page('line_2');"
+      ]
+    },
+    {
+      "id": "line_2",
+      "speaker": "npc",
+      "lines": [
+        "A Pokemon raised by a trainer is stronger than one in the wild."
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    }
+  ]
+}

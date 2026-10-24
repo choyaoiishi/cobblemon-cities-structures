@@ -1,0 +1,26 @@
+{
+  "name": "ccs:rocket/grunt",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:standard",
+      "model": "cobblemon:steve.geo",
+      "texture": "ccs:textures/npcs/layered-assets/team_rocket_grunt.png",
+      "layers": [
+        {
+          "name": "base",
+          "texture": "ccs:textures/npcs/layered-assets/base.png"
+        },
+        {
+          "name": "cloth",
+          "texture": "ccs:textures/npcs/layered-assets/team_rocket_grunt.png"
+        },
+        {
+          "name": "eye",
+          "texture": "ccs:textures/npcs/layered-assets/eye_1.png"
+        }
+      ]
+    }
+  ]
+}

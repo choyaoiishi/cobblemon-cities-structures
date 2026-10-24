@@ -1,0 +1,5 @@
+t.data = q.player.data();
+t.data.win = 0;
+q.player.save_data();
+
+return q.run_script('ccs:reward__landing');

@@ -1,0 +1,94 @@
+{
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();"
+    }
+  },
+  "pages": [
+    {
+      "id": "line_0",
+      "speaker": "npc",
+      "lines": [],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": [
+          "v.reward_type='item';",
+          "v.reward='cobblemon:old_amber_fossil';",
+          "t.reward_landing = q.run_script('ccs:reward__landing');",
+          "t.next_page = t.reward_landing == 'reward_give' ? 'line_1' : t.reward_landing;",
+          "q.dialogue.set_page(t.next_page)"
+        ]
+      }
+    },
+    {
+      "id": "reward_give",
+      "speaker": "npc",
+      "lines": [
+        "Take this to a POKEMON LAB and get it examined!"
+      ],
+      "input": [
+        "q.run_script('ccs:give_reward');",
+        "q.dialogue.set_page('reward_gave');"
+      ]
+    },
+    {
+      "id": "reward_gave",
+      "speaker": "npc",
+      "lines": [
+        "Ssh! Get the OLD AMBER checked!"
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    },
+    {
+      "id": "bye",
+      "speaker": "npc",
+      "lines": [],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": [
+          "q.dialogue.close();"
+        ]
+      }
+    },
+    {
+      "id": "line_1",
+      "speaker": "npc",
+      "lines": [
+        "Ssh! I think that this chunk of AMBER contains POKEMON DNA!"
+      ],
+      "input": [
+        "q.dialogue.set_page('line_2');"
+      ]
+    },
+    {
+      "id": "line_2",
+      "speaker": "npc",
+      "lines": [
+        "It would be great if POKEMON could be resurrected from it!"
+      ],
+      "input": [
+        "q.dialogue.set_page('line_3');"
+      ]
+    },
+    {
+      "id": "line_3",
+      "speaker": "npc",
+      "lines": [
+        "But, my colleagues just ignore me! So I have a favor to ask!"
+      ],
+      "input": [
+        "q.dialogue.set_page('reward_give');"
+      ]
+    }
+  ]
+}

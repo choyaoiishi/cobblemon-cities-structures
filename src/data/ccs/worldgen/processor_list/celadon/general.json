@@ -10,14 +10,6 @@
         {
             "processor_type": "lithostitched:block_swap",
             "blocks": {
-                "minecraft:stripped_warped_hyphae": "minecraft:stripped_cherry_wood",
-                "minecraft:prismarine_bricks": "minecraft:pink_concrete",
-                "minecraft:stripped_spruce_wood": "minecraft:quartz_bricks",
-                "minecraft:stripped_oak_wood": "minecraft:smooth_quartz",
-                "minecraft:stone_brick_stairs": "minecraft:cherry_stairs",
-                // "minecraft:stone_brick_wall": "minecraft:cherry_fence",
-                // "minecraft:stone_bricks": "minecraft:cherry_planks",
-                // "minecraft:stone_brick_slab": "minecraft:cherry_slab",
                 "minecraft:spruce_planks": "minecraft:cherry_planks",
                 "minecraft:spruce_slab": "minecraft:cherry_slab",
                 "minecraft:spruce_trapdoor": "minecraft:dark_oak_trapdoor",
@@ -33,9 +25,9 @@
                 "cobblemon:campfire_pot_black": "cobblemon:campfire_pot_green",
                 "minecraft:black_bed": "minecraft:green_bed",
                 // lamp
-                "minecraft:polished_blackstone_wall": "minecraft:andesite_wall",
+                "minecraft:polished_blackstone_wall": "minecraft:deepslate_tile_wall",
                 // deco
-                "minecraft:brick_slab": "minecraft:quartz_slab"
+                "minecraft:brick_slab": "minecraft:smooth_stone_slab"
                 
             }
         },

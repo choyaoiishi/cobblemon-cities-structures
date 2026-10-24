@@ -1,0 +1,127 @@
+{
+    "pokemart": {
+        "lines": [],
+        "shop": [
+            "pokemart_1",
+            "pokemart",
+            "Welcome! What do you need?",
+            "Please come again!"
+        ]
+    },
+    "1": {
+        "lines": [
+            "Even if they are the same level, Pokemon can have very different abilities.",
+            "A Pokemon raised by a trainer is stronger than one in the wild."
+        ]
+    },
+    "2": {
+        "lines": [
+            "I think Pokemon can be good or evil.",
+            "It depends on the trainer."
+        ]
+    },
+    "3": {
+        "lines": [
+            "You can't win with just one strong Pokemon.",
+            "It's tough, but you have to raise them evenly."
+        ]
+    },
+    "4": {
+        "lines": [
+            "Pokemon can still learn techniques after canceling evolution.",
+            "Evolution can wait until new moves have been learned."
+        ]
+    },
+    "5": {
+        "lines": [
+            "Pokemon CENTERS are wonderful! They heal Pokemon completely.",
+            "Even conditions like sleep, burn, poison and others are cured."
+        ]
+    },
+    "6": {
+        "lines": [
+            "It is true that a higher level Pokemon will be more powerful...",
+            "But, all Pokemon will have weak points against specific types.",
+            "So, there is no universally strong Pokemon."
+        ]
+    },
+    "7": {
+        "lines": [
+            "Have you seen any Rare Candy?",
+            "It's supposed to make Pokemon go up one level!"
+        ]
+    },
+    "8": {
+        "lines": [
+            "You're a trainer too?",
+            "Collecting, fighting, it's a tough life."
+        ]
+    },
+    "9": {
+        "lines": [
+            "There's a Pokemon Center in every town.",
+            "They don't charge any money either!"
+        ]
+    },
+    "10": {
+        "lines": [
+            "Technology is incredible!",
+            "You can now store and recall Pokemon as data via PC!"
+        ]
+    },
+    "11": {
+        "lines": [
+            "Coming up with nicknames is fun, but hard.",
+            "Simple names are the easiest to remember."
+        ]
+    },
+    "12": {
+        "lines": [
+            "Good things can happen if you raise Pokemon diligently, even the weak ones!"
+        ]
+    },
+    "13": {
+        "lines": [
+            "A shady, old man got me to buy this really weird fish Pokemon!",
+            "It's totally weak and it cost P500!"
+        ]
+    },
+    "14": {
+        "lines": [
+            "Pokemon learn new techniques as they grow!",
+            "But, some moves must be taught by the trainer!"
+        ]
+    },
+    "15": {
+        "lines": [
+            "Pokemon become easier to catch when they are hurt or asleep!",
+            "But, it's not a sure thing!"
+        ]
+    },
+    "16": {
+        "lines": [
+            "Many Pokemon live only in forests and caves.",
+            "You need to look everywhere to get different kinds!"
+        ]
+    },
+    "17": {
+        "lines": [
+            "I ran out of POKE BALLs to catch Pokemon with! You should carry extras!"
+        ]
+    },
+    "18": {
+        "lines": [
+            "Did you try X SPEED? It speeds up a Pokemon in battle!"
+         ]
+    },
+    "19": {
+        "lines": [
+            "You know Revive? It revives any fainted Pokemon!"
+        ]
+    },
+    "20": {
+        "lines": [
+            "I was given a PP UP as a gift. It's used for increasing the PP of techniques!"
+        ]
+    }
+}

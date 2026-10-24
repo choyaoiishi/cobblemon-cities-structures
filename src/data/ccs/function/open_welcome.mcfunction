@@ -1,0 +1,1 @@
+opendialogue ccs:welcome @s

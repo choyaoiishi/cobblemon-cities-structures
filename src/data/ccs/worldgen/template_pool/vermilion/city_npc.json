@@ -7,19 +7,6 @@
             "element": {
                 "element_type": "lithostitched:limited",
                 "delegate": {
-                    "location": "ccs:city_npc/general/000",
-                    "element_type": "minecraft:single_pool_element",
-                    "projection": "rigid",
-                    "processors": "ccs:vermilion/general"
-                },
-                "limit": 1
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "lithostitched:limited",
-                "delegate": {
                     "location": "ccs:city_npc/general/001",
                     "element_type": "minecraft:single_pool_element",
                     "projection": "rigid",
@@ -224,6 +211,58 @@
             }
         },
         {
+            "weight": 1,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:city_npc/general/017",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:vermilion/general"
+                },
+                "limit": 1
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:city_npc/general/018",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:vermilion/general"
+                },
+                "limit": 1
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:city_npc/general/019",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:vermilion/general"
+                },
+                "limit": 1
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:city_npc/general/020",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:vermilion/general"
+                },
+                "limit": 1
+            }
+        },
+        {
             "weight": 150,
             "element": {
                 "element_type": "lithostitched:guaranteed",
@@ -260,7 +299,7 @@
             "element": {
                 "element_type": "lithostitched:limited",
                 "delegate": {
-                    "location": "ccs:city_npc/vermilion/000",
+                    "location": "ccs:city_npc/vermilion/003",
                     "element_type": "minecraft:single_pool_element",
                     "projection": "rigid",
                     "processors": "ccs:vermilion/general"

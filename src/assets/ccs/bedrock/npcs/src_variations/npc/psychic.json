@@ -1,0 +1,22 @@
+{
+  "name": "ccs:psychic",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:standard",
+      "model": "cobblemon:steve.geo",
+      "texture": "ccs:textures/npcs/layered-assets/psychic.png",
+      "layers": [
+        {
+          "name": "base",
+          "texture": "ccs:textures/npcs/layered-assets/base.png"
+        },
+        {
+          "name": "cloth",
+          "texture": "ccs:textures/npcs/layered-assets/psychic.png"
+        }
+      ]
+    }
+  ]
+}

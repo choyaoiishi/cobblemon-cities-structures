@@ -4,14 +4,14 @@
     "mod_id": "waystones"
   },
   "type": "lithostitched:add_template_pool_elements",
-  "template_pools": "ccs:npc",
+  "template_pools": "ccs:waystone",
   "elements": [
     {
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "ccs:npc/waystone",
+        "location": "ccs:waystone",
         "processors": "minecraft:empty"
       }
     }

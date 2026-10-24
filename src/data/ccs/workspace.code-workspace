@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "./"
+		}
+	],
+	"settings": {
+		"phpcbf.onsave": true,
+		"files.exclude": {
+			"**/cache": true,
+			"**/vendors": true,
+			"node_modules": true
+		}
+	}
+}

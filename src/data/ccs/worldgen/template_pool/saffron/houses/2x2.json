@@ -12,8 +12,7 @@
                     "projection": "rigid",
                     "processors": "ccs:saffron/general"
                 },
-                "limit": 1,
-                "min_depth": 3
+                "limit": 1
             }
         },
         {
@@ -26,21 +25,20 @@
                     "projection": "rigid",
                     "processors": "ccs:saffron/general"
                 },
-                "limit": 1,
-                "min_depth": 3
+                "limit": 1
             }
         },
         {
-            "weight": 1,
+            "weight": 150,
             "element": {
-                "element_type": "lithostitched:delegating",
+                "element_type": "lithostitched:limited",
                 "delegate": {
-                    "location": "ccs:houses/2x2/modern_3",
-                    "processors": "ccs:saffron/modern",
+                    "location": "ccs:houses/saffron/2x2/gym",
                     "element_type": "minecraft:single_pool_element",
-                    "projection": "rigid"
+                    "projection": "rigid",
+                    "processors": "ccs:saffron/general"
                 },
-                "allow_bounding_box_collisions": true
+                "limit": 1
             }
         }
     ]

@@ -1,0 +1,20 @@
+{
+  "hitbox": "player",
+  "names": [
+    ""
+  ],
+  "hideNameTag": true,
+  "isMovable": false,
+  "canDespawn": false,
+  "isInvulnerable": true,
+  "allowProjectileHits": false,
+  "ai": [
+    {
+      "type": "apply_behaviours",
+      "behaviours": [
+        "cobblemon:resource_identifier"
+      ]
+    }
+  ],
+  "config": []
+}

@@ -1,3 +1,12 @@
 [
-	"basic"
+	{
+		"weight": 100,
+		"element": {
+			"element_type": "lithostitched:limited",
+			"delegate": {
+				"location": "ccs:houses/cerulean/2x2/pool"
+			},
+			"limit": 1
+		}
+	}
 ]

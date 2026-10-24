@@ -17,11 +17,16 @@
         "type": "auto-continue",
         "delay": 0.01,
         "allowSkip": false,
-        "action": "t.npc_data = q.player.get_npc_data(q.npc); t.next_page = t.npc_data.item_looted == 1 ? 'item_looted' : 'line_1'; q.dialogue.set_page(t.next_page)"
+        "action": [
+          "v.reward_type='item';",
+          "v.reward = q.npc.config.item_id;",
+          "t.reward_landing = q.run_script('ccs:reward__landing');",
+          "q.dialogue.set_page(t.reward_landing)"
+        ]
       }
     },
     {
-      "id": "line_1",
+      "id": "reward_give",
       "speaker": "player",
       "lines": [],
       "input": {
@@ -29,15 +34,13 @@
         "delay": 0.01,
         "allowSkip": false,
         "action": [
-          "q.run_command('give ' + q.player.username() + ' ' + q.npc.config.item_id + ' 1');",
-          "q.player.play_sound_on_server('ccs:item_get','blocks');",
-          "q.player.set_npc_variable(q.npc, 'item_looted', 1);",
-          "q.dialogue.set_page('line_2')"
+          "q.run_script('ccs:give_reward');",
+          "q.dialogue.set_page('reward_give_1')"
         ]
       }
     },
     {
-      "id": "line_2",
+      "id": "reward_give_1",
       "speaker": "player",
       "lines": [
         {
@@ -45,13 +48,12 @@
           "expression": "'You found a ' + q.npc.config.item_name + '!'"
         }
       ],
-      "action": [],
       "input": [
         "q.dialogue.close();"
       ]
     },
     {
-      "id": "item_looted",
+      "id": "reward_gave",
       "speaker": "player",
       "lines": [
         "You've already claimed this loot!"

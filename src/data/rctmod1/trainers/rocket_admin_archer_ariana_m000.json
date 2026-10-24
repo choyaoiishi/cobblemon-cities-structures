@@ -1,6 +1,6 @@
 {
-  "name": "Rocket Admins Archer \u0026 Ariana",
-  "identity": "Rocket Admin Archer",
+  "name": "test",
+  "identity": "test",
   "ai": {
     "type": "rct",
     "data": {
@@ -12,186 +12,55 @@
     "maxItemUses": 2
   },
   "bag": [
-    {
-      "item": "cobblemon:full_restore",
-      "quantity": 2
-    }
   ],
   "team": [
     {
-      "species": "incineroar",
+      "species": "magikarp",
       "gender": "FEMALE",
       "level": 1,
       "nature": "adamant",
-      "ability": "intimidate",
+      "ability": "pickup",
       "moveset": [
-        "fakeout",
-        "partingshot",
-        "darkestlariat",
-        "firepunch"
+        "splash"
       ],
       "ivs": {
-        "hp": 31,
-        "atk": 31,
-        "def": 31,
-        "spa": 31,
-        "spd": 31,
-        "spe": 31
+        "hp": 1,
+        "atk": 1,
+        "def": 1,
+        "spa": 1,
+        "spd": 1,
+        "spe": 1
       },
       "evs": {
         "hp": 252,
         "atk": 252,
         "spe": 6
       },
-      "heldItem": [
-        "sitrus_berry"
-      ]
+      "heldItem": []
     },
     {
-      "species": "gothitelle",
-      "gender": "MALE",
-      "level": 1,
-      "nature": "modest",
-      "ability": "competitive",
-      "moveset": [
-        "psychic",
-        "shadowball",
-        "hiddenpower",
-        "thunderwave"
-      ],
-      "ivs": {
-        "hp": 31,
-        "atk": 31,
-        "def": 30,
-        "spa": 30,
-        "spd": 30,
-        "spe": 30
-      },
-      "evs": {
-        "hp": 252,
-        "spa": 252,
-        "spe": 4
-      },
-      "heldItem": [
-        "colbur_berry"
-      ]
-    },
-    {
-      "species": "primarina",
-      "gender": "FEMALE",
-      "level": 1,
-      "nature": "modest",
-      "ability": "liquidvoice",
-      "moveset": [
-        "hypervoice",
-        "scald",
-        "psychic",
-        "dazzlinggleam"
-      ],
-      "ivs": {
-        "hp": 31,
-        "atk": 31,
-        "def": 31,
-        "spa": 31,
-        "spd": 31,
-        "spe": 31
-      },
-      "evs": {
-        "hp": 6,
-        "spa": 252,
-        "spe": 252
-      },
-      "heldItem": [
-        "throat_spray"
-      ]
-    },
-    {
-      "species": "aegislash",
+      "species": "magikarp",
       "gender": "FEMALE",
       "level": 1,
       "nature": "adamant",
-      "ability": "stancechange",
+      "ability": "pickup",
       "moveset": [
-        "ironhead",
-        "shadowclaw",
-        "shadowsneak",
-        "kingsshield"
+        "splash"
       ],
       "ivs": {
-        "hp": 31,
-        "atk": 31,
-        "def": 31,
-        "spa": 31,
-        "spd": 31,
-        "spe": 31
+        "hp": 1,
+        "atk": 1,
+        "def": 1,
+        "spa": 1,
+        "spd": 1,
+        "spe": 1
       },
       "evs": {
         "hp": 252,
         "atk": 252,
         "spe": 6
       },
-      "heldItem": [
-        "leftovers"
-      ]
-    },
-    {
-      "species": "mawile",
-      "gender": "MALE",
-      "level": 1,
-      "nature": "adamant",
-      "ability": "intimidate",
-      "moveset": [
-        "playrough",
-        "suckerpunch",
-        "ironhead",
-        "thunderpunch"
-      ],
-      "ivs": {
-        "hp": 31,
-        "atk": 31,
-        "def": 31,
-        "spa": 31,
-        "spd": 31,
-        "spe": 31
-      },
-      "evs": {
-        "hp": 252,
-        "atk": 252,
-        "spe": 6
-      },
-      "heldItem": [
-        "mega_showdown:mawilite",
-        "expert_belt"
-      ]
-    },
-    {
-      "species": "houndoom",
-      "gender": "MALE",
-      "level": 1,
-      "nature": "timid",
-      "ability": "unnerve",
-      "moveset": [
-        "heatwave",
-        "darkpulse",
-        "scorchingsands",
-        "suckerpunch"
-      ],
-      "ivs": {
-        "hp": 31,
-        "atk": 31,
-        "def": 31,
-        "spa": 31,
-        "spd": 31,
-        "spe": 31
-      },
-      "evs": {
-        "hp": 6,
-        "spa": 252,
-        "spe": 252
-      },
-      "heldItem": [
-        "expert_belt"
-      ]
+      "heldItem": []
     }
   ]
 }

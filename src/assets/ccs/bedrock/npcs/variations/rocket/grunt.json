@@ -6,17 +6,7 @@
       "aspects": [],
       "poser": "cobblemon:standard",
       "model": "cobblemon:steve.geo",
-      "texture": "ccs:textures/npcs/layered-assets/base.png",
-      "layers": [
-        {
-          "name": "cloth",
-          "texture": "ccs:textures/npcs/layered-assets/team_rocket_grunt.png"
-        },
-        {
-          "name": "eye",
-          "texture": "ccs:textures/npcs/layered-assets/eye_1.png"
-        }
-      ]
+      "texture": "ccs:textures/npcs/baked/rocket/grunt_var_0.png"
     }
   ]
 }

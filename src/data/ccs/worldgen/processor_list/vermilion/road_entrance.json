@@ -1,0 +1,12 @@
+{
+    "processors": [
+
+        {
+            "processor_type": "lithostitched:reference",
+            "processor_lists": [
+                "ccs:others/road_entrance",
+                "ccs:vermilion/base"
+            ]
+        }
+    ]
+}

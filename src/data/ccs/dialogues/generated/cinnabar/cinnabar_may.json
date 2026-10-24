@@ -1,0 +1,119 @@
+{
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();"
+    }
+  },
+  "pages": [
+    {
+      "id": "line_0",
+      "speaker": "npc",
+      "lines": [],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": [
+          "t.next_page = q.run_script('ccs:battle__landing');",
+          "q.dialogue.set_page(t.next_page);"
+        ]
+      }
+    },
+    {
+      "id": "line_1",
+      "speaker": "npc",
+      "lines": [
+        "Brendan talks about you very often; you seem to be a big motivator for him."
+      ],
+      "input": [
+        "q.dialogue.set_page('line_2');"
+      ]
+    },
+    {
+      "id": "line_2",
+      "speaker": "npc",
+      "lines": [
+        "Oh right! I'm May. Brendan and I both come from Hoenn."
+      ],
+      "input": [
+        "q.dialogue.set_page('battle');"
+      ]
+    },
+    {
+      "id": "battle",
+      "speaker": "npc",
+      "lines": [
+        "Well, I could use a warm-up before I face Blaine."
+      ],
+      "input": [
+        "v.advancement='trainer_may';",
+        "q.player.set_npc_variable(q.npc, 'advancement', v.advancement);",
+        "q.player.set_npc_variable(q.npc, 'trainer_id', 'trainer_may_003d');",
+        "q.dialogue.close();",
+        "!q.is_blank(v.advancement) ? q.run_command('/execute at @e[type=marker,tag=' + v.advancement + '_pos,limit=1,sort=nearest] run tp ' + q.player.username() + ' ~ ~ ~ facing entity ' + q.npc.uuid() );",
+        "q.run_command('tbcs battle GEN_9_SINGLES ' + q.player.username() + ' vs ' + q.npc.uuid() + ' as rctmod:trainer_may_003d')"
+      ]
+    },
+    {
+      "id": "win",
+      "speaker": "npc",
+      "lines": [
+        "I may as well see how skilled you are myself! I see why Brendan looks up to you now."
+      ],
+      "input": [
+        "v.reward_type='pokemon';",
+        "v.reward='torchic';",
+        "t.next_page = q.run_script('ccs:battle__landing_win');",
+        "q.dialogue.set_page(t.next_page)"
+      ]
+    },
+    {
+      "id": "reward_give",
+      "speaker": "npc",
+      "lines": [
+        "I don't know if we'll bump into each other again, so please, have this."
+      ],
+      "input": [
+        "q.run_script('ccs:give_reward');",
+        "q.dialogue.set_page('reward_gave');"
+      ]
+    },
+    {
+      "id": "reward_gave",
+      "speaker": "npc",
+      "lines": [
+        "Take care!"
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    },
+    {
+      "id": "won",
+      "speaker": "npc",
+      "lines": [
+        "Take care!"
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    },
+    {
+      "id": "bye",
+      "speaker": "npc",
+      "lines": [],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": [
+          "q.dialogue.close();"
+        ]
+      }
+    }
+  ]
+}

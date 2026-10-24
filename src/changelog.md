@@ -1,3 +1,23 @@
+### 24-10-2026 - 1.0.13
+#### structures:
+- changed grid from 9x9 to 11x11 to make cities more compact
+- rebuilt saffron houses, celadon houses, and silph co to match the game design
+	- silph co now uses teleporter tiles instead of abra
+- updated rocket game center hidden stairs
+- added cerulean cave
+- added road entrances so roads connect directly to buildings
+- added street decorations as streets are wider now
+- changed biome tags to cobblemon tags to support modded biomes
+
+#### config:
+- changed the silph reward command to: /opendialogue ccs:server_config @s
+
+#### npc:
+- npcs can now start dialogue when they see you
+- added minimap icons
+- moved npc text to dialogue files for easier updates
+- moved npc functions like rewards and trades into molang for easier maintenance
+
 ### 14-10-2026 - 1.0.12
 - add optional starter kit and start radical red series in the welcome dialogue
 - change pewter search radius to 100

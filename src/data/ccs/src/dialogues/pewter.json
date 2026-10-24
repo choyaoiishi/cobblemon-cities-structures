@@ -1,0 +1,107 @@
+{
+    "1": {
+        "lines": [
+            "Oh dear, I think I gave that poor guard too many Pewter Crunchies to eat...",
+            "They are rather dry if you dont have any tea or anything to wash them down..."
+        ]
+    },
+    "2": {
+        "lines": [
+            "It's rumored that CLEFAIRYs came from the moon!",
+            "They appeared after MOON STONE fell on MT.MOON."
+        ]
+    },
+    "3": {
+        "lines": [
+            "What!? TEAM ROCKET is at MT.MOON?",
+            "Huh? I'm on the phone! Scram!"
+        ]
+    },
+    "4": {
+        "trade": [
+            "venonat",
+            "Venonat",
+            "tangela",
+            "Tangela",
+            "Crinkles"
+        ]
+    },
+    "pokemart": {
+        "lines": [],
+        "shop": [
+            "pewter/pokemart",
+            "pokemart",
+            "Welcome! What do you need?",
+            "Please come again!"
+        ]
+    },
+    "food_truck": {
+        "lines": [],
+        "shop": [
+            "pewter/pewter_fries",
+            "",
+            "Welcome! What do you need?",
+            "Please come again!"
+        ]
+    },
+    "museum_1": {
+        "lines": [
+            "We are proud of 2 fossils of very rare, prehistoric POKEMON!"
+        ]
+    },
+    "museum_2": {
+        "lines": [
+            "Ssh! I think that this chunk of AMBER contains POKEMON DNA!",
+            "It would be great if POKEMON could be resurrected from it!",
+            "But, my colleagues just ignore me! So I have a favor to ask!"
+        ],
+        "reward": [
+            "item",
+            "cobblemon:old_amber_fossil",
+            "Take this to a POKEMON LAB and get it examined!",
+            "Ssh! Get the OLD AMBER checked!"
+        ]
+    },
+    "archer": {
+        "lines": [
+            "Are you the twerp messing with my grunts?"
+        ],
+        "battle": [
+            "rocket_admin_archer_002e",
+            "Little kid, you think you\\'re brave, eh? I'll teach you a valuable lesson.",
+            "Whatever, we've done everything we needed. I won\\'t be as nice to you next time.",
+            "I\\'ll be seeing you.",
+            "rocket_admin_archer_1"
+        ]
+    },
+    "grunt_1": {
+        "lines": [
+            "Huh?"
+        ],
+        "battle": [
+            "team_rocket_grunt_0160",
+            "We're pulling a big job here! Get lost, kid!",
+            "Urgh! Now I'm mad!",
+            "If you find a fossil, give it to me and scram!"
+        ]
+    },
+    "brock": {
+        "lines": [
+            "I'm Brock! I'm Pewter's Gym Leader! I believe in rock hard defense and determination!",
+            "That's why my Pokémon are all the rock-type!"
+        ],
+        "battle": [
+            "leader_brock_019e",
+            "Do you still want to challenge me? Fine then! Show me your best!",
+            "I took you for granted. As proof of your victory, here's the Boulder Badge! That's an official Pokémon League Badge!",
+            "There are all kinds of trainers in the world! You appear to be very gifted as a Pokémon trainer! Go to the Gym in Cerulean and test your abilities!",
+            "leader_brock"
+        ],
+        "reward":[
+            "tm",
+            "rocktomb",
+            "Wait! Take this with you!",
+            "A TM, Technical Machine, contains a technique for Pokémon. Using a TM teaches the move it contains to a Pokémon. Anyways TM39 contains Rock Tomb. It hurls boulders at the foe and lowers its Speed."
+        ]
+    }
+}

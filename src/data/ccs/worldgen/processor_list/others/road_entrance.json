@@ -1,0 +1,54 @@
+{
+    "processors": [
+        {
+            "processor_type": "lithostitched:condition",
+            "random_mode": "per_block",
+            "if_true": {
+                "type": "lithostitched:any_of",
+                "conditions": [
+                    {
+                        "type": "lithostitched:matching_blocks",
+                        "blocks": [
+                            "minecraft:air",
+                            "minecraft:cave_air",
+                            "minecraft:void_air"
+                        ],
+                        "match_type": "location"
+                    },
+                    {
+                        "type": "lithostitched:not",
+                        "condition": {
+                            "type": "lithostitched:matching_blocks",
+                            "blocks": [
+                                "cobblefurnies:minted_porcelain",
+                                "minecraft:smooth_quartz",
+                                "minecraft:quartz_block",
+                                "minecraft:light_gray_concrete",
+                                "minecraft:red_sandstone",
+                                "minecraft:cobblestone",
+                                "minecraft:mossy_cobblestone",
+                                "minecraft:stone",
+                                "minecraft:smooth_stone",
+                                "minecraft:dirt",
+                                "minecraft:andesite",
+                                "minecraft:grass_block",
+                                "minecraft:stone_bricks",
+                                "minecraft:mossy_stone_bricks",
+                                "minecraft:polished_andesite",
+                                "minecraft:light_gray_concrete_powder",
+                                "minecraft:dark_oak_planks"
+                            ],
+                            "match_type": "location"
+                        }
+                    }
+                ]
+            },
+            "then": {
+                "processor_type": "lithostitched:discard_input"
+            },
+            "else": {
+                "processor_type": "minecraft:nop"
+            }
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+v.reward_type == 'tm' ? {
+	q.run_command('givetm ' + v.reward + ' ' +  q.player.username());
+    q.player.play_sound_on_server('ccs:item_get','blocks');
+    q.player.set_npc_variable(q.npc, 'reward_gave', 1);
+	return 1;
+};
+
+v.reward_type == 'item' ? {
+	t.qty = v.reward_qty != 0 ? v.reward_qty : 1;
+	q.run_command('give ' + q.player.username() + ' ' + v.reward + ' ' + t.qty);
+    q.player.play_sound_on_server('ccs:item_get','blocks');
+    q.player.set_npc_variable(q.npc, 'reward_gave', 1);
+	return 1;
+};
+
+v.reward_type == 'pokemon' ? {
+	q.run_command('pokegiveother ' + q.player.username() + ' ' + v.reward);
+	q.player.play_sound_on_server('ccs:pokemon_get','blocks');
+    q.player.set_npc_variable(q.npc, 'reward_gave', 1);
+	return 1;
+};
+
+return 0;

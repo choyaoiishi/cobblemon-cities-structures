@@ -1,0 +1,101 @@
+{
+  "speakers": {
+    "npc": {
+      "name": "Server Config",
+      "face": {
+        "type": "artificial",
+        "modelType": "npc",
+        "identifier": "ccs:scientist",
+        "aspects": []
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "init",
+      "speaker": "npc",
+      "lines": [],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": [
+          "v.server = q.player.world.server();",
+          "v.data = v.server.data();",
+          "q.dialogue.set_page('config_menu')"
+        ]
+      }
+    },
+    {
+      "id": "config_menu",
+      "speaker": "npc",
+      "lines": [
+        "Below are the config available:"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "Silph Co. Rewards",
+            "value": "silph_reward",
+            "action": [
+              "q.dialogue.set_page('silph_reward')"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "silph_reward",
+      "speaker": "npc",
+      "lines": [
+        "Should Silph Co. completion rewards fixed or randomized?",
+        " ",
+        {
+          "type": "expression",
+          "expression": "'Currently is: ' + q.run_script('ccs:reward__silph_status');"
+        }
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "Fixed",
+            "value": "fixed",
+            "isSelectable": "v.data.silph_random_rewards == 1",
+            "action": [
+              "v.data.silph_random_rewards = 0;",
+              "v.server.save_data();",
+              "q.dialogue.set_page('silph_reward_set')"
+            ]
+          },
+          {
+            "text": "Random",
+            "value": "random",
+            "isSelectable": "v.data.silph_random_rewards == 0",
+            "action": [
+              "v.data.silph_random_rewards = 1;",
+              "v.server.save_data();",
+              "q.dialogue.set_page('silph_reward_set')"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "silph_reward_set",
+      "speaker": "npc",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "'Updated. Rewards are now: ' + q.run_script('ccs:reward__silph_status');"
+        }
+      ],
+      "input": [
+        "q.dialogue.set_page('config_menu');"
+      ]
+    }
+  ]
+}

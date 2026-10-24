@@ -1,0 +1,30 @@
+{
+  "name": "ccs:camper",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:standard",
+      "model": "cobblemon:steve.geo",
+      "texture": "ccs:textures/npcs/layered-assets/camper.png",
+      "layers": [
+        {
+          "name": "base",
+          "texture": "ccs:textures/npcs/layered-assets/base.png"
+        },
+        {
+          "name": "cloth",
+          "texture": "ccs:textures/npcs/layered-assets/camper.png"
+        },
+        {
+          "name": "eye",
+          "texture": "ccs:textures/npcs/layered-assets/eye_3.png"
+        },
+        {
+          "name": "eyebrown",
+          "texture": "ccs:textures/npcs/layered-assets/eyebrown.png"
+        }
+      ]
+    }
+  ]
+}

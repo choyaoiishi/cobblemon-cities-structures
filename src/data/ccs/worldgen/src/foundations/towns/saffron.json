@@ -1,12 +1,14 @@
 [
 	{
-		"weight": 10,
-		"location": "ccs:foundations/2x2",
-		"processors": "ccs:#town_id/base"
-	},
-	{
-		"weight": 10,
-		"location": "ccs:foundations/3x2",
-		"processors": "ccs:#town_id/base"
+		"weight": 150,
+		"element": {
+			"element_type": "lithostitched:guaranteed",
+			"delegate": {
+				"location": "ccs:foundations/3x2",
+				"processors": "ccs:saffron/base"
+			},
+			"count": 1,
+			"min_depth": 2
+		}
 	}
 ]

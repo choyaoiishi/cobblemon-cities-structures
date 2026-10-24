@@ -1,0 +1,20 @@
+v.reward_type='item';
+
+v.reward = q.player.get_npc_variable(q.npc, 'reward');
+
+v.reward == 0 ? {
+    v.server = q.player.world.server();
+    v.data = v.server.data();
+    v.reward = v.data.silph_random_rewards != 1 ? 'cobblemon:master_ball' : q.random('cobblemon:rare_candy', 'minecraft:diamond', 'cobblemon:full_restore','cobblemon:master_ball');
+    q.player.set_npc_variable(q.npc, 'reward', v.reward);
+};
+
+v.reward_qty = v.reward == 'cobblemon:master_ball' ? 1 : 10;
+
+v.reward_gave_line = v.reward == 'cobblemon:master_ball' ? 'You cant buy that anywhere! It is our secret prototype Master Ball! It will catch any Pokémon without fail! You should be quiet about using it, though.' : 'Here, maybe this little token from my personal collection will do!';
+
+t.reward_landing = q.run_script('ccs:reward__landing');
+
+t.reward_landing == 'reward_give' ? return 'line_1';
+
+return t.reward_landing;

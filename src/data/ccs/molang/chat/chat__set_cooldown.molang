@@ -1,0 +1,3 @@
+t.cooldown = q.player.world.game_time + q.npc.config.chat_cooldown_ticks;
+q.player.set_npc_variable(q.npc, 'chat_cooldown', t.cooldown);
+q.player.save_data();

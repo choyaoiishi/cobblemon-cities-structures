@@ -1,0 +1,496 @@
+{
+  "initializationAction": "(q.npc.is_in_battle_with(q.player) || !q.npc.is_doing_activity('minecraft:idle', 'cobblemon:battling')) ? q.dialogue.close()",
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();"
+    },
+    "npc2": {
+      "name": "Archer",
+      "face": {
+        "type": "artificial",
+        "modelType": "npc",
+        "identifier": "ccs:rocket/archer",
+        "isLeftSide": false,
+        "aspects": []
+      }
+    },
+    "npc3": {
+      "name": "Ariana",
+      "face": {
+        "type": "artificial",
+        "modelType": "npc",
+        "identifier": "ccs:rocket/ariana",
+        "isLeftSide": true,
+        "aspects": []
+      }
+    },
+    "npc4": {
+      "name": "Mewtwo",
+      "face": {
+        "type": "artificial",
+        "modelType": "npc",
+        "identifier": "cobblemon:mewtwo",
+        "isLeftSide": false,
+        "aspects": []
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "line_0",
+      "speaker": "npc",
+      "lines": [],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": [
+          "t.next_page = q.run_script('ccs:battle__landing');",
+          "q.print(t.next_page);",
+          "q.dialogue.set_page(t.next_page);"
+        ]
+      }
+    },
+    {
+      "id": "line_1",
+      "speaker": "npc",
+      "lines": [
+        "I see you've come to stop me yet again."
+      ],
+      "input": [
+        "q.dialogue.set_page('2');"
+      ]
+    },
+    {
+      "id": "2",
+      "speaker": "npc",
+      "lines": [
+        "Unfortunately, you won't be the hero this time."
+      ],
+      "input": [
+        "q.dialogue.set_page('3');"
+      ]
+    },
+    {
+      "id": "3",
+      "speaker": "npc",
+      "lines": [
+        "You're too late."
+      ],
+      "input": [
+        "q.dialogue.set_page('4');"
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "npc",
+      "lines": [
+        "Mewtwo! You're mine!"
+      ],
+      "input": [
+        "q.dialogue.set_page('5');"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "npc",
+      "lines": [
+        "Master Ball, go!"
+      ],
+      "input": [
+        "q.dialogue.set_page('6');"
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "npc4",
+      "lines": [
+        "Mew!"
+      ],
+      "input": [
+        "q.dialogue.set_page('7');"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "npc",
+      "lines": [
+        "Aha! The Master Ball my scientists made works! I'm practically invincible!"
+      ],
+      "input": [
+        "q.dialogue.set_page('8');"
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "npc",
+      "lines": [
+        "You still dare to stop me knowing I have Mewtwo?"
+      ],
+      "input": [
+        "q.dialogue.set_page('battle');"
+      ]
+    },
+    {
+      "id": "battle",
+      "speaker": "npc",
+      "lines": [
+        "Well, the honor is mine, you insolent child!"
+      ],
+      "input": [
+        "v.advancement='boss_giovanni_3';",
+        "q.player.set_npc_variable(q.npc, 'advancement', v.advancement);",
+        "q.player.set_npc_variable(q.npc, 'trainer_id', 'boss_giovanni_0045');",
+        "q.dialogue.close();",
+        "q.run_command('/execute at @e[type=marker,tag=' + v.advancement + '_pos,limit=1,sort=nearest] run tp ' + q.player.username() + ' ~ ~ ~ facing entity ' + q.npc.uuid() );",
+        "q.run_command('tbcs battle GEN_9_DOUBLES ' + q.player.username() + ' vs ' + q.npc.uuid() + ' as rctmod:boss_giovanni_0045')"
+      ]
+    },
+    {
+      "id": "win",
+      "speaker": "npc",
+      "lines": [
+        "Even with Mega Mewtwo, I've fallen by your hands..."
+      ],
+      "input": [
+        "t.next_page = q.run_script('ccs:battle__landing_win');",
+        "q.dialogue.set_page('9');"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "npc",
+      "lines": [
+        "I am truly humbled."
+      ],
+      "input": [
+        "q.dialogue.set_page('10');"
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "npc",
+      "lines": [
+        "My plan for world domination is but a dream..."
+      ],
+      "input": [
+        "q.dialogue.set_page('11');"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "npc",
+      "lines": [
+        "I threw aside family for this..."
+      ],
+      "input": [
+        "q.dialogue.set_page('12');"
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "npc",
+      "lines": [
+        "Abandoned my wife, even my own son..."
+      ],
+      "input": [
+        "q.dialogue.set_page('13');"
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "npc",
+      "lines": [
+        "Despite my defeat at Silph Co, I couldn't give up on my plan."
+      ],
+      "input": [
+        "q.dialogue.set_page('14');"
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "npc",
+      "lines": [
+        "I admit, I was a victim of the sunk-cost fallacy..."
+      ],
+      "input": [
+        "q.dialogue.set_page('15');"
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "npc",
+      "lines": [
+        "But, I've given up literally everything for this..."
+      ],
+      "input": [
+        "q.dialogue.set_page('16');"
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "npc3",
+      "lines": [
+        "Boss!"
+      ],
+      "input": [
+        "q.dialogue.set_page('17');"
+      ]
+    },
+    {
+      "id": "17",
+      "speaker": "npc",
+      "lines": [
+        "Wha... Archer, Ariana?"
+      ],
+      "input": [
+        "q.dialogue.set_page('18');"
+      ]
+    },
+    {
+      "id": "18",
+      "speaker": "npc2",
+      "lines": [
+        "Not everything, sir."
+      ],
+      "input": [
+        "q.dialogue.set_page('19');"
+      ]
+    },
+    {
+      "id": "19",
+      "speaker": "npc3",
+      "lines": [
+        "You still have us!"
+      ],
+      "input": [
+        "q.dialogue.set_page('20');"
+      ]
+    },
+    {
+      "id": "20",
+      "speaker": "npc2",
+      "lines": [
+        "Please, sir, have faith in us!"
+      ],
+      "input": [
+        "q.dialogue.set_page('21');"
+      ]
+    },
+    {
+      "id": "21",
+      "speaker": "npc3",
+      "lines": [
+        "We've stuck with you through thick and thin..."
+      ],
+      "input": [
+        "q.dialogue.set_page('22');"
+      ]
+    },
+    {
+      "id": "22",
+      "speaker": "npc2",
+      "lines": [
+        "Boss, you could learn to rely on us, even if just a little..."
+      ],
+      "input": [
+        "q.dialogue.set_page('23');"
+      ]
+    },
+    {
+      "id": "23",
+      "speaker": "npc3",
+      "lines": [
+        "Could you have any doubt on our loyalty?"
+      ],
+      "input": [
+        "q.dialogue.set_page('24');"
+      ]
+    },
+    {
+      "id": "24",
+      "speaker": "npc3",
+      "lines": [
+        "Ever since you took us in when we were lowly children, with no home to go to..."
+      ],
+      "input": [
+        "q.dialogue.set_page('25');"
+      ]
+    },
+    {
+      "id": "25",
+      "speaker": "npc3",
+      "lines": [
+        "You're truly family to us!"
+      ],
+      "input": [
+        "q.dialogue.set_page('26');"
+      ]
+    },
+    {
+      "id": "26",
+      "speaker": "npc2",
+      "lines": [
+        "More than just our boss!"
+      ],
+      "input": [
+        "q.dialogue.set_page('27');"
+      ]
+    },
+    {
+      "id": "27",
+      "speaker": "npc2",
+      "lines": [
+        "Although we don't agree with everything you do, we will stand by you no matter what."
+      ],
+      "input": [
+        "q.dialogue.set_page('28');"
+      ]
+    },
+    {
+      "id": "28",
+      "speaker": "npc",
+      "lines": [
+        "You two..."
+      ],
+      "input": [
+        "q.dialogue.set_page('29');"
+      ]
+    },
+    {
+      "id": "29",
+      "speaker": "npc",
+      "lines": [
+        "I'm sorry..."
+      ],
+      "input": [
+        "q.dialogue.set_page('30');"
+      ]
+    },
+    {
+      "id": "30",
+      "speaker": "npc",
+      "lines": [
+        "My crude ambitions have blinded me..."
+      ],
+      "input": [
+        "q.dialogue.set_page('31');"
+      ]
+    },
+    {
+      "id": "31",
+      "speaker": "npc",
+      "lines": [
+        "You guys are more than family. We sh-"
+      ],
+      "input": [
+        "q.dialogue.set_page('32');"
+      ]
+    },
+    {
+      "id": "32",
+      "speaker": "npc",
+      "lines": [
+        "Wha?! Mewtwo escaped out of my Master Ball!"
+      ],
+      "input": [
+        "q.dialogue.set_page('33');"
+      ]
+    },
+    {
+      "id": "33",
+      "speaker": "npc4",
+      "lines": [
+        "Mew!"
+      ],
+      "input": [
+        "q.dialogue.set_page('34');"
+      ]
+    },
+    {
+      "id": "34",
+      "speaker": "npc",
+      "lines": [
+        "Perhaps my Master Ball was defective..."
+      ],
+      "input": [
+        "q.dialogue.set_page('35');"
+      ]
+    },
+    {
+      "id": "35",
+      "speaker": "npc",
+      "lines": [
+        "But, more importantly, Mewtwo deemed me unworthy..."
+      ],
+      "input": [
+        "q.dialogue.set_page('36');"
+      ]
+    },
+    {
+      "id": "36",
+      "speaker": "npc",
+      "lines": [
+        "It's time I turned it around."
+      ],
+      "input": [
+        "q.dialogue.set_page('37');"
+      ]
+    },
+    {
+      "id": "37",
+      "speaker": "npc",
+      "lines": [
+        "With the strength my loyal admins and I have, we could definitely make a legitimate living."
+      ],
+      "input": [
+        "q.dialogue.set_page('38');"
+      ]
+    },
+    {
+      "id": "38",
+      "speaker": "npc",
+      "lines": [
+        "I don't know if my son would ever forgive me..."
+      ],
+      "input": [
+        "q.dialogue.set_page('39');"
+      ]
+    },
+    {
+      "id": "39",
+      "speaker": "npc",
+      "lines": [
+        "But it's never too late to start an honest life."
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    },
+    {
+      "id": "won",
+      "speaker": "npc",
+      "lines": [
+        "Archer, Ariana... I'm indebted to both of you. To new beginnings!"
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    },
+    {
+      "id": "bye",
+      "speaker": "npc",
+      "lines": [],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": "q.dialogue.close();"
+      }
+    }
+  ]
+}

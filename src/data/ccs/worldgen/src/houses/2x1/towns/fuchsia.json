@@ -1,12 +1,9 @@
 [
 	{
-		"location": "ccs:houses/fuchsia/2x1/pond"
-	},
-	{
 		"location": "ccs:houses/fuchsia/2x1/torii"
 	},
 	{
-		"weight": 5,
+		"weight": 2,
 		"location": "ccs:houses/fuchsia/2x1/bamboo"
 	},
 	{
@@ -18,5 +15,6 @@
 			},
 			"limit": 1
 		}
-	}
+	},
+	"basic"
 ]

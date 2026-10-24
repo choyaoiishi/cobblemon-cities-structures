@@ -1,0 +1,14 @@
+t.marker = q.entity.config.tp_marker;
+
+t.marker == 0 ? return 0;
+
+math.mod(q.entity.world.game_time(), 5) != 0 ? return 0;
+v.player = 0;
+
+for_each(t.nearby, q.entity.get_nearby_entities(0.5), {
+    v.player = t.nearby.is_player() ? t.nearby : 0;
+});
+
+v.player == 0 ? return 0;
+
+q.run_command('/execute at @e[type=marker,tag=' + t.marker + ',limit=1,sort=nearest] run tp ' + v.player.username() + ' ~ ~ ~');

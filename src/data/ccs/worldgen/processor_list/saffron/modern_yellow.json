@@ -1,0 +1,16 @@
+{
+    "processors": [
+        {
+            "processor_type": "lithostitched:block_swap",
+            "blocks": {
+                "minecraft:deepslate_tiles": "minecraft:yellow_wool",
+                "minecraft:green_terracotta": "minecraft:yellow_wool",
+                "minecraft:lime_terracotta": "minecraft:yellow_concrete",
+                "minecraft:smooth_stone_slab": "minecraft:yellow_wool",
+                // "minecraft:dark_oak_trapdoor": "minecraft:bamboo_trapdoor",
+                "minecraft:glass_pane": "minecraft:orange_stained_glass_pane"
+                // "minecraft:deepslate_tile_slab": "minecraft:waxed_oxidized_cut_copper_slab"
+            }
+        }
+    ]
+}

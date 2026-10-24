@@ -1,0 +1,5 @@
+q.player.get_npc_variable(q.npc, 'reward_gave') ? return 'reward_gave';
+
+!q.is_blank(v.reward_type) ? return 'reward_give';
+
+return 'bye';

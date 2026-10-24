@@ -1,0 +1,5 @@
+{
+	"name": "ccs:waystone",
+	"fallback": "minecraft:empty",
+	"elements": []
+}

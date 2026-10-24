@@ -45,6 +45,24 @@
                 },
                 "limit": 1
             }
+        },
+        {
+            "weight": 5,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:houses/2x1/small",
+                "processors": "ccs:cinnabar/general",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 5,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:houses/2x1/small_1",
+                "processors": "ccs:cinnabar/general",
+                "projection": "rigid"
+            }
         }
     ]
 }

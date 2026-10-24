@@ -1,6 +1,6 @@
 {
-  "name": "Rocket Admins Archer \u0026 Ariana",
-  "identity": "Rocket Admin Archer",
+  "name": "test",
+  "identity": "test",
   "ai": {
     "type": "rct",
     "data": {
@@ -12,40 +12,31 @@
     "maxItemUses": 2
   },
   "bag": [
-    {
-      "item": "cobblemon:full_restore",
-      "quantity": 2
-    }
   ],
   "team": [
     {
-      "species": "incineroar",
+      "species": "magikarp",
       "gender": "FEMALE",
       "level": 1,
       "nature": "adamant",
-      "ability": "intimidate",
+      "ability": "pickup",
       "moveset": [
-        "fakeout",
-        "partingshot",
-        "darkestlariat",
-        "firepunch"
+        "splash"
       ],
       "ivs": {
-        "hp": 31,
-        "atk": 31,
-        "def": 31,
-        "spa": 31,
-        "spd": 31,
-        "spe": 31
+        "hp": 1,
+        "atk": 1,
+        "def": 1,
+        "spa": 1,
+        "spd": 1,
+        "spe": 1
       },
       "evs": {
         "hp": 252,
         "atk": 252,
         "spe": 6
       },
-      "heldItem": [
-        "sitrus_berry"
-      ]
+      "heldItem": []
     }
   ]
 }

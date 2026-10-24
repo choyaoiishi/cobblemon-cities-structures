@@ -12,6 +12,33 @@
             }
         },
         {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:decos/lamp_2",
+                "processors": "ccs:cinnabar/general",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:decos/lamp_3",
+                "processors": "ccs:cinnabar/general",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:decos/lamp_4",
+                "processors": "ccs:cinnabar/general",
+                "projection": "rigid"
+            }
+        },
+        {
             "weight": 5,
             "element": {
                 "element_type": "minecraft:empty_pool_element"

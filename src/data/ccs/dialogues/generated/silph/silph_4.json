@@ -1,0 +1,84 @@
+{
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();"
+    }
+  },
+  "pages": [
+    {
+      "id": "line_0",
+      "speaker": "npc",
+      "lines": [],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": [
+          "v.reward_type='tm';",
+          "v.reward='thunderwave';",
+          "t.reward_landing = q.run_script('ccs:reward__landing');",
+          "t.next_page = t.reward_landing == 'reward_give' ? 'line_1' : t.reward_landing;",
+          "q.dialogue.set_page(t.next_page)"
+        ]
+      }
+    },
+    {
+      "id": "reward_give",
+      "speaker": "npc",
+      "lines": [
+        "I'm sorry. Here, please take this!"
+      ],
+      "input": [
+        "q.run_script('ccs:give_reward');",
+        "q.dialogue.set_page('reward_gave');"
+      ]
+    },
+    {
+      "id": "reward_gave",
+      "speaker": "npc",
+      "lines": [
+        "Thunder Wave paralyzes the target Pok\u00e9mon. It may be unable to move in battle."
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    },
+    {
+      "id": "bye",
+      "speaker": "npc",
+      "lines": [],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": [
+          "q.dialogue.close();"
+        ]
+      }
+    },
+    {
+      "id": "line_1",
+      "speaker": "npc",
+      "lines": [
+        "Eeek! No! Stop! Help!"
+      ],
+      "input": [
+        "q.dialogue.set_page('line_2');"
+      ]
+    },
+    {
+      "id": "line_2",
+      "speaker": "npc",
+      "lines": [
+        "Oh, you're not with Team Rocket. I'm sorry, I thought..."
+      ],
+      "input": [
+        "q.dialogue.set_page('reward_give');"
+      ]
+    }
+  ]
+}

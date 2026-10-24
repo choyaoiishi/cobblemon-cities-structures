@@ -1,0 +1,70 @@
+{
+    "processors": [
+        {
+            "processor_type": "lithostitched:apply_random",
+            "mode": "per_piece",
+            "processor_lists": [
+                {
+                    "weight": 1,
+                    "data": "ccs:saffron/modern_yellow"
+                },
+                {
+                    "weight": 1,
+                    "data": "ccs:saffron/modern_black"
+                }
+            ]
+        },
+        {
+            "processor_type": "lithostitched:reference",
+            "processor_lists": [
+                "ccs:saffron/base",
+                "ccs:others/yellow",
+                "ccs:saffron/general"
+            ]
+        },
+        {
+            "processor_type": "lithostitched:condition",
+            "random_mode": "per_piece",
+            "if_true": {
+                "type": "lithostitched:all_of",
+                "conditions": [
+                    {
+                        "type": "lithostitched:matching_blocks",
+                        "blocks": "minecraft:mangrove_slab",
+                        "match_type": "input"
+                    }
+                ]
+            },
+            "then": {
+                "processor_type": "lithostitched:set_block",
+                "state_provider": {
+                    "type": "minecraft:weighted_state_provider",
+                    "entries": [
+                        {
+                            "weight": 1,
+                            "data": {
+                                "Name": "minecraft:mangrove_slab"
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "data": {
+                                "Name": "minecraft:cut_red_sandstone_slab"
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "data": {
+                                "Name": "minecraft:warped_slab"
+                            }
+                        }
+                    ]
+                },
+                "random_mode": "per_piece"
+            },
+            "else": {
+                "processor_type": "minecraft:nop"
+            }
+        }
+    ]
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "line_0",
+    "speaker": "npc",
+    "lines": [],
+    "input": {
+      "type": "auto-continue",
+      "delay": 0.01,
+      "allowSkip": false,
+      "action": [
+        "t.next_page = q.run_script('ccs:battle__landing');",
+        "q.dialogue.set_page(t.next_page);"
+      ]
+    }
+  },
+  {
+    "id": "battle",
+    "speaker": "npc",
+    "lines": [
+      "#battle_text"
+    ],
+    "input": [
+      "v.advancement='#advancement';",
+      "q.player.set_npc_variable(q.npc, 'advancement', v.advancement);",
+      "q.player.set_npc_variable(q.npc, 'trainer_id', '#trainer_id');",
+      "q.dialogue.close();",
+      "!q.is_blank(v.advancement) ? q.run_command('/execute at @e[type=marker,tag=' + v.advancement + '_pos,limit=1,sort=nearest] run tp ' + q.player.username() + ' ~ ~ ~ facing entity ' + q.npc.uuid() );",
+      "q.run_command('tbcs battle #battle_type ' + q.player.username() + ' vs ' + q.npc.uuid() + ' as rctmod:#trainer_id')"
+    ]
+  },
+  {
+    "id": "win",
+    "speaker": "npc",
+    "lines": [
+      "#win_text"
+    ],
+    "input": [
+      "v.reward_type='#reward_type';",
+      "v.reward='#reward_value';",
+      "t.next_page = q.run_script('ccs:battle__landing_win');",
+      "q.dialogue.set_page(t.next_page)"
+    ]
+  },
+  {
+    "id": "reward_give",
+    "speaker": "npc",
+    "lines": [
+      "#give_text"
+    ],
+    "input": [
+      "q.run_script('ccs:give_reward');",
+      "q.dialogue.set_page('reward_gave');"
+    ]
+  },
+  {
+    "id": "reward_gave",
+    "speaker": "npc",
+    "lines": [
+      "#take_text"
+    ],
+    "input": [
+      "q.dialogue.close();"
+    ]
+  },
+  {
+    "id": "won",
+    "speaker": "npc",
+    "lines": [
+      "#won_text"
+    ],
+    "input": [
+      "q.dialogue.close();"
+    ]
+  },
+  {
+    "id": "bye",
+    "speaker": "npc",
+    "lines": [],
+    "input": {
+      "type": "auto-continue",
+      "delay": 0.01,
+      "allowSkip": false,
+      "action": ["q.dialogue.close();"]
+    }
+  }
+]

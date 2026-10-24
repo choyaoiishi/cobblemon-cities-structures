@@ -1,0 +1,77 @@
+{
+    "1": {
+        "trade": [
+            "ponyta",
+            "Ponyta",
+            "seel",
+            "Seel",
+            "Sailor"
+        ]
+    },
+    "2": {
+        "lines": [
+            "Tch-tch-tch! I made a cool TM!"
+        ],
+        "reward": [
+            "tm",
+            "metronome",
+            "It can cause all kinds of fun!",
+            "Tch-tch-tch! That's the sound of a metronome! It tweaks your Pokemon's brain into using moves it doesn't know!"
+        ]
+    },
+    "pokemart": {
+        "lines": [],
+        "shop": [
+            "cinnabar/pokemart",
+            "pokemart",
+            "Welcome! What do you need?",
+            "Please come again!"
+        ]
+    },
+    "food_truck": {
+        "lines": [],
+        "shop": [
+            "cinnabar/lava_cookie",
+            "",
+            "Welcome! What do you need?",
+            "Please come again!"
+        ]
+    },
+    "blaine": {
+        "lines": [
+            "Hah! I am Blaine! I am the Leader of Cinnabar Gym!"
+        ],
+        "battle": [
+            "leader_blaine_01a3",
+            "My fiery Pokémon will incinerate all challengers! Hah! You better have Burn Heal!",
+            "I have burnt out! You have earned the Volcano Badge!",
+            "Fire Blast is the ultimate fire technique! Don't waste it on water Pokémon!",
+            "leader_blaine"
+        ],
+        "reward": [
+            "tm",
+            "fireblast",
+            "Here, you can have this too!",
+            "TM38 contains Fire Blast! Teach it to fire-type Pokémon! Charmeleon or Ponyta would be good bets!"
+        ]
+    },
+    "may": {
+        "lines": [
+            "Brendan talks about you very often; you seem to be a big motivator for him.",
+            "Oh right! I'm May. Brendan and I both come from Hoenn."
+        ],
+        "battle": [
+            "trainer_may_003d",
+            "Well, I could use a warm-up before I face Blaine.",
+            "I may as well see how skilled you are myself! I see why Brendan looks up to you now.",
+            "Take care!",
+            "trainer_may"
+        ],
+        "reward": [
+            "pokemon",
+            "torchic",
+            "I don't know if we'll bump into each other again, so please, have this.",
+            "Take care!"
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+v.player_party = q.player.party();
+v.target_pokemon = v.player_party.find_by_properties('species=cobblemon:'+ v.target_id);
+v.target_pokemon_uuid = v.target_pokemon != 0.0 ? v.target_pokemon.id() : 0;
+
+v.line_1 = q.random('Hello there! Do you want to trade your AAA for BBB?', 'Hi! Do you have AAA? Want to trade it for BBB?', 'I m looking for AAA! Wanna trade one for BBB?');
+
+v.line_traded = q.random('The BBB you traded to me went and evolved!', 'How is my old BBB? My AAA is doing great!', 'Isnt my old BBB great?', 'Hi! The AAA you traded me is doing great!', 'Hi, how is my old BBB doing?');
+    
+v.line_thanks = q.random('Thanks pal!', 'Hey thanks!', 'Thanks!');
+
+v.line_bye = q.random('Well, if you dont want to...', 'That is too bad.', 'Awww! Oh well...', 'You dont have one either? Gee, that is really disappointing...', 'You dont want to trade? Aww...');
+
+v.line_1 = q.replace(v.line_1, 'AAA', v.target_name);
+v.line_1 = q.replace(v.line_1, 'BBB', v.pokemon_name);
+v.line_traded = q.replace(v.line_traded, 'AAA', v.target_name);
+v.line_traded = q.replace(v.line_traded, 'BBB', v.pokemon_name);
+
+'next page';
+
+q.player.get_npc_variable(q.npc, 'traded') == 1 ? return 'traded';
+
+return 'line_1';

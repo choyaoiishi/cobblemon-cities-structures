@@ -1,0 +1,32 @@
+{
+  "hitbox": "player",
+  "names": [
+    ""
+  ],
+  "hideNameTag": true,
+  "isMovable": false,
+  "canDespawn": false,
+  "isInvulnerable": true,
+  "allowProjectileHits": false,
+  "ai": [
+    {
+      "type": "apply_behaviours",
+      "behaviours": [
+        "cobblemon:core",
+        "cobblemon:resource_identifier",
+        "cobblemon:stationary",
+        "cobblemon:looks_at_players",
+        "cobblemon:dialogue_selection",
+        "ccs:chat_on_seen"
+      ]
+    },
+    {
+      "type": "set_variables",
+      "variableValues": {
+        "on_player_wins": "'q.run_script(\\'ccs:battle__win\\');'",
+        "on_player_loses": "'q.run_script(\\'ccs:battle__lose\\');'"
+      }
+    }
+  ],
+  "config": []
+}

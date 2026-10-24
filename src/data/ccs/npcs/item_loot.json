@@ -1,7 +1,7 @@
 {
   "hitbox": "player",
   "names": [
-    ""
+    "Item"
   ],
   "isMovable": false,
   "isInvulnerable": true,
@@ -13,14 +13,15 @@
         "cobblemon:resource_identifier",
         "cobblemon:stationary"
       ]
+    },
+    {
+      "type": "set_variables",
+      "variableValues": {
+        "resource_identifier": "ccs:poke_ball"
+      }
     }
   ],
   "config": [
-    {
-      "variableName": "resource_identifier",
-      "type": "TEXT",
-      "defaultValue": "ccs:poke_ball"
-    },
     {
       "variableName": "item_name",
       "displayName": "item_name",

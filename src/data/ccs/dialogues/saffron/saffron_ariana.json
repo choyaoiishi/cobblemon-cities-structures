@@ -28,7 +28,10 @@
         "type": "auto-continue",
         "delay": 0.01,
         "allowSkip": false,
-        "action": "t.npc_data = q.player.get_npc_data(q.npc); t.next_page = q.player.data.win == 1 ? 'win' : (t.npc_data.won == 1 ? 'won' : 'line_1'); q.dialogue.set_page(t.next_page)"
+        "action": [
+          "t.next_page = q.run_script('ccs:battle__landing');",
+          "q.dialogue.set_page(t.next_page);"
+        ]
       }
     },
     {
@@ -98,8 +101,12 @@
         "Fine. Sorry kid, looks like your fun ends here."
       ],
       "input": [
-        "q.npc.config.advancement != '' ? q.run_command('/tp '+q.player.username()+' @e[type=marker,tag=' + q.npc.config.advancement + '_pos,limit=1,sort=nearest]');",
-        "q.run_command('tbcs battle ' + q.npc.config.battle_type + ' ' + q.player.username() + ' vs ' + q.npc.uuid() + ' as rctmod:' + q.npc.config.trainer_id);"
+        "v.advancement='rocket_admin_archer_and_ariana';",
+        "q.player.set_npc_variable(q.npc, 'advancement', v.advancement);",
+        "q.player.set_npc_variable(q.npc, 'trainer_id', 'rocket_admin_archer_ariana_m000');",
+        "q.dialogue.close();",
+        "q.run_command('/execute at @e[type=marker,tag=' + v.advancement + '_pos,limit=1,sort=nearest] run tp ' + q.player.username() + ' ~ ~ ~ facing entity ' + q.npc.uuid() );",
+        "q.run_command('tbcs battle GEN_9_DOUBLES ' + q.player.username() + ' vs ' + q.npc.uuid() + ' as rctmod:rocket_admin_archer_ariana_m000')"
       ]
     },
     {
@@ -109,41 +116,8 @@
         "Damn it. I really hate them kids. I'm shocked. Boss won't be happy about this."
       ],
       "input": [
-        "t.data = q.player.data(); t.data.win = 0; q.player.save_data();",
-        "q.player.set_npc_variable(q.npc, 'won', 1);",
-        "q.npc.config.advancement != '' ? q.run_command('/rctmod player set progress '+q.player.username()+' after ' + q.npc.config.trainer_id);",
-        "q.npc.config.advancement != '' ? q.run_command('/advancement grant '+q.player.username()+' only rctmod:trainers/defeat_' +q.npc.config.advancement);",
-        "t.next_page = q.npc.config.tm != '' ? 'give_tm' : 'bye';",
-        "q.dialogue.set_page(t.next_page)"
-      ]
-    },
-    {
-      "id": "give_tm",
-      "speaker": "npc",
-      "lines": [
-        {
-          "type": "expression",
-          "expression": "q.npc.config.line_give_tm"
-        }
-      ],
-      "input": [
-        "t.tm = q.npc.config.tm;",
-        "q.run_command('givetm ' + t.tm + ' ' +  q.player.username());",
-        "q.player.play_sound_on_server('ccs:item_get','blocks');",
-        "q.dialogue.set_page('tm_gave');"
-      ]
-    },
-    {
-      "id": "tm_gave",
-      "speaker": "npc",
-      "lines": [
-        {
-          "type": "expression",
-          "expression": "q.npc.config.line_tm_gave"
-        }
-      ],
-      "input": [
-        "q.dialogue.close();"
+        "t.next_page = q.run_script('ccs:battle__landing_win');",
+        "q.dialogue.set_page(t.next_page);"
       ]
     },
     {

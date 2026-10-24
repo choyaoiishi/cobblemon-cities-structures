@@ -1,0 +1,71 @@
+{
+    "1": {
+        "trade": [
+            "nidoranm",
+            "Nidoran (male)",
+            "nidoranf",
+            "Nidoran (female)",
+            "Spot"
+        ]
+    },
+    "2": {
+        "lines": [
+            "...Wait! Don't say a word!"
+        ],
+        "reward": [
+            "tm",
+            "psychic",
+            "You wanted this!",
+            "TM29 is psychic! It lowers special stats."
+        ]
+    },
+    "3": {
+        "lines": [
+            "It would be great if the Elite Four stopped Team Rocket!"
+        ]
+    },
+    "4": {
+        "lines": [
+            "Silph Co. is famous, which attracted Team Rocket!"
+        ]
+    },
+    "5": {
+        "lines": [
+            "I'm the fishing guru's brother! I love to fish!"
+        ],
+        "reward": [
+            "item",
+            "cobblemon:poke_rod[custom_name='\"Super Rod\"',lore=[\\'{\"text\":\"An awesome, high-tech fishing rod.\",\"color\":\"gray\"}\\'],enchantments={levels:{\"lure\":3}},rarity=\"epic\"]",
+            "Take this and fish!",
+            "Use the Super Rod in any water to catch different Pokémon!"
+        ]
+    },
+    "pokemart": {
+        "lines": [],
+        "shop": [
+            "saffron/pokemart",
+            "pokemart",
+            "Welcome! What do you need?",
+            "Please come again!"
+        ]
+    },
+    "sabrina": {
+        "lines": [
+            "I had a vision of your arrival!",
+            "I have had psychic powers since I was a child. I first learned to bend spoons with my mind."
+        ],
+        "battle": [
+            "leader_sabrina_01a4",
+            "I dislike fighting, but if you wish, I will show you my powers!",
+            "I'm shocked! But, a loss is a loss. I admit I didn't work hard enough to win! You earned the Marsh Badge!",
+            "Everyone has psychic power! People just don't realize it!",
+            "leader_sabrina"
+        ],
+        "reward": [
+            "tm",
+            "trickroom",
+            "Wait, please take this TM with you!",
+            "TM116 is Trick Room. It flips dimensions to allow slower Pokémon to go first. It's quite a potent strategy in Doubles."
+        ]
+    }
+}

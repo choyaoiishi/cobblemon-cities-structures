@@ -4,10 +4,11 @@
 		"element": {
 			"element_type": "lithostitched:limited",
 			"delegate": {
-				"location": "ccs:foundations/3x2",
+				"location": "ccs:foundations/2x2",
 				"processors": "ccs:pewter/base"
 			},
-			"limit": 1
+			"limit": 1,
+			"min_depth": 3
 		}
 	}
 ]

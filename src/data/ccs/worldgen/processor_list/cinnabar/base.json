@@ -6,7 +6,7 @@
                 // base
                 "minecraft:crying_obsidian": "minecraft:red_sandstone",
                 "minecraft:obsidian": "minecraft:red_sandstone",
-                "minecraft:birch_log": "minecraft:packed_mud",
+                "minecraft:birch_log": "minecraft:mud_bricks",
                 "minecraft:birch_wood": "minecraft:packed_mud"
             }
         },

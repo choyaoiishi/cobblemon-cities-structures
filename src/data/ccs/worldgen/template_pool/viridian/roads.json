@@ -3,7 +3,20 @@
     "fallback": "ccs:terminator",
     "elements": [
         {
-            "weight": 5,
+            "weight": 150,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:roads/s",
+                    "processors": "ccs:viridian/base",
+                    "projection": "terrain_matching",
+                    "element_type": "minecraft:single_pool_element"
+                },
+                "limit": 4
+            }
+        },
+        {
+            "weight": 3,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "ccs:roads/s",
@@ -36,6 +49,19 @@
                 "location": "ccs:roads/x",
                 "processors": "ccs:viridian/base",
                 "projection": "terrain_matching"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "lithostitched:delegating",
+                "delegate": {
+                    "location": "ccs:roads/entrance",
+                    "processors": "ccs:viridian/road_entrance",
+                    "projection": "terrain_matching",
+                    "element_type": "minecraft:single_pool_element"
+                },
+                "allow_bounding_box_collisions": true
             }
         }
     ]

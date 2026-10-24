@@ -1,0 +1,118 @@
+{
+    "1": {
+        "trade": [
+            "raichu",
+            "Raichu",
+            "electrode",
+            "Electrode",
+            "Doris"
+        ]
+    },
+    "2": {
+        "lines": [
+            "Hello, there! I've seen you, but I never had a chance to talk!"
+        ],
+        "reward": [
+            "tm",
+            "softboiled",
+            "Here's a gift for dropping by!",
+            "TM41 teaches Softboiled! Only one Pokémon can use it! That Pokémon is Chansey!"
+        ]
+    },
+    "pokemart": {
+        "lines": [],
+        "shop": [
+            "celadon/pokemart",
+            "pokemart",
+            "Welcome! What do you need?",
+            "Please come again!"
+        ]
+    },
+    "game_center": {
+        "lines": [
+            "Welcome to the Rocket Game Corner!"
+        ],
+        "shop": [
+            "celadon/game_center",
+            "",
+            "Do you need some game coins?",
+            "No? Please come play sometime!"
+        ]
+    },
+    "grunt_1": {
+        "lines": [
+            "I'm guarding this poster!"
+        ],
+        "battle": [
+            "team_rocket_grunt_016a",
+            "Go away, or else!",
+            "Dang!",
+            "Our hideout might be discovered! I better tell boss!"
+        ]
+    },
+    "grunt_2": {
+        "lines": [
+            "Who are you?"
+        ],
+        "battle": [
+            "team_rocket_grunt_016b",
+            "How did you get here?",
+            "Oww! Beaten!",
+            "You're not going to get away with this, brat!"
+        ]
+    },
+    "grunt_3": {
+        "lines": [
+            "!"
+        ],
+        "battle": [
+            "team_rocket_grunt_016c",
+            "We got word from upstairs that you were coming!",
+            "What? I lost? No!",
+            "Silph Scope? The machine the boss stole. It's here somewhere."
+        ]
+    },
+    "grunt_4": {
+        "lines": [
+            "I know you!"
+        ],
+        "battle": [
+            "team_rocket_grunt_016d",
+            "You ruined our plans at Pewter!",
+            "Burned again!",
+            "Do you have something against Team Rocket?"
+        ]
+    },
+    "giovanni": {
+        "lines": [
+            "So! I must say..."
+        ],
+        "battle": [
+            "boss_giovanni_015c",
+            "I am impressed you got here!",
+            "What! This cannot be!",
+            "I see that you raise Pokémon with utmost care. A child like you would never understand what I hope to achieve. I shall step aside this time! I hope we meet again...",
+            "boss_giovanni_1"
+        ]
+    },
+    "erika": {
+        "lines": [
+            "Hello. Lovely weather isn't it? It's so pleasant.",
+            "...Oh dear... I must have dozed off. Welcome. My name is Erika. I am the Leader of Celadon Gym.",
+            "I teach the art of flower arranging. My Pokémon are of the grass-type."
+        ],
+        "battle": [
+            "leader_erika_01a1",
+            "Oh, I'm sorry, I had no idea that you wished to challenge me. Very well, but I shall not lose.",
+            "Oh! I concede defeat. You are remarkably strong. I must confer you the Rainbow Badge.",
+            "You are cataloging Pokémon? I must say I'm impressed. I would never collect Pokémon if they were unattractive.",
+            "leader_erika"
+        ],
+        "reward": [
+            "tm",
+            "gigadrain",
+            "Please also take this with you.",
+            "TM19 contains Giga Drain. Half the damage it inflicts is drained to heal your Pokémon. Wouldn't you agree that it's a wonderful move?"
+        ]
+    }
+}

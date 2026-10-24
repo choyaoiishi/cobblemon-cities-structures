@@ -1,0 +1,12 @@
+{
+  "name": "ccs:rocket/archer",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:standard",
+      "model": "cobblemon:steve.geo",
+      "texture": "ccs:textures/npcs/baked/rocket/archer_var_0.png"
+    }
+  ]
+}

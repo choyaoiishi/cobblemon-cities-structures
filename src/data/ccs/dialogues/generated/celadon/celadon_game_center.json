@@ -1,0 +1,82 @@
+{
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();"
+    }
+  },
+  "pages": [
+    {
+      "id": "line_1",
+      "speaker": "npc",
+      "lines": [
+        "Welcome to the Rocket Game Corner!"
+      ],
+      "input": [
+        "q.dialogue.set_page('shop');"
+      ]
+    },
+    {
+      "id": "shop",
+      "speaker": "npc",
+      "lines": [],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": [
+          "v.bank = '';",
+          "q.dialogue.set_page('shop_1');"
+        ]
+      }
+    },
+    {
+      "id": "shop_1",
+      "speaker": "npc",
+      "lines": [
+        "Do you need some game coins?"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "Buy",
+            "value": "buy",
+            "action": [
+              "q.run_command('/execute as ' + q.player.username() + ' run cobblemerchant open shop ccs:celadon/game_center');"
+            ]
+          },
+          {
+            "text": "Sell",
+            "value": "sell",
+            "isVisible": "!q.is_blank(v.bank)",
+            "action": [
+              "q.run_command('/execute as ' + q.player.username() + ' run cobblemerchant open bank ccs:');"
+            ]
+          },
+          {
+            "text": "See ya!",
+            "value": "bye",
+            "action": [
+              "q.dialogue.set_page('bye');"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "bye",
+      "speaker": "npc",
+      "lines": [
+        "No? Please come play sometime!"
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    }
+  ]
+}

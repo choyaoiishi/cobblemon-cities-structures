@@ -1,12 +1,14 @@
 [
 	{
-		"weight": 100,
+		"weight": 150,
 		"element": {
-			"element_type": "lithostitched:limited",
+			"element_type": "lithostitched:delegating",
 			"delegate": {
-				"location": "ccs:houses/cerulean/3x2/pool"
+				"location": "ccs:houses/cerulean/3x2/cave",
+				"processors": "ccs:cerulean/cave"
 			},
-			"limit": 1
+			"allow_bounding_box_collisions": true,
+			"forced_count": 1
 		}
 	}
 ]

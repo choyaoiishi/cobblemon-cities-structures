@@ -1,1 +1,0 @@
-data modify storage ccs:config Config.SilphRandomRewards set value 1

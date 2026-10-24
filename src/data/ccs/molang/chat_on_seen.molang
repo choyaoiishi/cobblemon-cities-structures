@@ -1,0 +1,30 @@
+! q.entity.config.chat_on_seen_enable ? return 0;
+
+math.mod(q.entity.world.game_time(), 5) != 0 ? return 0;
+
+t.range = q.entity.config.chat_range;
+t.cooldown_ticks = q.entity.config.chat_cooldown_ticks;
+v.player = 0;
+
+for_each(t.nearby, q.entity.get_nearby_entities(t.range), {
+    v.player = t.nearby.is_player() && q.entity.can_see(t.nearby, t.range) ? t.nearby : 0;
+});
+
+'no player';
+v.player == 0 ? return 0;
+
+'already won';
+t.player.get_npc_variable(q.entity, 'won') ? return 0;
+
+t.player_ready = v.player.is_in_dialogue() != 1 && v.player.in_battle() != 1;
+t.player_ready != 1 ? return 0;
+
+t.chat_cooldown = v.player.get_npc_variable(q.entity, 'chat_cooldown');
+
+v.player.world.game_time < t.chat_cooldown ? return 0;
+
+q.set_query('player', v.player);
+q.set_query('npc', q.entity);
+q.run_script('ccs:chat__set_cooldown');
+
+q.entity.run_dialogue(v.player, q.entity.config.dialogue_selection);

@@ -3,7 +3,19 @@
 	"fallback": "ccs:terminator",
 	"elements": [
 		{
-			"weight": 5,
+			"weight": 150,
+			"element": {
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"location": "ccs:roads/s",
+					"processors": "ccs:#town_id/base",
+					"projection": "terrain_matching"
+				},
+				"limit": 4
+			}
+		},
+		{
+			"weight": 3,
 			"location": "ccs:roads/s",
 			"processors": "ccs:#town_id/base",
 			"projection": "terrain_matching"
@@ -22,6 +34,18 @@
 			"location": "ccs:roads/x",
 			"processors": "ccs:#town_id/base",
 			"projection": "terrain_matching"
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "lithostitched:delegating",
+				"delegate": {
+					"location": "ccs:roads/entrance",
+					"processors": "ccs:#town_id/road_entrance",
+					"projection": "terrain_matching"
+				},
+				"allow_bounding_box_collisions": true
+			}
 		}
 	]
 }

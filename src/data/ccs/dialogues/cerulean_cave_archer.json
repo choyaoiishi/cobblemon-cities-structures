@@ -1,0 +1,254 @@
+{
+  "initializationAction": "(q.npc.is_in_battle_with(q.player) || !q.npc.is_doing_activity('minecraft:idle', 'cobblemon:battling')) ? q.dialogue.close()",
+  "speakers": {
+    "npc": {
+      "name": "Ariana",
+      "face": {
+        "type": "artificial",
+        "modelType": "npc",
+        "identifier": "ccs:rocket/ariana",
+        "isLeftSide": false,
+        "aspects": []
+      }
+    },
+    "npc2": {
+      "name": "Archer",
+      "face": {
+        "type": "artificial",
+        "modelType": "npc",
+        "identifier": "ccs:rocket/archer",
+        "aspects": []
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "line_0",
+      "speaker": "npc",
+      "lines": [],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": [
+          "t.next_page = q.run_script('ccs:battle__landing');",
+          "q.dialogue.set_page(t.next_page);"
+        ]
+      }
+    },
+    {
+      "id": "line_1",
+      "speaker": "npc",
+      "lines": [
+        "You know... We're gonna cut the crap. "
+      ],
+      "input": [
+        "q.dialogue.set_page('2');"
+      ]
+    },
+    {
+      "id": "2",
+      "speaker": "npc",
+      "lines": [
+        "We honestly don't know what the boss is up to ourselves."
+      ],
+      "input": [
+        "q.dialogue.set_page('3');"
+      ]
+    },
+    {
+      "id": "3",
+      "speaker": "npc2",
+      "lines": [
+        "After his last defeat against you..."
+      ],
+      "input": [
+        "q.dialogue.set_page('4');"
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "npc2",
+      "lines": [
+        "He's definitely become unhinged."
+      ],
+      "input": [
+        "q.dialogue.set_page('5');"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "npc",
+      "lines": [
+        "Anyway..."
+      ],
+      "input": [
+        "q.dialogue.set_page('6');"
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "npc",
+      "lines": [
+        "He's never been one to tell us much..."
+      ],
+      "input": [
+        "q.dialogue.set_page('7');"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "npc",
+      "lines": [
+        "So we're basically in the dark about what this mission is..."
+      ],
+      "input": [
+        "q.dialogue.set_page('8');"
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "npc2",
+      "lines": [
+        "But orders are orders."
+      ],
+      "input": [
+        "q.dialogue.set_page('9');"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "npc2",
+      "lines": [
+        "We're loyal to the boss, perhaps to a fault."
+      ],
+      "input": [
+        "q.dialogue.set_page('battle');"
+      ]
+    },
+    {
+      "id": "battle",
+      "speaker": "npc2",
+      "lines": [
+        "You aren't getting to him."
+      ],
+      "input": [
+        "v.advancement='rocket_admin_archer_3';",
+        "q.player.set_npc_variable(q.npc, 'battle_back_to_back', 1);",
+        "q.player.set_npc_variable(q.npc, 'advancement', v.advancement);",
+        "q.player.set_npc_variable(q.npc, 'trainer_id', 'rocket_admin_archer_0043');",
+        "q.dialogue.close();",
+        "q.run_command('/execute at @e[type=marker,tag=rocket_admin_archer_3_pos,limit=1,sort=nearest] run tp ' + q.player.username() + ' ~ ~ ~ facing entity ' + q.npc.uuid() );",
+        "q.run_command('tbcs battle GEN_9_SINGLES ' + q.player.username() + ' vs ' + q.npc.uuid() + ' as rctmod:rocket_admin_archer_0043')"
+      ]
+    },
+    {
+      "id": "battle_2",
+      "speaker": "npc",
+      "lines": [
+        "Well here goes."
+      ],
+      "input": [
+        "v.advancement='rocket_admin_ariana_2';",
+        "q.player.set_npc_variable(q.npc, 'battle_back_to_back', 0);",
+        "q.player.set_npc_variable(q.npc, 'advancement', v.advancement);",
+        "q.player.set_npc_variable(q.npc, 'trainer_id', 'rocket_admin_ariana_0044');",
+        "q.dialogue.close();",
+        "q.run_command('/execute at @e[type=marker,tag=rocket_admin_archer_3_pos,limit=1,sort=nearest] run tp ' + q.player.username() + ' ~ ~ ~ facing entity ' + q.npc.uuid() );",
+        "q.run_command('tbcs battle GEN_9_SINGLES ' + q.player.username() + ' vs ' + q.npc.uuid() + ' as rctmod:rocket_admin_ariana_0044')"
+      ]
+    },
+    {
+      "id": "win",
+      "speaker": "npc",
+      "lines": [
+        "You might be the strongest trainer I've ever faced."
+      ],
+      "input": [
+        "q.dialogue.set_page('10');"
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "npc",
+      "lines": [
+        "Perhaps you may be able to talk some sense into our boss..."
+      ],
+      "input": [
+        "t.next_page = q.run_script('ccs:battle__landing_win');",
+        "q.dialogue.set_page('11');"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "npc",
+      "lines": [
+        "It'd be nice if he could have some faith in us, but he won't listen to me."
+      ],
+      "input": [
+        "q.dialogue.set_page('12');"
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "npc2",
+      "lines": [
+        "Not me, either. But, we're still concerned for him. "
+      ],
+      "input": [
+        "q.dialogue.set_page('13');"
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "npc2",
+      "lines": [
+        "We're really sorry for the trouble."
+      ],
+      "input": [
+        "q.dialogue.set_page('14');"
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "npc",
+      "lines": [
+        "I would apologize too, but I know we were always just pushovers for you..."
+      ],
+      "input": [
+        "q.dialogue.set_page('15');"
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "npc",
+      "lines": [
+        "If he's doing what I think he's doing, you may be in trouble..."
+      ],
+      "input": [
+        "q.dialogue.set_page('won');"
+      ]
+    },
+    {
+      "id": "won",
+      "speaker": "npc",
+      "lines": [
+        "But, we have faith in you. Please, stop our boss..."
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    },
+    {
+      "id": "bye",
+      "speaker": "npc",
+      "lines": [],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": "q.dialogue.close();"
+      }
+    }
+  ]
+}

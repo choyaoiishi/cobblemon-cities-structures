@@ -5,6 +5,6 @@
     }
   },
   "rewards": {
-    "function": "ccs:open_config"
+    "function": "ccs:open_welcome"
   }
 }

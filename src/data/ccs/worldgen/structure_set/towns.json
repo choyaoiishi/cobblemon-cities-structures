@@ -12,7 +12,27 @@
 	},
 	"structures": [
 		{
+			"structure": "ccs:fuchsia",
+			"weight": 1
+		},
+		{
+			"structure": "ccs:viridian",
+			"weight": 1
+		},
+		{
+			"structure": "ccs:saffron",
+			"weight": 1
+		},
+		{
 			"structure": "ccs:celadon",
+			"weight": 1
+		},
+		{
+			"structure": "ccs:vermilion",
+			"weight": 1
+		},
+		{
+			"structure": "ccs:pewter",
 			"weight": 1
 		},
 		{
@@ -21,26 +41,6 @@
 		},
 		{
 			"structure": "ccs:cinnabar",
-			"weight": 1
-		},
-		{
-			"structure": "ccs:fuchsia",
-			"weight": 1
-		},
-		{
-			"structure": "ccs:pewter",
-			"weight": 1
-		},
-		{
-			"structure": "ccs:saffron",
-			"weight": 1
-		},
-		{
-			"structure": "ccs:vermilion",
-			"weight": 1
-		},
-		{
-			"structure": "ccs:viridian",
 			"weight": 1
 		}
 	]

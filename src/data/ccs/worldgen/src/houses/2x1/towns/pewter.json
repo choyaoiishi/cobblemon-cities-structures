@@ -6,7 +6,6 @@
 		"location": "ccs:houses/pewter/2x1/fossil_2"
 	},
 	{
-		"weight": 5,
 		"location": "ccs:houses/pewter/2x1/pillar"
 	},
 	{
@@ -18,5 +17,6 @@
 			},
 			"limit": 1
 		}
-	}
+	},
+	"basic"
 ]

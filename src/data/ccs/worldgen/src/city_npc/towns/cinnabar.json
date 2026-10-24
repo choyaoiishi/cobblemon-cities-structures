@@ -4,7 +4,7 @@
 		"element": {
 			"element_type": "lithostitched:limited",
 			"delegate": {
-				"location": "ccs:city_npc/cinnabar/000"
+				"location": "ccs:city_npc/cinnabar/001"
 			},
 			"limit": 1
 		}
@@ -14,7 +14,7 @@
 		"element": {
 			"element_type": "lithostitched:limited",
 			"delegate": {
-				"location": "ccs:city_npc/cinnabar/001"
+				"location": "ccs:city_npc/cinnabar/002"
 			},
 			"limit": 1
 		}
