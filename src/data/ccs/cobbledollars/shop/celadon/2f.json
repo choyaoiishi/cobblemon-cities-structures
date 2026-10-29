@@ -1,0 +1,69 @@
+[
+  {
+    "name": "Poké Balls",
+    "offers": [
+      {
+        "item": "cobblemon:poke_ball",
+        "price": "2000"
+      },
+      {
+        "item": "cobblemon:great_ball",
+        "price": "6000"
+      },
+      {
+        "item": "cobblemon:ultra_ball",
+        "price": "12000"
+      }
+    ]
+  },
+  {
+    "name": "Cures",
+    "offers": [
+      {
+        "item": "cobblemon:antidote",
+        "price": "1000"
+      },
+      {
+        "item": "cobblemon:paralyze_heal",
+        "price": "2000"
+      },
+      {
+        "item": "cobblemon:awakening",
+        "price": "2500"
+      },
+      {
+        "item": "cobblemon:burn_heal",
+        "price": "2500"
+      },
+      {
+        "item": "cobblemon:ice_heal",
+        "price": "2500"
+      },
+      {
+        "item": "cobblemon:full_heal",
+        "price": "6000"
+      }
+    ]
+  },
+  {
+    "name": "Potions",
+    "offers": [
+      {
+        "item": "cobblemon:potion",
+        "price": "3000"
+      },
+      {
+        "item": "cobblemon:super_potion",
+        "price": "7000"
+      },
+      {
+        "item": "cobblemon:hyper_potion",
+        "price": "12000"
+      },
+      {
+        "item": "cobblemon:revive",
+        "price": "15000"
+      }
+    ]
+  }
+]

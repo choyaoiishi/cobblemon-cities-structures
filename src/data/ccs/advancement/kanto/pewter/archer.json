@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "manual_trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false,
+    "icon": {
+      "id": "cobblemon:old_amber_fossil"
+    },
+    "title": {
+      "text": "Team Rocket Will Blacklist You!"
+    },
+    "description": {
+      "text": "Defeat Archer in Pewter Museum"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "manual_trigger"
+    ]
+  ],
+  "parent": "ccs:kanto/pewter/brock"
+}

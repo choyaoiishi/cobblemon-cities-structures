@@ -1,0 +1,11 @@
+q.run_script('ccs:set_loop_count');
+
+return q.array(
+    'gothitelle moves=psychic,shadowball,hiddenpower,thunderwave nature=modest held_item=cobblemon:colbur_berry ability=competitive',
+	'incineroar moves=fakeout,knockoff,willowisp,flareblitz nature=careful held_item=cobblemon:sitrus_berry ability=intimidate',
+    'primarina moves=hypervoice,scald,psychic,energyball nature=modest held_item=cobblemon:throat_spray ability=liquidvoice',
+    'mawile moves=playrough,suckerpunch,ironhead,thunderpunch nature=adamant ability=hugepower aspect=mega',
+    'articuno moves=psychic,focusblast,roost,airslash nature=timid held_item=cobblemon:colbur_berry ability=competitive aspect=galarian',
+    'gholdengo moves=shadowball,makeitrain,focusblast,recover nature=timid ability=goodasgold',
+    'houndoom moves=pursuit,fierywrath,heatwave,scorchingsands nature=naive ability=darkaura aspect=mega'
+);

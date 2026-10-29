@@ -1,0 +1,4 @@
+t.server = q.player.world.server();
+t.data = t.server.data();
+t.data.is_debug=1;
+t.server.save_data();

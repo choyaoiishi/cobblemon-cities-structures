@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "manual_trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false,
+    "icon": {
+      "id": "cobblemon:twisted_spoon"
+    },
+    "title": {
+      "text": "The Master of Psychic Pok\u00e9mon"
+    },
+    "description": {
+      "text": "Defeat Gym Leader Sabrina"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "manual_trigger"
+    ]
+  ],
+  "rewards": {
+    "function": "ccs:badges/saffron"
+  },
+  "parent": "ccs:kanto/saffron/giovanni"
+}

@@ -1,0 +1,40 @@
+{
+  "criteria": {
+    "entered_structure": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "ccs:celadon"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false,
+    "icon": {
+      "id": "minecraft:cherry_leaves"
+    },
+    "title": {
+      "text": "The City of Rainbow Dreams"
+    },
+    "description": {
+      "text": "Enter Celadon City"
+    }
+  },
+  "requirements": [
+    [
+      "entered_structure"
+    ]
+  ],
+  "parent": "ccs:kanto/root"
+}

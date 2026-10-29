@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "manual_trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false,
+    "icon": {
+      "id": "cobblemon:lucky_egg"
+    },
+    "title": {
+      "text": "Back to Training!"
+    },
+    "description": {
+      "text": "Defeat Brendan in Vermilion City"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "manual_trigger"
+    ]
+  ],
+  "parent": "ccs:kanto/vermilion/root"
+}

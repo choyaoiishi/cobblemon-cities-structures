@@ -1,0 +1,40 @@
+{
+  "criteria": {
+    "entered_structure": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "ccs:pewter"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false,
+    "icon": {
+      "id": "cobblemon:pewter_crunchies"
+    },
+    "title": {
+      "text": "A Stone Gray City"
+    },
+    "description": {
+      "text": "Enter Pewter City"
+    }
+  },
+  "requirements": [
+    [
+      "entered_structure"
+    ]
+  ],
+  "parent": "ccs:kanto/root"
+}

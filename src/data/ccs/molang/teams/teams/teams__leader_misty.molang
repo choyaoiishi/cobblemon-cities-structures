@@ -1,0 +1,38 @@
+q.run_script('ccs:set_loop_count');
+
+q.player.party.highest_level < 40 ? {
+	return q.array(
+		'frogadier moves=icepunch,rocktomb,flipturn,grassknot nature=lonely held_item=cobblemon:eviolite ability=protean',
+		'floatzel moves=waterpulse,flipturn,icywind,hiddenpower nature=timid held_item=cobblemon:mystic_water ability=technician',
+		'politoed moves=flipturn,scald,earthquake,toxic nature=sassy held_item=cobblemon:iapapa_berry ability=drizzle',
+		'ludicolo moves=gigadrain,scald,aurorabeam,thunderpunch nature=mild held_item=cobblemon:sitrus_berry ability=swiftswim',
+		'mantine moves=scald,hurricane,roost,hiddenpower nature=modest held_item=cobblemon:wacan_berry ability=swiftswim',
+		'clodsire moves=poisonjab,bulldoze,recover,toxic nature=careful held_item=cobblemon:black_sludge ability=waterabsorb',
+		'starmie moves=scald,thunderbolt,psyshock,aurorabeam nature=modest held_item=cobblemon:mystic_water ability=analytic',
+		'toxicroak moves=swordsdance,drainpunch,poisonjab,suckerpunch nature=jolly held_item=cobblemon:life_orb ability=dryskin'
+	);
+};
+
+q.player.party.highest_level < 70 ? {
+	return q.array(
+		'ferrothorn moves=leechseed,gyroball,powerwhip,thunderwave nature=relaxed held_item=cobblemon:rocky_helmet ability=ironbarbs',
+		'gorebyss moves=shellsmash,surf,icebeam,moonblast nature=timid held_item=cobblemon:focus_sash ability=dazzling',
+		'ironbundle moves=hydropump,freezedry,flipturn,icebeam nature=timid held_item=cobblemon:focus_sash ability=quarkdrive',
+		'palafin moves=jetpunch,waterfall,drainpunch,bulkup nature=jolly held_item=cobblemon:mystic_water ability=moldbreaker aspect=hero-form',
+		'archaludon moves=bodypress,electroshot,dragonpulse,flashcannon nature=calm held_item=cobblemon:assault_vest ability=stamina',
+		'kingdra moves=hydropump,dracobarrage,hurricane,flipturn nature=modest held_item=cobblemon:life_orb ability=swiftswim',
+		'gyarados moves=dragondance,waterfall,crunch,earthquake nature=jolly ability=moldbreaker aspect=mega'
+	);
+};
+
+return q.array(
+    'pikachu moves=thunder,hurricane,electroweb,fakeout nature=timid held_item=cobblemon:light_ball ability=lightningrod',
+    'kyogre moves=earthquake,waterspout,originpulse,thunder nature=hasty ability=primordialsea aspect=primal',
+    'goodra moves=dracobarrage,flashcannon,thunder,muddywater nature=bold held_item=cobblemon:assault_vest ability=gooey aspect=hisuian',
+    'kingdra moves=dracobarrage,hydropump,muddywater,hurricane nature=timid ability=swiftswim',
+    'drednaw moves=jawlock,aquafang,crunch,shellsmash nature=jolly ability=strongjaw aspect=mega',
+    'floatzel moves=surgingstrikes,fakeout,flipturn,pursuit nature=jolly held_item=cobblemon:focus_sash ability=technician',
+	'gyarados moves=dragondance,waterfall,crunch,earthquake nature=jolly ability=moldbreaker aspect=mega',
+	'ironbundle moves=hydropump,freezedry,flipturn,icebeam nature=timid held_item=cobblemon:focus_sash ability=quarkdrive',
+    'palafin moves=jetpunch,waterfall,drainpunch,bulkup nature=jolly held_item=cobblemon:mystic_water ability=moldbreaker aspect=hero-form' 
+);

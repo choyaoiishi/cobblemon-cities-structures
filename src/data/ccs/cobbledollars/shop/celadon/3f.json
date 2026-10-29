@@ -1,0 +1,115 @@
+[
+  {
+    "name": "TM",
+    "offers": [
+      {
+        "item": "cobblemon:technical_machine",
+        "price": "10000",
+        "components": {
+          "cobblemon:tm_move": {
+            "move": "frustration"
+          }
+        }
+      },
+      {
+        "item": "cobblemon:technical_machine",
+        "price": "10000",
+        "components": {
+          "cobblemon:tm_move": {
+            "move": "return"
+          }
+        }
+      },
+      {
+        "item": "cobblemon:technical_machine",
+        "price": "15000",
+        "components": {
+          "cobblemon:tm_move": {
+            "move": "swagger"
+          }
+        }
+      },
+      {
+        "item": "cobblemon:technical_machine",
+        "price": "15000",
+        "components": {
+          "cobblemon:tm_move": {
+            "move": "captivate"
+          }
+        }
+      },
+      {
+        "item": "cobblemon:technical_machine",
+        "price": "15000",
+        "components": {
+          "cobblemon:tm_move": {
+            "move": "taunt"
+          }
+        }
+      },
+      {
+        "item": "cobblemon:technical_machine",
+        "price": "15000",
+        "components": {
+          "cobblemon:tm_move": {
+            "move": "torment"
+          }
+        }
+      },
+      {
+        "item": "cobblemon:technical_machine",
+        "price": "20000",
+        "components": {
+          "cobblemon:tm_move": {
+            "move": "safeguard"
+          }
+        }
+      },
+      {
+        "item": "cobblemon:technical_machine",
+        "price": "20000",
+        "components": {
+          "cobblemon:tm_move": {
+            "move": "dig"
+          }
+        }
+      },
+      {
+        "item": "cobblemon:technical_machine",
+        "price": "20000",
+        "components": {
+          "cobblemon:tm_move": {
+            "move": "stealthrock"
+          }
+        }
+      },
+      {
+        "item": "cobblemon:technical_machine",
+        "price": "30000",
+        "components": {
+          "cobblemon:tm_move": {
+            "move": "brine"
+          }
+        }
+      },
+      {
+        "item": "cobblemon:technical_machine",
+        "price": "30000",
+        "components": {
+          "cobblemon:tm_move": {
+            "move": "avalanche"
+          }
+        }
+      },
+      {
+        "item": "cobblemon:technical_machine",
+        "price": "30000",
+        "components": {
+          "cobblemon:tm_move": {
+            "move": "darkpulse"
+          }
+        }
+      }
+    ]
+  }
+]

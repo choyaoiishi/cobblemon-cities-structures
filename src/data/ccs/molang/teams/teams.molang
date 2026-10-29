@@ -1,0 +1,85 @@
+t.trainer_id = q.player.get_npc_variable(q.npc, 'trainer_id');
+
+v.msg = 'trainer_id:' + t.trainer_id;
+q.run_script('ccs:print');
+
+v.min_level = q.to_int(q.player.get_npc_variable(q.npc, 'min_level'));
+v.base_level = q.player.party.highest_level;
+
+!q.is_blank(v.min_level) && v.min_level >= q.player.party.highest_level ? {
+    v.base_level = v.min_level;
+};
+
+v.level_variation_min = -2;
+v.level_variation_max = 2;
+
+v.loop_count = math.random_integer(2, 6);
+
+t.pokemons = q.run_script('ccs:teams__' + t.trainer_id);
+
+t.constants = ' hp_iv=31 attack_iv=31 defence_iv=31 special_attack_iv=31 special_defence_iv=31 speed_iv=31 speed_ev=252 hp_ev=252 uncatchable=true pokeball=ultra_ball';
+v.base_level = v.min_level >= v.base_level ?  v.min_level : v.base_level;
+
+t.pokemons_count = q.length(t.pokemons);
+
+t.used_0 = -1;
+t.used_1 = -1;
+t.used_2 = -1;
+t.used_3 = -1;
+t.used_4 = -1;
+t.used_5 = -1;
+
+t.added_count = 0;
+v.msg = 'loop count:' + v.loop_count + ' pokemons_count:' + t.pokemons_count;
+q.run_script('ccs:print');
+t.loop_index = 0;
+v.loop_count=1;
+
+loop(1024, {
+	v.msg = 'loop index:' + t.loop_index;
+	q.run_script('ccs:print');
+    
+	t.added_count < v.loop_count ? {
+        t.index = math.random_integer(0, t.pokemons_count - 1);
+
+        t.is_duplicate = (t.index == t.used_0) || (t.index == t.used_1) || (t.index == t.used_2) || (t.index == t.used_3) || (t.index == t.used_4) || (t.index == t.used_5);
+
+        !t.is_duplicate ? {
+            t.level = v.base_level + math.random_integer(v.level_variation_min, v.level_variation_max);
+            t.level=1;
+            t.props = t.pokemons[t.index] + t.constants + ' level=' + t.level;
+            q.party.add_by_properties(t.props);
+
+            t.added_count == 0 ? { t.used_0 = t.index; };
+            t.added_count == 1 ? { t.used_1 = t.index; };
+            t.added_count == 2 ? { t.used_2 = t.index; };
+            t.added_count == 3 ? { t.used_3 = t.index; };
+            t.added_count == 4 ? { t.used_4 = t.index; };
+            t.added_count == 5 ? { t.used_5 = t.index; };
+
+            t.added_count = t.added_count + 1;
+        };
+    } : {
+		break;
+	};
+
+t.loop_index = t.loop_index + 1;
+});
+
+v.party_index = 0;
+q.run_script('ccs:get_party_pokemon_name');
+
+v.party_index = 1;
+q.run_script('ccs:get_party_pokemon_name');
+
+v.party_index = 2;
+q.run_script('ccs:get_party_pokemon_name');
+
+v.party_index = 3;
+q.run_script('ccs:get_party_pokemon_name');
+
+v.party_index = 4;
+q.run_script('ccs:get_party_pokemon_name');
+
+v.party_index = 5;
+q.run_script('ccs:get_party_pokemon_name');

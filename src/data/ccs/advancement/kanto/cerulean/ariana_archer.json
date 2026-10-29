@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "manual_trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false,
+    "icon": {
+      "id": "minecraft:tuff"
+    },
+    "title": {
+      "text": "Orders Are Orders"
+    },
+    "description": {
+      "text": "Defeat Ariana and Archer in Cerulean Cave"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "manual_trigger"
+    ]
+  ],
+  "parent": "ccs:kanto/cerulean/misty"
+}

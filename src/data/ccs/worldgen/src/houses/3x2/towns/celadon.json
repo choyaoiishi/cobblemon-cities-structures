@@ -1,0 +1,14 @@
+[
+	{
+		"weight": 150,
+		"element": {
+			"element_type": "lithostitched:delegating",
+			"delegate": {
+				"location": "ccs:houses/celadon/3x2/department_store",
+				"processors": "ccs:celadon/department_store"
+			},
+			"allow_bounding_box_collisions": true,
+			"forced_count": 1
+		}
+	}
+]

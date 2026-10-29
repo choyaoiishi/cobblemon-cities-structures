@@ -1,0 +1,34 @@
+  [
+    {
+      "item": "minecraft:wheat",
+      "price": "50"
+    },
+    {
+      "item": "minecraft:sugar_cane",
+      "price": "50"
+    },
+    {
+      "item": "cobblemon:medicinal_leek",
+      "price": "50"
+    },
+    {
+      "item": "minecraft:carrot",
+      "price": "50"
+    },
+    {
+      "item": "minecraft:potato",
+      "price": "50"
+    },
+    {
+      "item": "minecraft:beetroot",
+      "price": "50"
+    },
+    {
+      "item": "minecraft:melon",
+      "price": "200"
+    },
+    {
+      "item": "minecraft:pumpkin",
+      "price": "200"
+    }
+  ]

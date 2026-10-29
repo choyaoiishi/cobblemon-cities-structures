@@ -1,0 +1,18 @@
+q.run_script('ccs:set_loop_count');
+
+return q.array(
+    'hatterene moves=trickroom,psychic,dazzlinggleam,mysticalfire nature=modest held_item=cobblemon:sitrus_berry ability=magicbounce',
+    'rhyperior moves=earthquake,rockblast,icepunch,heatcrash nature=adamant held_item=cobblemon:weakness_policy ability=solidrock',
+    'honchkrow moves=suckerpunch,nightslash,drillpeck,superpower nature=jolly held_item=cobblemon:scope_lens ability=superluck',
+	'wailord moves=bouncybubble,icebeam,hiddenpower nature=modest held_item=cobblemon:mystic_water ability=blubberdefense',
+    'espeon moves=lastresort,psychic,mysticalfire,shadowball nature=timid ability=magicbounce',
+    'buzzwole moves=victorydance,drainpunch,leechlife,icepunch nature=jolly held_item=cobblemon:coba_berry ability=beastboost',
+    'ambipom moves=fakeout,armthrust,beatup,uturn nature=jolly held_item=cobblemon:life_orb ability=technician',
+    'weavile moves=tripleaxel,iceshard,lowkick,nightslash nature=jolly held_item=cobblemon:focus_sash ability=pressure',
+    'toxapex moves=haze,scald,toxic,knockoff nature=bold held_item=cobblemon:black_sludge ability=regenerator',
+	'lopunny moves=fakeout,doubleedge,closecombat,uturn nature=jolly ability=scrappy aspect=mega',
+    'greninja moves=hydropump,icebeam,gunkshot,uturn nature=naive ability=protean',
+    'dragonite moves=dragondance,dualwingbeat,earthquake,firepunch nature=jolly held_item=cobblemon:lum_berry ability=multiscale',
+    'delphox moves=mindblown,psyshock,grassknot,dazzlinggleam nature=timid held_item=cobblemon:life_orb ability=magicguard',
+    'mawile moves=ironhead,playrough,knockoff,thunderpunch nature=adamant ability=hugepower aspect=mega'
+);

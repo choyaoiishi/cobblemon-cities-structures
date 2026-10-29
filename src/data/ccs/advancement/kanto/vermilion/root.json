@@ -1,0 +1,40 @@
+{
+  "criteria": {
+    "entered_structure": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "ccs:vermilion"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false,
+    "icon": {
+      "id": "minecraft:chiseled_copper"
+    },
+    "title": {
+      "text": "The Port of Exquisite Sunsets"
+    },
+    "description": {
+      "text": "Enter Vermilion City"
+    }
+  },
+  "requirements": [
+    [
+      "entered_structure"
+    ]
+  ],
+  "parent": "ccs:kanto/root"
+}

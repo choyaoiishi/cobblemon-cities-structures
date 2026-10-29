@@ -1,0 +1,28 @@
+q.run_script('ccs:set_loop_count');
+
+q.player.party.highest_level < 70 ? {
+	return q.array(
+    'rillaboom moves=grassyglide,uturn,highhorsepower,drainpunch nature=jolly held_item=cobblemon:terrain_extender ability=grassysurge',
+    'meowscarada moves=flowertrick,knockoff,uturn,tripleaxel nature=jolly held_item=cobblemon:focus_sash ability=protean',
+    'venusaur moves=gigadrain,sludgebomb,sleeppowder,earthpower nature=modest ability=thickfat aspect=mega',
+    'meganium moves=ancientpower,gigadrain,dazzlinggleam,hiddenpower nature=modest ability=triage',
+    'electrode moves=thunderbolt,chloroblast,hiddenpower,explosion nature=naive held_item=cobblemon:life_orb ability=reckless aspect=hisuian',
+    'hawlucha moves=swordsdance,acrobatics,closecombat,stoneedge nature=adamant held_item=cobblemon:grassy_seed ability=unburden',
+    'sceptile moves=swordsdance,bulletseed,dracobarrage,highhorsepower nature=jolly ability=technician aspect=mega',
+    'toxtricity moves=boomburst,voltswitch,overdrive,hiddenpower nature=timid held_item=cobblemon:life_orb ability=punkrock',
+    'slowbro moves=thunderwave,sludgebomb,flamethrower,teleport nature=bold held_item=cobblemon:black_sludge ability=regenerator aspect=galarian',
+    'kartana moves=swordsdance,grassyglide,cut,sacredsword nature=jolly held_item=cobblemon:life_orb ability=beastboost'
+);
+};
+
+return q.array(
+    'sinistcha moves=strengthsap,willowisp,shadowball,matchagotcha nature=modest held_item=cobblemon:leftovers ability=heatproof',
+    'lilligant moves=victorydance,leafblade,closecombat,icespinner nature=jolly held_item=cobblemon:wide_lens ability=hustle aspect=hisuian',
+    'venusaur moves=gigadrain,earthpower,synthesis,sludgebomb nature=modest ability=thickfat aspect=mega',
+	'meowscarada moves=flowertrick,tripleaxel,knockoff,uturn nature=jolly held_item=cobblemon:life_orb ability=protean',
+    'serperior moves=leafstorm,hiddenpower,dragonpulse,knockoff nature=timid held_item=cobblemon:focus_sash ability=contrary',
+    'hawlucha moves=swordsdance,closecombat,acrobatics,stoneedge nature=adamant held_item=cobblemon:grassy_seed ability=unburden',
+    'kartana moves=swordsdance,grassyglide,cut,sacredsword nature=jolly held_item=cobblemon:life_orb ability=beastboost',
+    'magearna moves=calmmind,drainingkiss,storedpower,aurasphere nature=bold held_item=cobblemon:grassy_seed ability=soulheart',
+    'ampharos moves=voltswitch,dracobarrage,signalbeam,focusblast nature=modest ability=thickfat aspect=mega'
+);

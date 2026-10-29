@@ -19,5 +19,16 @@
 		"location": "ccs:houses/viridian/2x1/sugarcane",
 		"processors": "ccs:viridian/base"
 	},
+	{
+		"weight": 100,
+		"element": {
+			"element_type": "lithostitched:limited",
+			"delegate": {
+				"location": "ccs:houses/viridian/2x1/market"
+			},
+			"min_depth": 2,
+			"limit": 1
+		}
+	},
 	"basic"
 ]

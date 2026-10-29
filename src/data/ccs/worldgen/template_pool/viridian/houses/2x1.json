@@ -52,6 +52,20 @@
             }
         },
         {
+            "weight": 100,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:houses/viridian/2x1/market",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:viridian/general"
+                },
+                "min_depth": 2,
+                "limit": 1
+            }
+        },
+        {
             "weight": 5,
             "element": {
                 "element_type": "minecraft:single_pool_element",

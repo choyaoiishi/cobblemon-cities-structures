@@ -1,0 +1,43 @@
+{
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();"
+    }
+  },
+  "pages": [
+    {
+      "id": "line_1",
+      "speaker": "npc",
+      "lines": [
+        "I'm here for Pok\u00e9mon ability enhancers."
+      ],
+      "input": [
+        "q.dialogue.set_page('line_2');"
+      ]
+    },
+    {
+      "id": "line_2",
+      "speaker": "npc",
+      "lines": [
+        "Protein increases attack power."
+      ],
+      "input": [
+        "q.dialogue.set_page('line_3');"
+      ]
+    },
+    {
+      "id": "line_3",
+      "speaker": "npc",
+      "lines": [
+        "Iron increases defense!"
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    }
+  ]
+}

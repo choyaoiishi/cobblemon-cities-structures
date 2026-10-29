@@ -41,12 +41,14 @@
         "Help! I'm a Silph employee."
       ],
       "input": [
+        "v.min_level='50';",
         "v.advancement='';",
         "q.player.set_npc_variable(q.npc, 'advancement', v.advancement);",
-        "q.player.set_npc_variable(q.npc, 'trainer_id', 'scientist_connor_0150');",
+        "q.player.set_npc_variable(q.npc, 'trainer_id', 'scientist');",
         "q.dialogue.close();",
-        "!q.is_blank(v.advancement) ? q.run_command('/execute at @e[type=marker,tag=' + v.advancement + '_pos,limit=1,sort=nearest] run tp ' + q.player.username() + ' ~ ~ ~ facing entity ' + q.npc.uuid() );",
-        "q.run_command('tbcs battle GEN_9_SINGLES ' + q.player.username() + ' vs ' + q.npc.uuid() + ' as rctmod:scientist_connor_0150')"
+        "!q.is_blank(v.min_level) ? q.player.set_npc_variable(q.npc, 'min_level', v.min_level);",
+        "!q.is_blank(v.advancement) ? q.run_command('/execute at @e[type=marker,tag=scientist,limit=1,sort=nearest] run tp ' + q.player.username() + ' ~ ~ ~ facing entity ' + q.npc.uuid() );",
+        "q.npc.start_battle(q.player, 'single');"
       ]
     },
     {

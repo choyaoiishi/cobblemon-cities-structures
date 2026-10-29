@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "manual_trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false,
+    "icon": {
+      "id": "cobblemon:relic_coin"
+    },
+    "title": {
+      "text": "The Playground For Grown-ups!"
+    },
+    "description": {
+      "text": "Defeat Giovanni in Game Corner"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "manual_trigger"
+    ]
+  ],
+  "parent": "ccs:kanto/celadon/root"
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Vegetables",
+    "offers": [
+      {
+        "item": "minecraft:wheat",
+        "price": "100"
+      },
+      {
+        "item": "minecraft:sugar_cane",
+        "price": "100"
+      },
+      {
+        "item": "cobblemon:medicinal_leek",
+        "price": "100"
+      }
+    ]
+  },
+  {
+    "name": "Mulch",
+    "offers": [
+      {
+        "item": "cobblemon:loamy_mulch",
+        "price": "1000"
+      }
+    ]
+  }
+]

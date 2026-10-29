@@ -4,12 +4,19 @@ import re
 import zipfile
 
 
-SRC_DIR = Path("src")
-DIST_DIR = Path("dist")
+src_dir = Path("src")
+dist_dir = Path("dist")
+
+# list folders to skip (relative to src/)
+exclude_dirs = [
+    "data/ccs/src",
+    "data/ccs/.vscode",
+    "data/ccs/worldgen/src"
+]
 
 
 def get_version_from_changelog():
-    changelog_file = SRC_DIR / "changelog.md"
+    changelog_file = src_dir / "changelog.md"
 
     if not changelog_file.exists():
         raise FileNotFoundError(f"Missing {changelog_file}")
@@ -17,10 +24,6 @@ def get_version_from_changelog():
     lines = changelog_file.read_text(encoding="utf-8-sig").splitlines()
 
     for line in lines:
-        # Matches:
-        # **### 08-10-2026 - 1.0.09**
-        # ### 08-10-2026 - 1.0.09
-        # ### 08-10-2026 - 1.0.09 **
         match = re.search(
             r"###\s+\d{2}-\d{2}-\d{4}\s*-\s*([^\s*]+)",
             line,
@@ -36,8 +39,8 @@ def get_version_from_changelog():
 
 
 def update_version(version):
-    # Update fabric.mod.json
-    fabric_file = SRC_DIR / "fabric.mod.json"
+    # update fabric.mod.json
+    fabric_file = src_dir / "fabric.mod.json"
 
     if not fabric_file.exists():
         raise FileNotFoundError(f"Missing {fabric_file}")
@@ -51,15 +54,14 @@ def update_version(version):
         json.dump(mod_info, f, indent=2, ensure_ascii=False)
         f.write("\n")
 
-    # Update META-INF/neoforge.mods.toml
-    neoforge_file = SRC_DIR / "META-INF" / "neoforge.mods.toml"
+    # update META-INF/neoforge.mods.toml
+    neoforge_file = src_dir / "META-INF" / "neoforge.mods.toml"
 
     if not neoforge_file.exists():
         raise FileNotFoundError(f"Missing {neoforge_file}")
 
     toml = neoforge_file.read_text(encoding="utf-8")
 
-    # Update the version in the mod declaration only.
     pattern = (
         r'(modId\s*=\s*"cobblemon_cities_structures"'
         r'\s*,\s*version\s*=\s*")[^"]*(")'
@@ -83,11 +85,23 @@ def update_version(version):
     return mod_info
 
 
-def main():
-    # changelog.md is the single source of truth for the version.
-    version = get_version_from_changelog()
+def is_excluded(file_path):
+    if file_path.suffix in (".code-workspace", ".py", ".cmd"):
+        return True
 
-    # Keep both mod metadata files in sync.
+    # check if file is inside an excluded folder
+    rel_path = file_path.relative_to(src_dir)
+    rel_str = rel_path.as_posix()
+
+    for exclude in exclude_dirs:
+        if rel_str == exclude or rel_str.startswith(exclude + "/"):
+            return True
+
+    return False
+
+
+def main():
+    version = get_version_from_changelog()
     mod_info = update_version(version)
 
     name = mod_info.get("name")
@@ -95,25 +109,20 @@ def main():
     if not name:
         raise ValueError("fabric.mod.json is missing 'name'")
 
-    # Create dist directory
-    DIST_DIR.mkdir(parents=True, exist_ok=True)
+    dist_dir.mkdir(parents=True, exist_ok=True)
+    output_file = dist_dir / f"{name}-{version}.jar"
 
-    output_file = DIST_DIR / f"{name}-{version}.jar"
-
-    # Remove existing output
     if output_file.exists():
         output_file.unlink()
 
-    # Create JAR (JAR files are ZIP archives)
     with zipfile.ZipFile(
         output_file,
         "w",
         compression=zipfile.ZIP_DEFLATED,
     ) as jar:
-        for file in SRC_DIR.rglob("*"):
-            if file.is_file():
-                # Store paths relative to src/
-                arcname = file.relative_to(SRC_DIR)
+        for file in src_dir.rglob("*"):
+            if file.is_file() and not is_excluded(file):
+                arcname = file.relative_to(src_dir)
                 jar.write(file, arcname)
 
     print(f"Version: {version}")

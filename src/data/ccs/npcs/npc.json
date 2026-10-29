@@ -28,5 +28,11 @@
       }
     }
   ],
-  "config": []
+  "config": [],
+  "skill": 5,
+  "party": {
+    "type": "script",
+    "script": "ccs:teams",
+    "isStatic": false
+  }
 }

@@ -7,6 +7,12 @@
       "poser": "cobblemon:standard",
       "model": "cobblemon:steve.geo",
       "texture": "ccs:textures/npcs/baked/npc/youngster_var_0.png"
+    },
+    {
+      "aspects": ["orange"],
+      "poser": "cobblemon:standard",
+      "model": "cobblemon:steve.geo",
+      "texture": "ccs:textures/npcs/baked/npc/youngster_2.png"
     }
   ]
 }

@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "manual_trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false,
+    "icon": {
+      "id": "cobblemon:lucky_egg"
+    },
+    "title": {
+      "text": "You Can Do It!"
+    },
+    "description": {
+      "text": "Defeat Brendan in Fuchsia City"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "manual_trigger"
+    ]
+  ],
+  "parent": "ccs:kanto/fuchsia/root"
+}

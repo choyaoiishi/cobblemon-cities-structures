@@ -1,0 +1,12 @@
+{
+    "processors": [
+        {
+            "processor_type": "lithostitched:reference",
+            "processor_lists": [
+                "ccs:celadon/base",
+                "ccs:others/cyan",
+                "ccs:celadon/general"
+            ]
+        }
+    ]
+}

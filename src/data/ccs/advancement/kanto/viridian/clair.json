@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "manual_trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false,
+    "icon": {
+      "id": "cobblemon:dragon_fang"
+    },
+    "title": {
+      "text": "World's Second Dragon Master"
+    },
+    "description": {
+      "text": "Defeat Gym Leader Clair"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "manual_trigger"
+    ]
+  ],
+  "rewards": {
+    "function": "ccs:badges/viridian"
+  },
+  "parent": "ccs:kanto/viridian/root"
+}

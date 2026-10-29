@@ -1,0 +1,1 @@
+give @s cobbleversebadges:kanto_rainbow_badge 1

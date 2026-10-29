@@ -101,12 +101,11 @@
         "Fine. Sorry kid, looks like your fun ends here."
       ],
       "input": [
-        "v.advancement='rocket_admin_archer_and_ariana';",
-        "q.player.set_npc_variable(q.npc, 'advancement', v.advancement);",
-        "q.player.set_npc_variable(q.npc, 'trainer_id', 'rocket_admin_archer_ariana_m000');",
+        "q.player.set_npc_variable(q.npc, 'advancement', 'ccs:kanto/saffron/ariana_archer');",
+        "q.player.set_npc_variable(q.npc, 'trainer_id', 'rocket_ariana_archer');",
         "q.dialogue.close();",
-        "q.run_command('/execute at @e[type=marker,tag=' + v.advancement + '_pos,limit=1,sort=nearest] run tp ' + q.player.username() + ' ~ ~ ~ facing entity ' + q.npc.uuid() );",
-        "q.run_command('tbcs battle GEN_9_DOUBLES ' + q.player.username() + ' vs ' + q.npc.uuid() + ' as rctmod:rocket_admin_archer_ariana_m000')"
+        "q.run_command('/execute at @e[type=marker,tag=ariana_archer,limit=1,sort=nearest] run tp ' + q.player.username() + ' ~ ~ ~ facing entity ' + q.npc.uuid() );",
+        "q.npc.start_battle(q.player, 'doubles');"
       ]
     },
     {

@@ -43,14 +43,6 @@
         "vertical": true,
         "options": [
           {
-            "text": "Start Radical Red Series",
-            "value": "radical_red",
-            "isSelectable": "v.data.series_started!=1",
-            "action": [
-              "q.dialogue.set_page('radical_red');"
-            ]
-          },
-          {
             "text": "Get Starter Kit",
             "value": "starter_kit",
             "isSelectable": "v.data.kit_received!=1",
@@ -70,35 +62,6 @@
             "value": "close",
             "action": [
               "q.dialogue.close();"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "id": "radical_red",
-      "speaker": "npc",
-      "lines": [
-        "Do you wish to start the Radical Red series directly?"
-      ],
-      "input": {
-        "type": "option",
-        "vertical": true,
-        "options": [
-          {
-            "text": "Yes",
-            "value": "yes",
-            "action": [
-              "q.run_command('rctmod player set series radicalred ' + q.player.username());",
-              "v.data.series_started = 1; q.player.save_data();",
-              "q.dialogue.set_page('series_started');"
-            ]
-          },
-          {
-            "text": "Back",
-            "value": "back",
-            "action": [
-              "q.dialogue.set_page('main_menu');"
             ]
           }
         ]
@@ -126,26 +89,6 @@
           },
           {
             "text": "Back",
-            "value": "back",
-            "action": [
-              "q.dialogue.set_page('main_menu');"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "id": "series_started",
-      "speaker": "npc",
-      "lines": [
-        "The Radical Red series has been enabled!"
-      ],
-      "input": {
-        "type": "option",
-        "vertical": true,
-        "options": [
-          {
-            "text": "Back to menu",
             "value": "back",
             "action": [
               "q.dialogue.set_page('main_menu');"

@@ -22,15 +22,15 @@
         "action": [
           "v.server = q.player.world.server();",
           "v.data = v.server.data();",
-          "q.dialogue.set_page('config_menu')"
+          "q.dialogue.set_page('main_menu')"
         ]
       }
     },
     {
-      "id": "config_menu",
+      "id": "main_menu",
       "speaker": "npc",
       "lines": [
-        "Below are the config available:"
+        "Select a setting to configure:"
       ],
       "input": {
         "type": "option",
@@ -40,21 +40,108 @@
             "text": "Silph Co. Rewards",
             "value": "silph_reward",
             "action": [
-              "q.dialogue.set_page('silph_reward')"
+              "q.dialogue.set_page('silph_rewards_menu')"
+            ]
+          },
+          {
+            "text": "NPC Spawning",
+            "value": "disable_npc",
+            "action": [
+              "q.dialogue.set_page('npc_spawning_menu')"
             ]
           }
         ]
       }
     },
     {
-      "id": "silph_reward",
+      "id": "npc_spawning_menu",
       "speaker": "npc",
       "lines": [
-        "Should Silph Co. completion rewards fixed or randomized?",
+        "Select NPC Spawning Mode:"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "Spawn All NPCs",
+            "value": "all",
+            "action": [
+              "q.run_command('/data modify storage ccs:config config.npcs_enabled set value \"all\"');",
+              "q.dialogue.set_page('npc_spawning_done')"
+            ]
+          },
+          {
+            "text": "Essential Only",
+            "value": "essential_only",
+            "action": [
+              "v.pending_mode = 'essential_only';",
+              "q.dialogue.set_page('confirm_npc_wipe')"
+            ]
+          },
+          {
+            "text": "Disable All NPCs",
+            "value": "none",
+            "action": [
+              "v.pending_mode = 'none';",
+              "q.dialogue.set_page('confirm_npc_wipe')"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "confirm_npc_wipe",
+      "speaker": "npc",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "v.pending_mode == 'none' ? 'This will wipe out ALL NPCs near you immediately.' : 'This will wipe out non-essential NPCs near you immediately.'"
+        },
+        " ",
+        "Please confirm."
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "Confirm",
+            "value": "confirm",
+            "action": [
+              "q.run_command('/data modify storage ccs:config config.npcs_enabled set value \"' + v.pending_mode + '\"');",
+              "q.dialogue.set_page('npc_spawning_done')"
+            ]
+          },
+          {
+            "text": "Cancel",
+            "value": "cancel",
+            "action": [
+              "q.dialogue.set_page('npc_spawning_menu')"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_spawning_done",
+      "speaker": "npc",
+      "lines": [
+        "NPC setting updated."
+      ],
+      "input": [
+        "q.dialogue.set_page('main_menu');"
+      ]
+    },
+    {
+      "id": "silph_rewards_menu",
+      "speaker": "npc",
+      "lines": [
+        "Set Silph Co. rewards type:",
         " ",
         {
           "type": "expression",
-          "expression": "'Currently is: ' + q.run_script('ccs:reward__silph_status');"
+          "expression": "'Current: ' + q.run_script('ccs:reward__silph_status');"
         }
       ],
       "input": {
@@ -68,7 +155,7 @@
             "action": [
               "v.data.silph_random_rewards = 0;",
               "v.server.save_data();",
-              "q.dialogue.set_page('silph_reward_set')"
+              "q.dialogue.set_page('silph_rewards_done')"
             ]
           },
           {
@@ -78,23 +165,23 @@
             "action": [
               "v.data.silph_random_rewards = 1;",
               "v.server.save_data();",
-              "q.dialogue.set_page('silph_reward_set')"
+              "q.dialogue.set_page('silph_rewards_done')"
             ]
           }
         ]
       }
     },
     {
-      "id": "silph_reward_set",
+      "id": "silph_rewards_done",
       "speaker": "npc",
       "lines": [
         {
           "type": "expression",
-          "expression": "'Updated. Rewards are now: ' + q.run_script('ccs:reward__silph_status');"
+          "expression": "'Updated to: ' + q.run_script('ccs:reward__silph_status');"
         }
       ],
       "input": [
-        "q.dialogue.set_page('config_menu');"
+        "q.dialogue.set_page('main_menu');"
       ]
     }
   ]

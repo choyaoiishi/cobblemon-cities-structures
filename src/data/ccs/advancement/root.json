@@ -4,6 +4,26 @@
       "trigger": "cobblemon:pick_starter"
     }
   },
+  "display": {
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false,
+    "icon": {
+      "id": "cobblemon:red_plaque"
+    },
+    "title": {
+      "text": "Cities & Structures"
+    },
+    "description": {
+      "text": "World of dreams and adventures awaits!"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "requirements": [
+    [
+      "picked_starter"
+    ]
+  ],
   "rewards": {
     "function": "ccs:open_welcome"
   }

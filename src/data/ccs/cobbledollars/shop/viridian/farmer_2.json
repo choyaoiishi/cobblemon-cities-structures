@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Vegetables",
+    "offers": [
+      {
+        "item": "minecraft:carrot",
+        "price": "100"
+      },
+      {
+        "item": "minecraft:potato",
+        "price": "100"
+      },
+      {
+        "item": "minecraft:beetroot",
+        "price": "100"
+      }
+    ]
+  },
+  {
+    "name": "Mulch",
+    "offers": [
+      {
+        "item": "cobblemon:growth_mulch",
+        "price": "1000"
+      }
+    ]
+  }
+]

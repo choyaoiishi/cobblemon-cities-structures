@@ -1,3 +1,26 @@
+### 29-10-2026 - 1.0.14
+#### structures
+- added celadon department store
+- added farmers market in viridian
+
+#### config
+- added option to disable npcs in server config
+
+#### mechanics
+- removed rctmod dependency. battles now use native cobblemon system
+	- trainers use random pokemon from preset teams without repeats
+	- trainers have multiple teams that scale with player level
+	- trainer pokemon level scales with the player's highest-level pokemon (with slight variation)
+	- trainer party size varies based on trainer type and player level
+	- set minimum levels for key trainers to prevent early end-game boss fights
+- added advancements
+- added optional cobbleverse badge mod support:
+	- starter kit includes a kanto badge box (if installed)
+	- defeating gym leaders awards their respective badge (if installed)
+
+#### bug fixes
+- fixed misty's winning dialogue not triggering
+
 ### 24-10-2026 - 1.0.13
 #### structures:
 - changed grid from 9x9 to 11x11 to make cities more compact

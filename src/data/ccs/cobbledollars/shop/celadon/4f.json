@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Evolution Stones",
+    "offers": [
+      {
+        "item": "cobblemon:fire_stone",
+        "price": "50000"
+      },
+      {
+        "item": "cobblemon:thunder_stone",
+        "price": "50000"
+      },
+      {
+        "item": "cobblemon:water_stone",
+        "price": "50000"
+      },
+      {
+        "item": "cobblemon:leaf_stone",
+        "price": "50000"
+      },
+      {
+        "item": "cobblemon:ice_stone",
+        "price": "50000"
+      }
+    ]
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();"
+    }
+  },
+  "pages": [
+    {
+      "id": "line_1",
+      "speaker": "npc",
+      "lines": [
+        "Come on Graveler! I love Graveler! I collect them!"
+      ],
+      "input": [
+        "q.dialogue.set_page('line_2');"
+      ]
+    },
+    {
+      "id": "line_2",
+      "speaker": "npc",
+      "lines": [
+        "Huh?"
+      ],
+      "input": [
+        "q.dialogue.set_page('line_3');"
+      ]
+    },
+    {
+      "id": "line_3",
+      "speaker": "npc",
+      "lines": [
+        "Graveler turned into a different Pok\u00e9mon!"
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    }
+  ]
+}

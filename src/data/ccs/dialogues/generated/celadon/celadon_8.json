@@ -1,0 +1,33 @@
+{
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();"
+    }
+  },
+  "pages": [
+    {
+      "id": "line_1",
+      "speaker": "npc",
+      "lines": [
+        "I heard something useful."
+      ],
+      "input": [
+        "q.dialogue.set_page('line_2');"
+      ]
+    },
+    {
+      "id": "line_2",
+      "speaker": "npc",
+      "lines": [
+        "Some Pok\u00e9mon need evolution stones to evolve!"
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    }
+  ]
+}

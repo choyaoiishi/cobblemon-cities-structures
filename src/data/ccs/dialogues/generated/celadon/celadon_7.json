@@ -1,0 +1,23 @@
+{
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();"
+    }
+  },
+  "pages": [
+    {
+      "id": "line_1",
+      "speaker": "npc",
+      "lines": [
+        "I'm getting an Ice Stone for my girlfriend!"
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    }
+  ]
+}

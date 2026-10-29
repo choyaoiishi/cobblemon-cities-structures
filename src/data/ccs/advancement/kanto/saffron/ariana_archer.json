@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "manual_trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false,
+    "icon": {
+      "id": "cobblefurnies:cyan_sofa"
+    },
+    "title": {
+      "text": "Boss Won't Be Happy About This"
+    },
+    "description": {
+      "text": "Defeat Ariana and Archer in Silph Co."
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "manual_trigger"
+    ]
+  ],
+  "parent": "ccs:kanto/saffron/gary"
+}

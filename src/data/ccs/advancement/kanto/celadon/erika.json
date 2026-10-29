@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "manual_trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false,
+    "icon": {
+      "id": "cobblemon:miracle_seed"
+    },
+    "title": {
+      "text": "The Nature-Loving Princess!"
+    },
+    "description": {
+      "text": "Defeat Gym Leader Erika"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "manual_trigger"
+    ]
+  ],
+  "rewards": {
+    "function": "ccs:badges/celadon"
+  },
+  "parent": "ccs:kanto/celadon/root"
+}

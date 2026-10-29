@@ -1,0 +1,38 @@
+q.run_script('ccs:set_loop_count');
+
+q.player.party.highest_level < 30 ? {
+	return q.array(
+		'geodude moves=bulldoze,rocktomb,spark,selfdestruct nature=adamant held_item=cobblemon:custap_berry ability=sturdy aspect=alolan',
+		'onix moves=rocktomb,bulldoze,sleeptalk nature=bashful held_item=cobblemon:berry_juice ability=sturdy',
+		'hippopotas moves=bulldoze,rocktomb,toxic,slackoff nature=careful held_item=cobblemon:berry_juice ability=sandstream',
+		'cacnea moves=poweruppunch,bulletseed,thunderpunch,pinmissile nature=bashful held_item=cobblemon:eviolite ability=sandrush',
+		'lunatone moves=ancientpower,psybeam,hiddenpower,icywind nature=bashful held_item=cobblemon:lum_berry ability=levitate',
+		'lileep moves=stockpile,recover,hiddenpower,megadrain nature=bold held_item=cobblemon:oran_berry ability=stormdrain',
+		'archen moves=wingattack,rocktomb,bulldoze,facade nature=bashful held_item=cobblemon:iapapa_berry ability=defeatist',
+		'varoom moves=bulldoze,gyroball,toxic,protect nature=careful held_item=cobblemon:air_balloon ability=filter'
+	);
+};
+
+q.player.party.highest_level < 60 ? {
+	return q.array(
+		'golem moves=bulldoze,rocktomb,spark,selfdestruct nature=adamant held_item=cobblemon:custap_berry ability=sturdy',
+		'steelix moves=rocktomb,bulldoze,sleeptalk nature=bashful held_item=cobblemon:berry_juice ability=sturdy',
+		'hippowdon moves=bulldoze,rocktomb,toxic,slackoff nature=careful held_item=cobblemon:berry_juice ability=sandstream',
+		'cacturne moves=poweruppunch,bulletseed,thunderpunch,pinmissile nature=bashful held_item=cobblemon:eviolite ability=sandrush',
+		'lunatone moves=ancientpower,psybeam,hiddenpower,icywind nature=bashful held_item=cobblemon:lum_berry ability=levitate',
+		'cradily moves=stockpile,recover,hiddenpower,megadrain nature=bold held_item=cobblemon:oran_berry ability=stormdrain',
+		'archeops moves=wingattack,rocktomb,bulldoze,facade nature=bashful held_item=cobblemon:iapapa_berry ability=defeatist',
+		'revavroom moves=bulldoze,gyroball,toxic,protect nature=careful held_item=cobblemon:air_balloon ability=filter'
+	);
+};
+
+return q.array(
+	'greattusk moves=stealthrock,closecombat,headlongrush,knockoff nature=jolly ability=protosynthesis',
+	'omastar moves=shellsmash,meteorbeam,surf,icebeam nature=timid held_item=cobblemon:power_herb ability=weakarmor',
+	'tyranitar moves=dragondance,stoneedge,firepunch,knockoff nature=jolly held_item=cobblemon:weakness_policy ability=sandstream',
+	'arcanine moves=flareblitz,headsmash,wildcharge,extremespeed nature=jolly held_item=cobblemon:focus_sash ability=rockhead aspect=hisuian',
+	'ironboulder moves=stealthrock,closecombat,mightycleave,zenheadbutt nature=jolly held_item=cobblemon:lum_berry ability=quarkdrive',
+	'irontreads moves=knockoff,earthquake,ironhead,icespinner nature=jolly ability=quarkdrive',
+	'ursaluna moves=bloodmoon,earthpower,vacuumwave,hypervoice nature=modest held_item=cobblemon:leftovers ability=scrappy aspect=bloodmoon',
+	'aerodactyl moves=dragondance,stoneedge,earthquake,dualwingbeat nature=jolly ability=toughclaws aspect=mega'
+);

@@ -21,11 +21,11 @@
                         {
                             "weight": 1,
                             "data": {
-                                "Name": "minecraft:warped_planks"
+                                "Name": "minecraft:cyan_wool"
                             }
                         },
                         {
-                            "weight": 1,
+                            "weight": 3,
                             "data": {
                                 "Name": "minecraft:cyan_concrete"
                             }

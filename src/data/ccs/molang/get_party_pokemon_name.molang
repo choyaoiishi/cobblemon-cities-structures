@@ -1,0 +1,6 @@
+t.p = q.party.get_pokemon(v.party_index);
+t.ps = t.p.species();
+
+v.msg = 'pokemon:' + t.ps.name();
+
+q.run_script('ccs:print');

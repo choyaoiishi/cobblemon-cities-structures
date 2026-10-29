@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "manual_trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false,
+    "icon": {
+      "id": "cobblemon:charcoal_stick"
+    },
+    "title": {
+      "text": "The Hotheaded Quiz Master!"
+    },
+    "description": {
+      "text": "Defeat Gym Leader Blaine"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "manual_trigger"
+    ]
+  ],
+  "rewards": {
+    "function": "ccs:badges/cinnabar"
+  },
+  "parent": "ccs:kanto/cinnabar/root"
+}

@@ -1,0 +1,43 @@
+{
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();"
+    }
+  },
+  "pages": [
+    {
+      "id": "line_1",
+      "speaker": "npc",
+      "lines": [
+        "Pok\u00e9mon ability enhancers can be bought only here."
+      ],
+      "input": [
+        "q.dialogue.set_page('line_2');"
+      ]
+    },
+    {
+      "id": "line_2",
+      "speaker": "npc",
+      "lines": [
+        "Use Calcium to increase special abilities."
+      ],
+      "input": [
+        "q.dialogue.set_page('line_3');"
+      ]
+    },
+    {
+      "id": "line_3",
+      "speaker": "npc",
+      "lines": [
+        "Use Carbos to increase speed."
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    }
+  ]
+}

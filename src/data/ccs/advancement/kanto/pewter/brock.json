@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "manual_trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false,
+    "icon": {
+      "id": "cobblemon:hard_stone"
+    },
+    "title": {
+      "text": "The Rock Solid Pok\u00e9mon Trainer!"
+    },
+    "description": {
+      "text": "Defeat Gym Leader Brock"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "manual_trigger"
+    ]
+  ],
+  "rewards": {
+    "function": "ccs:badges/pewter"
+  },
+  "parent": "ccs:kanto/pewter/root"
+}

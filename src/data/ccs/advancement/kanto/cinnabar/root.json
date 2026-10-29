@@ -1,0 +1,40 @@
+{
+  "criteria": {
+    "entered_structure": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "ccs:cinnabar"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false,
+    "icon": {
+      "id": "cobblemon:lava_cookie"
+    },
+    "title": {
+      "text": "The Fiery Town of Burning Desire"
+    },
+    "description": {
+      "text": "Enter Cinnabar City"
+    }
+  },
+  "requirements": [
+    [
+      "entered_structure"
+    ]
+  ],
+  "parent": "ccs:kanto/root"
+}

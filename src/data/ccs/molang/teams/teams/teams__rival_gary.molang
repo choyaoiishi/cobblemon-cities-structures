@@ -1,0 +1,95 @@
+q.run_script('ccs:set_loop_count');
+
+q.player.party.highest_level < 20 ? {
+	return q.array(
+    'starly moves=tackle,growl,quickattack,wingattack nature=mild ability=frisk',
+    'litleo moves=incinerate,round,hiddenpower,sleeptalk nature=timid held_item=cobblemon:wise_glasses ability=rivalry',
+    'squirtle moves=poweruppunch,aquajet,rocktomb,curse nature=adamant held_item=cobblemon:oran_berry ability=torrent',
+    'snubbull moves=poweruppunch,covet,thunderwave,firefang nature=adamant held_item=cobblemon:muscle_band ability=intimidate',
+    'slowpoke moves=thunderwave,waterpulse,psybeam,teleport nature=bold held_item=cobblemon:leftovers ability=regenerator',
+    'charmander moves=poweruppunch,firefang,thunderpunch,slash nature=jolly held_item=cobblemon:muscle_band ability=solarpower',
+    'bulbasaur moves=sleeppowder,megadrain,sludge,growth nature=timid held_item=cobblemon:oran_berry ability=overgrow'
+);
+};
+
+q.player.party.highest_level < 30 ? {
+	return q.array(
+    'kirlia moves=psybeam,drainingkiss,magicalleaf nature=modest held_item=cobblemon:sitrus_berry ability=trace',
+    'staravia moves=quickattack,pluck,uturn,sleeptalk nature=adamant held_item=cobblemon:muscle_band ability=intimidate',
+    'pawniard moves=knockoff,suckerpunch,cut,lowsweep nature=adamant held_item=cobblemon:chople_berry ability=defiant',
+	'hitmonlee moves=bulletpunch,knockoff,fakeout,lowsweep nature=jolly held_item=cobblemon:black_belt ability=striker',
+    'eevee moves=lastresort,round,doublekick,bite nature=rash ability=adaptability',
+    'clefable moves=chargebeam,drainingkiss,icywind,mysticalfire nature=timid held_item=cobblemon:life_orb ability=magicguard',
+    'simisear moves=incinerate,grassknot,hiddenpower,sleeptalk nature=timid held_item=cobblemon:charcoal ability=sagepower',
+    'arbok moves=poisonjab,suckerpunch,crunch,thunderfang nature=jolly held_item=cobblemon:poison_barb ability=intimidate',
+    'wartortle moves=shellsmash,waterpulse,icywind,hiddenpower nature=modest held_item=cobblemon:eviolite ability=torrent',
+    'hitmontop moves=fakeout,bulletpunch,rocksmash,thief nature=jolly held_item=cobblemon:black_belt ability=technician',
+    'simisage moves=megadrain,hiddenpower,powergem,sleeptalk nature=timid held_item=cobblemon:miracle_seed ability=sagepower',
+    'charmeleon moves=dragondance,firepunch,thunderpunch,brickbreak nature=jolly held_item=cobblemon:eviolite ability=blaze',
+    'simipour moves=waterpulse,icywind,hiddenpower,grassknot nature=timid held_item=cobblemon:mystic_water ability=sagepower',
+    'ivysaur moves=leechseed,protect,sludge,gigadrain nature=timid held_item=cobblemon:eviolite ability=overgrow',
+	'hitmonchan moves=drainpunch,icepunch,machpunch,suckerpunch nature=jolly held_item=cobblemon:black_belt ability=ironfist'
+	);
+};
+q.player.party.highest_level < 50 ? {
+return q.array(
+    'staraptor moves=bravebird,quickattack,closecombat,uturn nature=jolly held_item=cobblemon:sharp_beak ability=intimidate',
+    'kingambit moves=swordsdance,knockoff,suckerpunch,ironhead nature=jolly held_item=cobblemon:chople_berry ability=supremeoverlord',
+	'azelf moves=stealthrock,explosion,flamethrower,psychic nature=naive held_item=cobblemon:focus_sash ability=levitate',
+    'celesteela moves=autotomize,airslash,flamethrower,gigadrain nature=modest held_item=cobblemon:weakness_policy ability=beastboost',
+    'electivire moves=machpunch,plasmafists,closecombat,icepunch nature=jolly held_item=cobblemon:electirizer ability=ironfist',
+    'jumpluff moves=spore,doubleedge,leafblade,swordsdance nature=jolly held_item=cobblemon:sharp_beak ability=aerilate',
+    'darmanitan moves=flareblitz,rockslide,uturn,earthquake nature=jolly held_item=cobblemon:life_orb ability=sheerforce',
+    'blastoise moves=shellsmash,waterpulse,darkpulse,aurasphere nature=modest ability=megalauncher aspect=mega',
+    'azumarill moves=liquidation,aquajet,playrough,icepunch nature=adamant held_item=cobblemon:mystic_water ability=hugepower',
+    'charizard moves=flamethrower,airslash,solarbeam,focusblast nature=timid ability=drought aspect=mega_y',
+    'gorebyss moves=shellsmash,surf,moonblast,psychic nature=timid held_item=cobblemon:white_herb ability=dazzling',
+    'charizard moves=dragondance,dragonclaw,flareblitz,earthquake nature=jolly ability=toughclaws aspect=mega_x',
+    'venusaur moves=sleeppowder,gigadrain,sludgebomb,earthpower nature=timid ability=thickfat aspect=mega'
+);
+};
+q.player.party.highest_level < 80 ? {
+return q.array(
+    'staraptor moves=uturn,quickattack,bravebird,closecombat nature=jolly held_item=cobblemon:sharp_beak ability=intimidate',
+    'kingambit moves=ironhead,swordsdance,knockoff,suckerpunch nature=adamant held_item=cobblemon:chople_berry ability=supremeoverlord',
+    'azumarill moves=icepunch,waterfall,playrough,liquidation nature=adamant held_item=cobblemon:mystic_water ability=hugepower',
+    'ironmoth moves=fierydance,sludgewave,energyball,dazzlinggleam nature=timid ability=quarkdrive',
+    'sneasler moves=closecombat,uturn,direclaw,firepunch nature=jolly held_item=cobblemon:focus_sash ability=unburden',
+	'zapdos moves=hurricane,thunder,weatherball,roost nature=timid ability=static',
+    'ferrothorn moves=leechseed,powerwhip,gyroball,thunder nature=relaxed held_item=cobblemon:rocky_helmet ability=ironbarbs',
+    'celesteela moves=autotomize,ironhead,airslash,gigadrain nature=naive held_item=cobblemon:weakness_policy ability=beastboost',
+    'basculegion moves=wavecrash,lastrespects,flipturn,zenheadbutt nature=jolly held_item=cobblemon:mystic_water ability=swiftswim',
+    'goodra moves=thunder,hydropump,icebeam,rest nature=modest held_item=cobblemon:leftovers ability=hydration',
+    'blastoise moves=shellsmash,darkpulse,hydropump,icebeam nature=timid ability=megalauncher aspect=mega',
+    'sandyshocks moves=voltswitch,earthpower,thunderbolt,hiddenpower nature=timid ability=protosynthesis',
+    'charizard moves=dragondance,earthquake,flareblitz,dragonclaw nature=jolly ability=toughclaws aspect=mega_x',
+    'garchomp moves=swordsdance,scaleshot,earthquake,stoneedge nature=jolly held_item=cobblemon:yache_berry ability=roughskin',
+    'sunflora moves=growth,solarbeam,fierydance,hiddenpower nature=timid held_item=cobblemon:focus_sash ability=chlorophyll',
+    'zamazenta moves=bodypress,bulkup,wildcharge,behemothbash nature=jolly ability=dauntlessshield aspect=crowned',
+    'gliscor moves=swordsdance,protect,earthquake,facade nature=jolly held_item=cobblemon:toxic_orb ability=poisonheal',
+    'latias moves=calmmind,roost,mistball,mysticalfire nature=timid held_item=cobblemon:leftovers ability=levitate',
+	'ironhands moves=drainpunch,plasmafists,knockoff,icepunch nature=jolly held_item=cobblemon:assault_vest ability=quarkdrive',
+    'primarina moves=calmmind,drainingkiss,hypervoice,icebeam nature=modest held_item=cobblemon:leftovers ability=liquidvoice',
+    'chandelure moves=flamethrower,shadowball,energyball,calmmind nature=timid held_item=cobblemon:life_orb ability=shadowtag',
+    'hydreigon moves=nastyplot,darkpulse,flashcannon,flamethrower nature=timid ability=levitate',
+    'venusaur moves=chloroblast,sludgebomb,earthpower,sleeppowder nature=timid ability=thickfat aspect=mega'
+	);
+};
+
+return q.array(
+    'necrozma moves=dragondance,photongeyser,earthquake,stoneedge nature=jolly ability=neuroforce aspect=ultra-fusion',
+	'groudon moves=stealthrock,precipiceblades,heatcrash,rocktomb nature=jolly ability=desolateland aspect=primal',
+    'gougingfire moves=dragondance,flareblitz,dracobarrage,morningsun nature=jolly held_item=cobblemon:leftovers ability=protosynthesis',
+    'koraidon moves=swordsdance,flareblitz,collisioncourse,dracobarrage nature=jolly held_item=cobblemon:roseli_berry ability=orichalcumpulse',
+	'pheromosa moves=uturn,closecombat,tripleaxel,poisonjab nature=jolly held_item=cobblemon:focus_sash ability=beastboost',
+    'metagross moves=bulletpunch,zenheadbutt,firepunch,meteormash nature=jolly ability=toughclaws aspect=mega',
+    'miraidon moves=calmmind,electrodrift,dragonpulse,hiddenpower nature=timid held_item=cobblemon:leftovers ability=hadronengine',
+    'yveltal moves=oblivionwing,darkhole,heatwave,suckerpunch nature=modest held_item=cobblemon:assault_vest ability=darkaura',
+    'eternatus moves=meteorbeam,sludgewave,flamethrower,dynamaxcannon nature=timid held_item=cobblemon:power_herb ability=pressure',
+    'ditto moves=transform nature=timid held_item=cobblemon:choice_scarf ability=imposter',
+	'kyogre moves=originpulse,icebeam,thunder,liquidation nature=timid ability=primordialsea aspect=primal',
+    'swampert moves=waterfall,eathquake,icepunch,stoneedge nature=adamant ability=swiftswim aspect=mega',
+    'walkingwake moves=hydropump,dracobarrage,scald,hurricane nature=timid ability=protosynthesis',
+    'xerneas moves=geomancy,moonblast,thunderbolt,focusblast nature=timid held_item=cobblemon:power_herb ability=fairyaura',
+    'arceus moves=swordsdance,ironhead,earthquake,stoneedge nature=jolly ability=multitype aspect=steel-plate'
+);

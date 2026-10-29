@@ -1,0 +1,23 @@
+{
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();"
+    }
+  },
+  "pages": [
+    {
+      "id": "line_1",
+      "speaker": "npc",
+      "lines": [
+        "Captured Pokemon are registered with the name of the Original Trainer that caught it!"
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    }
+  ]
+}

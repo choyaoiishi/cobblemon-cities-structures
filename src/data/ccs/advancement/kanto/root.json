@@ -1,0 +1,159 @@
+{
+  "criteria": {
+    "visited_pewter": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "ccs:pewter"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "visited_cerulean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "ccs:cerulean"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "visited_vermilion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "ccs:vermilion"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "visited_celadon": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "ccs:celadon"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "visited_fuchsia": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "ccs:fuchsia"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "visited_saffron": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "ccs:saffron"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "visited_cinnabar": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "ccs:cinnabar"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "visited_viridian": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "ccs:viridian"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false,
+    "icon": {
+      "id": "cobblemon:heavy_duty_boots"
+    },
+    "title": {
+      "text": "Kanto Explorer"
+    },
+    "description": {
+      "text": "Discover any city in Kanto"
+    }
+  },
+  "requirements": [
+    [
+      "visited_pewter",
+      "visited_cerulean",
+      "visited_vermilion",
+      "visited_celadon",
+      "visited_fuchsia",
+      "visited_saffron",
+      "visited_cinnabar",
+      "visited_viridian"
+    ]
+  ],
+  "parent": "ccs:root"
+}

@@ -1,0 +1,41 @@
+q.run_script('ccs:set_loop_count');
+
+q.player.party.highest_level < 60 ? {
+	return q.array(
+    'honchkrow moves=nightslash,suckerpunch,drillpeck,heatwave nature=jolly held_item=cobblemon:scope_lens ability=superluck',
+    'veluza moves=filletaway,aquacutter,psychocut,aquajet nature=jolly held_item=cobblemon:sitrus_berry ability=sharpness',
+	'infernape moves=pyroball,closecombat,thunderpunch,stealthrock nature=jolly held_item=cobblemon:focus_sash ability=blaze',
+    'nidoking moves=earthpower,sludgewave,fireblast,thunderbolt nature=timid held_item=cobblemon:life_orb ability=sheerforce',
+    'torterra moves=shellsmash,earthquake,woodhammer,headsmash nature=jolly held_item=cobblemon:white_herb ability=rockhead',
+    'orthworm moves=heavyslam,bodypress,shedtail,earthquake nature=impish held_item=cobblemon:sitrus_berry ability=eartheater',
+    'gyarados moves=dragondance,waterfall,earthquake,bounce nature=jolly ability=intimidate',
+    'kangaskhan moves=poweruppunch,bodyslam,crunch,rocktomb nature=jolly ability=parentalbond aspect=mega'
+);
+};
+
+q.player.party.highest_level < 70 ? {
+	return q.array(
+    'hippowdon moves=stoneedge,earthquake,roar,stealthrock nature=adamant held_item=cobblemon:smooth_rock ability=sandstream',
+    'kangaskhan moves=poweruppunch,fakeout,bodyslam,crunch nature=jolly ability=parentalbond aspect=mega',
+    'garchomp moves=swordsdance,earthquake,rockslide,scaleshot nature=jolly held_item=cobblemon:yache_berry ability=sandveil',
+    'torterra moves=shellsmash,woodhammer,earthquake,headsmash nature=jolly held_item=cobblemon:white_herb ability=rockhead',
+	'mamoswine moves=stoneedge,iceshard,headlongrush,iciclecrash nature=jolly held_item=cobblemon:focus_sash ability=thickfat',
+    'dracovish moves=fishiousrend,psychicfangs,crunch,dragonclaw nature=adamant held_item=cobblemon:water_gem ability=sandrush',
+    'gyarados moves=dragondance,waterfall,earthquake,bounce nature=jolly ability=moxie',
+    'garganacl moves=irondefense,bodypress,saltcure,recover nature=careful held_item=cobblemon:leftovers ability=purifyingsalt',
+    'excadrill moves=swordsdance,earthquake,ironhead,rockslide nature=jolly held_item=cobblemon:focus_sash ability=sandrush',
+    'garchomp moves=swordsdance,earthquake,scaleshot,stoneedge nature=jolly ability=sandforce aspect=mega'
+);
+};
+
+return q.array(
+    'scrafty moves=roar,knockoff,drainpunch,icepunch nature=adamant held_item=cobblemon:psychic_seed ability=intimidate',
+    'excadrill moves=highhorsepower,ironhead,rockslide,swordsdance nature=adamant held_item=cobblemon:focus_sash ability=sandforce',
+    'tyranitar moves=highhorsepower,knockoff,rockslide,firepunch nature=careful held_item=cobblemon:assault_vest ability=sandstream',
+    'celesteela moves=autotomize,meteorbeam,flamethrower,airslash nature=modest held_item=cobblemon:power_herb ability=beastboost',
+	'spiritomb moves=willowisp,partingshot,shadowball,suckerpunch nature=sassy held_item=cobblemon:figy_berry ability=intimidate',
+    'delphox moves=heatwave,expandingforce,grassknot,shadowball nature=timid held_item=cobblemon:focus_sash ability=magicguard',
+    'silvally moves=multiattack,flamethrower,partingshot,thunderwave nature=jolly held_item=cobblemon:leftovers ability=battlearmor aspect=fairy-memory',
+    'genesect moves=uturn,ironhead,icebeam,flamethrower nature=hasty held_item=cobblemon:assault_vest ability=download',
+    'mewtwo moves=expandingforce,soulrobbery,flamethrower,aurasphere nature=timid ability=insomnia aspect=mega_y'
+);

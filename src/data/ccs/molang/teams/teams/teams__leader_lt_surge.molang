@@ -1,0 +1,25 @@
+q.run_script('ccs:set_loop_count');
+
+q.player.party.highest_level < 70 ? {
+	return q.array(
+		'pincurchin moves=voltswitch,scald,discharge,hiddenpower nature=bold held_item=cobblemon:terrain_extender ability=electricsurge',
+		'vikavolt moves=voltswitch,bugbuzz,roost,mudshot nature=calm held_item=cobblemon:occa_berry ability=levitate',
+		'bellibolt moves=paraboliccharge,muddywater,thunderwave,hiddenpower nature=bold held_item=cobblemon:shuca_berry ability=electromorphosis',
+		'manectric moves=chargebeam,voltswitch,flameburst,hiddenpower nature=timid ability=intimidate aspect=mega',
+		'electrode moves=chloroblast,voltswitch,hiddenpower,explosion nature=naive held_item=cobblemon:life_orb ability=reckless aspect=hisuian',
+		'raichu moves=risingvoltage,psyshock,nastyplot,surf nature=modest held_item=cobblemon:focus_sash ability=surgesurfer aspect=alolan',
+		'pawmot moves=plasmafists,machpunch,icepunch,closecombat nature=jolly held_item=cobblemon:punching_glove ability=ironfist',
+		'ampharos moves=voltswitch,dragonpulse,focusblast,hiddenpower nature=modest ability=moldbreaker aspect=mega'
+	);
+};
+
+return q.array(
+	'irontreads moves=earthquake,ironhead,stealthrock,voltswitch nature=jolly held_item=cobblemon:focus_sash ability=quarkdrive',
+	'bellibolt moves=paraboliccharge,hiddenpower,muddywater,voltswitch nature=modest held_item=cobblemon:leftovers ability=electromorphosis',
+	'manectric moves=voltswitch,risingvoltage,flamethrower,hiddenpower nature=timid ability=intimidate aspect=mega',
+	'pawmot moves=thunderpunch,closecombat,machpunch,icepunch nature=jolly held_item=cobblemon:focus_sash ability=ironfist',
+	'ironthorns moves=dragondance,fusionbolt,stoneedge,icepunch nature=jolly held_item=cobblemon:lum_berry ability=quarkdrive',
+	'ironmoth moves=fierydance,sludgewave,energyball,dazzlinggleam nature=timid held_item=cobblemon:fire_gem ability=quarkdrive',
+	'ironhands moves=plasmafists,drainpunch,icepunch,fakeout nature=careful held_item=cobblemon:assault_vest ability=quarkdrive',
+	'manectric moves=risingvoltage,hiddenpower,flamethrower,voltswitch nature=timid ability=intimidate aspect=mega'
+);

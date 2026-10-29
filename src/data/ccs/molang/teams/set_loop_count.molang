@@ -1,0 +1,11 @@
+q.player.party.highest_level < 30 ? {
+	v.loop_count = 4;
+	return 1;
+}
+
+q.player.party.highest_level < 50 ? {
+	v.loop_count = 5;
+	return 1;
+}
+
+v.loop_count = 6;

@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "manual_trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false,
+    "icon": {
+      "id": "minecraft:glow_berries"
+    },
+    "title": {
+      "text": "You Are Not Worthy!"
+    },
+    "description": {
+      "text": "Stop Giovanni world domination"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "manual_trigger"
+    ]
+  ],
+  "parent": "ccs:kanto/cerulean/ariana_archer"
+}

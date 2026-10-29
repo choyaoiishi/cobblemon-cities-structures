@@ -1,0 +1,1 @@
+give @s cobbleversebadges:kanto_cascade_badge 1

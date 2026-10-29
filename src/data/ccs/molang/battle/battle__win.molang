@@ -1,3 +1,6 @@
+	v.msg = 'win';
+q.run_script('ccs:print');
+
 q.run_script('ccs:chat__set_cooldown');
 t.data = q.player.data(); 
 t.data.win = 1; 
@@ -11,8 +14,9 @@ t.advancement = q.player.get_npc_variable(q.npc, 'advancement');
 t.trainer_id = q.player.get_npc_variable(q.npc, 'trainer_id');
 
 !q.is_blank(t.advancement) ? {
-	q.run_command('/rctmod player set progress '+ q.player.username() + ' after ' + t.trainer_id);
-	q.run_command('/advancement grant ' + q.player.username() + ' only rctmod:trainers/defeat_' + t.advancement);
+	v.msg = 'advancement:' + t.advancement;
+q.run_script('ccs:print');
+	q.run_command('/advancement grant ' + q.player.username() + ' only ' + t.advancement);
 };
 
 q.npc.run_dialogue(q.player, q.npc.config.dialogue_selection);

@@ -1,0 +1,33 @@
+{
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();"
+    }
+  },
+  "pages": [
+    {
+      "id": "line_1",
+      "speaker": "npc",
+      "lines": [
+        "Hello! Welcome to Celadon Department Store!"
+      ],
+      "input": [
+        "q.dialogue.set_page('line_2');"
+      ]
+    },
+    {
+      "id": "line_2",
+      "speaker": "npc",
+      "lines": [
+        "Please enjoy your visit and find whatever you need."
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    }
+  ]
+}

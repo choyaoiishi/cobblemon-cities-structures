@@ -1,0 +1,34 @@
+q.run_script('ccs:set_loop_count');
+
+q.player.party.highest_level < 35 ? {
+	return q.array(
+		'glimmet moves=ancientpower,venoshock,mudshot,protect nature=bashful held_item=cobblemon:shuca_berry ability=toxicdebris',
+		'seviper moves=megadrain,poisonfang,bulldoze,hypnosis nature=bashful held_item=cobblemon:shuca_berry ability=fatalprecision',
+		'houndour moves=nastyplot,incinerate,snarl,hiddenpower nature=timid held_item=cobblemon:focus_sash ability=flashfire',
+		'mightyena moves=bite,icefang,poisonfang,howl nature=bashful held_item=cobblemon:berry_juice ability=strongjaw',
+		'fearow moves=pursuit,pluck,drillrun,doublehit nature=bashful held_item=cobblemon:muscle_band ability=technician'
+	);
+};
+
+q.player.party.highest_level < 70 ? {
+	return q.array(
+		'mamoswine moves=earthquake,iceshard,endeavor,iciclecrash nature=jolly held_item=cobblemon:focus_sash ability=thickfat',
+		'durant moves=honeclaws,ironhead,xscissor,superpower nature=jolly held_item=cobblemon:life_orb ability=hustle',
+		'mimikyu moves=playrough,swordsdance,shadowclaw,shadowsneak nature=jolly held_item=cobblemon:lum_berry ability=disguise',
+		'ninetales moves=weatherball,solarbeam,scorchingsands,hypnosis nature=timid held_item=cobblemon:charcoal ability=drought',
+		'exeggutor moves=solarbeam,psyshock,weatherball,earthpower nature=timid held_item=cobblemon:life_orb ability=chlorophyll',
+		'houndoom moves=darkhole,flamethrower,suckerpunch,solarbeam nature=naive ability=solarpower aspect=mega',
+		'sunflora moves=growth,solarbeam,weatherball,hiddenpower nature=timid held_item=cobblemon:focus_sash ability=chlorophyll'
+	);
+};
+
+return q.array(
+    'latias moves=thunderbolt,icebeam,calmmind,psyshock nature=timid ability=levitate aspect=mega',
+    'mismagius moves=shadowball,moonblast,mysticalfire,thunderbolt nature=timid ability=levitate',
+	'aerodactyl moves=bravebird,stoneedge,headlongrush,firefang nature=jolly held_item=cobblemon:sharp_beak ability=rockhead',
+    'heliolisk moves=boomburst,thunderbolt,grassknot,weatherball nature=timid held_item=cobblemon:focus_sash ability=solarpower',
+    'zygarde moves=thousandarrows,extremespeed,glare,dragondance nature=impish ability=powerconstruct aspect=complete-percent',
+    'heatran moves=protect,flamethrower,flashcannon,earthpower nature=timid held_item=cobblemon:air_balloon ability=flashfire',
+    'salamence moves=doubleedge,flamethrower,roost,protect nature=naive ability=aerilate aspect=mega',
+    'houndoom moves=darkhole,fireblast,sludgebomb,solarbeam nature=timid ability=solarpower aspect=mega'
+);
