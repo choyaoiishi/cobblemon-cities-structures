@@ -2,37 +2,41 @@
     "1": {
         "lines": [],
         "battle": [
-            "team_rocket_grunt_0046",
+            "grunt",
             "What are you looking at? I'll take care of you!",
             "Tch! Beaten by a kid?",
-            "Most Team Rocket members left after the latest ordeal. I have no idea why I'm still here."
+            "Most Team Rocket members left after the latest ordeal. I have no idea why I'm still here.",
+            "70"
         ]
     },
     "2": {
         "lines": [],
         "battle": [
-            "team_rocket_grunt_0047",
+            "grunt",
             "Stop right there! You won't interfere with the boss.",
             "Blast it! My Pokémon are no good.",
-            "The boss's plan? My guess is as good as yours."
+            "The boss's plan? My guess is as good as yours.",
+            "70"
         ]
     },
     "3": {
         "lines": [],
         "battle": [
-            "team_rocket_grunt_0048",
+            "grunt",
             "Not another step, brat! You're not going any further.",
             "Ugh... Down already?",
-            "I'm just here as I was promised some speed items."
+            "I'm just here as I was promised some speed items.",
+            "70"
         ]
     },
     "4": {
         "lines": [],
         "battle": [
-            "team_rocket_grunt_0049",
+            "grunt",
             "You think you can just waltz into Cerulean Cave?",
             "My strategy completely failed...",
-            "We honestly don't know what the boss is up to ourselves. After his last defeat against you..."
+            "We honestly don't know what the boss is up to ourselves. After his last defeat against you...",
+            "70"
         ]
     }
 }

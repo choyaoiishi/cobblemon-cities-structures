@@ -1,0 +1,172 @@
+[
+  {
+    "species": "Metagross",
+    "level": "Highest Lv -2",
+    "nature": "Jolly",
+    "ability": "Clear Body",
+    "item": "Air Balloon",
+    "moves": [
+      "Stealth Rock",
+      "Meteor Mash",
+      "Explosion",
+      "Earthquake"
+    ],
+    "baseStats": {
+      "HP": "80",
+      "ATK": "135",
+      "DEF": "130",
+      "SPA": "95",
+      "SPD": "90",
+      "SPE": "70"
+    },
+    "evs": {
+      "HP": "6",
+      "ATK": "252",
+      "SPE": "252"
+    },
+    "speedStat": "174",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Medicham",
+    "level": "Highest Lv -2",
+    "nature": "Adamant",
+    "ability": "Pure Power",
+    "item": "Choice Scarf",
+    "moves": [
+      "Psycho Cut",
+      "Close Combat",
+      "Thunder Punch",
+      "Ice Punch"
+    ],
+    "baseStats": {
+      "HP": "60",
+      "ATK": "60",
+      "DEF": "75",
+      "SPA": "60",
+      "SPD": "75",
+      "SPE": "80"
+    },
+    "evs": {
+      "HP": "6",
+      "ATK": "252",
+      "SPE": "252"
+    },
+    "speedStat": "172",
+    "altSpeeds": {
+      "Choi. Scarf": "258"
+    }
+  },
+  {
+    "species": "Crawdaunt",
+    "level": "Highest Lv -2",
+    "nature": "Adamant",
+    "ability": "Adaptability",
+    "item": "Choice Band",
+    "moves": [
+      "Aqua Jet",
+      "Liquidation",
+      "Crunch",
+      "Superpower"
+    ],
+    "baseStats": {
+      "HP": "63",
+      "ATK": "120",
+      "DEF": "85",
+      "SPA": "90",
+      "SPD": "55",
+      "SPE": "55"
+    },
+    "evs": {
+      "HP": "6",
+      "ATK": "252",
+      "SPE": "252"
+    },
+    "speedStat": "139",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Exploud",
+    "level": "Highest Lv -2",
+    "nature": "Timid",
+    "ability": "Punk Rock",
+    "item": "Silk Scarf",
+    "moves": [
+      "Boomburst",
+      "Surf",
+      "Flamethrower",
+      "Shadow Ball"
+    ],
+    "baseStats": {
+      "HP": "104",
+      "ATK": "81",
+      "DEF": "63",
+      "SPA": "91",
+      "SPD": "73",
+      "SPE": "73"
+    },
+    "evs": {
+      "HP": "6",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "179",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Gardevoir",
+    "level": "Highest Lv -2",
+    "nature": "Timid",
+    "ability": "Trace",
+    "item": "",
+    "moves": [
+      "Focus Blast",
+      "Moonblast",
+      "Psychic",
+      "Thunderbolt"
+    ],
+    "baseStats": {
+      "HP": "68",
+      "ATK": "65",
+      "DEF": "65",
+      "SPA": "125",
+      "SPD": "115",
+      "SPE": "80"
+    },
+    "evs": {
+      "HP": "6",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "189",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Sceptile-Mega",
+    "level": "Highest Lv -2",
+    "nature": "Jolly",
+    "ability": "Technician",
+    "item": "",
+    "moves": [
+      "Swords Dance",
+      "Bullet Seed",
+      "Dual Chop",
+      "Earthquake"
+    ],
+    "baseStats": {
+      "HP": "70",
+      "ATK": "135",
+      "DEF": "75",
+      "SPA": "110",
+      "SPD": "85",
+      "SPE": "145"
+    },
+    "evs": {
+      "HP": "6",
+      "ATK": "252",
+      "SPE": "252"
+    },
+    "speedStat": "283",
+    "altSpeeds": {}
+  }
+]

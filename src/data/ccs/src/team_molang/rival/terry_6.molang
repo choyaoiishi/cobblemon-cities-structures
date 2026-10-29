@@ -1,0 +1,5 @@
+return q.array(
+    'snubbull moves=poweruppunch,covet,thunderwave,firefang nature=adamant held_item=cobblemon:muscle_band ability=intimidate',
+    'slowpoke moves=thunderwave,waterpulse,psybeam,teleport nature=bold held_item=cobblemon:leftovers ability=regenerator',
+    'bulbasaur moves=sleeppowder,megadrain,sludge,growth nature=timid held_item=cobblemon:oran_berry ability=overgrow'
+);

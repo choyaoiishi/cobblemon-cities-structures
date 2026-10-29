@@ -42,11 +42,12 @@
             "Hah! I am Blaine! I am the Leader of Cinnabar Gym!"
         ],
         "battle": [
-            "leader_blaine_01a3",
+            "leader_blaine",
             "My fiery Pokémon will incinerate all challengers! Hah! You better have Burn Heal!",
             "I have burnt out! You have earned the Volcano Badge!",
             "Fire Blast is the ultimate fire technique! Don't waste it on water Pokémon!",
-            "leader_blaine"
+            "75",
+            "ccs:kanto/cinnabar/blaine"
         ],
         "reward": [
             "tm",
@@ -61,11 +62,12 @@
             "Oh right! I'm May. Brendan and I both come from Hoenn."
         ],
         "battle": [
-            "trainer_may_003d",
+            "rival_may",
             "Well, I could use a warm-up before I face Blaine.",
             "I may as well see how skilled you are myself! I see why Brendan looks up to you now.",
             "Take care!",
-            "trainer_may"
+            "50",
+            "ccs:kanto/cinnabar/may"
         ],
         "reward": [
             "pokemon",

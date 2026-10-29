@@ -1,0 +1,8 @@
+return q.array(
+    'ogerpon moves=ivycudgel,uturn,powerwhip,knockoff nature=jolly ability=sturdy aspect=cornerstone-mask',
+    'hawlucha moves=swordsdance,acrobatics,closecombat,stoneedge nature=adamant held_item=cobblemon:grassy_seed ability=unburden',
+    'sceptile moves=swordsdance,bulletseed,dracobarrage,highhorsepower nature=jolly ability=technician aspect=mega',
+    'toxtricity moves=boomburst,voltswitch,overdrive,hiddenpower nature=timid held_item=cobblemon:life_orb ability=punkrock',
+    'slowbro moves=thunderwave,sludgebomb,flamethrower,teleport nature=bold held_item=cobblemon:black_sludge ability=regenerator aspect=galarian',
+    'kartana moves=swordsdance,grassyglide,cut,sacredsword nature=jolly held_item=cobblemon:life_orb ability=beastboost'
+);

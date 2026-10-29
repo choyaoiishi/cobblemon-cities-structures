@@ -1,0 +1,8 @@
+return q.array(
+    'irontreads moves=earthquake,ironhead,stealthrock,voltswitch nature=jolly held_item=cobblemon:focus_sash ability=quarkdrive',
+    'bellibolt moves=paraboliccharge,hiddenpower,muddywater,voltswitch nature=modest held_item=cobblemon:leftovers ability=electromorphosis',
+    'rotom moves=voltswitch,risingvoltage,scald,hiddenpower nature=timid held_item=cobblemon:life_orb ability=levitate aspect=wash-appliance',
+    'pawmot moves=thunderpunch,closecombat,machpunch,icepunch nature=jolly held_item=cobblemon:punching_glove ability=ironfist',
+    'manectric moves=voltswitch,risingvoltage,flamethrower,hiddenpower nature=timid ability=intimidate aspect=mega',
+    'ironhands moves=plasmafists,drainpunch,icepunch,fakeout nature=careful held_item=cobblemon:assault_vest ability=quarkdrive'
+);

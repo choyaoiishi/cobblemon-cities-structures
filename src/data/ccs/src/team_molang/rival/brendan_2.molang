@@ -1,0 +1,6 @@
+return q.array(
+    'meditite moves=fakeout,rocksmash,bulletpunch,rocktomb nature=adamant held_item=cobblemon:muscle_band ability=purepower',
+    'corphish moves=aquajet,aerialace,rocktomb,knockoff nature=adamant held_item=cobblemon:mystic_water ability=adaptability',
+    'numel moves=ancientpower,flamecharge,rocktomb,bulldoze nature=lonely held_item=cobblemon:passho_berry ability=simple',
+    'treecko moves=poweruppunch,bulletseed,drainpunch,rocktomb nature=adamant held_item=cobblemon:oran_berry ability=unburden'
+);

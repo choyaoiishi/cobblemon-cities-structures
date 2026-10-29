@@ -1,0 +1,6 @@
+return q.array(
+    'loudred moves=hypervoice,brickbreak,icebeam,shadowball nature=naive held_item=cobblemon:chople_berry ability=punkrock',
+    'lunatone moves=psyshock,powergem,hypnosis,calmmind nature=modest held_item=cobblemon:colbur_berry ability=levitate',
+    'crawdaunt moves=aquajet,waterfall,knockoff,xscissor nature=adamant held_item=cobblemon:focus_sash ability=adaptability',
+    'grovyle moves=poweruppunch,aerialace,rocktomb,leafblade nature=adamant held_item=cobblemon:sitrus_berry ability=overgrow'
+);

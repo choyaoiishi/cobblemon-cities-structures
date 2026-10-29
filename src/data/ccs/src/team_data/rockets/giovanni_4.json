@@ -1,0 +1,150 @@
+[
+  {
+    "species": "Mamoswine",
+    "level": "57",
+    "nature": "Jolly",
+    "ability": "Thick Fat",
+    "item": "Focus Sash",
+    "moves": [
+      "Stone Edge",
+      "Ice Shard",
+      "Headlong Rush",
+      "Icicle Crash"
+    ],
+    "baseStats": {
+      "HP": "110",
+      "ATK": "130",
+      "DEF": "80",
+      "SPA": "70",
+      "SPD": "60",
+      "SPE": "80"
+    },
+    "evs": {},
+    "speedStat": "124",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Dracovish",
+    "level": "57",
+    "nature": "Adamant",
+    "ability": "Sand Rush",
+    "item": "Water Gem",
+    "moves": [
+      "Fishious Rend",
+      "Psychic Fangs",
+      "Crunch",
+      "Dragon Claw"
+    ],
+    "baseStats": {
+      "HP": "90",
+      "ATK": "90",
+      "DEF": "100",
+      "SPA": "70",
+      "SPD": "80",
+      "SPE": "75"
+    },
+    "evs": {},
+    "speedStat": "108",
+    "altSpeeds": {
+      "Sand Rush": "216"
+    }
+  },
+  {
+    "species": "Gyarados",
+    "level": "57",
+    "nature": "Jolly",
+    "ability": "Moxie",
+    "item": "",
+    "moves": [
+      "Dragon Dance",
+      "Waterfall",
+      "Earthquake",
+      "Bounce"
+    ],
+    "baseStats": {
+      "HP": "95",
+      "ATK": "125",
+      "DEF": "79",
+      "SPA": "60",
+      "SPD": "100",
+      "SPE": "81"
+    },
+    "evs": {},
+    "speedStat": "126",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Garganacl",
+    "level": "57",
+    "nature": "Careful",
+    "ability": "Purifying Salt",
+    "item": "Leftovers",
+    "moves": [
+      "Iron Defense",
+      "Body Press",
+      "Salt Cure",
+      "Recover"
+    ],
+    "baseStats": {
+      "HP": "100",
+      "ATK": "100",
+      "DEF": "130",
+      "SPA": "45",
+      "SPD": "90",
+      "SPE": "35"
+    },
+    "evs": {},
+    "speedStat": "62",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Excadrill",
+    "level": "57",
+    "nature": "Jolly",
+    "ability": "Sand Rush",
+    "item": "Focus Sash",
+    "moves": [
+      "Swords Dance",
+      "Earthquake",
+      "Iron Head",
+      "Rock Slide"
+    ],
+    "baseStats": {
+      "HP": "110",
+      "ATK": "135",
+      "DEF": "60",
+      "SPA": "50",
+      "SPD": "65",
+      "SPE": "88"
+    },
+    "evs": {},
+    "speedStat": "134",
+    "altSpeeds": {
+      "Sand Rush": "268"
+    }
+  },
+  {
+    "species": "Garchomp-Mega",
+    "level": "57",
+    "nature": "Jolly",
+    "ability": "Sand Force",
+    "item": "",
+    "moves": [
+      "Swords Dance",
+      "Earthquake",
+      "Scale Shot",
+      "Stone Edge"
+    ],
+    "baseStats": {
+      "HP": "108",
+      "ATK": "170",
+      "DEF": "105",
+      "SPA": "120",
+      "SPD": "95",
+      "SPE": "102"
+    },
+    "evs": {},
+    "speedStat": "151",
+    "altSpeeds": {}
+  }
+]

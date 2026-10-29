@@ -1,0 +1,8 @@
+return q.array(
+    'dragapult moves=dragondarts,spiritshackle,uturn,dracometeor nature=hasty held_item=cobblemon:focus_sash ability=clearbody',
+    'dialga moves=roaroftime,flamethrower,flashcannon,thunderbolt nature=modest held_item=cobblemon:adamant_orb ability=primalarmor',
+    'dragonite moves=dualwingbeat,fireblast,dragonhammer,dragondance nature=lonely held_item=cobblemon:weakness_policy ability=multiscale',
+    'flapple moves=dragonenergy,energyball,suckerpunch,uturn nature=naive ability=dragon'smaw aspect=mega',
+    'kyurem moves=dragondance,dragonhammer,fusionbolt,icehammer nature=jolly held_item=cobblemon:lum_berry ability=teravolt aspect=black-fusion',
+    'genesect moves=uturn,extremespeed,icebeam,flamethrower nature=hasty held_item=cobblemon:life_orb ability=download'
+);

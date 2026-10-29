@@ -1,0 +1,171 @@
+[
+  {
+    "species": "Hatterene",
+    "level": "57",
+    "nature": "Quiet",
+    "ability": "Magic Bounce",
+    "item": "Psychic Seed",
+    "moves": [
+      "Trick Room",
+      "Expanding Force",
+      "Draining Kiss",
+      "Mystical Fire"
+    ],
+    "baseStats": {
+      "HP": "57",
+      "ATK": "90",
+      "DEF": "95",
+      "SPA": "136",
+      "SPD": "103",
+      "SPE": "29"
+    },
+    "evs": {
+      "HP": "252",
+      "DEF": "4",
+      "SPA": "252"
+    },
+    "speedStat": "34",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Indeedee",
+    "level": "57",
+    "nature": "Quiet",
+    "ability": "Psychic Surge",
+    "item": "Terrain Extender",
+    "moves": [
+      "Expanding Force",
+      "Hyper Voice",
+      "Mystical Fire",
+      "Shadow Ball"
+    ],
+    "baseStats": {
+      "HP": "70",
+      "ATK": "55",
+      "DEF": "65",
+      "SPA": "95",
+      "SPD": "105",
+      "SPE": "85"
+    },
+    "evs": {
+      "HP": "252",
+      "DEF": "4",
+      "SPA": "252"
+    },
+    "speedStat": "90",
+    "altSpeeds": {},
+    "aspect": "female"
+  },
+  {
+    "species": "Brute Bonnet",
+    "level": "58",
+    "nature": "Brave",
+    "ability": "Protosynthesis",
+    "item": "",
+    "moves": [
+      "Knock Off",
+      "Leaf Blade",
+      "Close Combat",
+      "Spore"
+    ],
+    "baseStats": {
+      "HP": "111",
+      "ATK": "127",
+      "DEF": "99",
+      "SPA": "79",
+      "SPD": "99",
+      "SPE": "55"
+    },
+    "evs": {
+      "HP": "252",
+      "ATK": "252",
+      "DEF": "4"
+    },
+    "speedStat": "61",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Porygon2",
+    "level": "58",
+    "nature": "Relaxed",
+    "ability": "Trace",
+    "item": "Eviolite",
+    "moves": [
+      "Trick Room",
+      "Teleport",
+      "Ice Beam",
+      "Thunderbolt"
+    ],
+    "baseStats": {
+      "HP": "85",
+      "ATK": "80",
+      "DEF": "90",
+      "SPA": "105",
+      "SPD": "95",
+      "SPE": "60"
+    },
+    "evs": {
+      "HP": "252",
+      "SPA": "252",
+      "SPD": "4"
+    },
+    "speedStat": "66",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Ursaluna",
+    "level": "59",
+    "nature": "Brave",
+    "ability": "Guts",
+    "item": "Flame Orb",
+    "moves": [
+      "Protect",
+      "High Horsepower",
+      "Facade",
+      "Crunch"
+    ],
+    "baseStats": {
+      "HP": "130",
+      "ATK": "140",
+      "DEF": "105",
+      "SPA": "45",
+      "SPD": "80",
+      "SPE": "50"
+    },
+    "evs": {
+      "HP": "252",
+      "ATK": "252",
+      "DEF": "4"
+    },
+    "speedStat": "57",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Gardevoir-Mega",
+    "level": "59",
+    "nature": "Quiet",
+    "ability": "Pixilate",
+    "item": "",
+    "moves": [
+      "Hyper Voice",
+      "Expanding Force",
+      "Shadow Ball",
+      "Trick Room"
+    ],
+    "baseStats": {
+      "HP": "68",
+      "ATK": "85",
+      "DEF": "65",
+      "SPA": "165",
+      "SPD": "135",
+      "SPE": "100"
+    },
+    "evs": {
+      "HP": "252",
+      "DEF": "4",
+      "SPA": "252"
+    },
+    "speedStat": "110",
+    "altSpeeds": {}
+  }
+]

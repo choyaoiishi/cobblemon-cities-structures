@@ -1,0 +1,8 @@
+return q.array(
+    'lopunny moves=fakeout,doubleedge,closecombat,uturn nature=jolly ability=scrappy aspect=mega',
+    'greninja moves=hydropump,icebeam,gunkshot,uturn nature=naive ability=protean',
+    'dragonite moves=dragondance,dualwingbeat,earthquake,firepunch nature=jolly held_item=cobblemon:lum_berry ability=multiscale',
+    'delphox moves=mindblown,psyshock,grassknot,dazzlinggleam nature=timid held_item=cobblemon:life_orb ability=magicguard',
+    'xerneas moves=geomancy,moonblast,thunderbolt,drainingkiss nature=jolly held_item=cobblemon:power_herb ability=fairyaura',
+    'mawile moves=ironhead,playrough,knockoff,thunderpunch nature=adamant ability=hugepower aspect=mega'
+);

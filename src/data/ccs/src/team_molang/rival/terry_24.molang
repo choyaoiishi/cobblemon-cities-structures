@@ -1,0 +1,8 @@
+return q.array(
+    'ironhands moves=drainpunch,plasmafists,knockoff,icepunch nature=jolly held_item=cobblemon:assault_vest ability=quarkdrive',
+    'kingambit moves=swordsdance,ironhead,knockoff,brickbreak nature=adamant held_item=cobblemon:chople_berry ability=supremeoverlord',
+    'primarina moves=calmmind,drainingkiss,hypervoice,icebeam nature=modest held_item=cobblemon:leftovers ability=liquidvoice',
+    'chandelure moves=flamethrower,shadowball,energyball,calmmind nature=timid held_item=cobblemon:life_orb ability=shadowtag',
+    'hydreigon moves=nastyplot,darkpulse,flashcannon,flamethrower nature=timid ability=levitate',
+    'venusaur moves=chloroblast,sludgebomb,earthpower,sleeppowder nature=timid ability=thickfat aspect=mega'
+);

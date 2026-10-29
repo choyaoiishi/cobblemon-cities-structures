@@ -1,0 +1,8 @@
+return q.array(
+    'ambipom moves=fakeout,armthrust,beatup,uturn nature=jolly held_item=cobblemon:life_orb ability=technician',
+    'weavile moves=tripleaxel,iceshard,lowkick,nightslash nature=jolly held_item=cobblemon:focus_sash ability=pressure',
+    'victini moves=celebrate,searingshot,storedpower,energyball nature=timid ability=victorystar',
+    'toxapex moves=haze,scald,toxic,knockoff nature=bold held_item=cobblemon:black_sludge ability=regenerator',
+    'mawile moves=ironhead,playrough,suckerpunch,thunderpunch nature=adamant ability=hugepower aspect=mega',
+    'xerneas moves=geomancy,drainingkiss,thunderbolt,moonblast nature=modest held_item=cobblemon:power_herb ability=fairyaura'
+);

@@ -1,0 +1,169 @@
+[
+  {
+    "species": "Ogerpon",
+    "level": "Highest Lv -2",
+    "nature": "Jolly",
+    "ability": "Sturdy",
+    "item": "",
+    "moves": [
+      "Horn Leech",
+      "Ivy Cudgel",
+      "Knock Off",
+      "U-Turn"
+    ],
+    "baseStats": {
+      "HP": "80",
+      "ATK": "120",
+      "DEF": "84",
+      "SPA": "60",
+      "SPD": "96",
+      "SPE": "110"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "223",
+    "altSpeeds": {},
+    "aspect": "cornerstone-mask"
+  },
+  {
+    "species": "Meowscarada",
+    "level": "Highest Lv -2",
+    "nature": "Jolly",
+    "ability": "Protean",
+    "item": "Life Orb",
+    "moves": [
+      "U-Turn",
+      "Knock Off",
+      "Flower Trick",
+      "Triple Axel"
+    ],
+    "baseStats": {
+      "HP": "76",
+      "ATK": "110",
+      "DEF": "70",
+      "SPA": "81",
+      "SPD": "70",
+      "SPE": "123"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "251",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Hawlucha",
+    "level": "Highest Lv -2",
+    "nature": "Adamant",
+    "ability": "Unburden",
+    "item": "Grassy Seed",
+    "moves": [
+      "Swords Dance",
+      "Close Combat",
+      "Acrobatics",
+      "Stone Edge"
+    ],
+    "baseStats": {
+      "HP": "78",
+      "ATK": "92",
+      "DEF": "75",
+      "SPA": "74",
+      "SPD": "63",
+      "SPE": "118"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "222",
+    "altSpeeds": {
+      "Unburden": "444"
+    }
+  },
+  {
+    "species": "Sinistcha",
+    "level": "Highest Lv -2",
+    "nature": "Modest",
+    "ability": "Heatproof",
+    "item": "Leftovers",
+    "moves": [
+      "Strength Sap",
+      "Will-O-Wisp",
+      "Shadow Ball",
+      "Matcha Gotcha"
+    ],
+    "baseStats": {
+      "HP": "71",
+      "ATK": "60",
+      "DEF": "106",
+      "SPA": "121",
+      "SPD": "80",
+      "SPE": "70"
+    },
+    "evs": {
+      "HP": "252",
+      "DEF": "4",
+      "SPA": "252"
+    },
+    "speedStat": "117",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Lilligant-Hisui",
+    "level": "Highest Lv -2",
+    "nature": "Jolly",
+    "ability": "Hustle",
+    "item": "Wide Lens",
+    "moves": [
+      "Victory Dance",
+      "Leaf Blade",
+      "Close Combat",
+      "Ice Spinner"
+    ],
+    "baseStats": {
+      "HP": "70",
+      "ATK": "105",
+      "DEF": "75",
+      "SPA": "50",
+      "SPD": "75",
+      "SPE": "105"
+    },
+    "evs": {
+      "ATK": "252",
+      "SPD": "4",
+      "SPE": "252"
+    },
+    "speedStat": "225",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Venusaur-Mega",
+    "level": "Highest Lv -2",
+    "nature": "Modest",
+    "ability": "Thick Fat",
+    "item": "",
+    "moves": [
+      "Giga Drain",
+      "Earth Power",
+      "Synthesis",
+      "Sludge Bomb"
+    ],
+    "baseStats": {
+      "HP": "80",
+      "ATK": "100",
+      "DEF": "123",
+      "SPA": "122",
+      "SPD": "120",
+      "SPE": "80"
+    },
+    "evs": {},
+    "speedStat": "131",
+    "altSpeeds": {}
+  }
+]

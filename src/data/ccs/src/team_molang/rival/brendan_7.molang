@@ -1,0 +1,8 @@
+return q.array(
+    'deoxys moves=psychic,icebeam,superpower,extremespeed nature=naive held_item=cobblemon:focus_sash ability=pressure aspect=attack-forme',
+    'jirachi moves=ironhead,uturn,thunderpunch,zenheadbutt nature=jolly held_item=cobblemon:choice_scarf ability=serenegrace',
+    'landorus moves=earthpower,rockslide,sludgewave,aurasphere nature=timid held_item=cobblemon:life_orb ability=sandforce aspect=incarnate-forme',
+    'zapdos moves=bravebird,closecombat,uturn,blazekick nature=jolly held_item=cobblemon:choice_band ability=defiant aspect=galarian',
+    'huntail moves=shellsmash,liquidation,crunch,icefang nature=jolly held_item=cobblemon:white_herb ability=intimidate',
+    'sceptile moves=swordsdance,scaleshot,bulletseed,earthquake nature=jolly ability=technician aspect=mega'
+);

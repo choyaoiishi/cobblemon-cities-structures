@@ -1,0 +1,174 @@
+[
+  {
+    "species": "Deoxys",
+    "level": "81",
+    "nature": "Naive",
+    "ability": "Pressure",
+    "item": "Focus Sash",
+    "moves": [
+      "Psychic",
+      "Ice Beam",
+      "Superpower",
+      "Extreme Speed"
+    ],
+    "baseStats": {
+      "HP": "50",
+      "ATK": "180",
+      "DEF": "20",
+      "SPA": "180",
+      "SPD": "20",
+      "SPE": "150"
+    },
+    "evs": {
+      "ATK": "128",
+      "SPA": "132",
+      "SPE": "252"
+    },
+    "speedStat": "356",
+    "altSpeeds": {},
+    "aspect": "attack-forme"
+  },
+  {
+    "species": "Jirachi",
+    "level": "81",
+    "nature": "Jolly",
+    "ability": "Serene Grace",
+    "item": "Choice Scarf",
+    "moves": [
+      "Iron Head",
+      "U-Turn",
+      "Thunder Punch",
+      "Zen Headbutt"
+    ],
+    "baseStats": {
+      "HP": "100",
+      "ATK": "100",
+      "DEF": "100",
+      "SPA": "100",
+      "SPD": "100",
+      "SPE": "100"
+    },
+    "evs": {
+      "HP": "6",
+      "ATK": "252",
+      "SPE": "252"
+    },
+    "speedStat": "267",
+    "altSpeeds": {
+      "Choi. Scarf": "400"
+    }
+  },
+  {
+    "species": "Landorus",
+    "level": "82",
+    "nature": "Timid",
+    "ability": "Sand Force",
+    "item": "Life Orb",
+    "moves": [
+      "Earth Power",
+      "Rock Slide",
+      "Sludge Wave",
+      "Aura Sphere"
+    ],
+    "baseStats": {
+      "HP": "89",
+      "ATK": "125",
+      "DEF": "90",
+      "SPA": "115",
+      "SPD": "80",
+      "SPE": "101"
+    },
+    "evs": {
+      "HP": "6",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "271",
+    "altSpeeds": {},
+    "aspect": "incarnate-forme"
+  },
+  {
+    "species": "Zapdos-Galar",
+    "level": "81",
+    "nature": "Jolly",
+    "ability": "Defiant",
+    "item": "Choice Band",
+    "moves": [
+      "Brave Bird",
+      "Close Combat",
+      "U-Turn",
+      "Blaze Kick"
+    ],
+    "baseStats": {
+      "HP": "90",
+      "ATK": "125",
+      "DEF": "90",
+      "SPA": "85",
+      "SPD": "90",
+      "SPE": "100"
+    },
+    "evs": {
+      "HP": "6",
+      "ATK": "252",
+      "SPE": "252"
+    },
+    "speedStat": "267",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Huntail",
+    "level": "81",
+    "nature": "Jolly",
+    "ability": "Intimidate",
+    "item": "White Herb",
+    "moves": [
+      "Shell Smash",
+      "Liquidation",
+      "Crunch",
+      "Ice Fang"
+    ],
+    "baseStats": {
+      "HP": "55",
+      "ATK": "104",
+      "DEF": "105",
+      "SPA": "94",
+      "SPD": "75",
+      "SPE": "52"
+    },
+    "evs": {
+      "HP": "6",
+      "ATK": "252",
+      "SPE": "252"
+    },
+    "speedStat": "181",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Sceptile-Mega",
+    "level": "82",
+    "nature": "Jolly",
+    "ability": "Technician",
+    "item": "",
+    "moves": [
+      "Swords Dance",
+      "Scale Shot",
+      "Bullet Seed",
+      "Earthquake"
+    ],
+    "baseStats": {
+      "HP": "70",
+      "ATK": "135",
+      "DEF": "75",
+      "SPA": "110",
+      "SPD": "85",
+      "SPE": "145"
+    },
+    "evs": {
+      "HP": "6",
+      "ATK": "252",
+      "SPE": "252"
+    },
+    "speedStat": "350",
+    "altSpeeds": {}
+  }
+]

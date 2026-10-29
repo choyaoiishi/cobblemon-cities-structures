@@ -1,0 +1,172 @@
+[
+  {
+    "species": "Swellow",
+    "level": "67",
+    "nature": "Timid",
+    "ability": "Aerilate",
+    "item": "Choice Specs",
+    "moves": [
+      "Boomburst",
+      "U-Turn"
+    ],
+    "baseStats": {
+      "HP": "60",
+      "ATK": "85",
+      "DEF": "60",
+      "SPA": "75",
+      "SPD": "50",
+      "SPE": "125"
+    },
+    "evs": {
+      "SPA": "252",
+      "SPD": "4",
+      "SPE": "252"
+    },
+    "speedStat": "258",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Accelgor",
+    "level": "68",
+    "nature": "Timid",
+    "ability": "Sheer Force",
+    "item": "Life Orb",
+    "moves": [
+      "Bug Buzz",
+      "U-Turn",
+      "Focus Blast",
+      "Sludge Bomb"
+    ],
+    "baseStats": {
+      "HP": "80",
+      "ATK": "70",
+      "DEF": "40",
+      "SPA": "100",
+      "SPD": "60",
+      "SPE": "145"
+    },
+    "evs": {
+      "SPA": "252",
+      "SPD": "4",
+      "SPE": "252"
+    },
+    "speedStat": "292",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Greninja",
+    "level": "68",
+    "nature": "Timid",
+    "ability": "Battle Bond",
+    "item": "Life Orb",
+    "moves": [
+      "Hydro Pump",
+      "Water Shuriken",
+      "Dark Pulse",
+      "Ice Beam"
+    ],
+    "baseStats": {
+      "HP": "72",
+      "ATK": "95",
+      "DEF": "67",
+      "SPA": "103",
+      "SPD": "71",
+      "SPE": "122"
+    },
+    "evs": {
+      "SPA": "252",
+      "SPD": "4",
+      "SPE": "252"
+    },
+    "speedStat": "258",
+    "altSpeeds": {
+      "Battle Bond": "272"
+    }
+  },
+  {
+    "species": "Drapion",
+    "level": "68",
+    "nature": "Adamant",
+    "ability": "Sniper",
+    "item": "Choice Scarf",
+    "moves": [
+      "Wicked Blow",
+      "Cross Poison"
+    ],
+    "baseStats": {
+      "HP": "70",
+      "ATK": "80",
+      "DEF": "110",
+      "SPA": "60",
+      "SPD": "75",
+      "SPE": "95"
+    },
+    "evs": {
+      "ATK": "252",
+      "SPD": "4",
+      "SPE": "252"
+    },
+    "speedStat": "198",
+    "altSpeeds": {
+      "Choi. Scarf": "297"
+    }
+  },
+  {
+    "species": "Iron Valiant",
+    "level": "68",
+    "nature": "Timid",
+    "ability": "Quark Drive",
+    "item": "",
+    "moves": [
+      "Close Combat",
+      "Spirit Break",
+      "Knock Off",
+      "Liquidation"
+    ],
+    "baseStats": {
+      "HP": "74",
+      "ATK": "130",
+      "DEF": "90",
+      "SPA": "120",
+      "SPD": "60",
+      "SPE": "116"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "248",
+    "altSpeeds": {
+      "Quar. Drive": "372"
+    }
+  },
+  {
+    "species": "Toxtricity-Mega",
+    "level": "68",
+    "nature": "Timid",
+    "ability": "Punk Rock",
+    "item": "",
+    "moves": [
+      "Boomburst",
+      "Overdrive",
+      "Sludge Bomb",
+      "Hidden Power"
+    ],
+    "baseStats": {
+      "HP": "75",
+      "ATK": "120",
+      "DEF": "80",
+      "SPA": "155",
+      "SPD": "80",
+      "SPE": "111"
+    },
+    "evs": {
+      "SPA": "252",
+      "SPD": "4",
+      "SPE": "252"
+    },
+    "speedStat": "240",
+    "altSpeeds": {}
+  }
+]

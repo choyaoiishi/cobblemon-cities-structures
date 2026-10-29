@@ -1,0 +1,8 @@
+return q.array(
+    'aggron moves=stoneedge,heavyslam,heatcrash,endeavor nature=adamant held_item=cobblemon:custap_berry ability=sturdy',
+    'jumpluff moves=doubleedge,uturn,spore,synthesis nature=jolly held_item=cobblemon:flying_gem ability=aerilate',
+    'regieleki moves=thunderbolt,electroball,voltswitch,explosion nature=naive held_item=cobblemon:life_orb ability=transistor',
+    'slowbro moves=scald,bodypress,teleport,slackoff nature=bold held_item=cobblemon:leftovers ability=regenerator',
+    'snorlax moves=bodyslam,darkestlariat,curse,rest nature=careful held_item=cobblemon:leftovers ability=thickfat',
+    'blaziken moves=swordsdance,flareblitz,closecombat,thunderpunch nature=jolly ability=speedboost aspect=mega'
+);

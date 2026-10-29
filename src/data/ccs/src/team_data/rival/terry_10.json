@@ -1,0 +1,148 @@
+[
+  {
+    "species": "Hitmontop",
+    "level": "Highest Lv -1",
+    "nature": "Jolly",
+    "ability": "Technician",
+    "item": "Black Belt",
+    "moves": [
+      "Fake Out",
+      "Bullet Punch",
+      "Rock Smash",
+      "Thief"
+    ],
+    "baseStats": {
+      "HP": "50",
+      "ATK": "95",
+      "DEF": "95",
+      "SPA": "35",
+      "SPD": "110",
+      "SPE": "70"
+    },
+    "evs": {},
+    "speedStat": "56",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Clefable",
+    "level": "Highest Lv -1",
+    "nature": "Timid",
+    "ability": "Magic Guard",
+    "item": "Life Orb",
+    "moves": [
+      "Charge Beam",
+      "Draining Kiss",
+      "Icy Wind",
+      "Mystical Fire"
+    ],
+    "baseStats": {
+      "HP": "95",
+      "ATK": "70",
+      "DEF": "73",
+      "SPA": "95",
+      "SPD": "90",
+      "SPE": "60"
+    },
+    "evs": {},
+    "speedStat": "49",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Simisage",
+    "level": "Highest Lv -1",
+    "nature": "Timid",
+    "ability": "Sage Power",
+    "item": "Miracle Seed",
+    "moves": [
+      "Mega Drain",
+      "Hidden Power",
+      "Power Gem",
+      "Sleep Talk"
+    ],
+    "baseStats": {
+      "HP": "75",
+      "ATK": "98",
+      "DEF": "63",
+      "SPA": "98",
+      "SPD": "63",
+      "SPE": "101"
+    },
+    "evs": {},
+    "speedStat": "73",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Arbok",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Intimidate",
+    "item": "Poison Barb",
+    "moves": [
+      "Poison Jab",
+      "Sucker Punch",
+      "Crunch",
+      "Thunder Fang"
+    ],
+    "baseStats": {
+      "HP": "75",
+      "ATK": "95",
+      "DEF": "75",
+      "SPA": "65",
+      "SPD": "79",
+      "SPE": "80"
+    },
+    "evs": {},
+    "speedStat": "63",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Eevee",
+    "level": "Highest Lv -2",
+    "nature": "Lonely",
+    "ability": "Adaptability",
+    "item": "",
+    "moves": [
+      "Last Resort",
+      "Round",
+      "Double Kick",
+      "Bite"
+    ],
+    "baseStats": {
+      "HP": "55",
+      "ATK": "55",
+      "DEF": "50",
+      "SPA": "45",
+      "SPD": "65",
+      "SPE": "55"
+    },
+    "evs": {},
+    "speedStat": "41",
+    "altSpeeds": {
+      "Evoboost": "82"
+    }
+  },
+  {
+    "species": "Charmeleon",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Blaze",
+    "item": "Eviolite",
+    "moves": [
+      "Dragon Dance",
+      "Fire Punch",
+      "Thunder Punch",
+      "Brick Break"
+    ],
+    "baseStats": {
+      "HP": "58",
+      "ATK": "64",
+      "DEF": "58",
+      "SPA": "80",
+      "SPD": "65",
+      "SPE": "80"
+    },
+    "evs": {},
+    "speedStat": "63",
+    "altSpeeds": {}
+  }
+]

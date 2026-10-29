@@ -1,0 +1,99 @@
+[
+  {
+    "species": "Wailord",
+    "level": "Highest Lv",
+    "nature": "Modest",
+    "ability": "Blubber Defense",
+    "item": "Mystic Water",
+    "moves": [
+      "Bouncy Bubble",
+      "Ice Beam",
+      "Hidden Power"
+    ],
+    "baseStats": {
+      "HP": "150",
+      "ATK": "50",
+      "DEF": "80",
+      "SPA": "105",
+      "SPD": "80",
+      "SPE": "50"
+    },
+    "evs": {},
+    "speedStat": "108",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Espeon",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Magic Bounce",
+    "item": "",
+    "moves": [
+      "Last Resort",
+      "Psychic",
+      "Mystical Fire",
+      "Shadow Ball"
+    ],
+    "baseStats": {
+      "HP": "65",
+      "ATK": "65",
+      "DEF": "60",
+      "SPA": "130",
+      "SPD": "95",
+      "SPE": "110"
+    },
+    "evs": {},
+    "speedStat": "223",
+    "altSpeeds": {
+      "Evoboost": "446"
+    }
+  },
+  {
+    "species": "Buzzwole",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Beast Boost",
+    "item": "Coba Berry",
+    "moves": [
+      "Victory Dance",
+      "Drain Punch",
+      "Leech Life",
+      "Ice Punch"
+    ],
+    "baseStats": {
+      "HP": "107",
+      "ATK": "139",
+      "DEF": "139",
+      "SPA": "53",
+      "SPD": "53",
+      "SPE": "79"
+    },
+    "evs": {},
+    "speedStat": "169",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Mawile-Mega",
+    "level": "Highest Lv",
+    "nature": "Adamant",
+    "ability": "Huge Power",
+    "item": "",
+    "moves": [
+      "Sucker Punch",
+      "Double Iron Bash",
+      "Play Rough",
+      "Fire Fang"
+    ],
+    "baseStats": {
+      "HP": "50",
+      "ATK": "105",
+      "DEF": "125",
+      "SPA": "55",
+      "SPD": "95",
+      "SPE": "50"
+    },
+    "evs": {},
+    "speedStat": "108",
+    "altSpeeds": {}
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "species": "Staraptor",
+    "level": "Highest Lv -4",
+    "nature": "Jolly",
+    "ability": "Intimidate",
+    "item": "Sharp Beak",
+    "moves": [
+      "Brave Bird",
+      "Close Combat",
+      "U-Turn",
+      "Quick Attack"
+    ],
+    "baseStats": {
+      "HP": "85",
+      "ATK": "120",
+      "DEF": "70",
+      "SPA": "50",
+      "SPD": "60",
+      "SPE": "100"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "172",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Kingambit",
+    "level": "Highest Lv -3",
+    "nature": "Jolly",
+    "ability": "Supreme Overlord",
+    "item": "Chople Berry",
+    "moves": [
+      "Swords Dance",
+      "Knock Off",
+      "Sucker Punch",
+      "Iron Head"
+    ],
+    "baseStats": {
+      "HP": "100",
+      "ATK": "135",
+      "DEF": "120",
+      "SPA": "60",
+      "SPD": "85",
+      "SPE": "50"
+    },
+    "evs": {
+      "HP": "252",
+      "ATK": "252",
+      "SPE": "4"
+    },
+    "speedStat": "81",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Azumarill",
+    "level": "Highest Lv -3",
+    "nature": "Adamant",
+    "ability": "Huge Power",
+    "item": "Mystic Water",
+    "moves": [
+      "Liquidation",
+      "Aqua Jet",
+      "Play Rough",
+      "Ice Punch"
+    ],
+    "baseStats": {
+      "HP": "100",
+      "ATK": "50",
+      "DEF": "80",
+      "SPA": "60",
+      "SPD": "80",
+      "SPE": "50"
+    },
+    "evs": {
+      "HP": "252",
+      "ATK": "252",
+      "DEF": "4"
+    },
+    "speedStat": "74",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Darmanitan",
+    "level": "Highest Lv -3",
+    "nature": "Jolly",
+    "ability": "Sheer Force",
+    "item": "Life Orb",
+    "moves": [
+      "Flare Blitz",
+      "Rock Slide",
+      "Earthquake",
+      "U-Turn"
+    ],
+    "baseStats": {
+      "HP": "105",
+      "ATK": "140",
+      "DEF": "55",
+      "SPA": "30",
+      "SPD": "55",
+      "SPE": "95"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "170",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Venusaur-Mega",
+    "level": "Highest Lv -2",
+    "nature": "Timid",
+    "ability": "Thick Fat",
+    "item": "",
+    "moves": [
+      "Sleep Powder",
+      "Giga Drain",
+      "Sludge Bomb",
+      "Earth Power"
+    ],
+    "baseStats": {
+      "HP": "80",
+      "ATK": "100",
+      "DEF": "123",
+      "SPA": "122",
+      "SPD": "120",
+      "SPE": "80"
+    },
+    "evs": {
+      "HP": "252",
+      "DEF": "4",
+      "SPA": "252"
+    },
+    "speedStat": "118",
+    "altSpeeds": {}
+  }
+]

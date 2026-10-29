@@ -1,0 +1,170 @@
+[
+  {
+    "species": "Nidoking",
+    "level": "45",
+    "nature": "Timid",
+    "ability": "Sheer Force",
+    "item": "Life Orb",
+    "moves": [
+      "Earth Power",
+      "Ice Beam",
+      "Sludge Bomb",
+      "Thunderbolt"
+    ],
+    "baseStats": {
+      "HP": "81",
+      "ATK": "102",
+      "DEF": "77",
+      "SPA": "85",
+      "SPD": "75",
+      "SPE": "85"
+    },
+    "evs": {
+      "DEF": "4",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "135",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Honchkrow",
+    "level": "45",
+    "nature": "Jolly",
+    "ability": "Super Luck",
+    "item": "Scope Lens",
+    "moves": [
+      "Night Slash",
+      "Sucker Punch",
+      "Drill Peck",
+      "Heat Wave"
+    ],
+    "baseStats": {
+      "HP": "100",
+      "ATK": "125",
+      "DEF": "52",
+      "SPA": "105",
+      "SPD": "52",
+      "SPE": "96"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "146",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Infernape",
+    "level": "46",
+    "nature": "Jolly",
+    "ability": "Blaze",
+    "item": "Focus Sash",
+    "moves": [
+      "Swords Dance",
+      "Pyro Ball",
+      "Close Combat",
+      "Thunder Punch"
+    ],
+    "baseStats": {
+      "HP": "76",
+      "ATK": "110",
+      "DEF": "71",
+      "SPA": "110",
+      "SPD": "71",
+      "SPE": "113"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "167",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Kangaskhan-Mega",
+    "level": "46",
+    "nature": "Jolly",
+    "ability": "Parental Bond",
+    "item": "",
+    "moves": [
+      "Fake Out",
+      "Body Slam",
+      "Crunch",
+      "Power Up Punch"
+    ],
+    "baseStats": {
+      "HP": "105",
+      "ATK": "125",
+      "DEF": "100",
+      "SPA": "60",
+      "SPD": "100",
+      "SPE": "100"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "154",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Orthworm",
+    "level": "47",
+    "nature": "Impish",
+    "ability": "Earth Eater",
+    "item": "Sitrus Berry",
+    "moves": [
+      "Shed Tail",
+      "Iron Head",
+      "Earthquake",
+      "Body Press"
+    ],
+    "baseStats": {
+      "HP": "70",
+      "ATK": "85",
+      "DEF": "145",
+      "SPA": "60",
+      "SPD": "55",
+      "SPE": "65"
+    },
+    "evs": {
+      "HP": "252",
+      "DEF": "252",
+      "SPD": "4"
+    },
+    "speedStat": "80",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Veluza",
+    "level": "46",
+    "nature": "Jolly",
+    "ability": "Sharpness",
+    "item": "Sitrus Berry",
+    "moves": [
+      "Fillet Away",
+      "Aqua Cutter",
+      "Psycho Cut",
+      "Aqua Jet"
+    ],
+    "baseStats": {
+      "HP": "95",
+      "ATK": "102",
+      "DEF": "83",
+      "SPA": "78",
+      "SPD": "75",
+      "SPE": "70"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "123",
+    "altSpeeds": {}
+  }
+]

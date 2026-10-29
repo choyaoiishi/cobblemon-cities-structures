@@ -1,0 +1,8 @@
+return q.array(
+    'meowscarada moves=flowertrick,tripleaxel,knockoff,uturn nature=jolly held_item=cobblemon:life_orb ability=protean',
+    'serperior moves=leafstorm,hiddenpower,dragonpulse,knockoff nature=timid held_item=cobblemon:focus_sash ability=contrary',
+    'hawlucha moves=swordsdance,closecombat,acrobatics,stoneedge nature=adamant held_item=cobblemon:grassy_seed ability=unburden',
+    'kartana moves=swordsdance,grassyglide,cut,sacredsword nature=jolly held_item=cobblemon:life_orb ability=beastboost',
+    'magearna moves=calmmind,drainingkiss,storedpower,aurasphere nature=bold held_item=cobblemon:grassy_seed ability=soulheart',
+    'ampharos moves=voltswitch,dracobarrage,signalbeam,focusblast nature=modest ability=thickfat aspect=mega'
+);

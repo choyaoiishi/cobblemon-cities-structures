@@ -1,0 +1,149 @@
+[
+  {
+    "species": "Ogerpon",
+    "level": "44",
+    "nature": "Jolly",
+    "ability": "Sturdy",
+    "item": "",
+    "moves": [
+      "Ivy Cudgel",
+      "U-Turn",
+      "Power Whip",
+      "Knock Off"
+    ],
+    "baseStats": {
+      "HP": "80",
+      "ATK": "120",
+      "DEF": "84",
+      "SPA": "60",
+      "SPD": "96",
+      "SPE": "110"
+    },
+    "evs": {},
+    "speedStat": "126",
+    "altSpeeds": {},
+    "aspect": "cornerstone-mask"
+  },
+  {
+    "species": "Hawlucha",
+    "level": "44",
+    "nature": "Adamant",
+    "ability": "Unburden",
+    "item": "Grassy Seed",
+    "moves": [
+      "Swords Dance",
+      "Acrobatics",
+      "Close Combat",
+      "Stone Edge"
+    ],
+    "baseStats": {
+      "HP": "78",
+      "ATK": "92",
+      "DEF": "75",
+      "SPA": "74",
+      "SPD": "63",
+      "SPE": "118"
+    },
+    "evs": {},
+    "speedStat": "122",
+    "altSpeeds": {
+      "Unburden": "244"
+    }
+  },
+  {
+    "species": "Sceptile-Mega",
+    "level": "44",
+    "nature": "Jolly",
+    "ability": "Technician",
+    "item": "",
+    "moves": [
+      "Swords Dance",
+      "Bullet Seed",
+      "Draco Barrage",
+      "High Horsepower"
+    ],
+    "baseStats": {
+      "HP": "70",
+      "ATK": "135",
+      "DEF": "75",
+      "SPA": "110",
+      "SPD": "85",
+      "SPE": "145"
+    },
+    "evs": {},
+    "speedStat": "160",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Toxtricity",
+    "level": "44",
+    "nature": "Timid",
+    "ability": "Punk Rock",
+    "item": "Life Orb",
+    "moves": [
+      "Boomburst",
+      "Volt Switch",
+      "Overdrive",
+      "Hidden Power"
+    ],
+    "baseStats": {
+      "HP": "75",
+      "ATK": "98",
+      "DEF": "70",
+      "SPA": "114",
+      "SPD": "70",
+      "SPE": "75"
+    },
+    "evs": {},
+    "speedStat": "92",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Slowbro-Galar",
+    "level": "44",
+    "nature": "Bold",
+    "ability": "Regenerator",
+    "item": "Black Sludge",
+    "moves": [
+      "Thunder Wave",
+      "Sludge Bomb",
+      "Flamethrower",
+      "Teleport"
+    ],
+    "baseStats": {
+      "HP": "95",
+      "ATK": "75",
+      "DEF": "105",
+      "SPA": "115",
+      "SPD": "70",
+      "SPE": "30"
+    },
+    "evs": {},
+    "speedStat": "45",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Kartana",
+    "level": "44",
+    "nature": "Jolly",
+    "ability": "Beast Boost",
+    "item": "Life Orb",
+    "moves": [
+      "Swords Dance",
+      "Grassy Glide",
+      "Cut",
+      "Sacred Sword"
+    ],
+    "baseStats": {
+      "HP": "59",
+      "ATK": "181",
+      "DEF": "131",
+      "SPA": "59",
+      "SPD": "31",
+      "SPE": "109"
+    },
+    "evs": {},
+    "speedStat": "125",
+    "altSpeeds": {}
+  }
+]

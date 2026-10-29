@@ -1,0 +1,86 @@
+[
+  {
+    "species": "Masquerain",
+    "level": "55",
+    "nature": "Modest",
+    "ability": "Intimidate",
+    "item": "Iapapa Berry",
+    "moves": [
+      "Bug Buzz",
+      "Scald",
+      "Giga Drain",
+      "Stun Spore"
+    ],
+    "baseStats": {
+      "HP": "80",
+      "ATK": "60",
+      "DEF": "62",
+      "SPA": "100",
+      "SPD": "82",
+      "SPE": "80"
+    },
+    "evs": {
+      "HP": "252",
+      "SPA": "252",
+      "SPE": "6"
+    },
+    "speedStat": "110",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Exploud",
+    "level": "55",
+    "nature": "Timid",
+    "ability": "Punk Rock",
+    "item": "Silk Scarf",
+    "moves": [
+      "Flamethrower",
+      "Surf",
+      "Focus Blast",
+      "Hyper Voice"
+    ],
+    "baseStats": {
+      "HP": "104",
+      "ATK": "81",
+      "DEF": "63",
+      "SPA": "91",
+      "SPD": "73",
+      "SPE": "73"
+    },
+    "evs": {
+      "HP": "6",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "150",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Sceptile-Mega",
+    "level": "55",
+    "nature": "Timid",
+    "ability": "Technician",
+    "item": "",
+    "moves": [
+      "Mega Drain",
+      "Dragon Breath",
+      "Focus Blast",
+      "Hidden Power"
+    ],
+    "baseStats": {
+      "HP": "70",
+      "ATK": "135",
+      "DEF": "75",
+      "SPA": "110",
+      "SPD": "85",
+      "SPE": "145"
+    },
+    "evs": {
+      "SPA": "252",
+      "SPD": "4",
+      "SPE": "252"
+    },
+    "speedStat": "237",
+    "altSpeeds": {}
+  }
+]

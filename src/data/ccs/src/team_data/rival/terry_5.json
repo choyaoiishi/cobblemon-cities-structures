@@ -1,0 +1,50 @@
+[
+  {
+    "species": "Starly",
+    "level": "9",
+    "nature": "Mild",
+    "ability": "Frisk",
+    "item": "",
+    "moves": [
+      "Tackle",
+      "Growl",
+      "Quick Attack",
+      "Wing Attack"
+    ],
+    "baseStats": {
+      "HP": "40",
+      "ATK": "55",
+      "DEF": "30",
+      "SPA": "30",
+      "SPD": "30",
+      "SPE": "60"
+    },
+    "evs": {},
+    "speedStat": "18",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Bulbasaur",
+    "level": "9",
+    "nature": "Timid",
+    "ability": "Overgrow",
+    "item": "",
+    "moves": [
+      "Tackle",
+      "Growl",
+      "Leech Seed",
+      "Magical Leaf"
+    ],
+    "baseStats": {
+      "HP": "45",
+      "ATK": "49",
+      "DEF": "49",
+      "SPA": "65",
+      "SPD": "65",
+      "SPE": "45"
+    },
+    "evs": {},
+    "speedStat": "16",
+    "altSpeeds": {}
+  }
+]

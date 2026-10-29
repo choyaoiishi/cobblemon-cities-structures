@@ -1,0 +1,8 @@
+return q.array(
+    'shuckle moves=stealthrock,stickyweb,knockoff,toxic nature=impish held_item=cobblemon:sitrus_berry ability=solidrock',
+    'roaringmoon moves=dragondance,knockoff,earthquake,scaleshot nature=jolly ability=protosynthesis',
+    'magearna moves=shiftgear,moonblast,thunderbolt,aurasphere nature=modest held_item=cobblemon:weakness_policy ability=soulheart',
+    'necrozma moves=dragondance,photongeyser,earthquake,dragonhammer nature=adamant ability=neuroforce aspect=ultra-fusion',
+    'eternatus moves=dynamaxcannon,meteorbeam,flamethrower,recover nature=timid held_item=cobblemon:power_herb ability=pressure',
+    'archaludon moves=dracometeor,steelbeam,thunderbolt,bodypress nature=timid held_item=cobblemon:assault_vest ability=badcompany'
+);

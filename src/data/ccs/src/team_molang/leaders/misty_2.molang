@@ -1,0 +1,8 @@
+return q.array(
+    'politoed moves=flipturn,scald,earthquake,toxic nature=sassy held_item=cobblemon:iapapa_berry ability=drizzle',
+    'ludicolo moves=gigadrain,scald,aurorabeam,thunderpunch nature=mild held_item=cobblemon:sitrus_berry ability=swiftswim',
+    'mantine moves=scald,hurricane,roost,hiddenpower nature=modest held_item=cobblemon:wacan_berry ability=swiftswim',
+    'clodsire moves=poisonjab,bulldoze,recover,toxic nature=careful held_item=cobblemon:black_sludge ability=waterabsorb',
+    'starmie moves=scald,thunderbolt,psyshock,aurorabeam nature=modest held_item=cobblemon:mystic_water ability=analytic',
+    'toxicroak moves=swordsdance,drainpunch,poisonjab,suckerpunch nature=jolly held_item=cobblemon:life_orb ability=dryskin'
+);

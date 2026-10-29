@@ -1,0 +1,74 @@
+[
+  {
+    "species": "Snubbull",
+    "level": "Highest Lv -1",
+    "nature": "Adamant",
+    "ability": "Intimidate",
+    "item": "Muscle Band",
+    "moves": [
+      "Power Up Punch",
+      "Covet",
+      "Thunder Wave",
+      "Fire Fang"
+    ],
+    "baseStats": {
+      "HP": "60",
+      "ATK": "80",
+      "DEF": "50",
+      "SPA": "40",
+      "SPD": "40",
+      "SPE": "30"
+    },
+    "evs": {},
+    "speedStat": "18",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Slowpoke",
+    "level": "Highest Lv -1",
+    "nature": "Bold",
+    "ability": "Regenerator",
+    "item": "Leftovers",
+    "moves": [
+      "Thunder Wave",
+      "Water Pulse",
+      "Psybeam",
+      "Teleport"
+    ],
+    "baseStats": {
+      "HP": "90",
+      "ATK": "65",
+      "DEF": "65",
+      "SPA": "40",
+      "SPD": "40",
+      "SPE": "15"
+    },
+    "evs": {},
+    "speedStat": "14",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Charmander",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Solar Power",
+    "item": "Muscle Band",
+    "moves": [
+      "Power Up Punch",
+      "Fire Fang",
+      "Thunder Punch",
+      "Slash"
+    ],
+    "baseStats": {
+      "HP": "39",
+      "ATK": "52",
+      "DEF": "43",
+      "SPA": "60",
+      "SPD": "50",
+      "SPE": "65"
+    },
+    "evs": {},
+    "speedStat": "33",
+    "altSpeeds": {}
+  }
+]

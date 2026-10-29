@@ -1,0 +1,8 @@
+return q.array(
+    'mamoswine moves=stoneedge,iceshard,headlongrush,iciclecrash nature=jolly held_item=cobblemon:focus_sash ability=thickfat',
+    'dracovish moves=fishiousrend,psychicfangs,crunch,dragonclaw nature=adamant held_item=cobblemon:water_gem ability=sandrush',
+    'gyarados moves=dragondance,waterfall,earthquake,bounce nature=jolly ability=moxie',
+    'garganacl moves=irondefense,bodypress,saltcure,recover nature=careful held_item=cobblemon:leftovers ability=purifyingsalt',
+    'excadrill moves=swordsdance,earthquake,ironhead,rockslide nature=jolly held_item=cobblemon:focus_sash ability=sandrush',
+    'garchomp moves=swordsdance,earthquake,scaleshot,stoneedge nature=jolly ability=sandforce aspect=mega'
+);

@@ -1,0 +1,146 @@
+[
+  {
+    "species": "Infernape",
+    "level": "47",
+    "nature": "Jolly",
+    "ability": "Blaze",
+    "item": "Focus Sash",
+    "moves": [
+      "Pyro Ball",
+      "Close Combat",
+      "Thunder Punch",
+      "Stealth Rock"
+    ],
+    "baseStats": {
+      "HP": "76",
+      "ATK": "110",
+      "DEF": "71",
+      "SPA": "110",
+      "SPD": "71",
+      "SPE": "113"
+    },
+    "evs": {},
+    "speedStat": "137",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Nidoking",
+    "level": "47",
+    "nature": "Timid",
+    "ability": "Sheer Force",
+    "item": "Life Orb",
+    "moves": [
+      "Earth Power",
+      "Sludge Wave",
+      "Fire Blast",
+      "Thunderbolt"
+    ],
+    "baseStats": {
+      "HP": "81",
+      "ATK": "102",
+      "DEF": "77",
+      "SPA": "85",
+      "SPD": "75",
+      "SPE": "85"
+    },
+    "evs": {},
+    "speedStat": "108",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Torterra",
+    "level": "47",
+    "nature": "Jolly",
+    "ability": "Rock Head",
+    "item": "White Herb",
+    "moves": [
+      "Shell Smash",
+      "Earthquake",
+      "Wood Hammer",
+      "Head Smash"
+    ],
+    "baseStats": {
+      "HP": "95",
+      "ATK": "109",
+      "DEF": "105",
+      "SPA": "75",
+      "SPD": "85",
+      "SPE": "56"
+    },
+    "evs": {},
+    "speedStat": "79",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Orthworm",
+    "level": "47",
+    "nature": "Impish",
+    "ability": "Earth Eater",
+    "item": "Sitrus Berry",
+    "moves": [
+      "Heavy Slam",
+      "Body Press",
+      "Shed Tail",
+      "Earthquake"
+    ],
+    "baseStats": {
+      "HP": "70",
+      "ATK": "85",
+      "DEF": "145",
+      "SPA": "60",
+      "SPD": "55",
+      "SPE": "65"
+    },
+    "evs": {},
+    "speedStat": "80",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Gyarados",
+    "level": "47",
+    "nature": "Jolly",
+    "ability": "Intimidate",
+    "item": "",
+    "moves": [
+      "Dragon Dance",
+      "Waterfall",
+      "Earthquake",
+      "Bounce"
+    ],
+    "baseStats": {
+      "HP": "95",
+      "ATK": "125",
+      "DEF": "79",
+      "SPA": "60",
+      "SPD": "100",
+      "SPE": "81"
+    },
+    "evs": {},
+    "speedStat": "104",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Kangaskhan-Mega",
+    "level": "47",
+    "nature": "Jolly",
+    "ability": "Parental Bond",
+    "item": "",
+    "moves": [
+      "Power Up Punch",
+      "Body Slam",
+      "Crunch",
+      "Rock Tomb"
+    ],
+    "baseStats": {
+      "HP": "105",
+      "ATK": "125",
+      "DEF": "100",
+      "SPA": "60",
+      "SPD": "100",
+      "SPE": "100"
+    },
+    "evs": {},
+    "speedStat": "124",
+    "altSpeeds": {}
+  }
+]

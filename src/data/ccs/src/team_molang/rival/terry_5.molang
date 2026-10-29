@@ -1,0 +1,4 @@
+return q.array(
+    'starly moves=tackle,growl,quickattack,wingattack nature=mild ability=frisk',
+    'bulbasaur moves=tackle,growl,leechseed,magicalleaf nature=timid ability=overgrow'
+);

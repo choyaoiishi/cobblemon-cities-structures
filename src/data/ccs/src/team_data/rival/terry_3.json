@@ -1,0 +1,50 @@
+[
+  {
+    "species": "Starly",
+    "level": "9",
+    "nature": "Mild",
+    "ability": "Frisk",
+    "item": "",
+    "moves": [
+      "Tackle",
+      "Growl",
+      "Quick Attack",
+      "Wing Attack"
+    ],
+    "baseStats": {
+      "HP": "40",
+      "ATK": "55",
+      "DEF": "30",
+      "SPA": "30",
+      "SPD": "30",
+      "SPE": "60"
+    },
+    "evs": {},
+    "speedStat": "18",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Charmander",
+    "level": "9",
+    "nature": "Timid",
+    "ability": "Blaze",
+    "item": "",
+    "moves": [
+      "Growl",
+      "False Swipe",
+      "Ember",
+      "Brick Break"
+    ],
+    "baseStats": {
+      "HP": "39",
+      "ATK": "52",
+      "DEF": "43",
+      "SPA": "60",
+      "SPD": "50",
+      "SPE": "65"
+    },
+    "evs": {},
+    "speedStat": "19",
+    "altSpeeds": {}
+  }
+]

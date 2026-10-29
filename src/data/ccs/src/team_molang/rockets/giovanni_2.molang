@@ -1,0 +1,8 @@
+return q.array(
+    'infernape moves=pyroball,closecombat,thunderpunch,stealthrock nature=jolly held_item=cobblemon:focus_sash ability=blaze',
+    'nidoking moves=earthpower,sludgewave,fireblast,thunderbolt nature=timid held_item=cobblemon:life_orb ability=sheerforce',
+    'torterra moves=shellsmash,earthquake,woodhammer,headsmash nature=jolly held_item=cobblemon:white_herb ability=rockhead',
+    'orthworm moves=heavyslam,bodypress,shedtail,earthquake nature=impish held_item=cobblemon:sitrus_berry ability=eartheater',
+    'gyarados moves=dragondance,waterfall,earthquake,bounce nature=jolly ability=intimidate',
+    'kangaskhan moves=poweruppunch,bodyslam,crunch,rocktomb nature=jolly ability=parentalbond aspect=mega'
+);

@@ -1,0 +1,8 @@
+return q.array(
+    'hippowdon moves=stoneedge,earthquake,roar,stealthrock nature=adamant held_item=cobblemon:smooth_rock ability=sandstream',
+    'excadrill moves=earthquake,ironhead,rockslide,swordsdance nature=adamant held_item=cobblemon:focus_sash ability=sandrush',
+    'kangaskhan moves=poweruppunch,fakeout,bodyslam,crunch nature=jolly ability=parentalbond aspect=mega',
+    'garganacl moves=protect,bodypress,saltcure,recover nature=impish held_item=cobblemon:leftovers ability=purifyingsalt',
+    'garchomp moves=swordsdance,earthquake,rockslide,scaleshot nature=jolly held_item=cobblemon:yache_berry ability=sandveil',
+    'torterra moves=shellsmash,woodhammer,earthquake,headsmash nature=jolly held_item=cobblemon:white_herb ability=rockhead'
+);

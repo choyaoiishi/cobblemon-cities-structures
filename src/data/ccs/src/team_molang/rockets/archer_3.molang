@@ -1,0 +1,6 @@
+return q.array(
+    'mamoswine moves=earthquake,iceshard,endeavor,iciclecrash nature=jolly held_item=cobblemon:focus_sash ability=thickfat',
+    'durant moves=honeclaws,ironhead,xscissor,superpower nature=jolly held_item=cobblemon:life_orb ability=hustle',
+    'mimikyu moves=playrough,swordsdance,shadowclaw,shadowsneak nature=jolly held_item=cobblemon:lum_berry ability=disguise',
+    'houndoom moves=fierywrath,flamethrower,suckerpunch,sludgebomb nature=timid ability=darkaura aspect=mega'
+);

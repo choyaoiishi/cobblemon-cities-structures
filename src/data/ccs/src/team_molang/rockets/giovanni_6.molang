@@ -1,0 +1,8 @@
+return q.array(
+    'spiritomb moves=willowisp,partingshot,shadowball,suckerpunch nature=sassy held_item=cobblemon:figy_berry ability=intimidate',
+    'delphox moves=heatwave,expandingforce,grassknot,shadowball nature=timid held_item=cobblemon:focus_sash ability=magicguard',
+    'silvally moves=multiattack,flamethrower,partingshot,thunderwave nature=jolly held_item=cobblemon:leftovers ability=battlearmor aspect=fairy-memory',
+    'moltres moves=nastyplot,fierywrath,hurricane,roost nature=timid ability=berserk aspect=galarian',
+    'genesect moves=uturn,ironhead,icebeam,flamethrower nature=hasty held_item=cobblemon:assault_vest ability=download',
+    'mewtwo moves=expandingforce,soulrobbery,flamethrower,aurasphere nature=timid ability=insomnia aspect=mega_y'
+);

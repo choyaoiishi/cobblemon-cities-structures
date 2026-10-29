@@ -55,11 +55,12 @@
             "I have had psychic powers since I was a child. I first learned to bend spoons with my mind."
         ],
         "battle": [
-            "leader_sabrina_01a4",
+            "leader_sabrina",
             "I dislike fighting, but if you wish, I will show you my powers!",
             "I'm shocked! But, a loss is a loss. I admit I didn't work hard enough to win! You earned the Marsh Badge!",
             "Everyone has psychic power! People just don't realize it!",
-            "leader_sabrina"
+            "55",
+           "ccs:kanto/saffron/sabrina"
         ],
         "reward": [
             "tm",

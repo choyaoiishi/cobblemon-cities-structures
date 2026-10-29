@@ -1,0 +1,4 @@
+return q.array(
+    'starly moves=tackle,growl,quickattack,wingattack nature=mild ability=frisk',
+    'charmander moves=growl,falseswipe,ember,brickbreak nature=timid ability=blaze'
+);

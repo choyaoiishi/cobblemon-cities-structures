@@ -1,0 +1,173 @@
+[
+  {
+    "species": "Pikachu",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Lightning Rod",
+    "item": "Light Ball",
+    "moves": [
+      "Thunder",
+      "Hurricane",
+      "Electroweb",
+      "Fake Out"
+    ],
+    "baseStats": {
+      "HP": "35",
+      "ATK": "55",
+      "DEF": "40",
+      "SPA": "50",
+      "SPD": "50",
+      "SPE": "90"
+    },
+    "evs": {
+      "DEF": "4",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "306",
+    "altSpeeds": {},
+    "aspect": ""
+  },
+  {
+    "species": "Kyogre",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Drizzle",
+    "item": "Damp Rock",
+    "moves": [
+      "Ice Beam",
+      "Water Spout",
+      "Origin Pulse",
+      "Thunder"
+    ],
+    "baseStats": {
+      "HP": "100",
+      "ATK": "100",
+      "DEF": "90",
+      "SPA": "150",
+      "SPD": "140",
+      "SPE": "90"
+    },
+    "evs": {
+      "DEF": "4",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "306",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Goodra-Hisui",
+    "level": "Highest Lv",
+    "nature": "Bold",
+    "ability": "Gooey",
+    "item": "Assault Vest",
+    "moves": [
+      "Draco Barrage",
+      "Flash Cannon",
+      "Thunder",
+      "Muddy Water"
+    ],
+    "baseStats": {
+      "HP": "80",
+      "ATK": "100",
+      "DEF": "100",
+      "SPA": "110",
+      "SPD": "150",
+      "SPE": "60"
+    },
+    "evs": {
+      "HP": "252",
+      "DEF": "252",
+      "SPA": "4"
+    },
+    "speedStat": "156",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Kingdra",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Swift Swim",
+    "item": "",
+    "moves": [
+      "Draco Barrage",
+      "Hydro Pump",
+      "Muddy Water",
+      "Hurricane"
+    ],
+    "baseStats": {
+      "HP": "75",
+      "ATK": "95",
+      "DEF": "95",
+      "SPA": "95",
+      "SPD": "95",
+      "SPE": "85"
+    },
+    "evs": {
+      "DEF": "4",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "295",
+    "altSpeeds": {
+      "Swift Swim": "590"
+    }
+  },
+  {
+    "species": "Drednaw-Mega",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Strong Jaw",
+    "item": "",
+    "moves": [
+      "Jaw Lock",
+      "Aqua Fang",
+      "Crunch",
+      "Shell Smash"
+    ],
+    "baseStats": {
+      "HP": "90",
+      "ATK": "155",
+      "DEF": "125",
+      "SPA": "48",
+      "SPD": "98",
+      "SPE": "85"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "295",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Floatzel",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Technician",
+    "item": "Focus Sash",
+    "moves": [
+      "Surging Strikes",
+      "Fake Out",
+      "Flip Turn",
+      "Pursuit"
+    ],
+    "baseStats": {
+      "HP": "85",
+      "ATK": "90",
+      "DEF": "55",
+      "SPA": "95",
+      "SPD": "50",
+      "SPE": "115"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "361",
+    "altSpeeds": {}
+  }
+]

@@ -1,0 +1,150 @@
+[
+  {
+    "species": "Iron Bundle",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Quark Drive",
+    "item": "Focus Sash",
+    "moves": [
+      "Hydro Pump",
+      "Freeze-Dry",
+      "Flip Turn",
+      "Ice Beam"
+    ],
+    "baseStats": {
+      "HP": "56",
+      "ATK": "80",
+      "DEF": "114",
+      "SPA": "124",
+      "SPD": "60",
+      "SPE": "136"
+    },
+    "evs": {},
+    "speedStat": "232",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Palafin",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Mold Breaker",
+    "item": "Mystic Water",
+    "moves": [
+      "Jet Punch",
+      "Waterfall",
+      "Drain Punch",
+      "Bulk Up"
+    ],
+    "baseStats": {
+      "HP": "100",
+      "ATK": "160",
+      "DEF": "97",
+      "SPA": "106",
+      "SPD": "87",
+      "SPE": "100"
+    },
+    "evs": {},
+    "speedStat": "178",
+    "altSpeeds": {},
+    "aspect": "hero-form"
+  },
+  {
+    "species": "Kingdra",
+    "level": "Highest Lv",
+    "nature": "Modest",
+    "ability": "Swift Swim",
+    "item": "Life Orb",
+    "moves": [
+      "Hydro Pump",
+      "Draco Barrage",
+      "Hurricane",
+      "Flip Turn"
+    ],
+    "baseStats": {
+      "HP": "75",
+      "ATK": "95",
+      "DEF": "95",
+      "SPA": "95",
+      "SPD": "95",
+      "SPE": "85"
+    },
+    "evs": {},
+    "speedStat": "141",
+    "altSpeeds": {
+      "Swift Swim": "282"
+    }
+  },
+  {
+    "species": "Archaludon",
+    "level": "Highest Lv",
+    "nature": "Calm",
+    "ability": "Stamina",
+    "item": "Assault Vest",
+    "moves": [
+      "Body Press",
+      "Electro Shot",
+      "Dragon Pulse",
+      "Flash Cannon"
+    ],
+    "baseStats": {
+      "HP": "90",
+      "ATK": "105",
+      "DEF": "130",
+      "SPA": "125",
+      "SPD": "65",
+      "SPE": "85"
+    },
+    "evs": {},
+    "speedStat": "141",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Thundurus",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Volt Absorb",
+    "item": "",
+    "moves": [
+      "Nasty Plot",
+      "Thunder",
+      "Weather Ball",
+      "Focus Blast"
+    ],
+    "baseStats": {
+      "HP": "79",
+      "ATK": "105",
+      "DEF": "70",
+      "SPA": "145",
+      "SPD": "80",
+      "SPE": "101"
+    },
+    "evs": {},
+    "speedStat": "179",
+    "altSpeeds": {},
+    "aspect": "therian-forme"
+  },
+  {
+    "species": "Gyarados-Mega",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Mold Breaker",
+    "item": "",
+    "moves": [
+      "Dragon Dance",
+      "Waterfall",
+      "Crunch",
+      "Earthquake"
+    ],
+    "baseStats": {
+      "HP": "95",
+      "ATK": "155",
+      "DEF": "109",
+      "SPA": "70",
+      "SPD": "130",
+      "SPE": "81"
+    },
+    "evs": {},
+    "speedStat": "149",
+    "altSpeeds": {}
+  }
+]

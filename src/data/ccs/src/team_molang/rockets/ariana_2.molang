@@ -1,0 +1,6 @@
+return q.array(
+    'wailord moves=bouncybubble,icebeam,hiddenpower nature=modest held_item=cobblemon:mystic_water ability=blubberdefense',
+    'espeon moves=lastresort,psychic,mysticalfire,shadowball nature=timid ability=magicbounce',
+    'buzzwole moves=victorydance,drainpunch,leechlife,icepunch nature=jolly held_item=cobblemon:coba_berry ability=beastboost',
+    'mawile moves=suckerpunch,doubleironbash,playrough,firefang nature=adamant ability=hugepower aspect=mega'
+);

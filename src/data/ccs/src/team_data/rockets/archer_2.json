@@ -1,0 +1,122 @@
+[
+  {
+    "species": "Glimmet",
+    "level": "Highest Lv -3",
+    "nature": "Bashful",
+    "ability": "Toxic Debris",
+    "item": "Shuca Berry",
+    "moves": [
+      "Ancient Power",
+      "Venoshock",
+      "Mud Shot",
+      "Protect"
+    ],
+    "baseStats": {
+      "HP": "48",
+      "ATK": "35",
+      "DEF": "42",
+      "SPA": "105",
+      "SPD": "60",
+      "SPE": "60"
+    },
+    "evs": {},
+    "speedStat": "35",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Seviper",
+    "level": "Highest Lv -2",
+    "nature": "Bashful",
+    "ability": "Fatal Precision",
+    "item": "Shuca Berry",
+    "moves": [
+      "Mega Drain",
+      "Poison Fang",
+      "Bulldoze",
+      "Hypnosis"
+    ],
+    "baseStats": {
+      "HP": "83",
+      "ATK": "100",
+      "DEF": "83",
+      "SPA": "100",
+      "SPD": "83",
+      "SPE": "85"
+    },
+    "evs": {},
+    "speedStat": "47",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Houndour",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Flash Fire",
+    "item": "Focus Sash",
+    "moves": [
+      "Nasty Plot",
+      "Incinerate",
+      "Snarl",
+      "Hidden Power"
+    ],
+    "baseStats": {
+      "HP": "45",
+      "ATK": "60",
+      "DEF": "30",
+      "SPA": "80",
+      "SPD": "50",
+      "SPE": "65"
+    },
+    "evs": {},
+    "speedStat": "46",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Mightyena",
+    "level": "Highest Lv -2",
+    "nature": "Bashful",
+    "ability": "Strong Jaw",
+    "item": "Berry Juice",
+    "moves": [
+      "Bite",
+      "Ice Fang",
+      "Poison Fang",
+      "Howl"
+    ],
+    "baseStats": {
+      "HP": "70",
+      "ATK": "95",
+      "DEF": "70",
+      "SPA": "60",
+      "SPD": "60",
+      "SPE": "70"
+    },
+    "evs": {},
+    "speedStat": "40",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Fearow",
+    "level": "Highest Lv -3",
+    "nature": "Bashful",
+    "ability": "Technician",
+    "item": "Muscle Band",
+    "moves": [
+      "Pursuit",
+      "Pluck",
+      "Drill Run",
+      "Double Hit"
+    ],
+    "baseStats": {
+      "HP": "65",
+      "ATK": "100",
+      "DEF": "65",
+      "SPA": "61",
+      "SPD": "61",
+      "SPE": "115"
+    },
+    "evs": {},
+    "speedStat": "57",
+    "altSpeeds": {}
+  }
+]

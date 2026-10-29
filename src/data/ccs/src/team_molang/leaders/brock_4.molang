@@ -1,0 +1,8 @@
+return q.array(
+    'ironboulder moves=stealthrock,closecombat,mightycleave,zenheadbutt nature=jolly held_item=cobblemon:lum_berry ability=quarkdrive',
+    'landorus moves=uturn,earthquake,stoneedge,grassknot nature=naive held_item=cobblemon:life_orb ability=sandforce aspect=incarnate-forme',
+    'zygarde moves=coil,thousandarrows,rest,sleeptalk nature=careful held_item=cobblemon:leftovers ability=powerconstruct aspect=complete-percent',
+    'irontreads moves=knockoff,earthquake,ironhead,icespinner nature=jolly ability=quarkdrive',
+    'ursaluna moves=bloodmoon,earthpower,vacuumwave,hypervoice nature=modest held_item=cobblemon:leftovers ability=scrappy aspect=bloodmoon',
+    'aerodactyl moves=dragondance,stoneedge,earthquake,dualwingbeat nature=jolly ability=toughclaws aspect=mega'
+);

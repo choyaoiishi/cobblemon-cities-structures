@@ -1,0 +1,8 @@
+return q.array(
+    'tapulele moves=moonblast,psychic,thunderbolt,aurasphere nature=timid held_item=cobblemon:terrain_extender ability=psychicsurge',
+    'scrafty moves=roar,knockoff,drainpunch,icepunch nature=adamant held_item=cobblemon:psychic_seed ability=intimidate',
+    'excadrill moves=highhorsepower,ironhead,rockslide,swordsdance nature=adamant held_item=cobblemon:focus_sash ability=sandforce',
+    'tyranitar moves=highhorsepower,knockoff,rockslide,firepunch nature=careful held_item=cobblemon:assault_vest ability=sandstream',
+    'celesteela moves=autotomize,meteorbeam,flamethrower,airslash nature=modest held_item=cobblemon:power_herb ability=beastboost',
+    'mewtwo moves=expandingforce,soulrobbery,aurasphere,flamethrower nature=timid ability=insomnia aspect=mega_y'
+);

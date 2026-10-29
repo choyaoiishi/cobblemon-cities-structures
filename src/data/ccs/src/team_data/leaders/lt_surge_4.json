@@ -1,0 +1,146 @@
+[
+  {
+    "species": "Pawmot",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Iron Fist",
+    "item": "Focus Sash",
+    "moves": [
+      "Thunder Punch",
+      "Close Combat",
+      "Mach Punch",
+      "Ice Punch"
+    ],
+    "baseStats": {
+      "HP": "70",
+      "ATK": "115",
+      "DEF": "70",
+      "SPA": "70",
+      "SPD": "60",
+      "SPE": "105"
+    },
+    "evs": {},
+    "speedStat": "184",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Iron Thorns",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Quark Drive",
+    "item": "Lum Berry",
+    "moves": [
+      "Dragon Dance",
+      "Fusion Bolt",
+      "Stone Edge",
+      "Ice Punch"
+    ],
+    "baseStats": {
+      "HP": "110",
+      "ATK": "134",
+      "DEF": "110",
+      "SPA": "70",
+      "SPD": "84",
+      "SPE": "72"
+    },
+    "evs": {},
+    "speedStat": "136",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Iron Moth",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Quark Drive",
+    "item": "Fire Gem",
+    "moves": [
+      "Fiery Dance",
+      "Sludge Wave",
+      "Energy Ball",
+      "Dazzling Gleam"
+    ],
+    "baseStats": {
+      "HP": "80",
+      "ATK": "70",
+      "DEF": "60",
+      "SPA": "140",
+      "SPD": "110",
+      "SPE": "110"
+    },
+    "evs": {},
+    "speedStat": "192",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Iron Hands",
+    "level": "Highest Lv",
+    "nature": "Careful",
+    "ability": "Quark Drive",
+    "item": "Assault Vest",
+    "moves": [
+      "Plasma Fists",
+      "Drain Punch",
+      "Ice Punch",
+      "Fake Out"
+    ],
+    "baseStats": {
+      "HP": "154",
+      "ATK": "140",
+      "DEF": "108",
+      "SPA": "50",
+      "SPD": "68",
+      "SPE": "50"
+    },
+    "evs": {},
+    "speedStat": "94",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Miraidon",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Hadron Engine",
+    "item": "Leftovers",
+    "moves": [
+      "Calm Mind",
+      "Parabolic Charge",
+      "Dragon Pulse",
+      "Dazzling Gleam"
+    ],
+    "baseStats": {
+      "HP": "100",
+      "ATK": "85",
+      "DEF": "100",
+      "SPA": "135",
+      "SPD": "115",
+      "SPE": "135"
+    },
+    "evs": {},
+    "speedStat": "229",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Manectric-Mega",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Intimidate",
+    "item": "",
+    "moves": [
+      "Rising Voltage",
+      "Hidden Power",
+      "Flamethrower",
+      "Volt Switch"
+    ],
+    "baseStats": {
+      "HP": "70",
+      "ATK": "75",
+      "DEF": "80",
+      "SPA": "135",
+      "SPD": "80",
+      "SPE": "135"
+    },
+    "evs": {},
+    "speedStat": "229",
+    "altSpeeds": {}
+  }
+]

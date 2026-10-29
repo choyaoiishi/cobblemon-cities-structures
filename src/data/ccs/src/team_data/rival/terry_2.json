@@ -1,0 +1,74 @@
+[
+  {
+    "species": "Snubbull",
+    "level": "Highest Lv -1",
+    "nature": "Adamant",
+    "ability": "Intimidate",
+    "item": "Muscle Band",
+    "moves": [
+      "Power Up Punch",
+      "Covet",
+      "Thunder Wave",
+      "Fire Fang"
+    ],
+    "baseStats": {
+      "HP": "60",
+      "ATK": "80",
+      "DEF": "50",
+      "SPA": "40",
+      "SPD": "40",
+      "SPE": "30"
+    },
+    "evs": {},
+    "speedStat": "18",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Litleo",
+    "level": "Highest Lv -1",
+    "nature": "Timid",
+    "ability": "Rivalry",
+    "item": "Wise Glasses",
+    "moves": [
+      "Incinerate",
+      "Round",
+      "Hidden Power",
+      "Sleep Talk"
+    ],
+    "baseStats": {
+      "HP": "62",
+      "ATK": "50",
+      "DEF": "58",
+      "SPA": "73",
+      "SPD": "54",
+      "SPE": "72"
+    },
+    "evs": {},
+    "speedStat": "34",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Squirtle",
+    "level": "Highest Lv",
+    "nature": "Adamant",
+    "ability": "Torrent",
+    "item": "Oran Berry",
+    "moves": [
+      "Power Up Punch",
+      "Aqua Jet",
+      "Rock Tomb",
+      "Curse"
+    ],
+    "baseStats": {
+      "HP": "44",
+      "ATK": "48",
+      "DEF": "65",
+      "SPA": "50",
+      "SPD": "64",
+      "SPE": "43"
+    },
+    "evs": {},
+    "speedStat": "23",
+    "altSpeeds": {}
+  }
+]

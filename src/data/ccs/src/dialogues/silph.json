@@ -2,28 +2,31 @@
     "1": {
         "lines": [],
         "battle": [
-            "team_rocket_grunt_017a",
+            "grunt",
             "Hey kid! What are you doing here?",
             "I goofed!",
-            "Silph Co. will be merged with Team Rocket!"
+            "Silph Co. will be merged with Team Rocket!",
+            "50"
         ]
     },
     "2": {
         "lines": [],
         "battle": [
-            "team_rocket_grunt_017b",
+            "grunt",
             "Team Rocket has taken command of Silph Co.!",
             "Arrgh!",
-            "Fwahahaha! My boss has been after this place!"
+            "Fwahahaha! My boss has been after this place!",
+            "50"
         ]
     },
     "3": {
         "lines": [],
         "battle": [
-            "scientist_connor_0150",
+            "scientist",
             "Help! I'm a Silph employee.",
             "How did you know I was a Rocket?",
-            "I work for both Silph and Team Rocket!"
+            "I work for both Silph and Team Rocket!",
+            "50"
         ]
     },
     "4": {
@@ -41,37 +44,41 @@
     "5": {
         "lines": [],
         "battle": [
-            "scientist_jerry_0151",
+            "scientist",
             "I support Team Rocket more than Silph!",
             "You really got me!",
-            "Humph... Team Rocket said if I helped, they'd let me study Pokémon!"
+            "Humph... Team Rocket said if I helped, they'd let me study Pokémon!",
+            "50"
         ]
     },
     "6": {
         "lines": [],
         "battle": [
-            "team_rocket_grunt_017c",
+            "grunt",
             "Intruder spotted!",
             "Who are you?",
-            "I better tell the boss on 7F!"
+            "I better tell the boss on 7F!",
+            "50"
         ]
     },
     "7": {
         "lines": [],
         "battle": [
-            "team_rocket_grunt_017d",
+            "grunt",
             "Whaaat? There shouldn't be any children here?",
             "Oh goodness!",
-            "It's not smart to pick a fight with Team Rocket!"
+            "It's not smart to pick a fight with Team Rocket!",
+            "50"
         ]
     },
     "8": {
         "lines": [],
         "battle": [
-            "scientist_jose_0152",
+            "scientist",
             "We study Poké Ball technology on this floor!",
             "Dang! Blast it!",
-            "We worked on the ultimate Poké Ball that can catch anything!"
+            "We worked on the ultimate Poké Ball that can catch anything!",
+            "50"
         ]
     },
     "9": {
@@ -82,19 +89,21 @@
     "10": {
         "lines": [],
         "battle": [
-            "team_rocket_grunt_017e",
+            "grunt",
             "Enough of your silly games!",
             "No continues left!",
-            "Are you satisfied with beating me? Then go on home!"
+            "Are you satisfied with beating me? Then go on home!",
+            "50"
         ]
     },
     "11": {
         "lines": [],
         "battle": [
-            "team_rocket_grunt_017f",
+            "grunt",
             "Stop right there! Don't you move!",
             "Don't... Please!",
-            "So, you want to see my boss?"
+            "So, you want to see my boss?",
+            "50"
         ]
     },
     "gary": {
@@ -103,11 +112,12 @@
             "I guess Team Rocket slowed you down! Not that I care!"
         ],
         "battle": [
-            "rival_terry_01b0",
+            "rival_gary",
             "I saw you in Saffron, so I decided to see if you got better!",
-            "Oh ho! So you are ready for the boss!",
-            "Well! I'm heading to the Pokémon League to kick out the Elite Four! I'll become the world's most powerful trainer! Smell ya!",
-            "rival_terry_2"
+            "Well! I'm heading to the Pokémon League to kick out the Elite Four!",
+            "I'll become the world's most powerful trainer! Smell ya!",
+            "50",
+            "ccs:kanto/saffron/gary"
         ]
     },
     "lapras": {
@@ -127,11 +137,12 @@
             "Ah! So we meet again! The president and I are discussing a vital business proposition."
         ],
         "battle": [
-            "boss_giovanni_015d",
+            "rocket_giovanni",
             "Keep your nose out of grown-up matters... Or, experience a world of pain!",
             "Arrgh!! I lost again!?",
             "Blast it all! You ruined our plans for Silph! But Team Rocket will never fall! Never forget that all Pokémon exist for Team Rocket!",
-            "boss_giovanni_2"
+            "50",
+            "ccs:kanto/saffron/giovanni"
         ]
     }
 }

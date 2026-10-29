@@ -1,0 +1,8 @@
+return q.array(
+    'zapdos moves=hurricane,thunder,weatherball,roost nature=timid ability=static',
+    'ferrothorn moves=leechseed,powerwhip,gyroball,thunder nature=relaxed held_item=cobblemon:rocky_helmet ability=ironbarbs',
+    'celesteela moves=autotomize,ironhead,airslash,gigadrain nature=naive held_item=cobblemon:weakness_policy ability=beastboost',
+    'basculegion moves=wavecrash,lastrespects,flipturn,zenheadbutt nature=jolly held_item=cobblemon:mystic_water ability=swiftswim',
+    'goodra moves=thunder,hydropump,icebeam,rest nature=modest held_item=cobblemon:leftovers ability=hydration',
+    'blastoise moves=shellsmash,darkpulse,hydropump,icebeam nature=timid ability=megalauncher aspect=mega'
+);

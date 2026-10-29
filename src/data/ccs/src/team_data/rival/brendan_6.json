@@ -1,0 +1,148 @@
+[
+  {
+    "species": "Gengar",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Levitate",
+    "item": "Focus Sash",
+    "moves": [
+      "Shadow Ball",
+      "Sludge Wave",
+      "Focus Blast",
+      "Giga Drain"
+    ],
+    "baseStats": {
+      "HP": "60",
+      "ATK": "65",
+      "DEF": "60",
+      "SPA": "130",
+      "SPD": "75",
+      "SPE": "110"
+    },
+    "evs": {},
+    "speedStat": "192",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Nihilego",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Beast Boost",
+    "item": "Power Herb",
+    "moves": [
+      "Meteor Beam",
+      "Sludge Wave",
+      "Thunderbolt",
+      "Grass Knot"
+    ],
+    "baseStats": {
+      "HP": "109",
+      "ATK": "53",
+      "DEF": "47",
+      "SPA": "127",
+      "SPD": "131",
+      "SPE": "103"
+    },
+    "evs": {},
+    "speedStat": "182",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Tapu Koko",
+    "level": "Highest Lv",
+    "nature": "Naive",
+    "ability": "Electric Surge",
+    "item": "Leftovers",
+    "moves": [
+      "Wild Charge",
+      "Play Rough",
+      "Rising Voltage",
+      "Grass Knot"
+    ],
+    "baseStats": {
+      "HP": "70",
+      "ATK": "115",
+      "DEF": "85",
+      "SPA": "95",
+      "SPD": "75",
+      "SPE": "130"
+    },
+    "evs": {},
+    "speedStat": "222",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Urshifu",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Unseen Fist",
+    "item": "Mystic Water",
+    "moves": [
+      "Surging Strikes",
+      "Close Combat",
+      "Aqua Jet",
+      "U-Turn"
+    ],
+    "baseStats": {
+      "HP": "100",
+      "ATK": "130",
+      "DEF": "100",
+      "SPA": "63",
+      "SPD": "60",
+      "SPE": "97"
+    },
+    "evs": {},
+    "speedStat": "173",
+    "altSpeeds": {},
+    "aspect": "rapid_strike-style"
+  },
+  {
+    "species": "Deoxys",
+    "level": "Highest Lv",
+    "nature": "Naive",
+    "ability": "Pressure",
+    "item": "Life Orb",
+    "moves": [
+      "Psychic",
+      "Ice Beam",
+      "Extreme Speed",
+      "Fire Punch"
+    ],
+    "baseStats": {
+      "HP": "50",
+      "ATK": "180",
+      "DEF": "20",
+      "SPA": "180",
+      "SPD": "20",
+      "SPE": "150"
+    },
+    "evs": {},
+    "speedStat": "253",
+    "altSpeeds": {},
+    "aspect": "attack-forme"
+  },
+  {
+    "species": "Sceptile-Mega",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Technician",
+    "item": "",
+    "moves": [
+      "Dragon Dance",
+      "Dual Chop",
+      "Bullet Seed",
+      "Earthquake"
+    ],
+    "baseStats": {
+      "HP": "70",
+      "ATK": "135",
+      "DEF": "75",
+      "SPA": "110",
+      "SPD": "85",
+      "SPE": "145"
+    },
+    "evs": {},
+    "speedStat": "245",
+    "altSpeeds": {}
+  }
+]

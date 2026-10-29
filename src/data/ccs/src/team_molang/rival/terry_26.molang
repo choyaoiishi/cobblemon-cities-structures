@@ -1,0 +1,8 @@
+return q.array(
+    'kyogre moves=originpulse,icebeam,thunder,liquidation nature=timid ability=primordialsea aspect=primal',
+    'swampert moves=waterfall,eathquake,icepunch,stoneedge nature=adamant ability=swiftswim aspect=mega',
+    'eternatus moves=dracobarrage,sludgewave,thunder,recover nature=timid held_item=cobblemon:eternamax_orb ability=levitate aspect=eternamax',
+    'necrozma moves=dragondance,photongeyser,earthquake,stoneedge nature=jolly ability=neuroforce aspect=ultra-fusion',
+    'arceus moves=swordsdance,extremespeed,shadowclaw,recover nature=jolly ability=multitype',
+    'walkingwake moves=hydropump,dracobarrage,flamethrower,hurricane nature=timid ability=protosynthesis'
+);

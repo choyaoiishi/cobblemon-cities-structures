@@ -1,0 +1,148 @@
+[
+  {
+    "species": "Sandy Shocks",
+    "level": "76",
+    "nature": "Timid",
+    "ability": "Protosynthesis",
+    "item": "Shuca Berry",
+    "moves": [
+      "Earth Power",
+      "Volt Switch",
+      "Thunderbolt",
+      "Hidden Power"
+    ],
+    "baseStats": {
+      "HP": "85",
+      "ATK": "81",
+      "DEF": "97",
+      "SPA": "121",
+      "SPD": "85",
+      "SPE": "101"
+    },
+    "evs": {},
+    "speedStat": "200",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Great Tusk",
+    "level": "76",
+    "nature": "Jolly",
+    "ability": "Protosynthesis",
+    "item": "Fighting Gem",
+    "moves": [
+      "Ice Spinner",
+      "Knock Off",
+      "Headlong Rush",
+      "Close Combat"
+    ],
+    "baseStats": {
+      "HP": "115",
+      "ATK": "131",
+      "DEF": "131",
+      "SPA": "53",
+      "SPD": "53",
+      "SPE": "87"
+    },
+    "evs": {},
+    "speedStat": "176",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Walking Wake",
+    "level": "76",
+    "nature": "Timid",
+    "ability": "Protosynthesis",
+    "item": "Water Gem",
+    "moves": [
+      "Draco Barrage",
+      "Hydro Steam",
+      "Flamethrower",
+      "Sleep Talk"
+    ],
+    "baseStats": {
+      "HP": "99",
+      "ATK": "83",
+      "DEF": "91",
+      "SPA": "125",
+      "SPD": "83",
+      "SPE": "109"
+    },
+    "evs": {},
+    "speedStat": "213",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Venusaur",
+    "level": "76",
+    "nature": "Modest",
+    "ability": "Chlorophyll",
+    "item": "Focus Sash",
+    "moves": [
+      "Growth",
+      "Solar Beam",
+      "Sludge Bomb",
+      "Weather Ball"
+    ],
+    "baseStats": {
+      "HP": "80",
+      "ATK": "82",
+      "DEF": "83",
+      "SPA": "100",
+      "SPD": "100",
+      "SPE": "80"
+    },
+    "evs": {},
+    "speedStat": "150",
+    "altSpeeds": {
+      "Chlorophy.": "300"
+    }
+  },
+  {
+    "species": "Ho-Oh",
+    "level": "76",
+    "nature": "Jolly",
+    "ability": "Phoenix Down",
+    "item": "",
+    "moves": [
+      "Sacred Fire",
+      "Brave Bird",
+      "Earthquake",
+      "Solar Beam"
+    ],
+    "baseStats": {
+      "HP": "106",
+      "ATK": "130",
+      "DEF": "90",
+      "SPA": "110",
+      "SPD": "154",
+      "SPE": "90"
+    },
+    "evs": {},
+    "speedStat": "181",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Charizard-MegaX",
+    "level": "76",
+    "nature": "Jolly",
+    "ability": "Tough Claws",
+    "item": "",
+    "moves": [
+      "Dragon Dance",
+      "Flare Blitz",
+      "Dragon Claw",
+      "Earthquake"
+    ],
+    "baseStats": {
+      "HP": "78",
+      "ATK": "130",
+      "DEF": "111",
+      "SPA": "130",
+      "SPD": "85",
+      "SPE": "100"
+    },
+    "evs": {},
+    "speedStat": "198",
+    "altSpeeds": {}
+  }
+]

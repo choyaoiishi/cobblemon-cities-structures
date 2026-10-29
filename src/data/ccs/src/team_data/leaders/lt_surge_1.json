@@ -1,0 +1,124 @@
+[
+  {
+    "species": "Pincurchin",
+    "level": "32",
+    "nature": "Bold",
+    "ability": "Electric Surge",
+    "item": "Terrain Extender",
+    "moves": [
+      "Volt Switch",
+      "Scald",
+      "Discharge",
+      "Hidden Power"
+    ],
+    "baseStats": {
+      "HP": "68",
+      "ATK": "81",
+      "DEF": "95",
+      "SPA": "91",
+      "SPD": "85",
+      "SPE": "15"
+    },
+    "evs": {},
+    "speedStat": "24",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Vikavolt",
+    "level": "33",
+    "nature": "Calm",
+    "ability": "Levitate",
+    "item": "Occa Berry",
+    "moves": [
+      "Volt Switch",
+      "Bug Buzz",
+      "Roost",
+      "Mud Shot"
+    ],
+    "baseStats": {
+      "HP": "77",
+      "ATK": "70",
+      "DEF": "90",
+      "SPA": "145",
+      "SPD": "75",
+      "SPE": "43"
+    },
+    "evs": {},
+    "speedStat": "43",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Bellibolt",
+    "level": "33",
+    "nature": "Bold",
+    "ability": "Electromorphosis",
+    "item": "Shuca Berry",
+    "moves": [
+      "Parabolic Charge",
+      "Muddy Water",
+      "Thunder Wave",
+      "Hidden Power"
+    ],
+    "baseStats": {
+      "HP": "109",
+      "ATK": "64",
+      "DEF": "91",
+      "SPA": "103",
+      "SPD": "83",
+      "SPE": "45"
+    },
+    "evs": {
+      "HP": "100"
+    },
+    "speedStat": "44",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Pawmot",
+    "level": "33",
+    "nature": "Jolly",
+    "ability": "Iron Fist",
+    "item": "Focus Sash",
+    "moves": [
+      "Drain Punch",
+      "Thunder Punch",
+      "Ice Punch",
+      "Mach Punch"
+    ],
+    "baseStats": {
+      "HP": "70",
+      "ATK": "115",
+      "DEF": "70",
+      "SPA": "70",
+      "SPD": "60",
+      "SPE": "105"
+    },
+    "evs": {},
+    "speedStat": "92",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Manectric-Mega",
+    "level": "34",
+    "nature": "Timid",
+    "ability": "Intimidate",
+    "item": "",
+    "moves": [
+      "Charge Beam",
+      "Volt Switch",
+      "Flame Burst",
+      "Hidden Power"
+    ],
+    "baseStats": {
+      "HP": "70",
+      "ATK": "75",
+      "DEF": "80",
+      "SPA": "135",
+      "SPD": "80",
+      "SPE": "135"
+    },
+    "evs": {},
+    "speedStat": "117",
+    "altSpeeds": {}
+  }
+]

@@ -43,12 +43,13 @@
             "That's for sure! I tell you kid, electric Pokémon saved me during the war!"
         ],
         "battle": [
-            "leader_lt_surge_01a0",
+            "leader_lt_surge",
             "They zapped my enemies into paralysis! The same as I'll do to you!",
             "Whoa! You're the real deal, kid! Fine then, take the Thunder Badge!",
             "A little word of advice, kid! Electricity is sure powerful! But, it's useless against ground-type Pokémon!",
-            "leader_lt_surge"
-        ],
+            "35",
+                        "ccs:kanto/vermilion/lt_surge"
+                    ],
         "reward": [
             "tm",
             "shockwave",
@@ -61,11 +62,12 @@
             "Oh hey! It's been a while. I've snagged two badges since we first met."
         ],
         "battle": [
-            "trainer_brendan_0032",
+            "rival_brendan",
             "You too huh? I thought so! Let's put each other to the test.",
             "You're seriously just a step ahead of me. It's admirable, really.",
             "The Lucky Egg speeds up training significantly. I hope you put it to good use. Well, it's back to training for me.",
-            "trainer_brendan_1"
+            "35",
+                        "ccs:kanto/vermilion/brendan"
         ],
         "reward": [
             "item",

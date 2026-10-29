@@ -1,0 +1,8 @@
+return q.array(
+    'solrock moves=stealthrock,photongeyser,explosion,earthquake nature=jolly held_item=cobblemon:focus_sash ability=levitate',
+    'breloom moves=spore,substitute,focuspunch,rockslide nature=jolly held_item=cobblemon:toxic_orb ability=poisonheal',
+    'manectric moves=voltswitch,thunderbolt,overheat,switcheroo nature=timid held_item=cobblemon:choice_specs ability=lightningrod',
+    'relicanth moves=waterfall,headsmash,earthquake,zenheadbutt nature=adamant held_item=cobblemon:choice_band ability=rockhead',
+    'flygon moves=earthquake,dracometeor,fireblast,outrage nature=hasty held_item=cobblemon:life_orb ability=tintedlens',
+    'blaziken moves=swordsdance,closecombat,flareblitz,rockslide nature=adamant ability=speedboost aspect=mega'
+);

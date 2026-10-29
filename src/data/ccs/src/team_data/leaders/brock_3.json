@@ -1,0 +1,173 @@
+[
+  {
+    "species": "Great Tusk",
+    "level": "Highest Lv -2",
+    "nature": "Jolly",
+    "ability": "Protosynthesis",
+    "item": "",
+    "moves": [
+      "Stealth Rock",
+      "Close Combat",
+      "Headlong Rush",
+      "Knock Off"
+    ],
+    "baseStats": {
+      "HP": "115",
+      "ATK": "131",
+      "DEF": "131",
+      "SPA": "53",
+      "SPD": "53",
+      "SPE": "87"
+    },
+    "evs": {
+      "ATK": "252",
+      "SPD": "4",
+      "SPE": "252"
+    },
+    "speedStat": "199",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Omastar",
+    "level": "Highest Lv -2",
+    "nature": "Timid",
+    "ability": "Weak Armor",
+    "item": "Power Herb",
+    "moves": [
+      "Shell Smash",
+      "Meteor Beam",
+      "Surf",
+      "Ice Beam"
+    ],
+    "baseStats": {
+      "HP": "70",
+      "ATK": "60",
+      "DEF": "125",
+      "SPA": "115",
+      "SPD": "70",
+      "SPE": "55"
+    },
+    "evs": {
+      "SPA": "252",
+      "SPD": "4",
+      "SPE": "252"
+    },
+    "speedStat": "152",
+    "altSpeeds": {
+      "1 Weak Arm.": "304"
+    }
+  },
+  {
+    "species": "Ursaluna",
+    "level": "Highest Lv -2",
+    "nature": "Modest",
+    "ability": "Scrappy",
+    "item": "Leftovers",
+    "moves": [
+      "Earth Power",
+      "Blood Moon",
+      "Vacuum Wave",
+      "Hyper Voice"
+    ],
+    "baseStats": {
+      "HP": "113",
+      "ATK": "70",
+      "DEF": "120",
+      "SPA": "135",
+      "SPD": "65",
+      "SPE": "52"
+    },
+    "evs": {
+      "HP": "252",
+      "SPA": "252",
+      "SPD": "4"
+    },
+    "speedStat": "94",
+    "altSpeeds": {},
+    "aspect": "bloodmoon"
+  },
+  {
+    "species": "Tyranitar",
+    "level": "Highest Lv -2",
+    "nature": "Jolly",
+    "ability": "Sand Stream",
+    "item": "Weakness Policy",
+    "moves": [
+      "Dragon Dance",
+      "Stone Edge",
+      "Fire Punch",
+      "Knock Off"
+    ],
+    "baseStats": {
+      "HP": "100",
+      "ATK": "134",
+      "DEF": "110",
+      "SPA": "95",
+      "SPD": "100",
+      "SPE": "61"
+    },
+    "evs": {
+      "ATK": "252",
+      "SPD": "4",
+      "SPE": "252"
+    },
+    "speedStat": "161",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Arcanine-Hisui",
+    "level": "Highest Lv -2",
+    "nature": "Jolly",
+    "ability": "Rock Head",
+    "item": "Focus Sash",
+    "moves": [
+      "Flare Blitz",
+      "Head Smash",
+      "Wild Charge",
+      "Extreme Speed"
+    ],
+    "baseStats": {
+      "HP": "95",
+      "ATK": "125",
+      "DEF": "80",
+      "SPA": "85",
+      "SPD": "80",
+      "SPE": "90"
+    },
+    "evs": {
+      "ATK": "252",
+      "SPD": "4",
+      "SPE": "252"
+    },
+    "speedStat": "203",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Aerodactyl-Mega",
+    "level": "Highest Lv -2",
+    "nature": "Jolly",
+    "ability": "Tough Claws",
+    "item": "",
+    "moves": [
+      "Dragon Dance",
+      "Stone Edge",
+      "Earthquake",
+      "Dual Wingbeat"
+    ],
+    "baseStats": {
+      "HP": "80",
+      "ATK": "135",
+      "DEF": "85",
+      "SPA": "70",
+      "SPD": "95",
+      "SPE": "150"
+    },
+    "evs": {
+      "ATK": "252",
+      "SPD": "4",
+      "SPE": "252"
+    },
+    "speedStat": "291",
+    "altSpeeds": {}
+  }
+]

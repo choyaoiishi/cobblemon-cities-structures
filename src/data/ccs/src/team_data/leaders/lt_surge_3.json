@@ -1,0 +1,173 @@
+[
+  {
+    "species": "Iron Treads",
+    "level": "Highest Lv -2",
+    "nature": "Jolly",
+    "ability": "Quark Drive",
+    "item": "Focus Sash",
+    "moves": [
+      "Earthquake",
+      "Iron Head",
+      "Stealth Rock",
+      "Volt Switch"
+    ],
+    "baseStats": {
+      "HP": "90",
+      "ATK": "112",
+      "DEF": "120",
+      "SPA": "72",
+      "SPD": "70",
+      "SPE": "106"
+    },
+    "evs": {
+      "ATK": "252",
+      "SPD": "4",
+      "SPE": "252"
+    },
+    "speedStat": "226",
+    "altSpeeds": {
+      "Quar. Drive": "339"
+    }
+  },
+  {
+    "species": "Bellibolt",
+    "level": "Highest Lv -2",
+    "nature": "Modest",
+    "ability": "Electromorphosis",
+    "item": "Leftovers",
+    "moves": [
+      "Parabolic Charge",
+      "Hidden Power",
+      "Muddy Water",
+      "Volt Switch"
+    ],
+    "baseStats": {
+      "HP": "109",
+      "ATK": "64",
+      "DEF": "91",
+      "SPA": "103",
+      "SPD": "83",
+      "SPE": "45"
+    },
+    "evs": {
+      "HP": "252",
+      "DEF": "4",
+      "SPA": "252"
+    },
+    "speedStat": "84",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Rotom",
+    "level": "Highest Lv -2",
+    "nature": "Timid",
+    "ability": "Levitate",
+    "item": "Life Orb",
+    "moves": [
+      "Volt Switch",
+      "Rising Voltage",
+      "Scald",
+      "Hidden Power"
+    ],
+    "baseStats": {
+      "HP": "50",
+      "ATK": "65",
+      "DEF": "107",
+      "SPA": "105",
+      "SPD": "107",
+      "SPE": "86"
+    },
+    "evs": {
+      "SPA": "252",
+      "SPD": "4",
+      "SPE": "252"
+    },
+    "speedStat": "198",
+    "altSpeeds": {},
+    "aspect": "wash-appliance"
+  },
+  {
+    "species": "Pawmot",
+    "level": "Highest Lv -2",
+    "nature": "Jolly",
+    "ability": "Iron Fist",
+    "item": "Punching Glove",
+    "moves": [
+      "Thunder Punch",
+      "Close Combat",
+      "Mach Punch",
+      "Ice Punch"
+    ],
+    "baseStats": {
+      "HP": "70",
+      "ATK": "115",
+      "DEF": "70",
+      "SPA": "70",
+      "SPD": "60",
+      "SPE": "105"
+    },
+    "evs": {
+      "ATK": "252",
+      "SPD": "4",
+      "SPE": "252"
+    },
+    "speedStat": "225",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Manectric-Mega",
+    "level": "Highest Lv -2",
+    "nature": "Timid",
+    "ability": "Intimidate",
+    "item": "",
+    "moves": [
+      "Volt Switch",
+      "Rising Voltage",
+      "Flamethrower",
+      "Hidden Power"
+    ],
+    "baseStats": {
+      "HP": "70",
+      "ATK": "75",
+      "DEF": "80",
+      "SPA": "135",
+      "SPD": "80",
+      "SPE": "135"
+    },
+    "evs": {
+      "SPA": "252",
+      "SPD": "4",
+      "SPE": "252"
+    },
+    "speedStat": "269",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Iron Hands",
+    "level": "Highest Lv -2",
+    "nature": "Careful",
+    "ability": "Quark Drive",
+    "item": "Assault Vest",
+    "moves": [
+      "Plasma Fists",
+      "Drain Punch",
+      "Ice Punch",
+      "Fake Out"
+    ],
+    "baseStats": {
+      "HP": "154",
+      "ATK": "140",
+      "DEF": "108",
+      "SPA": "50",
+      "SPD": "68",
+      "SPE": "50"
+    },
+    "evs": {
+      "HP": "252",
+      "ATK": "4",
+      "SPD": "252"
+    },
+    "speedStat": "91",
+    "altSpeeds": {}
+  }
+]

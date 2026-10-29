@@ -1,0 +1,173 @@
+[
+  {
+    "species": "Armarouge",
+    "level": "75",
+    "nature": "Timid",
+    "ability": "Mega Launcher",
+    "item": "Focus Sash",
+    "moves": [
+      "Armor Cannon",
+      "Psyshock",
+      "Aura Sphere",
+      "Energy Ball"
+    ],
+    "baseStats": {
+      "HP": "85",
+      "ATK": "60",
+      "DEF": "100",
+      "SPA": "125",
+      "SPD": "80",
+      "SPE": "75"
+    },
+    "evs": {
+      "DEF": "4",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "206",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Slither Wing",
+    "level": "76",
+    "nature": "Jolly",
+    "ability": "Protosynthesis",
+    "item": "Life Orb",
+    "moves": [
+      "First Impression",
+      "U-Turn",
+      "Close Combat",
+      "Flare Blitz"
+    ],
+    "baseStats": {
+      "HP": "85",
+      "ATK": "135",
+      "DEF": "79",
+      "SPA": "85",
+      "SPD": "105",
+      "SPE": "81"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "218",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Exeggutor",
+    "level": "76",
+    "nature": "Timid",
+    "ability": "Chlorophyll",
+    "item": "Lum Berry",
+    "moves": [
+      "Growth",
+      "Giga Drain",
+      "Psyshock",
+      "Weather Ball"
+    ],
+    "baseStats": {
+      "HP": "95",
+      "ATK": "95",
+      "DEF": "85",
+      "SPA": "125",
+      "SPD": "75",
+      "SPE": "55"
+    },
+    "evs": {
+      "DEF": "4",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "176",
+    "altSpeeds": {
+      "Chlorophy.": "352"
+    }
+  },
+  {
+    "species": "Typhlosion",
+    "level": "76",
+    "nature": "Modest",
+    "ability": "Blazing Soul",
+    "item": "Heavy-Duty Boots",
+    "moves": [
+      "Eruption",
+      "Flamethrower",
+      "Hidden Power",
+      "Focus Blast"
+    ],
+    "baseStats": {
+      "HP": "78",
+      "ATK": "84",
+      "DEF": "78",
+      "SPA": "109",
+      "SPD": "85",
+      "SPE": "100"
+    },
+    "evs": {
+      "DEF": "4",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "228",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Ogerpon",
+    "level": "76",
+    "nature": "Jolly",
+    "ability": "Mold Breaker",
+    "item": "",
+    "moves": [
+      "Ivy Cudgel",
+      "Horn Leech",
+      "Knock Off",
+      "U-Turn"
+    ],
+    "baseStats": {
+      "HP": "80",
+      "ATK": "120",
+      "DEF": "84",
+      "SPA": "60",
+      "SPD": "96",
+      "SPE": "110"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "267",
+    "altSpeeds": {},
+    "aspect": "hearthflame-mask"
+  },
+  {
+    "species": "Charizard-MegaY",
+    "level": "76",
+    "nature": "Timid",
+    "ability": "Drought",
+    "item": "",
+    "moves": [
+      "Flamethrower",
+      "Air Slash",
+      "Solar Beam",
+      "Dragon Pulse"
+    ],
+    "baseStats": {
+      "HP": "78",
+      "ATK": "104",
+      "DEF": "78",
+      "SPA": "159",
+      "SPD": "115",
+      "SPE": "100"
+    },
+    "evs": {
+      "DEF": "4",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "250",
+    "altSpeeds": {}
+  }
+]

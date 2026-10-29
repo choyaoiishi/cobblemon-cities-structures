@@ -1,0 +1,8 @@
+return q.array(
+    'tyrantrum moves=dragonclaw,headsmash,earthquake,closecombat nature=adamant held_item=cobblemon:focus_sash ability=rockhead',
+    'marowak moves=shadowbone,firepunch,bonemerang,swordsdance nature=adamant held_item=cobblemon:thick_club ability=bonezone aspect=alolan',
+    'empoleon moves=calmmind,roost,scald,icebeam nature=bold held_item=cobblemon:leftovers ability=competitive',
+    'landorus moves=earthpower,rockslide,psychic,hiddenpower nature=rash held_item=cobblemon:life_orb ability=sheerforce aspect=incarnate-forme',
+    'ursaluna moves=hypervoice,earthpower,bloodmoon,aurasphere nature=timid held_item=cobblemon:assault_vest ability=scrappy aspect=bloodmoon',
+    'sceptile moves=swordsdance,dualchop,bulletseed,earthquake nature=jolly ability=technician aspect=mega'
+);

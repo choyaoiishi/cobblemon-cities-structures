@@ -1,0 +1,171 @@
+[
+  {
+    "species": "Pheromosa",
+    "level": "85",
+    "nature": "Jolly",
+    "ability": "Beast Boost",
+    "item": "Focus Sash",
+    "moves": [
+      "U-Turn",
+      "Close Combat",
+      "Triple Axel",
+      "Poison Jab"
+    ],
+    "baseStats": {
+      "HP": "71",
+      "ATK": "137",
+      "DEF": "37",
+      "SPA": "137",
+      "SPD": "37",
+      "SPE": "151"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "375",
+    "altSpeeds": {
+      "1 B. Boost": "562"
+    }
+  },
+  {
+    "species": "Metagross-Mega",
+    "level": "85",
+    "nature": "Jolly",
+    "ability": "Tough Claws",
+    "item": "",
+    "moves": [
+      "Bullet Punch",
+      "Zen Headbutt",
+      "Fire Punch",
+      "Meteor Mash"
+    ],
+    "baseStats": {
+      "HP": "80",
+      "ATK": "145",
+      "DEF": "150",
+      "SPA": "105",
+      "SPD": "110",
+      "SPE": "110"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "298",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Miraidon",
+    "level": "85",
+    "nature": "Timid",
+    "ability": "Hadron Engine",
+    "item": "Leftovers",
+    "moves": [
+      "Calm Mind",
+      "Parabolic Charge",
+      "Dragon Pulse",
+      "Hidden Power"
+    ],
+    "baseStats": {
+      "HP": "100",
+      "ATK": "85",
+      "DEF": "100",
+      "SPA": "135",
+      "SPD": "115",
+      "SPE": "135"
+    },
+    "evs": {
+      "DEF": "4",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "344",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Yveltal",
+    "level": "85",
+    "nature": "Modest",
+    "ability": "Dark Aura",
+    "item": "Assault Vest",
+    "moves": [
+      "Oblivion Wing",
+      "Dark Hole",
+      "Heat Wave",
+      "Sucker Punch"
+    ],
+    "baseStats": {
+      "HP": "126",
+      "ATK": "131",
+      "DEF": "95",
+      "SPA": "131",
+      "SPD": "98",
+      "SPE": "99"
+    },
+    "evs": {
+      "HP": "252",
+      "SPA": "252",
+      "SPD": "4"
+    },
+    "speedStat": "199",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Eternatus",
+    "level": "85",
+    "nature": "Timid",
+    "ability": "Pressure",
+    "item": "Power Herb",
+    "moves": [
+      "Meteor Beam",
+      "Sludge Wave",
+      "Flamethrower",
+      "Dynamax Cannon"
+    ],
+    "baseStats": {
+      "HP": "140",
+      "ATK": "85",
+      "DEF": "95",
+      "SPA": "145",
+      "SPD": "95",
+      "SPE": "130"
+    },
+    "evs": {
+      "DEF": "4",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "335",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Ditto",
+    "level": "85",
+    "nature": "Timid",
+    "ability": "Imposter",
+    "item": "Choice Scarf",
+    "moves": [
+      "Transform"
+    ],
+    "baseStats": {
+      "HP": "48",
+      "ATK": "48",
+      "DEF": "48",
+      "SPA": "48",
+      "SPD": "48",
+      "SPE": "48"
+    },
+    "evs": {
+      "HP": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "273",
+    "altSpeeds": {
+      "Transform": "N/A"
+    }
+  }
+]

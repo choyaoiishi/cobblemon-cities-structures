@@ -1,0 +1,102 @@
+[
+  {
+    "species": "Frogadier",
+    "level": "25",
+    "nature": "Lonely",
+    "ability": "Protean",
+    "item": "Eviolite",
+    "moves": [
+      "Ice Punch",
+      "Rock Tomb",
+      "Flip Turn",
+      "Grass Knot"
+    ],
+    "baseStats": {
+      "HP": "54",
+      "ATK": "63",
+      "DEF": "52",
+      "SPA": "83",
+      "SPD": "56",
+      "SPE": "97"
+    },
+    "evs": {
+      "HP": "100",
+      "ATK": "40",
+      "SPA": "40"
+    },
+    "speedStat": "61",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Floatzel",
+    "level": "25",
+    "nature": "Timid",
+    "ability": "Technician",
+    "item": "Mystic Water",
+    "moves": [
+      "Water Pulse",
+      "Flip Turn",
+      "Icy Wind",
+      "Hidden Power"
+    ],
+    "baseStats": {
+      "HP": "85",
+      "ATK": "90",
+      "DEF": "55",
+      "SPA": "95",
+      "SPD": "50",
+      "SPE": "115"
+    },
+    "evs": {},
+    "speedStat": "77",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Starmie",
+    "level": "27",
+    "nature": "Timid",
+    "ability": "Analytic",
+    "item": "Sitrus Berry",
+    "moves": [
+      "Psyshock",
+      "Water Pulse",
+      "Recover",
+      "Aurora Beam"
+    ],
+    "baseStats": {
+      "HP": "60",
+      "ATK": "75",
+      "DEF": "85",
+      "SPA": "100",
+      "SPD": "85",
+      "SPE": "115"
+    },
+    "evs": {},
+    "speedStat": "82",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Clodsire",
+    "level": "26",
+    "nature": "Bold",
+    "ability": "Water Absorb",
+    "item": "Iapapa Berry",
+    "moves": [
+      "Poison Jab",
+      "Bulldoze",
+      "Rock Tomb",
+      "Recover"
+    ],
+    "baseStats": {
+      "HP": "130",
+      "ATK": "75",
+      "DEF": "60",
+      "SPA": "45",
+      "SPD": "100",
+      "SPE": "20"
+    },
+    "evs": {},
+    "speedStat": "23",
+    "altSpeeds": {}
+  }
+]

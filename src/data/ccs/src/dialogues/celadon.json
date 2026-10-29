@@ -44,10 +44,11 @@
             "I'm guarding this poster!"
         ],
         "battle": [
-            "team_rocket_grunt_016a",
+            "grunt",
             "Go away, or else!",
             "Dang!",
-            "Our hideout might be discovered! I better tell boss!"
+            "Our hideout might be discovered! I better tell boss!",
+            "45"
         ]
     },
     "grunt_2": {
@@ -55,10 +56,11 @@
             "Who are you?"
         ],
         "battle": [
-            "team_rocket_grunt_016b",
+            "grunt",
             "How did you get here?",
             "Oww! Beaten!",
-            "You're not going to get away with this, brat!"
+            "You're not going to get away with this, brat!",
+            "45"
         ]
     },
     "grunt_3": {
@@ -66,10 +68,11 @@
             "!"
         ],
         "battle": [
-            "team_rocket_grunt_016c",
+            "grunt",
             "We got word from upstairs that you were coming!",
             "What? I lost? No!",
-            "Silph Scope? The machine the boss stole. It's here somewhere."
+            "Silph Scope? The machine the boss stole. It's here somewhere.",
+            "45"
         ]
     },
     "grunt_4": {
@@ -77,10 +80,11 @@
             "I know you!"
         ],
         "battle": [
-            "team_rocket_grunt_016d",
+            "grunt",
             "You ruined our plans at Pewter!",
             "Burned again!",
-            "Do you have something against Team Rocket?"
+            "Do you have something against Team Rocket?",
+            "45"
         ]
     },
     "giovanni": {
@@ -88,11 +92,12 @@
             "So! I must say..."
         ],
         "battle": [
-            "boss_giovanni_015c",
+            "rocket_giovanni",
             "I am impressed you got here!",
             "What! This cannot be!",
             "I see that you raise Pokémon with utmost care. A child like you would never understand what I hope to achieve. I shall step aside this time! I hope we meet again...",
-            "boss_giovanni_1"
+            "45",
+            "ccs:kanto/celadon/giovanni"
         ]
     },
     "erika": {
@@ -102,17 +107,113 @@
             "I teach the art of flower arranging. My Pokémon are of the grass-type."
         ],
         "battle": [
-            "leader_erika_01a1",
+            "leader_erika",
             "Oh, I'm sorry, I had no idea that you wished to challenge me. Very well, but I shall not lose.",
             "Oh! I concede defeat. You are remarkably strong. I must confer you the Rainbow Badge.",
             "You are cataloging Pokémon? I must say I'm impressed. I would never collect Pokémon if they were unattractive.",
-            "leader_erika"
+            "45",
+            "ccs:kanto/celadon/erika"
         ],
         "reward": [
             "tm",
             "gigadrain",
             "Please also take this with you.",
             "TM19 contains Giga Drain. Half the damage it inflicts is drained to heal your Pokémon. Wouldn't you agree that it's a wonderful move?"
+        ]
+    },
+    "1f": {
+        "lines": [
+            "Hello! Welcome to Celadon Department Store!",
+            "Please enjoy your visit and find whatever you need."
+        ]
+    },
+    "2f": {
+        "lines": [],
+        "shop": [
+            "celadon/2f",
+            "pokemart",
+            "Welcome! What do you need?",
+            "Please come again!"
+        ]
+    },
+    "3f": {
+        "lines": [],
+        "shop": [
+            "celadon/3f",
+            "pokemart",
+            "Welcome! What do you need?",
+            "Please come again!"
+        ]
+    },
+    "4f": {
+        "lines": [],
+        "shop": [
+            "celadon/4f",
+            "pokemart",
+            "Welcome! What do you need?",
+            "Please come again!"
+        ]
+    },
+    "5f": {
+        "lines": [],
+        "shop": [
+            "celadon/5f",
+            "pokemart",
+            "Welcome! What do you need?",
+            "Please come again!"
+        ]
+    },
+    "3": {
+        "lines": [
+            "Oh, hi! I finally finished Pokemon!"
+        ],
+        "reward": [
+            "tm",
+            "counter",
+            "Not done yet? This might be useful!",
+            "TM18 is Counter! Not like the one I'm leaning on, mind you!"
+        ]
+    },
+    "4": {
+        "lines": [
+            "Captured Pokemon are registered with the name of the Original Trainer that caught it!"
+        ]
+    },
+    "5": {
+        "lines": [
+            "All right! My buddy's going to trade me his Kangaskhan for my Graveler!"
+        ]
+    },
+    "6": {
+        "lines": [
+            "Come on Graveler! I love Graveler! I collect them!",
+            "Huh?",
+            "Graveler turned into a different Pokémon!"
+        ]
+    },
+    "7": {
+        "lines": [
+            "I'm getting an Ice Stone for my girlfriend!"
+        ]
+    },
+    "8": {
+        "lines": [
+            "I heard something useful.",
+            "Some Pokémon need evolution stones to evolve!"
+        ]
+    },
+    "9": {
+        "lines": [
+            "Pokémon ability enhancers can be bought only here.",
+            "Use Calcium to increase special abilities.",
+            "Use Carbos to increase speed."
+        ]
+    },
+    "10": {
+        "lines": [
+            "I'm here for Pokémon ability enhancers.",
+            "Protein increases attack power.",
+            "Iron increases defense!"
         ]
     }
 }

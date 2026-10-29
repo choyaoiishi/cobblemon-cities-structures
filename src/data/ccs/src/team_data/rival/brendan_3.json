@@ -1,0 +1,117 @@
+[
+  {
+    "species": "Loudred",
+    "level": "Highest Lv -2",
+    "nature": "Naive",
+    "ability": "Punk Rock",
+    "item": "Chople Berry",
+    "moves": [
+      "Hyper Voice",
+      "Brick Break",
+      "Ice Beam",
+      "Shadow Ball"
+    ],
+    "baseStats": {
+      "HP": "84",
+      "ATK": "71",
+      "DEF": "43",
+      "SPA": "71",
+      "SPD": "43",
+      "SPE": "48"
+    },
+    "evs": {
+      "HP": "6",
+      "ATK": "128",
+      "SPA": "128",
+      "SPE": "252"
+    },
+    "speedStat": "71",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Lunatone",
+    "level": "Highest Lv -2",
+    "nature": "Modest",
+    "ability": "Levitate",
+    "item": "Colbur Berry",
+    "moves": [
+      "Psyshock",
+      "Power Gem",
+      "Hypnosis",
+      "Calm Mind"
+    ],
+    "baseStats": {
+      "HP": "90",
+      "ATK": "55",
+      "DEF": "65",
+      "SPA": "105",
+      "SPD": "85",
+      "SPE": "90"
+    },
+    "evs": {
+      "HP": "24",
+      "ATK": "16",
+      "SPA": "40",
+      "SPE": "252"
+    },
+    "speedStat": "92",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Crawdaunt",
+    "level": "Highest Lv -2",
+    "nature": "Adamant",
+    "ability": "Adaptability",
+    "item": "Focus Sash",
+    "moves": [
+      "Aqua Jet",
+      "Waterfall",
+      "Knock Off",
+      "X-Scissor"
+    ],
+    "baseStats": {
+      "HP": "63",
+      "ATK": "120",
+      "DEF": "85",
+      "SPA": "90",
+      "SPD": "55",
+      "SPE": "55"
+    },
+    "evs": {
+      "ATK": "8",
+      "SPA": "8",
+      "SPE": "252"
+    },
+    "speedStat": "70",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Grovyle",
+    "level": "Highest Lv -2",
+    "nature": "Adamant",
+    "ability": "Overgrow",
+    "item": "Sitrus Berry",
+    "moves": [
+      "Power Up Punch",
+      "Aerial Ace",
+      "Rock Tomb",
+      "Leaf Blade"
+    ],
+    "baseStats": {
+      "HP": "50",
+      "ATK": "65",
+      "DEF": "45",
+      "SPA": "85",
+      "SPD": "65",
+      "SPE": "95"
+    },
+    "evs": {
+      "HP": "4",
+      "ATK": "100",
+      "SPA": "16",
+      "SPE": "252"
+    },
+    "speedStat": "95",
+    "altSpeeds": {}
+  }
+]

@@ -1,0 +1,8 @@
+return q.array(
+    'groudon moves=stealthrock,precipiceblades,heatcrash,rocktomb nature=jolly ability=desolateland aspect=primal',
+    'gougingfire moves=dragondance,flareblitz,dracobarrage,morningsun nature=jolly held_item=cobblemon:leftovers ability=protosynthesis',
+    'koraidon moves=swordsdance,flareblitz,collisioncourse,dracobarrage nature=jolly held_item=cobblemon:roseli_berry ability=orichalcumpulse',
+    'arceus moves=calmmind,earthpower,icebeam,recover nature=timid ability=multitype aspect=ground-plate',
+    'xerneas moves=geomancy,moonblast,thunderbolt,focusblast nature=timid held_item=cobblemon:power_herb ability=fairyaura',
+    'eternatus moves=dracobarrage,sludgewave,flamethrower,recover nature=timid held_item=cobblemon:eternamax_orb ability=levitate aspect=eternamax'
+);

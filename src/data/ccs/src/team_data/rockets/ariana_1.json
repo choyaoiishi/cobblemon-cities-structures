@@ -1,0 +1,114 @@
+[
+  {
+    "species": "Hatterene",
+    "level": "77",
+    "nature": "Modest",
+    "ability": "Magic Bounce",
+    "item": "Sitrus Berry",
+    "moves": [
+      "Trick Room",
+      "Psychic",
+      "Dazzling Gleam",
+      "Mystical Fire"
+    ],
+    "baseStats": {
+      "HP": "57",
+      "ATK": "90",
+      "DEF": "95",
+      "SPA": "136",
+      "SPD": "103",
+      "SPE": "29"
+    },
+    "evs": {
+      "HP": "252",
+      "SPA": "252",
+      "SPE": "6"
+    },
+    "speedStat": "74",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Rhyperior",
+    "level": "78",
+    "nature": "Adamant",
+    "ability": "Solid Rock",
+    "item": "Weakness Policy",
+    "moves": [
+      "Earthquake",
+      "Rock Blast",
+      "Ice Punch",
+      "Heat Crash"
+    ],
+    "baseStats": {
+      "HP": "115",
+      "ATK": "140",
+      "DEF": "130",
+      "SPA": "55",
+      "SPD": "55",
+      "SPE": "40"
+    },
+    "evs": {
+      "HP": "252",
+      "ATK": "252",
+      "SPE": "6"
+    },
+    "speedStat": "92",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Honchkrow",
+    "level": "78",
+    "nature": "Jolly",
+    "ability": "Super Luck",
+    "item": "Scope Lens",
+    "moves": [
+      "Sucker Punch",
+      "Night Slash",
+      "Drill Peck",
+      "Superpower"
+    ],
+    "baseStats": {
+      "HP": "100",
+      "ATK": "125",
+      "DEF": "52",
+      "SPA": "105",
+      "SPD": "52",
+      "SPE": "96"
+    },
+    "evs": {
+      "HP": "6",
+      "ATK": "252",
+      "SPE": "252"
+    },
+    "speedStat": "250",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Mawile-Mega",
+    "level": "79",
+    "nature": "Adamant",
+    "ability": "Huge Power",
+    "item": "",
+    "moves": [
+      "Sucker Punch",
+      "Iron Head",
+      "Play Rough",
+      "Swords Dance"
+    ],
+    "baseStats": {
+      "HP": "50",
+      "ATK": "105",
+      "DEF": "125",
+      "SPA": "55",
+      "SPD": "95",
+      "SPE": "50"
+    },
+    "evs": {
+      "HP": "252",
+      "ATK": "252",
+      "SPE": "6"
+    },
+    "speedStat": "109",
+    "altSpeeds": {}
+  }
+]

@@ -1,0 +1,148 @@
+[
+  {
+    "species": "Hippopotas",
+    "level": "13",
+    "nature": "Careful",
+    "ability": "Sand Stream",
+    "item": "Berry Juice",
+    "moves": [
+      "Bulldoze",
+      "Rock Tomb",
+      "Toxic",
+      "Slack Off"
+    ],
+    "baseStats": {
+      "HP": "68",
+      "ATK": "72",
+      "DEF": "78",
+      "SPA": "38",
+      "SPD": "42",
+      "SPE": "32"
+    },
+    "evs": {},
+    "speedStat": "17",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Cacnea",
+    "level": "15",
+    "nature": "Bashful",
+    "ability": "Sand Rush",
+    "item": "Eviolite",
+    "moves": [
+      "Power Up Punch",
+      "Bullet Seed",
+      "Thunder Punch",
+      "Pin Missile"
+    ],
+    "baseStats": {
+      "HP": "50",
+      "ATK": "85",
+      "DEF": "40",
+      "SPA": "85",
+      "SPD": "40",
+      "SPE": "35"
+    },
+    "evs": {},
+    "speedStat": "20",
+    "altSpeeds": {
+      "Sand Rush": "40"
+    }
+  },
+  {
+    "species": "Lunatone",
+    "level": "14",
+    "nature": "Bashful",
+    "ability": "Levitate",
+    "item": "Lum Berry",
+    "moves": [
+      "Ancient Power",
+      "Psybeam",
+      "Hidden Power",
+      "Icy Wind"
+    ],
+    "baseStats": {
+      "HP": "90",
+      "ATK": "55",
+      "DEF": "65",
+      "SPA": "105",
+      "SPD": "85",
+      "SPE": "90"
+    },
+    "evs": {},
+    "speedStat": "34",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Lileep",
+    "level": "16",
+    "nature": "Bold",
+    "ability": "Storm Drain",
+    "item": "Oran Berry",
+    "moves": [
+      "Stockpile",
+      "Recover",
+      "Hidden Power",
+      "Mega Drain"
+    ],
+    "baseStats": {
+      "HP": "66",
+      "ATK": "41",
+      "DEF": "77",
+      "SPA": "61",
+      "SPD": "87",
+      "SPE": "23"
+    },
+    "evs": {},
+    "speedStat": "17",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Archen",
+    "level": "14",
+    "nature": "Bashful",
+    "ability": "Defeatist",
+    "item": "Iapapa Berry",
+    "moves": [
+      "Wing Attack",
+      "Rock Tomb",
+      "Bulldoze",
+      "Facade"
+    ],
+    "baseStats": {
+      "HP": "55",
+      "ATK": "112",
+      "DEF": "45",
+      "SPA": "74",
+      "SPD": "45",
+      "SPE": "70"
+    },
+    "evs": {},
+    "speedStat": "28",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Varoom",
+    "level": "15",
+    "nature": "Careful",
+    "ability": "Filter",
+    "item": "Air Balloon",
+    "moves": [
+      "Bulldoze",
+      "Gyro Ball",
+      "Toxic",
+      "Protect"
+    ],
+    "baseStats": {
+      "HP": "45",
+      "ATK": "70",
+      "DEF": "63",
+      "SPA": "30",
+      "SPD": "45",
+      "SPE": "47"
+    },
+    "evs": {},
+    "speedStat": "19",
+    "altSpeeds": {}
+  }
+]

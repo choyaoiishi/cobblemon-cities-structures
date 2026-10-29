@@ -1,0 +1,100 @@
+[
+  {
+    "species": "Meditite",
+    "level": "Highest Lv -2",
+    "nature": "Adamant",
+    "ability": "Pure Power",
+    "item": "Muscle Band",
+    "moves": [
+      "Fake Out",
+      "Rock Smash",
+      "Bullet Punch",
+      "Rock Tomb"
+    ],
+    "baseStats": {
+      "HP": "30",
+      "ATK": "40",
+      "DEF": "55",
+      "SPA": "40",
+      "SPD": "55",
+      "SPE": "60"
+    },
+    "evs": {},
+    "speedStat": "26",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Corphish",
+    "level": "Highest Lv -1",
+    "nature": "Adamant",
+    "ability": "Adaptability",
+    "item": "Mystic Water",
+    "moves": [
+      "Aqua Jet",
+      "Aerial Ace",
+      "Rock Tomb",
+      "Knock Off"
+    ],
+    "baseStats": {
+      "HP": "43",
+      "ATK": "80",
+      "DEF": "65",
+      "SPA": "50",
+      "SPD": "35",
+      "SPE": "35"
+    },
+    "evs": {},
+    "speedStat": "20",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Numel",
+    "level": "Highest Lv -1",
+    "nature": "Lonely",
+    "ability": "Simple",
+    "item": "Passho Berry",
+    "moves": [
+      "Ancient Power",
+      "Flame Charge",
+      "Rock Tomb",
+      "Bulldoze"
+    ],
+    "baseStats": {
+      "HP": "60",
+      "ATK": "60",
+      "DEF": "40",
+      "SPA": "65",
+      "SPD": "45",
+      "SPE": "35"
+    },
+    "evs": {},
+    "speedStat": "20",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Treecko",
+    "level": "Highest Lv",
+    "nature": "Adamant",
+    "ability": "Unburden",
+    "item": "Oran Berry",
+    "moves": [
+      "Power Up Punch",
+      "Bullet Seed",
+      "Drain Punch",
+      "Rock Tomb"
+    ],
+    "baseStats": {
+      "HP": "40",
+      "ATK": "45",
+      "DEF": "35",
+      "SPA": "65",
+      "SPD": "55",
+      "SPE": "70"
+    },
+    "evs": {},
+    "speedStat": "32",
+    "altSpeeds": {
+      "Unburden": "64"
+    }
+  }
+]

@@ -37,17 +37,36 @@
             "Lance may be considered the world's dragon master, but I'm a close second!"
         ],
         "battle": [
-            "leader_clair_004a",
+            "leader_clair",
             "Do you still dare to take me on? Fine, let's do this!",
             "Years of being defeated as a Gym Leader have changed my perspective, although I haven't been humbled like that in a while. ",
             "This move strikes fear in its foes. You don't want to miss it.",
-            "leader_clair"
+            "75",
+                                    "ccs:kanto/viridian/clair"
         ],
         "reward": [
             "tm",
             "dragonpulse",
             "Take this.",
             "TM59 contains Dragon Pulse. It's a huge blast of draconicn energy. Teach it to a Dragon-type. Since you're off to the Pokémon League, this may help you."
+        ]
+    },
+    "farmer_1": {
+        "lines": [],
+        "shop": [
+            "viridian/farmer_1",
+            "farmer",
+            "Welcome! What do you need?",
+            "Please come again!"
+        ]
+    },
+    "farmer_2": {
+        "lines": [],
+        "shop": [
+            "viridian/farmer_2",
+            "farmer",
+            "Welcome! What do you need?",
+            "Please come again!"
         ]
     }
 }

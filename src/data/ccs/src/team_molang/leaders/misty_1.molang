@@ -1,0 +1,6 @@
+return q.array(
+    'frogadier moves=icepunch,rocktomb,flipturn,grassknot nature=lonely held_item=cobblemon:eviolite ability=protean',
+    'floatzel moves=waterpulse,flipturn,icywind,hiddenpower nature=timid held_item=cobblemon:mystic_water ability=technician',
+    'starmie moves=psyshock,waterpulse,recover,aurorabeam nature=timid held_item=cobblemon:sitrus_berry ability=analytic',
+    'clodsire moves=poisonjab,bulldoze,rocktomb,recover nature=bold held_item=cobblemon:iapapa_berry ability=waterabsorb'
+);

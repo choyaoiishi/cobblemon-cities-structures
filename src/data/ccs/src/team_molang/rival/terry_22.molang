@@ -1,0 +1,8 @@
+return q.array(
+    'charizard moves=weatherball,solarbeam,focusblast,protect nature=timid ability=drought aspect=mega_y',
+    'garchomp moves=swordsdance,scaleshot,earthquake,stoneedge nature=jolly held_item=cobblemon:yache_berry ability=roughskin',
+    'sunflora moves=growth,solarbeam,fierydance,hiddenpower nature=timid held_item=cobblemon:focus_sash ability=chlorophyll',
+    'zamazenta moves=bodypress,bulkup,wildcharge,behemothbash nature=jolly ability=dauntlessshield aspect=crowned',
+    'gliscor moves=swordsdance,protect,earthquake,facade nature=jolly held_item=cobblemon:toxic_orb ability=poisonheal',
+    'latias moves=calmmind,roost,mistball,mysticalfire nature=timid held_item=cobblemon:leftovers ability=levitate'
+);

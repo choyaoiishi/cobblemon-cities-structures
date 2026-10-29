@@ -1,0 +1,276 @@
+{
+  "root": {
+    "title": "Cities & Structures",
+    "desc": "World of dreams and adventures awaits!",
+    "icon": "cobblemon:red_plaque",
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "criteria": {
+      "picked_starter": {
+        "trigger": "cobblemon:pick_starter"
+      }
+    },
+    "rewards": {
+      "function": "ccs:open_welcome"
+    }
+  },
+  "kanto": {
+    "root": {
+      "title": "Kanto Explorer",
+      "desc": "Discover any city in Kanto",
+      "icon": "cobblemon:heavy_duty_boots",
+      "parent": "ccs:root",
+      "any_of": [
+        {
+          "id": "visited_pewter",
+          "structure": "ccs:pewter"
+        },
+        {
+          "id": "visited_cerulean",
+          "structure": "ccs:cerulean"
+        },
+        {
+          "id": "visited_vermilion",
+          "structure": "ccs:vermilion"
+        },
+        {
+          "id": "visited_celadon",
+          "structure": "ccs:celadon"
+        },
+        {
+          "id": "visited_fuchsia",
+          "structure": "ccs:fuchsia"
+        },
+        {
+          "id": "visited_saffron",
+          "structure": "ccs:saffron"
+        },
+        {
+          "id": "visited_cinnabar",
+          "structure": "ccs:cinnabar"
+        },
+        {
+          "id": "visited_viridian",
+          "structure": "ccs:viridian"
+        }
+      ]
+    },
+    "pewter": {
+      "root": {
+        "title": "A Stone Gray City",
+        "desc": "Enter Pewter City",
+        "icon": "cobblemon:pewter_crunchies",
+        "parent": "ccs:kanto/root",
+        "structure": "ccs:pewter"
+      },
+      "brock": {
+        "title": "The Rock Solid Pokémon Trainer!",
+        "desc": "Defeat Gym Leader Brock",
+        "icon": "cobblemon:hard_stone",
+        "frame": "goal",
+        "rewards": {
+          "function": "ccs:badges/pewter"
+        }
+      },
+      "archer": {
+        "title": "Team Rocket Will Blacklist You!",
+        "desc": "Defeat Archer in Pewter Museum",
+        "icon": "cobblemon:old_amber_fossil",
+        "frame": "goal"
+      }
+    },
+    "cerulean": {
+      "root": {
+        "title": "A Mysterious Blue Aura Surrounds It",
+        "desc": "Enter Cerulean City",
+        "icon": "cobblemon:casteliacone",
+        "parent": "ccs:kanto/root",
+        "structure": "ccs:cerulean"
+      },
+      "gary": {
+        "title": "Smell Ya!",
+        "desc": "Defeat rival Gary in Cerulean City",
+        "icon": "cobblemon:black_glasses",
+        "frame": "goal"
+      },
+      "misty": {
+        "title": "The Tomboyish Mermaid!",
+        "desc": "Defeat Gym Leader Misty",
+        "icon": "cobblemon:mystic_water",
+        "frame": "goal",
+        "rewards": {
+          "function": "ccs:badges/cerulean"
+        }
+      },
+      "ariana_archer": {
+        "title": "Orders Are Orders",
+        "desc": "Defeat Ariana and Archer in Cerulean Cave",
+        "icon": "minecraft:tuff",
+        "frame": "goal"
+      },
+      "giovanni": {
+        "title": "You Are Not Worthy!",
+        "desc": "Stop Giovanni world domination",
+        "icon": "minecraft:glow_berries",
+        "frame": "goal"
+      }
+    },
+    "vermilion": {
+      "root": {
+        "title": "The Port of Exquisite Sunsets",
+        "desc": "Enter Vermilion City",
+        "icon": "minecraft:chiseled_copper",
+        "parent": "ccs:kanto/root",
+        "structure": "ccs:vermilion"
+      },
+      "lt_surge": {
+        "title": "The Lightning American",
+        "desc": "Defeat Gym Leader Lt. Surge",
+        "icon": "cobblemon:magnet",
+        "parent": "~root",
+        "frame": "goal",
+        "rewards": {
+          "function": "ccs:badges/vermilion"
+        }
+      },
+      "brendan": {
+        "title": "Back to Training!",
+        "desc": "Defeat Brendan in Vermilion City",
+        "icon": "cobblemon:lucky_egg",
+        "parent": "~root",
+        "frame": "goal"
+      }
+    },
+    "celadon": {
+      "root": {
+        "title": "The City of Rainbow Dreams",
+        "desc": "Enter Celadon City",
+        "icon": "minecraft:cherry_leaves",
+        "parent": "ccs:kanto/root",
+        "structure": "ccs:celadon"
+      },
+      "giovanni": {
+        "title": "The Playground For Grown-ups!",
+        "desc": "Defeat Giovanni in Game Corner",
+        "icon": "cobblemon:relic_coin",
+        "frame": "goal"
+      },
+      "erika": {
+        "title": "The Nature-Loving Princess!",
+        "desc": "Defeat Gym Leader Erika",
+        "icon": "cobblemon:miracle_seed",
+        "parent": "~root",
+        "frame": "goal",
+        "rewards": {
+          "function": "ccs:badges/celadon"
+        }
+      }
+    },
+    "fuchsia": {
+      "root": {
+        "title": "A Historic Village",
+        "desc": "Enter Fuchsia City",
+        "icon": "cobblemon:ponigiri",
+        "parent": "ccs:kanto/root",
+        "structure": "ccs:fuchsia"
+      },
+      "brendan": {
+        "title": "You Can Do It!",
+        "desc": "Defeat Brendan in Fuchsia City",
+        "icon": "cobblemon:lucky_egg",
+        "parent": "~root",
+        "frame": "goal"
+      },
+      "koga": {
+        "title": "The Poisonous Ninja Master",
+        "desc": "Defeat Gym Leader Koga",
+        "icon": "cobblemon:poison_barb",
+        "parent": "~root",
+        "frame": "goal",
+        "rewards": {
+          "function": "ccs:badges/fuchsia"
+        }
+      }
+    },
+    "saffron": {
+      "root": {
+        "title": "Golden Land of Commerce",
+        "desc": "Enter Saffron City",
+        "icon": "minecraft:yellow_wool",
+        "parent": "ccs:kanto/root",
+        "structure": "ccs:saffron"
+      },
+      "gary": {
+        "title": "What Kept You?",
+        "desc": "Defeat rival Gary",
+        "icon": "cobblemon:black_glasses",
+        "frame": "goal"
+      },
+      "ariana_archer": {
+        "title": "Boss Won't Be Happy About This",
+        "desc": "Defeat Ariana and Archer in Silph Co.",
+        "icon": "cobblefurnies:cyan_sofa",
+        "frame": "goal"
+      },
+      "giovanni": {
+        "title": "A Vital Business Proposition",
+        "desc": "Defeat Giovanni and save Silph Co.",
+        "icon": "cobblemon:master_ball",
+        "frame": "goal"
+      },
+      "sabrina": {
+        "title": "The Master of Psychic Pokémon",
+        "desc": "Defeat Gym Leader Sabrina",
+        "icon": "cobblemon:twisted_spoon",
+        "frame": "goal",
+        "rewards": {
+          "function": "ccs:badges/saffron"
+        }
+      }
+    },
+    "cinnabar": {
+      "root": {
+        "title": "The Fiery Town of Burning Desire",
+        "desc": "Enter Cinnabar City",
+        "icon": "cobblemon:lava_cookie",
+        "parent": "ccs:kanto/root",
+        "structure": "ccs:cinnabar"
+      },
+      "may": {
+        "title": "Big Motivator!",
+        "desc": "Defeat May",
+        "icon": "cobblemon:fire_stone",
+        "parent": "~root",
+        "frame": "goal"
+      },
+      "blaine": {
+        "title": "The Hotheaded Quiz Master!",
+        "desc": "Defeat Gym Leader Blaine",
+        "icon": "cobblemon:charcoal_stick",
+        "parent": "~root",
+        "frame": "goal",
+        "rewards": {
+          "function": "ccs:badges/cinnabar"
+        }
+      }
+    },
+    "viridian": {
+      "root": {
+        "title": "The Eternally Green Paradise",
+        "desc": "Enter Viridian City",
+        "icon": "minecraft:dark_oak_fence",
+        "parent": "ccs:kanto/root",
+        "structure": "ccs:viridian"
+      },
+      "clair": {
+        "title": "World's Second Dragon Master",
+        "desc": "Defeat Gym Leader Clair",
+        "icon": "cobblemon:dragon_fang",
+        "parent": "~root",
+        "frame": "goal",
+        "rewards": {
+          "function": "ccs:badges/viridian"
+        }
+      }
+    }
+  }
+}

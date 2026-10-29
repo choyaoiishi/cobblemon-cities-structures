@@ -1,0 +1,8 @@
+return q.array(
+    'sandyshocks moves=earthpower,voltswitch,thunderbolt,hiddenpower nature=timid held_item=cobblemon:shuca_berry ability=protosynthesis',
+    'greattusk moves=icespinner,knockoff,headlongrush,closecombat nature=jolly held_item=cobblemon:fighting_gem ability=protosynthesis',
+    'walkingwake moves=dracobarrage,hydrosteam,flamethrower,sleeptalk nature=timid held_item=cobblemon:water_gem ability=protosynthesis',
+    'venusaur moves=growth,solarbeam,sludgebomb,weatherball nature=modest held_item=cobblemon:focus_sash ability=chlorophyll',
+    'ho moves=sacredfire,bravebird,earthquake,solarbeam nature=jolly ability=phoenixdown aspect=oh',
+    'charizard moves=dragondance,flareblitz,dragonclaw,earthquake nature=jolly ability=toughclaws aspect=mega_x'
+);

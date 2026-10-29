@@ -1,0 +1,8 @@
+return q.array(
+    'pawmot moves=thunderpunch,closecombat,machpunch,icepunch nature=jolly held_item=cobblemon:focus_sash ability=ironfist',
+    'ironthorns moves=dragondance,fusionbolt,stoneedge,icepunch nature=jolly held_item=cobblemon:lum_berry ability=quarkdrive',
+    'ironmoth moves=fierydance,sludgewave,energyball,dazzlinggleam nature=timid held_item=cobblemon:fire_gem ability=quarkdrive',
+    'ironhands moves=plasmafists,drainpunch,icepunch,fakeout nature=careful held_item=cobblemon:assault_vest ability=quarkdrive',
+    'miraidon moves=calmmind,paraboliccharge,dragonpulse,dazzlinggleam nature=timid held_item=cobblemon:leftovers ability=hadronengine',
+    'manectric moves=risingvoltage,hiddenpower,flamethrower,voltswitch nature=timid ability=intimidate aspect=mega'
+);

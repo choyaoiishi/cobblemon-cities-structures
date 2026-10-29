@@ -1,0 +1,8 @@
+return q.array(
+    'nidoking moves=earthpower,icebeam,sludgebomb,thunderbolt nature=timid held_item=cobblemon:life_orb ability=sheerforce',
+    'honchkrow moves=nightslash,suckerpunch,drillpeck,heatwave nature=jolly held_item=cobblemon:scope_lens ability=superluck',
+    'infernape moves=swordsdance,pyroball,closecombat,thunderpunch nature=jolly held_item=cobblemon:focus_sash ability=blaze',
+    'kangaskhan moves=fakeout,bodyslam,crunch,poweruppunch nature=jolly ability=parentalbond aspect=mega',
+    'orthworm moves=shedtail,ironhead,earthquake,bodypress nature=impish held_item=cobblemon:sitrus_berry ability=eartheater',
+    'veluza moves=filletaway,aquacutter,psychocut,aquajet nature=jolly held_item=cobblemon:sitrus_berry ability=sharpness'
+);

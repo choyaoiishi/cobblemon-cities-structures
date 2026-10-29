@@ -1,0 +1,49 @@
+[
+  {
+    "species": "Corphish",
+    "level": "7",
+    "nature": "Rash",
+    "ability": "Battle Armor",
+    "item": "",
+    "moves": [
+      "Bubble",
+      "Harden",
+      "Vise Grip",
+      "Leer"
+    ],
+    "baseStats": {
+      "HP": "43",
+      "ATK": "80",
+      "DEF": "65",
+      "SPA": "50",
+      "SPD": "35",
+      "SPE": "35"
+    },
+    "evs": {},
+    "speedStat": "10",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Treecko",
+    "level": "8",
+    "nature": "Hardy",
+    "ability": "Overgrow",
+    "item": "",
+    "moves": [
+      "Pound",
+      "Leer",
+      "Absorb"
+    ],
+    "baseStats": {
+      "HP": "40",
+      "ATK": "45",
+      "DEF": "35",
+      "SPA": "65",
+      "SPD": "55",
+      "SPE": "70"
+    },
+    "evs": {},
+    "speedStat": "17",
+    "altSpeeds": {}
+  }
+]

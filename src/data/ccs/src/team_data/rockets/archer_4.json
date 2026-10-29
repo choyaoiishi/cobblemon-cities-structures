@@ -1,0 +1,127 @@
+[
+  {
+    "species": "Ninetales",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Drought",
+    "item": "Charcoal",
+    "moves": [
+      "Weather Ball",
+      "Solar Beam",
+      "Scorching Sands",
+      "Hypnosis"
+    ],
+    "baseStats": {
+      "HP": "73",
+      "ATK": "76",
+      "DEF": "75",
+      "SPA": "81",
+      "SPD": "100",
+      "SPE": "100"
+    },
+    "evs": {},
+    "speedStat": "205",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Exeggutor",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Chlorophyll",
+    "item": "Life Orb",
+    "moves": [
+      "Solar Beam",
+      "Psyshock",
+      "Weather Ball",
+      "Earth Power"
+    ],
+    "baseStats": {
+      "HP": "95",
+      "ATK": "95",
+      "DEF": "85",
+      "SPA": "125",
+      "SPD": "75",
+      "SPE": "55"
+    },
+    "evs": {},
+    "speedStat": "127",
+    "altSpeeds": {
+      "Chlorophy.": "254"
+    }
+  },
+  {
+    "species": "Landorus",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Intimidate",
+    "item": "",
+    "moves": [
+      "Earthquake",
+      "Fly",
+      "Stone Edge",
+      "Swords Dance"
+    ],
+    "baseStats": {
+      "HP": "89",
+      "ATK": "145",
+      "DEF": "90",
+      "SPA": "105",
+      "SPD": "80",
+      "SPE": "91"
+    },
+    "evs": {},
+    "speedStat": "190",
+    "altSpeeds": {},
+    "aspect": "therian-forme"
+  },
+  {
+    "species": "Houndoom-Mega",
+    "level": "Highest Lv",
+    "nature": "Naive",
+    "ability": "Solar Power",
+    "item": "",
+    "moves": [
+      "Dark Hole",
+      "Flamethrower",
+      "Sucker Punch",
+      "Solar Beam"
+    ],
+    "baseStats": {
+      "HP": "75",
+      "ATK": "110",
+      "DEF": "90",
+      "SPA": "140",
+      "SPD": "90",
+      "SPE": "115"
+    },
+    "evs": {},
+    "speedStat": "232",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Sunflora",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Chlorophyll",
+    "item": "Focus Sash",
+    "moves": [
+      "Growth",
+      "Solar Beam",
+      "Weather Ball",
+      "Hidden Power"
+    ],
+    "baseStats": {
+      "HP": "95",
+      "ATK": "75",
+      "DEF": "55",
+      "SPA": "135",
+      "SPD": "85",
+      "SPE": "55"
+    },
+    "evs": {},
+    "speedStat": "126",
+    "altSpeeds": {
+      "Chlorophy.": "252"
+    }
+  }
+]

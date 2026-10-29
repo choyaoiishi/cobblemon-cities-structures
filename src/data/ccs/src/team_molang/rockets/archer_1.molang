@@ -1,0 +1,5 @@
+return q.array(
+    'glimmet moves=ancientpower,venoshock,mudshot,protect nature=timid held_item=cobblemon:shuca_berry ability=toxicdebris',
+    'houndour moves=snarl,incinerate,hiddenpower,protect nature=timid held_item=cobblemon:wise_glasses ability=unnerve',
+    'mightyena moves=bite,icefang,howl,firefang nature=jolly held_item=cobblemon:berry_juice ability=strongjaw'
+);

@@ -1,0 +1,146 @@
+[
+  {
+    "species": "Incineroar",
+    "level": "55",
+    "nature": "Careful",
+    "ability": "Intimidate",
+    "item": "Sitrus Berry",
+    "moves": [
+      "Fake Out",
+      "Knock Off",
+      "Will-O-Wisp",
+      "Flare Blitz"
+    ],
+    "baseStats": {
+      "HP": "95",
+      "ATK": "115",
+      "DEF": "90",
+      "SPA": "80",
+      "SPD": "90",
+      "SPE": "60"
+    },
+    "evs": {},
+    "speedStat": "88",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Primarina",
+    "level": "55",
+    "nature": "Modest",
+    "ability": "Liquid Voice",
+    "item": "Throat Spray",
+    "moves": [
+      "Hyper Voice",
+      "Scald",
+      "Psychic",
+      "Energy Ball"
+    ],
+    "baseStats": {
+      "HP": "80",
+      "ATK": "74",
+      "DEF": "74",
+      "SPA": "126",
+      "SPD": "116",
+      "SPE": "60"
+    },
+    "evs": {},
+    "speedStat": "88",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Mawile-Mega",
+    "level": "56",
+    "nature": "Adamant",
+    "ability": "Huge Power",
+    "item": "",
+    "moves": [
+      "Play Rough",
+      "Sucker Punch",
+      "Iron Head",
+      "Thunder Punch"
+    ],
+    "baseStats": {
+      "HP": "50",
+      "ATK": "105",
+      "DEF": "125",
+      "SPA": "55",
+      "SPD": "95",
+      "SPE": "50"
+    },
+    "evs": {},
+    "speedStat": "78",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Articuno-Galar",
+    "level": "55",
+    "nature": "Timid",
+    "ability": "Competitive",
+    "item": "Colbur Berry",
+    "moves": [
+      "Psychic",
+      "Focus Blast",
+      "Roost",
+      "Air Slash"
+    ],
+    "baseStats": {
+      "HP": "90",
+      "ATK": "70",
+      "DEF": "95",
+      "SPA": "125",
+      "SPD": "100",
+      "SPE": "100"
+    },
+    "evs": {},
+    "speedStat": "145",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Gholdengo",
+    "level": "55",
+    "nature": "Timid",
+    "ability": "Good As Gold",
+    "item": "",
+    "moves": [
+      "Shadow Ball",
+      "Make It Rain",
+      "Focus Blast",
+      "Recover"
+    ],
+    "baseStats": {
+      "HP": "87",
+      "ATK": "60",
+      "DEF": "95",
+      "SPA": "133",
+      "SPD": "91",
+      "SPE": "84"
+    },
+    "evs": {},
+    "speedStat": "125",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Houndoom-Mega",
+    "level": "56",
+    "nature": "Naive",
+    "ability": "Dark Aura",
+    "item": "",
+    "moves": [
+      "Pursuit",
+      "Fiery Wrath",
+      "Heat Wave",
+      "Scorching Sands"
+    ],
+    "baseStats": {
+      "HP": "75",
+      "ATK": "110",
+      "DEF": "90",
+      "SPA": "140",
+      "SPD": "90",
+      "SPE": "115"
+    },
+    "evs": {},
+    "speedStat": "166",
+    "altSpeeds": {}
+  }
+]

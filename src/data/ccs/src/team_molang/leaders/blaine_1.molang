@@ -1,0 +1,8 @@
+return q.array(
+    'armarouge moves=armorcannon,psyshock,aurasphere,energyball nature=timid held_item=cobblemon:focus_sash ability=megalauncher',
+    'slitherwing moves=firstimpression,uturn,closecombat,flareblitz nature=jolly held_item=cobblemon:life_orb ability=protosynthesis',
+    'exeggutor moves=growth,gigadrain,psyshock,weatherball nature=timid held_item=cobblemon:lum_berry ability=chlorophyll',
+    'typhlosion moves=eruption,flamethrower,hiddenpower,focusblast nature=modest held_item=cobblemon:heavyduty_boots ability=blazingsoul',
+    'ogerpon moves=ivycudgel,hornleech,knockoff,uturn nature=jolly ability=moldbreaker aspect=hearthflame-mask',
+    'charizard moves=flamethrower,airslash,solarbeam,dragonpulse nature=timid ability=drought aspect=mega_y'
+);

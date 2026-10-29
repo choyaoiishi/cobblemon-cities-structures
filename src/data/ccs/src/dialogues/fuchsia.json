@@ -44,11 +44,12 @@
             "I've recently obtained the Mega Ring, so I'd like to put myself to the test!"
         ],
         "battle": [
-            "trainer_brendan_0039",
+            "rival_brendan",
             "I see you've got one too! Let's not hold back then!",
             "I feel the gap between us shrinking each time. I know I can do it! But, thanks for being a sport as always.",
             "Safe travels pal!",
-            "trainer_brendan_2"
+            "10",
+            "ccs:kanto/fuchsia/brendan"
         ],
         "reward": [
             "tm",
@@ -63,11 +64,12 @@
             "Very well, I shall show you true terror as a ninja master!"
         ],
         "battle": [
-            "leader_koga_01a2",
+            "leader_koga",
             "You shall feel the despair of poison and sleep techniques!",
             "Humph! You have proven your worth! Here! Take the Soul Badge!",
             "When afflicted by Toxic, Pokémon suffer more and more as battle progresses! It will surely terrorize foes!",
-            "leader_koga"
+            "65",
+            "ccs:kanto/fuchsia/koga"
         ],
         "reward": [
             "tm",

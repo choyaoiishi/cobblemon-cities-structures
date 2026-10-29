@@ -1,0 +1,146 @@
+[
+  {
+    "species": "Azelf",
+    "level": "Highest Lv",
+    "nature": "Naive",
+    "ability": "Levitate",
+    "item": "Focus Sash",
+    "moves": [
+      "Stealth Rock",
+      "Explosion",
+      "Flamethrower",
+      "Psychic"
+    ],
+    "baseStats": {
+      "HP": "75",
+      "ATK": "125",
+      "DEF": "70",
+      "SPA": "125",
+      "SPD": "70",
+      "SPE": "115"
+    },
+    "evs": {},
+    "speedStat": "166",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Jumpluff",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Aerilate",
+    "item": "Sharp Beak",
+    "moves": [
+      "Spore",
+      "Double-Edge",
+      "Leaf Blade",
+      "Swords Dance"
+    ],
+    "baseStats": {
+      "HP": "75",
+      "ATK": "85",
+      "DEF": "70",
+      "SPA": "35",
+      "SPD": "95",
+      "SPE": "110"
+    },
+    "evs": {},
+    "speedStat": "159",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Celesteela",
+    "level": "Highest Lv",
+    "nature": "Modest",
+    "ability": "Beast Boost",
+    "item": "Weakness Policy",
+    "moves": [
+      "Autotomize",
+      "Air Slash",
+      "Flamethrower",
+      "Giga Drain"
+    ],
+    "baseStats": {
+      "HP": "97",
+      "ATK": "101",
+      "DEF": "103",
+      "SPA": "107",
+      "SPD": "101",
+      "SPE": "61"
+    },
+    "evs": {},
+    "speedStat": "90",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Electivire",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Iron Fist",
+    "item": "Electirizer",
+    "moves": [
+      "Mach Punch",
+      "Plasma Fists",
+      "Close Combat",
+      "Ice Punch"
+    ],
+    "baseStats": {
+      "HP": "75",
+      "ATK": "123",
+      "DEF": "67",
+      "SPA": "95",
+      "SPD": "85",
+      "SPE": "95"
+    },
+    "evs": {},
+    "speedStat": "140",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Gorebyss",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Dazzling",
+    "item": "White Herb",
+    "moves": [
+      "Shell Smash",
+      "Surf",
+      "Moonblast",
+      "Psychic"
+    ],
+    "baseStats": {
+      "HP": "55",
+      "ATK": "84",
+      "DEF": "105",
+      "SPA": "104",
+      "SPD": "75",
+      "SPE": "52"
+    },
+    "evs": {},
+    "speedStat": "88",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Charizard-MegaX",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Tough Claws",
+    "item": "",
+    "moves": [
+      "Dragon Dance",
+      "Dragon Claw",
+      "Flare Blitz",
+      "Earthquake"
+    ],
+    "baseStats": {
+      "HP": "78",
+      "ATK": "130",
+      "DEF": "111",
+      "SPA": "130",
+      "SPD": "85",
+      "SPE": "100"
+    },
+    "evs": {},
+    "speedStat": "147",
+    "altSpeeds": {}
+  }
+]

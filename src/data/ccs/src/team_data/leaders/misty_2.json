@@ -1,0 +1,150 @@
+[
+  {
+    "species": "Politoed",
+    "level": "27",
+    "nature": "Sassy",
+    "ability": "Drizzle",
+    "item": "Iapapa Berry",
+    "moves": [
+      "Flip Turn",
+      "Scald",
+      "Earthquake",
+      "Toxic"
+    ],
+    "baseStats": {
+      "HP": "90",
+      "ATK": "75",
+      "DEF": "75",
+      "SPA": "90",
+      "SPD": "100",
+      "SPE": "70"
+    },
+    "evs": {},
+    "speedStat": "45",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Ludicolo",
+    "level": "28",
+    "nature": "Mild",
+    "ability": "Swift Swim",
+    "item": "Sitrus Berry",
+    "moves": [
+      "Giga Drain",
+      "Scald",
+      "Aurora Beam",
+      "Thunder Punch"
+    ],
+    "baseStats": {
+      "HP": "80",
+      "ATK": "70",
+      "DEF": "70",
+      "SPA": "100",
+      "SPD": "100",
+      "SPE": "70"
+    },
+    "evs": {},
+    "speedStat": "52",
+    "altSpeeds": {
+      "Swift Swim": "104"
+    }
+  },
+  {
+    "species": "Mantine",
+    "level": "27",
+    "nature": "Modest",
+    "ability": "Swift Swim",
+    "item": "Wacan Berry",
+    "moves": [
+      "Scald",
+      "Hurricane",
+      "Roost",
+      "Hidden Power"
+    ],
+    "baseStats": {
+      "HP": "85",
+      "ATK": "40",
+      "DEF": "70",
+      "SPA": "90",
+      "SPD": "140",
+      "SPE": "70"
+    },
+    "evs": {},
+    "speedStat": "51",
+    "altSpeeds": {
+      "Swift Swim": "102"
+    }
+  },
+  {
+    "species": "Clodsire",
+    "level": "28",
+    "nature": "Careful",
+    "ability": "Water Absorb",
+    "item": "Black Sludge",
+    "moves": [
+      "Poison Jab",
+      "Bulldoze",
+      "Recover",
+      "Toxic"
+    ],
+    "baseStats": {
+      "HP": "130",
+      "ATK": "75",
+      "DEF": "60",
+      "SPA": "45",
+      "SPD": "100",
+      "SPE": "20"
+    },
+    "evs": {},
+    "speedStat": "24",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Starmie",
+    "level": "28",
+    "nature": "Modest",
+    "ability": "Analytic",
+    "item": "Mystic Water",
+    "moves": [
+      "Scald",
+      "Thunderbolt",
+      "Psyshock",
+      "Aurora Beam"
+    ],
+    "baseStats": {
+      "HP": "60",
+      "ATK": "75",
+      "DEF": "85",
+      "SPA": "100",
+      "SPD": "85",
+      "SPE": "115"
+    },
+    "evs": {},
+    "speedStat": "78",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Toxicroak",
+    "level": "27",
+    "nature": "Jolly",
+    "ability": "Dry Skin",
+    "item": "Life Orb",
+    "moves": [
+      "Swords Dance",
+      "Drain Punch",
+      "Poison Jab",
+      "Sucker Punch"
+    ],
+    "baseStats": {
+      "HP": "83",
+      "ATK": "106",
+      "DEF": "65",
+      "SPA": "86",
+      "SPD": "65",
+      "SPE": "85"
+    },
+    "evs": {},
+    "speedStat": "64",
+    "altSpeeds": {}
+  }
+]

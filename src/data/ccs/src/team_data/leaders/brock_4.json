@@ -1,0 +1,149 @@
+[
+  {
+    "species": "Iron Boulder",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Quark Drive",
+    "item": "Lum Berry",
+    "moves": [
+      "Stealth Rock",
+      "Close Combat",
+      "Mighty Cleave",
+      "Zen Headbutt"
+    ],
+    "baseStats": {
+      "HP": "90",
+      "ATK": "120",
+      "DEF": "80",
+      "SPA": "68",
+      "SPD": "108",
+      "SPE": "124"
+    },
+    "evs": {},
+    "speedStat": "213",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Landorus",
+    "level": "Highest Lv",
+    "nature": "Naive",
+    "ability": "Sand Force",
+    "item": "Life Orb",
+    "moves": [
+      "U-Turn",
+      "Earthquake",
+      "Stone Edge",
+      "Grass Knot"
+    ],
+    "baseStats": {
+      "HP": "89",
+      "ATK": "125",
+      "DEF": "90",
+      "SPA": "115",
+      "SPD": "80",
+      "SPE": "101"
+    },
+    "evs": {},
+    "speedStat": "179",
+    "altSpeeds": {},
+    "aspect": "incarnate-forme"
+  },
+  {
+    "species": "Zygarde",
+    "level": "Highest Lv",
+    "nature": "Careful",
+    "ability": "Power Construct",
+    "item": "Leftovers",
+    "moves": [
+      "Coil",
+      "Thousand Arrows",
+      "Rest",
+      "Sleep Talk"
+    ],
+    "baseStats": {
+      "HP": "216",
+      "ATK": "100",
+      "DEF": "121",
+      "SPA": "91",
+      "SPD": "95",
+      "SPE": "85"
+    },
+    "evs": {},
+    "speedStat": "141",
+    "altSpeeds": {},
+    "aspect": "complete-percent"
+  },
+  {
+    "species": "Iron Treads",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Quark Drive",
+    "item": "",
+    "moves": [
+      "Knock Off",
+      "Earthquake",
+      "Iron Head",
+      "Ice Spinner"
+    ],
+    "baseStats": {
+      "HP": "90",
+      "ATK": "112",
+      "DEF": "120",
+      "SPA": "72",
+      "SPD": "70",
+      "SPE": "106"
+    },
+    "evs": {},
+    "speedStat": "187",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Ursaluna",
+    "level": "Highest Lv",
+    "nature": "Modest",
+    "ability": "Scrappy",
+    "item": "Leftovers",
+    "moves": [
+      "Blood Moon",
+      "Earth Power",
+      "Vacuum Wave",
+      "Hyper Voice"
+    ],
+    "baseStats": {
+      "HP": "113",
+      "ATK": "70",
+      "DEF": "120",
+      "SPA": "135",
+      "SPD": "65",
+      "SPE": "52"
+    },
+    "evs": {},
+    "speedStat": "96",
+    "altSpeeds": {},
+    "aspect": "bloodmoon"
+  },
+  {
+    "species": "Aerodactyl-Mega",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Tough Claws",
+    "item": "",
+    "moves": [
+      "Dragon Dance",
+      "Stone Edge",
+      "Earthquake",
+      "Dual Wingbeat"
+    ],
+    "baseStats": {
+      "HP": "80",
+      "ATK": "135",
+      "DEF": "85",
+      "SPA": "70",
+      "SPD": "95",
+      "SPE": "150"
+    },
+    "evs": {},
+    "speedStat": "253",
+    "altSpeeds": {}
+  }
+]

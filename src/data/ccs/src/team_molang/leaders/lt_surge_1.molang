@@ -1,0 +1,7 @@
+return q.array(
+    'pincurchin moves=voltswitch,scald,discharge,hiddenpower nature=bold held_item=cobblemon:terrain_extender ability=electricsurge',
+    'vikavolt moves=voltswitch,bugbuzz,roost,mudshot nature=calm held_item=cobblemon:occa_berry ability=levitate',
+    'bellibolt moves=paraboliccharge,muddywater,thunderwave,hiddenpower nature=bold held_item=cobblemon:shuca_berry ability=electromorphosis',
+    'pawmot moves=drainpunch,thunderpunch,icepunch,machpunch nature=jolly held_item=cobblemon:focus_sash ability=ironfist',
+    'manectric moves=chargebeam,voltswitch,flameburst,hiddenpower nature=timid ability=intimidate aspect=mega'
+);

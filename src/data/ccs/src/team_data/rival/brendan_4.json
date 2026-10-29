@@ -1,0 +1,146 @@
+[
+  {
+    "species": "Crawdaunt",
+    "level": "Player Max Level",
+    "nature": "Adamant",
+    "ability": "Adaptability",
+    "item": "Focus Sash",
+    "moves": [
+      "Aqua Jet",
+      "Liquidation",
+      "Knock Off",
+      "X-Scissor"
+    ],
+    "baseStats": {
+      "HP": "63",
+      "ATK": "120",
+      "DEF": "85",
+      "SPA": "90",
+      "SPD": "55",
+      "SPE": "55"
+    },
+    "evs": {},
+    "speedStat": "44",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Slaking",
+    "level": "Player Max Level",
+    "nature": "Jolly",
+    "ability": "Truant",
+    "item": "Leftovers",
+    "moves": [
+      "Body Slam",
+      "Knock Off",
+      "Brick Break",
+      "Slack Off"
+    ],
+    "baseStats": {
+      "HP": "150",
+      "ATK": "160",
+      "DEF": "100",
+      "SPA": "95",
+      "SPD": "65",
+      "SPE": "100"
+    },
+    "evs": {},
+    "speedStat": "75",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Plusle",
+    "level": "Player Max Level",
+    "nature": "Timid",
+    "ability": "Transistor",
+    "item": "Magnet",
+    "moves": [
+      "Volt Switch",
+      "Grass Knot",
+      "Surf",
+      "Hidden Power"
+    ],
+    "baseStats": {
+      "HP": "60",
+      "ATK": "50",
+      "DEF": "40",
+      "SPA": "85",
+      "SPD": "75",
+      "SPE": "110"
+    },
+    "evs": {},
+    "speedStat": "82",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Gardevoir",
+    "level": "Player Max Level",
+    "nature": "Timid",
+    "ability": "Trace",
+    "item": "Leftovers",
+    "moves": [
+      "Psychic",
+      "Calm Mind",
+      "Moonblast",
+      "Mystical Fire"
+    ],
+    "baseStats": {
+      "HP": "68",
+      "ATK": "65",
+      "DEF": "65",
+      "SPA": "125",
+      "SPD": "115",
+      "SPE": "80"
+    },
+    "evs": {},
+    "speedStat": "63",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Sceptile",
+    "level": "Player Max Level",
+    "nature": "Jolly",
+    "ability": "Overgrow",
+    "item": "Life Orb",
+    "moves": [
+      "Swords Dance",
+      "Leaf Blade",
+      "Drain Punch",
+      "Rock Slide"
+    ],
+    "baseStats": {
+      "HP": "70",
+      "ATK": "105",
+      "DEF": "65",
+      "SPA": "85",
+      "SPD": "85",
+      "SPE": "120"
+    },
+    "evs": {},
+    "speedStat": "88",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Hariyama",
+    "level": "Player Max Level",
+    "nature": "Adamant",
+    "ability": "Guts",
+    "item": "Flame Orb",
+    "moves": [
+      "Drain Punch",
+      "Bullet Punch",
+      "Knock Off",
+      "Fake Out"
+    ],
+    "baseStats": {
+      "HP": "144",
+      "ATK": "120",
+      "DEF": "60",
+      "SPA": "40",
+      "SPD": "60",
+      "SPE": "50"
+    },
+    "evs": {},
+    "speedStat": "41",
+    "altSpeeds": {}
+  }
+]

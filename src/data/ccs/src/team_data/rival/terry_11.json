@@ -1,0 +1,97 @@
+[
+  {
+    "species": "Kirlia",
+    "level": "Highest Lv -3",
+    "nature": "Modest",
+    "ability": "Trace",
+    "item": "Sitrus Berry",
+    "moves": [
+      "Psybeam",
+      "Draining Kiss",
+      "Magical Leaf"
+    ],
+    "baseStats": {
+      "HP": "38",
+      "ATK": "35",
+      "DEF": "35",
+      "SPA": "65",
+      "SPD": "55",
+      "SPE": "50"
+    },
+    "evs": {},
+    "speedStat": "36",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Staravia",
+    "level": "Highest Lv -4",
+    "nature": "Adamant",
+    "ability": "Intimidate",
+    "item": "Muscle Band",
+    "moves": [
+      "Quick Attack",
+      "Pluck",
+      "U-Turn",
+      "Sleep Talk"
+    ],
+    "baseStats": {
+      "HP": "55",
+      "ATK": "75",
+      "DEF": "50",
+      "SPA": "40",
+      "SPD": "40",
+      "SPE": "80"
+    },
+    "evs": {},
+    "speedStat": "48",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Pawniard",
+    "level": "Highest Lv -2",
+    "nature": "Adamant",
+    "ability": "Defiant",
+    "item": "Chople Berry",
+    "moves": [
+      "Knock Off",
+      "Sucker Punch",
+      "Cut",
+      "Low Sweep"
+    ],
+    "baseStats": {
+      "HP": "45",
+      "ATK": "85",
+      "DEF": "70",
+      "SPA": "40",
+      "SPD": "40",
+      "SPE": "60"
+    },
+    "evs": {},
+    "speedStat": "42",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Ivysaur",
+    "level": "Highest Lv -3",
+    "nature": "Modest",
+    "ability": "Overgrow",
+    "item": "Eviolite",
+    "moves": [
+      "Mega Drain",
+      "Protect",
+      "Leech Seed",
+      "Sludge"
+    ],
+    "baseStats": {
+      "HP": "60",
+      "ATK": "62",
+      "DEF": "63",
+      "SPA": "80",
+      "SPD": "80",
+      "SPE": "60"
+    },
+    "evs": {},
+    "speedStat": "41",
+    "altSpeeds": {}
+  }
+]

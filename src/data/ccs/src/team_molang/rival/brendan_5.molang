@@ -1,0 +1,8 @@
+return q.array(
+    'metagross moves=stealthrock,meteormash,explosion,earthquake nature=jolly held_item=cobblemon:air_balloon ability=clearbody',
+    'medicham moves=psychocut,closecombat,thunderpunch,icepunch nature=adamant held_item=cobblemon:choice_scarf ability=purepower',
+    'crawdaunt moves=aquajet,liquidation,crunch,superpower nature=adamant held_item=cobblemon:choice_band ability=adaptability',
+    'exploud moves=boomburst,surf,flamethrower,shadowball nature=timid held_item=cobblemon:silk_scarf ability=punkrock',
+    'gardevoir moves=focusblast,moonblast,psychic,thunderbolt nature=timid ability=trace',
+    'sceptile moves=swordsdance,bulletseed,dualchop,earthquake nature=jolly ability=technician aspect=mega'
+);

@@ -1,0 +1,174 @@
+[
+  {
+    "species": "Staraptor",
+    "level": "Highest Lv -2",
+    "nature": "Jolly",
+    "ability": "Intimidate",
+    "item": "Sharp Beak",
+    "moves": [
+      "Brave Bird",
+      "Quick Attack",
+      "U-Turn",
+      "Close Combat"
+    ],
+    "baseStats": {
+      "HP": "85",
+      "ATK": "120",
+      "DEF": "70",
+      "SPA": "50",
+      "SPD": "60",
+      "SPE": "100"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "264",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Kingambit",
+    "level": "Highest Lv -4",
+    "nature": "Adamant",
+    "ability": "Supreme Overlord",
+    "item": "Chople Berry",
+    "moves": [
+      "Iron Head",
+      "Swords Dance",
+      "Knock Off",
+      "Sucker Punch"
+    ],
+    "baseStats": {
+      "HP": "100",
+      "ATK": "135",
+      "DEF": "120",
+      "SPA": "60",
+      "SPD": "85",
+      "SPE": "50"
+    },
+    "evs": {
+      "HP": "252",
+      "ATK": "252",
+      "SPD": "4"
+    },
+    "speedStat": "107",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Darmanitan",
+    "level": "Highest Lv -2",
+    "nature": "Jolly",
+    "ability": "Sheer Force",
+    "item": "Life Orb",
+    "moves": [
+      "Flare Blitz",
+      "Rock Slide",
+      "U-Turn",
+      "Earthquake"
+    ],
+    "baseStats": {
+      "HP": "105",
+      "ATK": "140",
+      "DEF": "55",
+      "SPA": "30",
+      "SPD": "55",
+      "SPE": "95"
+    },
+    "evs": {
+      "ATK": "252",
+      "SPD": "4",
+      "SPE": "252"
+    },
+    "speedStat": "255",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Iron Bundle",
+    "level": "Highest Lv -3",
+    "nature": "Timid",
+    "ability": "Quark Drive",
+    "item": "",
+    "moves": [
+      "Hydro Pump",
+      "Freeze-Dry",
+      "Flip Turn",
+      "Ice Beam"
+    ],
+    "baseStats": {
+      "HP": "56",
+      "ATK": "80",
+      "DEF": "114",
+      "SPA": "124",
+      "SPD": "60",
+      "SPE": "136"
+    },
+    "evs": {
+      "DEF": "4",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "323",
+    "altSpeeds": {
+      "Quar. Drive": "484"
+    }
+  },
+  {
+    "species": "Sneasler",
+    "level": "Highest Lv -2",
+    "nature": "Jolly",
+    "ability": "Unburden",
+    "item": "Focus Sash",
+    "moves": [
+      "Close Combat",
+      "U-Turn",
+      "Dire Claw",
+      "Fire Punch"
+    ],
+    "baseStats": {
+      "HP": "80",
+      "ATK": "130",
+      "DEF": "60",
+      "SPA": "40",
+      "SPD": "80",
+      "SPE": "120"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "299",
+    "altSpeeds": {
+      "Unburden": "598"
+    }
+  },
+  {
+    "species": "Venusaur-Mega",
+    "level": "Highest Lv -2",
+    "nature": "Timid",
+    "ability": "Thick Fat",
+    "item": "",
+    "moves": [
+      "Chloroblast",
+      "Sludge Bomb",
+      "Sleep Powder",
+      "Earth Power"
+    ],
+    "baseStats": {
+      "HP": "80",
+      "ATK": "100",
+      "DEF": "123",
+      "SPA": "122",
+      "SPD": "120",
+      "SPE": "80"
+    },
+    "evs": {
+      "HP": "252",
+      "DEF": "4",
+      "SPA": "252"
+    },
+    "speedStat": "172",
+    "altSpeeds": {}
+  }
+]

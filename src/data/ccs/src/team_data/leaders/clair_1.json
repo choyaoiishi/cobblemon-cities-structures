@@ -1,0 +1,172 @@
+[
+  {
+    "species": "Aerodactyl",
+    "level": "80",
+    "nature": "Jolly",
+    "ability": "Unnerve",
+    "item": "Focus Sash",
+    "moves": [
+      "Stealth Rock",
+      "Stone Edge",
+      "Earthquake",
+      "Taunt"
+    ],
+    "baseStats": {
+      "HP": "80",
+      "ATK": "105",
+      "DEF": "65",
+      "SPA": "60",
+      "SPD": "75",
+      "SPE": "130"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "316",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Roaring Moon",
+    "level": "81",
+    "nature": "Jolly",
+    "ability": "Protosynthesis",
+    "item": "",
+    "moves": [
+      "Dragon Dance",
+      "Crunch",
+      "Earthquake",
+      "Iron Head"
+    ],
+    "baseStats": {
+      "HP": "105",
+      "ATK": "139",
+      "DEF": "71",
+      "SPA": "55",
+      "SPD": "101",
+      "SPE": "119"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "300",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Dragonite",
+    "level": "80",
+    "nature": "Adamant",
+    "ability": "Multiscale",
+    "item": "Weakness Policy",
+    "moves": [
+      "Extreme Speed",
+      "Dragon Dance",
+      "Fire Punch",
+      "Dual Wingbeat"
+    ],
+    "baseStats": {
+      "HP": "91",
+      "ATK": "134",
+      "DEF": "95",
+      "SPA": "100",
+      "SPD": "100",
+      "SPE": "80"
+    },
+    "evs": {
+      "HP": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "208",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Magearna",
+    "level": "81",
+    "nature": "Modest",
+    "ability": "Soul-Heart",
+    "item": "Leftovers",
+    "moves": [
+      "Shift Gear",
+      "Fleur Cannon",
+      "Flash Cannon",
+      "Aura Sphere"
+    ],
+    "baseStats": {
+      "HP": "80",
+      "ATK": "95",
+      "DEF": "115",
+      "SPA": "130",
+      "SPD": "115",
+      "SPE": "65"
+    },
+    "evs": {
+      "HP": "252",
+      "SPA": "252",
+      "SPE": "4"
+    },
+    "speedStat": "136",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Gouging Fire",
+    "level": "81",
+    "nature": "Jolly",
+    "ability": "Protosynthesis",
+    "item": "",
+    "moves": [
+      "Dragon Dance",
+      "Flare Blitz",
+      "Earthquake",
+      "Dragon Claw"
+    ],
+    "baseStats": {
+      "HP": "105",
+      "ATK": "115",
+      "DEF": "121",
+      "SPA": "65",
+      "SPD": "93",
+      "SPE": "91"
+    },
+    "evs": {
+      "ATK": "252",
+      "SPD": "4",
+      "SPE": "252"
+    },
+    "speedStat": "250",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Naganadel",
+    "level": "81",
+    "nature": "Timid",
+    "ability": "Beast Boost",
+    "item": "Life Orb",
+    "moves": [
+      "Flamethrower",
+      "Nasty Plot",
+      "Sludge Wave",
+      "Draco Meteor"
+    ],
+    "baseStats": {
+      "HP": "73",
+      "ATK": "73",
+      "DEF": "73",
+      "SPA": "127",
+      "SPD": "73",
+      "SPE": "121"
+    },
+    "evs": {
+      "DEF": "4",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "304",
+    "altSpeeds": {
+      "1 B. Boost": "456"
+    }
+  }
+]

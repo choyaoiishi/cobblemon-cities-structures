@@ -1,0 +1,5 @@
+return q.array(
+    'masquerain moves=bugbuzz,scald,gigadrain,stunspore nature=modest held_item=cobblemon:iapapa_berry ability=intimidate',
+    'exploud moves=flamethrower,surf,focusblast,hypervoice nature=timid held_item=cobblemon:silk_scarf ability=punkrock',
+    'sceptile moves=megadrain,dragonbreath,focusblast,hiddenpower nature=timid ability=technician aspect=mega'
+);

@@ -1,0 +1,142 @@
+[
+  {
+    "species": "Staraptor",
+    "level": "Highest Lv -4",
+    "nature": "Jolly",
+    "ability": "Intimidate",
+    "item": "Sharp Beak",
+    "moves": [
+      "Brave Bird",
+      "U-Turn",
+      "Quick Attack",
+      "Close Combat"
+    ],
+    "baseStats": {
+      "HP": "85",
+      "ATK": "120",
+      "DEF": "70",
+      "SPA": "50",
+      "SPD": "60",
+      "SPE": "100"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "172",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Kingambit",
+    "level": "Highest Lv -3",
+    "nature": "Jolly",
+    "ability": "Supreme Overlord",
+    "item": "Chople Berry",
+    "moves": [
+      "Swords Dance",
+      "Knock Off",
+      "Sucker Punch",
+      "Iron Head"
+    ],
+    "baseStats": {
+      "HP": "100",
+      "ATK": "135",
+      "DEF": "120",
+      "SPA": "60",
+      "SPD": "85",
+      "SPE": "50"
+    },
+    "evs": {
+      "HP": "252",
+      "ATK": "252",
+      "SPE": "4"
+    },
+    "speedStat": "81",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Jumpluff",
+    "level": "Highest Lv -3",
+    "nature": "Jolly",
+    "ability": "Aerilate",
+    "item": "Sharp Beak",
+    "moves": [
+      "Sleep Powder",
+      "Double-Edge",
+      "Leaf Blade",
+      "Swords Dance"
+    ],
+    "baseStats": {
+      "HP": "75",
+      "ATK": "85",
+      "DEF": "70",
+      "SPA": "35",
+      "SPD": "95",
+      "SPE": "110"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "188",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Azumarill",
+    "level": "Highest Lv -3",
+    "nature": "Adamant",
+    "ability": "Huge Power",
+    "item": "Mystic Water",
+    "moves": [
+      "Liquidation",
+      "Aqua Jet",
+      "Play Rough",
+      "Ice Punch"
+    ],
+    "baseStats": {
+      "HP": "100",
+      "ATK": "50",
+      "DEF": "80",
+      "SPA": "60",
+      "SPD": "80",
+      "SPE": "50"
+    },
+    "evs": {
+      "HP": "252",
+      "ATK": "252",
+      "DEF": "4"
+    },
+    "speedStat": "74",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Charizard-MegaY",
+    "level": "Highest Lv -2",
+    "nature": "Timid",
+    "ability": "Drought",
+    "item": "",
+    "moves": [
+      "Flamethrower",
+      "Air Slash",
+      "Solar Beam",
+      "Focus Blast"
+    ],
+    "baseStats": {
+      "HP": "78",
+      "ATK": "104",
+      "DEF": "78",
+      "SPA": "159",
+      "SPD": "115",
+      "SPE": "100"
+    },
+    "evs": {
+      "DEF": "4",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "179",
+    "altSpeeds": {}
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "species": "Starly",
+    "level": "9",
+    "nature": "Mild",
+    "ability": "Frisk",
+    "item": "",
+    "moves": [
+      "Tackle",
+      "Growl",
+      "Quick Attack",
+      "Wing Attack"
+    ],
+    "baseStats": {
+      "HP": "40",
+      "ATK": "55",
+      "DEF": "30",
+      "SPA": "30",
+      "SPD": "30",
+      "SPE": "60"
+    },
+    "evs": {},
+    "speedStat": "18",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Squirtle",
+    "level": "9",
+    "nature": "Relaxed",
+    "ability": "Torrent",
+    "item": "",
+    "moves": [
+      "Tackle",
+      "False Swipe",
+      "Tail Whip",
+      "Bubble"
+    ],
+    "baseStats": {
+      "HP": "44",
+      "ATK": "48",
+      "DEF": "65",
+      "SPA": "50",
+      "SPD": "64",
+      "SPE": "43"
+    },
+    "evs": {},
+    "speedStat": "12",
+    "altSpeeds": {}
+  }
+]

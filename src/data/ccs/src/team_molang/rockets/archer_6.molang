@@ -1,0 +1,8 @@
+return q.array(
+    'aerodactyl moves=bravebird,stoneedge,headlongrush,firefang nature=jolly held_item=cobblemon:sharp_beak ability=rockhead',
+    'heliolisk moves=boomburst,thunderbolt,grassknot,weatherball nature=timid held_item=cobblemon:focus_sash ability=solarpower',
+    'zygarde moves=thousandarrows,extremespeed,glare,dragondance nature=impish ability=powerconstruct aspect=complete-percent',
+    'heatran moves=protect,flamethrower,flashcannon,earthpower nature=timid held_item=cobblemon:air_balloon ability=flashfire',
+    'salamence moves=doubleedge,flamethrower,roost,protect nature=naive ability=aerilate aspect=mega',
+    'houndoom moves=darkhole,fireblast,sludgebomb,solarbeam nature=timid ability=solarpower aspect=mega'
+);

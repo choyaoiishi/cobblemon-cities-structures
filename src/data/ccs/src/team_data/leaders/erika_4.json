@@ -1,0 +1,148 @@
+[
+  {
+    "species": "Meowscarada",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Protean",
+    "item": "Life Orb",
+    "moves": [
+      "Flower Trick",
+      "Triple Axel",
+      "Knock Off",
+      "U-Turn"
+    ],
+    "baseStats": {
+      "HP": "76",
+      "ATK": "110",
+      "DEF": "70",
+      "SPA": "81",
+      "SPD": "70",
+      "SPE": "123"
+    },
+    "evs": {},
+    "speedStat": "212",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Serperior",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Contrary",
+    "item": "Focus Sash",
+    "moves": [
+      "Leaf Storm",
+      "Hidden Power",
+      "Dragon Pulse",
+      "Knock Off"
+    ],
+    "baseStats": {
+      "HP": "75",
+      "ATK": "75",
+      "DEF": "95",
+      "SPA": "75",
+      "SPD": "95",
+      "SPE": "113"
+    },
+    "evs": {},
+    "speedStat": "196",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Hawlucha",
+    "level": "Highest Lv",
+    "nature": "Adamant",
+    "ability": "Unburden",
+    "item": "Grassy Seed",
+    "moves": [
+      "Swords Dance",
+      "Close Combat",
+      "Acrobatics",
+      "Stone Edge"
+    ],
+    "baseStats": {
+      "HP": "78",
+      "ATK": "92",
+      "DEF": "75",
+      "SPA": "74",
+      "SPD": "63",
+      "SPE": "118"
+    },
+    "evs": {},
+    "speedStat": "186",
+    "altSpeeds": {
+      "Unburden": "372"
+    }
+  },
+  {
+    "species": "Kartana",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Beast Boost",
+    "item": "Life Orb",
+    "moves": [
+      "Swords Dance",
+      "Grassy Glide",
+      "Cut",
+      "Sacred Sword"
+    ],
+    "baseStats": {
+      "HP": "59",
+      "ATK": "181",
+      "DEF": "131",
+      "SPA": "59",
+      "SPD": "31",
+      "SPE": "109"
+    },
+    "evs": {},
+    "speedStat": "191",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Magearna",
+    "level": "Highest Lv",
+    "nature": "Bold",
+    "ability": "Soul-Heart",
+    "item": "Grassy Seed",
+    "moves": [
+      "Calm Mind",
+      "Draining Kiss",
+      "Stored Power",
+      "Aura Sphere"
+    ],
+    "baseStats": {
+      "HP": "80",
+      "ATK": "95",
+      "DEF": "115",
+      "SPA": "130",
+      "SPD": "115",
+      "SPE": "65"
+    },
+    "evs": {},
+    "speedStat": "114",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Ampharos-Mega",
+    "level": "Highest Lv",
+    "nature": "Modest",
+    "ability": "Thick Fat",
+    "item": "",
+    "moves": [
+      "Volt Switch",
+      "Draco Barrage",
+      "Signal Beam",
+      "Focus Blast"
+    ],
+    "baseStats": {
+      "HP": "90",
+      "ATK": "95",
+      "DEF": "105",
+      "SPA": "165",
+      "SPD": "110",
+      "SPE": "45"
+    },
+    "evs": {},
+    "speedStat": "87",
+    "altSpeeds": {}
+  }
+]

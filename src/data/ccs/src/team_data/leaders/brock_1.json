@@ -1,0 +1,97 @@
+[
+  {
+    "species": "Geodude-Alola",
+    "level": "13",
+    "nature": "Adamant",
+    "ability": "Sturdy",
+    "item": "Custap Berry",
+    "moves": [
+      "Bulldoze",
+      "Rock Tomb",
+      "Spark",
+      "Self-Destruct"
+    ],
+    "baseStats": {
+      "HP": "40",
+      "ATK": "80",
+      "DEF": "100",
+      "SPA": "30",
+      "SPD": "30",
+      "SPE": "20"
+    },
+    "evs": {},
+    "speedStat": "14",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Varoom",
+    "level": "13",
+    "nature": "Brave",
+    "ability": "Filter",
+    "item": "Air Balloon",
+    "moves": [
+      "Gyro Ball",
+      "Bulldoze",
+      "Toxic",
+      "Protect"
+    ],
+    "baseStats": {
+      "HP": "45",
+      "ATK": "70",
+      "DEF": "63",
+      "SPA": "30",
+      "SPD": "45",
+      "SPE": "47"
+    },
+    "evs": {},
+    "speedStat": "15",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Onix",
+    "level": "14",
+    "nature": "Bashful",
+    "ability": "Sturdy",
+    "item": "Berry Juice",
+    "moves": [
+      "Rock Tomb",
+      "Bulldoze",
+      "Sleep Talk"
+    ],
+    "baseStats": {
+      "HP": "50",
+      "ATK": "60",
+      "DEF": "150",
+      "SPA": "30",
+      "SPD": "45",
+      "SPE": "65"
+    },
+    "evs": {},
+    "speedStat": "27",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Archen",
+    "level": "12",
+    "nature": "Jolly",
+    "ability": "Defeatist",
+    "item": "Berry Juice",
+    "moves": [
+      "Pluck",
+      "Rock Tomb",
+      "Bulldoze",
+      "Facade"
+    ],
+    "baseStats": {
+      "HP": "55",
+      "ATK": "112",
+      "DEF": "45",
+      "SPA": "74",
+      "SPD": "45",
+      "SPE": "70"
+    },
+    "evs": {},
+    "speedStat": "27",
+    "altSpeeds": {}
+  }
+]

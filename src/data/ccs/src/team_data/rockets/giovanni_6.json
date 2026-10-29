@@ -1,0 +1,147 @@
+[
+  {
+    "species": "Spiritomb",
+    "level": "80",
+    "nature": "Sassy",
+    "ability": "Intimidate",
+    "item": "Figy Berry",
+    "moves": [
+      "Will-O-Wisp",
+      "Parting Shot",
+      "Shadow Ball",
+      "Sucker Punch"
+    ],
+    "baseStats": {
+      "HP": "50",
+      "ATK": "92",
+      "DEF": "108",
+      "SPA": "92",
+      "SPD": "108",
+      "SPE": "35"
+    },
+    "evs": {},
+    "speedStat": "76",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Delphox",
+    "level": "80",
+    "nature": "Timid",
+    "ability": "Magic Guard",
+    "item": "Focus Sash",
+    "moves": [
+      "Heat Wave",
+      "Expanding Force",
+      "Grass Knot",
+      "Shadow Ball"
+    ],
+    "baseStats": {
+      "HP": "75",
+      "ATK": "69",
+      "DEF": "72",
+      "SPA": "114",
+      "SPD": "100",
+      "SPE": "104"
+    },
+    "evs": {},
+    "speedStat": "215",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Silvally",
+    "level": "80",
+    "nature": "Jolly",
+    "ability": "Battle Armor",
+    "item": "Leftovers",
+    "moves": [
+      "Multi-Attack",
+      "Flamethrower",
+      "Parting Shot",
+      "Thunder Wave"
+    ],
+    "baseStats": {
+      "HP": "100",
+      "ATK": "100",
+      "DEF": "100",
+      "SPA": "100",
+      "SPD": "100",
+      "SPE": "100"
+    },
+    "evs": {},
+    "speedStat": "207",
+    "altSpeeds": {},
+    "aspect": "fairy-memory"
+  },
+  {
+    "species": "Moltres-Galar",
+    "level": "80",
+    "nature": "Timid",
+    "ability": "Berserk",
+    "item": "",
+    "moves": [
+      "Nasty Plot",
+      "Fiery Wrath",
+      "Hurricane",
+      "Roost"
+    ],
+    "baseStats": {
+      "HP": "90",
+      "ATK": "85",
+      "DEF": "90",
+      "SPA": "100",
+      "SPD": "125",
+      "SPE": "90"
+    },
+    "evs": {},
+    "speedStat": "190",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Genesect",
+    "level": "80",
+    "nature": "Hasty",
+    "ability": "Download",
+    "item": "Assault Vest",
+    "moves": [
+      "U-Turn",
+      "Iron Head",
+      "Ice Beam",
+      "Flamethrower"
+    ],
+    "baseStats": {
+      "HP": "71",
+      "ATK": "120",
+      "DEF": "95",
+      "SPA": "120",
+      "SPD": "95",
+      "SPE": "99"
+    },
+    "evs": {},
+    "speedStat": "206",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Mewtwo-MegaY",
+    "level": "80",
+    "nature": "Timid",
+    "ability": "Insomnia",
+    "item": "",
+    "moves": [
+      "Expanding Force",
+      "Soul Robbery",
+      "Flamethrower",
+      "Aura Sphere"
+    ],
+    "baseStats": {
+      "HP": "106",
+      "ATK": "150",
+      "DEF": "70",
+      "SPA": "194",
+      "SPD": "120",
+      "SPE": "140"
+    },
+    "evs": {},
+    "speedStat": "278",
+    "altSpeeds": {}
+  }
+]

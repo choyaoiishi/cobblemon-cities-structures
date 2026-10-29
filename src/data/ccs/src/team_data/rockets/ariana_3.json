@@ -1,0 +1,173 @@
+[
+  {
+    "species": "Ambipom",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Technician",
+    "item": "Life Orb",
+    "moves": [
+      "Fake Out",
+      "Arm Thrust",
+      "Beat Up",
+      "U-Turn"
+    ],
+    "baseStats": {
+      "HP": "75",
+      "ATK": "100",
+      "DEF": "66",
+      "SPA": "60",
+      "SPD": "66",
+      "SPE": "115"
+    },
+    "evs": {
+      "HP": "6",
+      "ATK": "252",
+      "SPE": "252"
+    },
+    "speedStat": "361",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Weavile",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Pressure",
+    "item": "Focus Sash",
+    "moves": [
+      "Triple Axel",
+      "Ice Shard",
+      "Low Kick",
+      "Night Slash"
+    ],
+    "baseStats": {
+      "HP": "70",
+      "ATK": "120",
+      "DEF": "65",
+      "SPA": "45",
+      "SPD": "85",
+      "SPE": "125"
+    },
+    "evs": {
+      "HP": "6",
+      "ATK": "252",
+      "SPE": "252"
+    },
+    "speedStat": "383",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Victini",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Victory Star",
+    "item": "",
+    "moves": [
+      "Celebrate",
+      "Searing Shot",
+      "Stored Power",
+      "Energy Ball"
+    ],
+    "baseStats": {
+      "HP": "100",
+      "ATK": "100",
+      "DEF": "100",
+      "SPA": "100",
+      "SPD": "100",
+      "SPE": "100"
+    },
+    "evs": {
+      "HP": "6",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "328",
+    "altSpeeds": {
+      "Z-Celebrate": "492"
+    }
+  },
+  {
+    "species": "Toxapex",
+    "level": "Highest Lv",
+    "nature": "Bold",
+    "ability": "Regenerator",
+    "item": "Black Sludge",
+    "moves": [
+      "Haze",
+      "Scald",
+      "Toxic",
+      "Knock Off"
+    ],
+    "baseStats": {
+      "HP": "50",
+      "ATK": "63",
+      "DEF": "152",
+      "SPA": "53",
+      "SPD": "142",
+      "SPE": "35"
+    },
+    "evs": {
+      "HP": "252",
+      "DEF": "252"
+    },
+    "speedStat": "106",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Mawile-Mega",
+    "level": "Highest Lv",
+    "nature": "Adamant",
+    "ability": "Huge Power",
+    "item": "",
+    "moves": [
+      "Iron Head",
+      "Play Rough",
+      "Sucker Punch",
+      "Thunder Punch"
+    ],
+    "baseStats": {
+      "HP": "50",
+      "ATK": "105",
+      "DEF": "125",
+      "SPA": "55",
+      "SPD": "95",
+      "SPE": "50"
+    },
+    "evs": {
+      "HP": "252",
+      "ATK": "252",
+      "SPE": "6"
+    },
+    "speedStat": "137",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Xerneas",
+    "level": "Highest Lv",
+    "nature": "Modest",
+    "ability": "Fairy Aura",
+    "item": "Power Herb",
+    "moves": [
+      "Geomancy",
+      "Draining Kiss",
+      "Thunderbolt",
+      "Moonblast"
+    ],
+    "baseStats": {
+      "HP": "126",
+      "ATK": "131",
+      "DEF": "95",
+      "SPA": "131",
+      "SPD": "98",
+      "SPE": "99"
+    },
+    "evs": {
+      "HP": "252",
+      "SPA": "252",
+      "SPE": "6"
+    },
+    "speedStat": "235",
+    "altSpeeds": {
+      "Geomancy": "470"
+    }
+  }
+]

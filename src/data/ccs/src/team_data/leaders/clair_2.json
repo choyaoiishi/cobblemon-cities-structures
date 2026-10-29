@@ -1,0 +1,147 @@
+[
+  {
+    "species": "Shuckle",
+    "level": "81",
+    "nature": "Impish",
+    "ability": "Solid Rock",
+    "item": "Sitrus Berry",
+    "moves": [
+      "Stealth Rock",
+      "Sticky Web",
+      "Knock Off",
+      "Toxic"
+    ],
+    "baseStats": {
+      "HP": "20",
+      "ATK": "10",
+      "DEF": "230",
+      "SPA": "10",
+      "SPD": "230",
+      "SPE": "5"
+    },
+    "evs": {},
+    "speedStat": "38",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Roaring Moon",
+    "level": "81",
+    "nature": "Jolly",
+    "ability": "Protosynthesis",
+    "item": "",
+    "moves": [
+      "Dragon Dance",
+      "Knock Off",
+      "Earthquake",
+      "Scale Shot"
+    ],
+    "baseStats": {
+      "HP": "105",
+      "ATK": "139",
+      "DEF": "71",
+      "SPA": "55",
+      "SPD": "101",
+      "SPE": "119"
+    },
+    "evs": {},
+    "speedStat": "244",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Magearna",
+    "level": "81",
+    "nature": "Modest",
+    "ability": "Soul-Heart",
+    "item": "Weakness Policy",
+    "moves": [
+      "Shift Gear",
+      "Moonblast",
+      "Thunderbolt",
+      "Aura Sphere"
+    ],
+    "baseStats": {
+      "HP": "80",
+      "ATK": "95",
+      "DEF": "115",
+      "SPA": "130",
+      "SPD": "115",
+      "SPE": "65"
+    },
+    "evs": {},
+    "speedStat": "135",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Necrozma",
+    "level": "81",
+    "nature": "Adamant",
+    "ability": "Neuroforce",
+    "item": "",
+    "moves": [
+      "Dragon Dance",
+      "Photon Geyser",
+      "Earthquake",
+      "Dragon Hammer"
+    ],
+    "baseStats": {
+      "HP": "97",
+      "ATK": "167",
+      "DEF": "97",
+      "SPA": "167",
+      "SPD": "97",
+      "SPE": "129"
+    },
+    "evs": {},
+    "speedStat": "239",
+    "altSpeeds": {},
+    "aspect": "ultra-fusion"
+  },
+  {
+    "species": "Eternatus",
+    "level": "81",
+    "nature": "Timid",
+    "ability": "Pressure",
+    "item": "Power Herb",
+    "moves": [
+      "Dynamax Cannon",
+      "Meteor Beam",
+      "Flamethrower",
+      "Recover"
+    ],
+    "baseStats": {
+      "HP": "140",
+      "ATK": "85",
+      "DEF": "95",
+      "SPA": "145",
+      "SPD": "95",
+      "SPE": "130"
+    },
+    "evs": {},
+    "speedStat": "264",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Archaludon",
+    "level": "81",
+    "nature": "Timid",
+    "ability": "Bad Company",
+    "item": "Assault Vest",
+    "moves": [
+      "Draco Meteor",
+      "Steel Beam",
+      "Thunderbolt",
+      "Body Press"
+    ],
+    "baseStats": {
+      "HP": "90",
+      "ATK": "105",
+      "DEF": "130",
+      "SPA": "125",
+      "SPD": "65",
+      "SPE": "85"
+    },
+    "evs": {},
+    "speedStat": "183",
+    "altSpeeds": {}
+  }
+]

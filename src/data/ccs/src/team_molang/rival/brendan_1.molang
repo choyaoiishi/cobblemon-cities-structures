@@ -1,0 +1,4 @@
+return q.array(
+    'corphish moves=bubble,harden,visegrip,leer nature=rash ability=battlearmor',
+    'treecko moves=pound,leer,absorb nature=hardy ability=overgrow'
+);

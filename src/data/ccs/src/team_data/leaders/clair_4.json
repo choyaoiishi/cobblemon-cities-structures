@@ -1,0 +1,148 @@
+[
+  {
+    "species": "Dragapult",
+    "level": "Highest Lv",
+    "nature": "Hasty",
+    "ability": "Clear Body",
+    "item": "Focus Sash",
+    "moves": [
+      "Dragon Darts",
+      "Spirit Shackle",
+      "U-Turn",
+      "Draco Meteor"
+    ],
+    "baseStats": {
+      "HP": "88",
+      "ATK": "120",
+      "DEF": "75",
+      "SPA": "100",
+      "SPD": "75",
+      "SPE": "142"
+    },
+    "evs": {},
+    "speedStat": "352",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Dialga",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Primal Armor",
+    "item": "Adamant Orb",
+    "moves": [
+      "Roar Of Time",
+      "Flamethrower",
+      "Flash Cannon",
+      "Thunderbolt"
+    ],
+    "baseStats": {
+      "HP": "100",
+      "ATK": "120",
+      "DEF": "150",
+      "SPA": "185",
+      "SPD": "130",
+      "SPE": "90"
+    },
+    "evs": {},
+    "speedStat": "237",
+    "altSpeeds": {},
+    "aspect": ""
+  },
+  {
+    "species": "Dragonite",
+    "level": "Highest Lv",
+    "nature": "Lonely",
+    "ability": "Multiscale",
+    "item": "Weakness Policy",
+    "moves": [
+      "Dual Wingbeat",
+      "Fire Blast",
+      "Dragon Hammer",
+      "Dragon Dance"
+    ],
+    "baseStats": {
+      "HP": "91",
+      "ATK": "134",
+      "DEF": "95",
+      "SPA": "100",
+      "SPD": "100",
+      "SPE": "80"
+    },
+    "evs": {},
+    "speedStat": "196",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Flapple-Mega",
+    "level": "Highest Lv",
+    "nature": "Naive",
+    "ability": "Dragon's Maw",
+    "item": "",
+    "moves": [
+      "Dragon Energy",
+      "Energy Ball",
+      "Sucker Punch",
+      "U-Turn"
+    ],
+    "baseStats": {
+      "HP": "70",
+      "ATK": "145",
+      "DEF": "90",
+      "SPA": "135",
+      "SPD": "70",
+      "SPE": "105"
+    },
+    "evs": {},
+    "speedStat": "270",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Kyurem",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Teravolt",
+    "item": "Lum Berry",
+    "moves": [
+      "Dragon Dance",
+      "Dragon Hammer",
+      "Fusion Bolt",
+      "Ice Hammer"
+    ],
+    "baseStats": {
+      "HP": "125",
+      "ATK": "170",
+      "DEF": "100",
+      "SPA": "120",
+      "SPD": "90",
+      "SPE": "95"
+    },
+    "evs": {},
+    "speedStat": "248",
+    "altSpeeds": {},
+    "aspect": "black-fusion"
+  },
+  {
+    "species": "Genesect",
+    "level": "Highest Lv",
+    "nature": "Hasty",
+    "ability": "Download",
+    "item": "Life Orb",
+    "moves": [
+      "U-Turn",
+      "Extreme Speed",
+      "Ice Beam",
+      "Flamethrower"
+    ],
+    "baseStats": {
+      "HP": "71",
+      "ATK": "120",
+      "DEF": "95",
+      "SPA": "120",
+      "SPD": "95",
+      "SPE": "99"
+    },
+    "evs": {},
+    "speedStat": "257",
+    "altSpeeds": {}
+  }
+]

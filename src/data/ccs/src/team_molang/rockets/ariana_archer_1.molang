@@ -1,0 +1,8 @@
+return q.array(
+    'incineroar moves=fakeout,partingshot,darkestlariat,firepunch nature=adamant held_item=cobblemon:sitrus_berry ability=intimidate',
+    'primarina moves=hypervoice,scald,psychic,dazzlinggleam nature=modest held_item=cobblemon:throat_spray ability=liquidvoice',
+    'mawile moves=playrough,suckerpunch,ironhead,thunderpunch nature=adamant ability=hugepower aspect=mega',
+    'gothitelle moves=psychic,shadowball,hiddenpower,thunderwave nature=modest held_item=cobblemon:colbur_berry ability=competitive',
+    'gholdengo moves=shadowball,makeitrain,focusblast,recover nature=timid held_item=cobblemon:sitrus_berry ability=goodasgold',
+    'houndoom moves=heatwave,darkpulse,scorchingsands,suckerpunch nature=naive ability=darkaura aspect=mega'
+);

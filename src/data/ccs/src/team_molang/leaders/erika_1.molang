@@ -1,0 +1,7 @@
+return q.array(
+    'rillaboom moves=grassyglide,uturn,highhorsepower,drainpunch nature=jolly held_item=cobblemon:terrain_extender ability=grassysurge',
+    'meowscarada moves=flowertrick,knockoff,uturn,tripleaxel nature=jolly held_item=cobblemon:focus_sash ability=protean',
+    'venusaur moves=gigadrain,sludgebomb,sleeppowder,earthpower nature=modest ability=thickfat aspect=mega',
+    'meganium moves=ancientpower,gigadrain,dazzlinggleam,hiddenpower nature=modest ability=triage',
+    'electrode moves=thunderbolt,chloroblast,hiddenpower,explosion nature=naive held_item=cobblemon:life_orb ability=reckless aspect=hisuian'
+);

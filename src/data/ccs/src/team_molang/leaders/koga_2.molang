@@ -1,0 +1,8 @@
+return q.array(
+    'tapulele moves=psyshock,moonblast,focusblast,hiddenpower nature=modest held_item=cobblemon:twisted_spoon ability=psychicsurge',
+    'hoopa moves=darkpulse,expandingforce,thunderbolt,focusblast nature=modest ability=magician aspect=unbound',
+    'krookodile moves=wickedblow,earthquake,closecombat,stoneedge nature=adamant held_item=cobblemon:black_glasses ability=moxie',
+    'chi moves=darkpulse,flamethrower,psychic,hiddenpower nature=modest held_item=cobblemon:focus_sash ability=beadsofruin aspect=yu',
+    'nidoking moves=earthpower,poisonjab,icebeam,thunderbolt nature=rash held_item=cobblemon:life_orb ability=sheerforce',
+    'toxtricity moves=boomburst,overdrive,drainpunch,hiddenpower nature=rash ability=punkrock aspect=mega'
+);

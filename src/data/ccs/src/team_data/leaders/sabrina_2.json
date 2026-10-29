@@ -1,0 +1,146 @@
+[
+  {
+    "species": "Tapu Fini",
+    "level": "59",
+    "nature": "Quiet",
+    "ability": "Misty Surge",
+    "item": "Focus Sash",
+    "moves": [
+      "Misty Explosion",
+      "Muddy Water",
+      "Moonblast",
+      "Flip Turn"
+    ],
+    "baseStats": {
+      "HP": "70",
+      "ATK": "75",
+      "DEF": "115",
+      "SPA": "95",
+      "SPD": "130",
+      "SPE": "85"
+    },
+    "evs": {},
+    "speedStat": "94",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Camerupt-Mega",
+    "level": "59",
+    "nature": "Quiet",
+    "ability": "Sheer Force",
+    "item": "",
+    "moves": [
+      "Flamethrower",
+      "Earth Power",
+      "Steam Eruption",
+      "Slack Off"
+    ],
+    "baseStats": {
+      "HP": "90",
+      "ATK": "100",
+      "DEF": "110",
+      "SPA": "145",
+      "SPD": "115",
+      "SPE": "20"
+    },
+    "evs": {},
+    "speedStat": "25",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Glastrier",
+    "level": "59",
+    "nature": "Brave",
+    "ability": "Chilling Neigh",
+    "item": "Iapapa Berry",
+    "moves": [
+      "Swords Dance",
+      "Ice Hammer",
+      "Close Combat",
+      "High Horsepower"
+    ],
+    "baseStats": {
+      "HP": "100",
+      "ATK": "145",
+      "DEF": "130",
+      "SPA": "65",
+      "SPD": "110",
+      "SPE": "30"
+    },
+    "evs": {},
+    "speedStat": "36",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Magearna",
+    "level": "59",
+    "nature": "Quiet",
+    "ability": "Soul-Heart",
+    "item": "",
+    "moves": [
+      "Moonblast",
+      "Flash Cannon",
+      "Focus Blast",
+      "Thunderbolt"
+    ],
+    "baseStats": {
+      "HP": "80",
+      "ATK": "95",
+      "DEF": "115",
+      "SPA": "130",
+      "SPD": "115",
+      "SPE": "65"
+    },
+    "evs": {},
+    "speedStat": "72",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Iron Hands",
+    "level": "59",
+    "nature": "Brave",
+    "ability": "Quark Drive",
+    "item": "",
+    "moves": [
+      "Drain Punch",
+      "Plasma Fists",
+      "Knock Off",
+      "Ice Punch"
+    ],
+    "baseStats": {
+      "HP": "154",
+      "ATK": "140",
+      "DEF": "108",
+      "SPA": "50",
+      "SPD": "68",
+      "SPE": "50"
+    },
+    "evs": {},
+    "speedStat": "57",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Jellicent",
+    "level": "59",
+    "nature": "Quiet",
+    "ability": "Water Bubble",
+    "item": "Mystic Water",
+    "moves": [
+      "Water Spout",
+      "Shadow Ball",
+      "Strength Sap",
+      "Hydro Pump"
+    ],
+    "baseStats": {
+      "HP": "100",
+      "ATK": "60",
+      "DEF": "80",
+      "SPA": "75",
+      "SPD": "105",
+      "SPE": "60"
+    },
+    "evs": {},
+    "speedStat": "67",
+    "altSpeeds": {}
+  }
+]

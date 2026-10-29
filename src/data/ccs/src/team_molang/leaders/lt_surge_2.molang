@@ -1,0 +1,8 @@
+return q.array(
+    'rotom moves=thunderbolt,blizzard,freezedry,nastyplot nature=timid ability=levitate aspect=frost-appliance',
+    'electrode moves=chloroblast,voltswitch,hiddenpower,explosion nature=naive held_item=cobblemon:life_orb ability=reckless aspect=hisuian',
+    'raichu moves=risingvoltage,psyshock,nastyplot,surf nature=modest held_item=cobblemon:focus_sash ability=surgesurfer aspect=alolan',
+    'hitmonlee moves=knockoff,closecombat,rockslide,bulkup nature=adamant held_item=cobblemon:electric_seed ability=unburden',
+    'pawmot moves=plasmafists,machpunch,icepunch,closecombat nature=jolly held_item=cobblemon:punching_glove ability=ironfist',
+    'ampharos moves=voltswitch,dragonpulse,focusblast,hiddenpower nature=modest ability=moldbreaker aspect=mega'
+);

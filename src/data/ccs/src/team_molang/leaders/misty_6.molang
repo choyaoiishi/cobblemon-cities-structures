@@ -1,0 +1,8 @@
+return q.array(
+    'pikachu moves=thunder,hurricane,electroweb,fakeout nature=timid held_item=cobblemon:light_ball ability=lightningrod',
+    'kyogre moves=earthquake,waterspout,originpulse,thunder nature=hasty ability=primordialsea aspect=primal',
+    'goodra moves=dracobarrage,flashcannon,thunder,muddywater nature=bold held_item=cobblemon:assault_vest ability=gooey aspect=hisuian',
+    'kingdra moves=dracobarrage,hydropump,muddywater,hurricane nature=timid ability=swiftswim',
+    'drednaw moves=jawlock,aquafang,crunch,shellsmash nature=jolly ability=strongjaw aspect=mega',
+    'floatzel moves=surgingstrikes,fakeout,flipturn,pursuit nature=jolly held_item=cobblemon:focus_sash ability=technician'
+);

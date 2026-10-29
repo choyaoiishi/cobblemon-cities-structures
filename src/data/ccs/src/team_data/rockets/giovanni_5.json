@@ -1,0 +1,170 @@
+[
+  {
+    "species": "Tapu Lele",
+    "level": "80",
+    "nature": "Timid",
+    "ability": "Psychic Surge",
+    "item": "Terrain Extender",
+    "moves": [
+      "Moonblast",
+      "Psychic",
+      "Thunderbolt",
+      "Aura Sphere"
+    ],
+    "baseStats": {
+      "HP": "70",
+      "ATK": "85",
+      "DEF": "75",
+      "SPA": "130",
+      "SPD": "115",
+      "SPE": "95"
+    },
+    "evs": {
+      "HP": "4",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "255",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Scrafty",
+    "level": "80",
+    "nature": "Adamant",
+    "ability": "Intimidate",
+    "item": "Psychic Seed",
+    "moves": [
+      "Roar",
+      "Knock Off",
+      "Drain Punch",
+      "Ice Punch"
+    ],
+    "baseStats": {
+      "HP": "65",
+      "ATK": "90",
+      "DEF": "115",
+      "SPA": "45",
+      "SPD": "115",
+      "SPE": "58"
+    },
+    "evs": {
+      "HP": "252",
+      "ATK": "252",
+      "DEF": "4"
+    },
+    "speedStat": "122",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Excadrill",
+    "level": "80",
+    "nature": "Adamant",
+    "ability": "Sand Force",
+    "item": "Focus Sash",
+    "moves": [
+      "High Horsepower",
+      "Iron Head",
+      "Rock Slide",
+      "Swords Dance"
+    ],
+    "baseStats": {
+      "HP": "110",
+      "ATK": "135",
+      "DEF": "60",
+      "SPA": "50",
+      "SPD": "65",
+      "SPE": "88"
+    },
+    "evs": {
+      "HP": "4",
+      "ATK": "252",
+      "SPE": "252"
+    },
+    "speedStat": "221",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Tyranitar",
+    "level": "80",
+    "nature": "Careful",
+    "ability": "Sand Stream",
+    "item": "Assault Vest",
+    "moves": [
+      "High Horsepower",
+      "Knock Off",
+      "Rock Slide",
+      "Fire Punch"
+    ],
+    "baseStats": {
+      "HP": "100",
+      "ATK": "134",
+      "DEF": "110",
+      "SPA": "95",
+      "SPD": "100",
+      "SPE": "61"
+    },
+    "evs": {
+      "HP": "252",
+      "ATK": "4",
+      "SPD": "252"
+    },
+    "speedStat": "127",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Celesteela",
+    "level": "80",
+    "nature": "Modest",
+    "ability": "Beast Boost",
+    "item": "Power Herb",
+    "moves": [
+      "Autotomize",
+      "Meteor Beam",
+      "Flamethrower",
+      "Air Slash"
+    ],
+    "baseStats": {
+      "HP": "97",
+      "ATK": "101",
+      "DEF": "103",
+      "SPA": "107",
+      "SPD": "101",
+      "SPE": "61"
+    },
+    "evs": {
+      "HP": "4",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "177",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Mewtwo-MegaY",
+    "level": "80",
+    "nature": "Timid",
+    "ability": "Insomnia",
+    "item": "",
+    "moves": [
+      "Expanding Force",
+      "Soul Robbery",
+      "Aura Sphere",
+      "Flamethrower"
+    ],
+    "baseStats": {
+      "HP": "106",
+      "ATK": "150",
+      "DEF": "70",
+      "SPA": "194",
+      "SPD": "120",
+      "SPE": "140"
+    },
+    "evs": {
+      "HP": "4",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "334",
+    "altSpeeds": {}
+  }
+]

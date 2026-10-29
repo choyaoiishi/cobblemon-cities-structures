@@ -1,0 +1,172 @@
+[
+  {
+    "species": "Staraptor",
+    "level": "Highest Lv -2",
+    "nature": "Jolly",
+    "ability": "Intimidate",
+    "item": "Sharp Beak",
+    "moves": [
+      "U-Turn",
+      "Brave Bird",
+      "Quick Attack",
+      "Close Combat"
+    ],
+    "baseStats": {
+      "HP": "85",
+      "ATK": "120",
+      "DEF": "70",
+      "SPA": "50",
+      "SPD": "60",
+      "SPE": "100"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "264",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Kingambit",
+    "level": "Highest Lv -4",
+    "nature": "Adamant",
+    "ability": "Supreme Overlord",
+    "item": "Chople Berry",
+    "moves": [
+      "Iron Head",
+      "Swords Dance",
+      "Knock Off",
+      "Sucker Punch"
+    ],
+    "baseStats": {
+      "HP": "100",
+      "ATK": "135",
+      "DEF": "120",
+      "SPA": "60",
+      "SPD": "85",
+      "SPE": "50"
+    },
+    "evs": {
+      "HP": "252",
+      "ATK": "252",
+      "SPD": "4"
+    },
+    "speedStat": "107",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Sandy Shocks",
+    "level": "Highest Lv -2",
+    "nature": "Timid",
+    "ability": "Protosynthesis",
+    "item": "",
+    "moves": [
+      "Volt Switch",
+      "Earth Power",
+      "Thunderbolt",
+      "Hidden Power"
+    ],
+    "baseStats": {
+      "HP": "85",
+      "ATK": "81",
+      "DEF": "97",
+      "SPA": "121",
+      "SPD": "85",
+      "SPE": "101"
+    },
+    "evs": {
+      "SPA": "252",
+      "SPD": "4",
+      "SPE": "252"
+    },
+    "speedStat": "265",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Azumarill",
+    "level": "Highest Lv -3",
+    "nature": "Adamant",
+    "ability": "Huge Power",
+    "item": "Mystic Water",
+    "moves": [
+      "Aqua Jet",
+      "Superpower",
+      "Play Rough",
+      "Liquidation"
+    ],
+    "baseStats": {
+      "HP": "100",
+      "ATK": "50",
+      "DEF": "80",
+      "SPA": "60",
+      "SPD": "80",
+      "SPE": "50"
+    },
+    "evs": {
+      "HP": "252",
+      "ATK": "252",
+      "DEF": "4"
+    },
+    "speedStat": "108",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Sneasler",
+    "level": "Highest Lv -2",
+    "nature": "Jolly",
+    "ability": "Unburden",
+    "item": "Focus Sash",
+    "moves": [
+      "Close Combat",
+      "U-Turn",
+      "Dire Claw",
+      "Fire Punch"
+    ],
+    "baseStats": {
+      "HP": "80",
+      "ATK": "130",
+      "DEF": "60",
+      "SPA": "40",
+      "SPD": "80",
+      "SPE": "120"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "299",
+    "altSpeeds": {
+      "Unburden": "598"
+    }
+  },
+  {
+    "species": "Charizard-MegaX",
+    "level": "Highest Lv -2",
+    "nature": "Jolly",
+    "ability": "Tough Claws",
+    "item": "",
+    "moves": [
+      "Dragon Dance",
+      "Earthquake",
+      "Flare Blitz",
+      "Dragon Claw"
+    ],
+    "baseStats": {
+      "HP": "78",
+      "ATK": "130",
+      "DEF": "111",
+      "SPA": "130",
+      "SPD": "85",
+      "SPE": "100"
+    },
+    "evs": {
+      "ATK": "252",
+      "SPD": "4",
+      "SPE": "252"
+    },
+    "speedStat": "264",
+    "altSpeeds": {}
+  }
+]

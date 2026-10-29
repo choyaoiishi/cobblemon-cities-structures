@@ -1,0 +1,8 @@
+return q.array(
+    'greattusk moves=stealthrock,closecombat,headlongrush,knockoff nature=jolly ability=protosynthesis',
+    'omastar moves=shellsmash,meteorbeam,surf,icebeam nature=timid held_item=cobblemon:power_herb ability=weakarmor',
+    'ursaluna moves=earthpower,bloodmoon,vacuumwave,hypervoice nature=modest held_item=cobblemon:leftovers ability=scrappy aspect=bloodmoon',
+    'tyranitar moves=dragondance,stoneedge,firepunch,knockoff nature=jolly held_item=cobblemon:weakness_policy ability=sandstream',
+    'arcanine moves=flareblitz,headsmash,wildcharge,extremespeed nature=jolly held_item=cobblemon:focus_sash ability=rockhead aspect=hisuian',
+    'aerodactyl moves=dragondance,stoneedge,earthquake,dualwingbeat nature=jolly ability=toughclaws aspect=mega'
+);

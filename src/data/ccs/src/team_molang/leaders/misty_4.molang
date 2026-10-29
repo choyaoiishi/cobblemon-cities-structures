@@ -1,0 +1,8 @@
+return q.array(
+    'ironbundle moves=hydropump,freezedry,flipturn,icebeam nature=timid held_item=cobblemon:focus_sash ability=quarkdrive',
+    'palafin moves=jetpunch,waterfall,drainpunch,bulkup nature=jolly held_item=cobblemon:mystic_water ability=moldbreaker aspect=hero-form',
+    'kingdra moves=hydropump,dracobarrage,hurricane,flipturn nature=modest held_item=cobblemon:life_orb ability=swiftswim',
+    'archaludon moves=bodypress,electroshot,dragonpulse,flashcannon nature=calm held_item=cobblemon:assault_vest ability=stamina',
+    'thundurus moves=nastyplot,thunder,weatherball,focusblast nature=timid ability=voltabsorb aspect=therian-forme',
+    'gyarados moves=dragondance,waterfall,crunch,earthquake nature=jolly ability=moldbreaker aspect=mega'
+);

@@ -1,0 +1,7 @@
+return q.array(
+    'glimmet moves=ancientpower,venoshock,mudshot,protect nature=bashful held_item=cobblemon:shuca_berry ability=toxicdebris',
+    'seviper moves=megadrain,poisonfang,bulldoze,hypnosis nature=bashful held_item=cobblemon:shuca_berry ability=fatalprecision',
+    'houndour moves=nastyplot,incinerate,snarl,hiddenpower nature=timid held_item=cobblemon:focus_sash ability=flashfire',
+    'mightyena moves=bite,icefang,poisonfang,howl nature=bashful held_item=cobblemon:berry_juice ability=strongjaw',
+    'fearow moves=pursuit,pluck,drillrun,doublehit nature=bashful held_item=cobblemon:muscle_band ability=technician'
+);

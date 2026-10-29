@@ -1,0 +1,173 @@
+[
+  {
+    "species": "Palafin",
+    "level": "Highest Lv -2",
+    "nature": "Jolly",
+    "ability": "Zero To Hero",
+    "item": "Mystic Water",
+    "moves": [
+      "Flip Turn",
+      "Wave Crash",
+      "Jet Punch",
+      "Drain Punch"
+    ],
+    "baseStats": {
+      "HP": "100",
+      "ATK": "160",
+      "DEF": "97",
+      "SPA": "106",
+      "SPD": "87",
+      "SPE": "100"
+    },
+    "evs": {
+      "ATK": "252",
+      "SPD": "4",
+      "SPE": "252"
+    },
+    "speedStat": "218",
+    "altSpeeds": {},
+    "aspect": "hero-form"
+  },
+  {
+    "species": "Kingdra",
+    "level": "Highest Lv -2",
+    "nature": "Jolly",
+    "ability": "Swift Swim",
+    "item": "Scope Lens",
+    "moves": [
+      "Snipe Shot",
+      "Dragon Pulse",
+      "Hurricane",
+      "Ice Beam"
+    ],
+    "baseStats": {
+      "HP": "75",
+      "ATK": "95",
+      "DEF": "95",
+      "SPA": "95",
+      "SPD": "95",
+      "SPE": "85"
+    },
+    "evs": {
+      "SPA": "252",
+      "SPD": "4",
+      "SPE": "252"
+    },
+    "speedStat": "196",
+    "altSpeeds": {
+      "Swift Swim": "392"
+    }
+  },
+  {
+    "species": "Archaludon",
+    "level": "Highest Lv -2",
+    "nature": "Modest",
+    "ability": "Sturdy",
+    "item": "Leftovers",
+    "moves": [
+      "Electro Shot",
+      "Flash Cannon",
+      "Dragon Pulse",
+      "Body Press"
+    ],
+    "baseStats": {
+      "HP": "90",
+      "ATK": "105",
+      "DEF": "130",
+      "SPA": "125",
+      "SPD": "65",
+      "SPE": "85"
+    },
+    "evs": {
+      "HP": "252",
+      "DEF": "4",
+      "SPA": "252"
+    },
+    "speedStat": "137",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Gyarados-Mega",
+    "level": "Highest Lv -2",
+    "nature": "Jolly",
+    "ability": "Mold Breaker",
+    "item": "",
+    "moves": [
+      "Dragon Dance",
+      "Waterfall",
+      "Crunch",
+      "Earthquake"
+    ],
+    "baseStats": {
+      "HP": "95",
+      "ATK": "155",
+      "DEF": "109",
+      "SPA": "70",
+      "SPD": "130",
+      "SPE": "81"
+    },
+    "evs": {
+      "ATK": "252",
+      "SPD": "4",
+      "SPE": "252"
+    },
+    "speedStat": "190",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Ferrothorn",
+    "level": "Highest Lv -2",
+    "nature": "Relaxed",
+    "ability": "Iron Barbs",
+    "item": "Rocky Helmet",
+    "moves": [
+      "Leech Seed",
+      "Gyro Ball",
+      "Power Whip",
+      "Thunder Wave"
+    ],
+    "baseStats": {
+      "HP": "74",
+      "ATK": "94",
+      "DEF": "131",
+      "SPA": "54",
+      "SPD": "116",
+      "SPE": "20"
+    },
+    "evs": {
+      "HP": "252",
+      "DEF": "252",
+      "SPD": "4"
+    },
+    "speedStat": "27",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Gorebyss",
+    "level": "Highest Lv -2",
+    "nature": "Timid",
+    "ability": "Dazzling",
+    "item": "Focus Sash",
+    "moves": [
+      "Shell Smash",
+      "Surf",
+      "Ice Beam",
+      "Moonblast"
+    ],
+    "baseStats": {
+      "HP": "55",
+      "ATK": "84",
+      "DEF": "105",
+      "SPA": "104",
+      "SPD": "75",
+      "SPE": "52"
+    },
+    "evs": {
+      "SPA": "252",
+      "SPD": "4",
+      "SPE": "252"
+    },
+    "speedStat": "148",
+    "altSpeeds": {}
+  }
+]

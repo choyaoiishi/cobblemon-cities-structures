@@ -1,0 +1,146 @@
+[
+  {
+    "species": "Iron Hands",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Quark Drive",
+    "item": "Assault Vest",
+    "moves": [
+      "Drain Punch",
+      "Plasma Fists",
+      "Knock Off",
+      "Ice Punch"
+    ],
+    "baseStats": {
+      "HP": "154",
+      "ATK": "140",
+      "DEF": "108",
+      "SPA": "50",
+      "SPD": "68",
+      "SPE": "50"
+    },
+    "evs": {},
+    "speedStat": "123",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Kingambit",
+    "level": "Highest Lv",
+    "nature": "Adamant",
+    "ability": "Supreme Overlord",
+    "item": "Chople Berry",
+    "moves": [
+      "Swords Dance",
+      "Iron Head",
+      "Knock Off",
+      "Brick Break"
+    ],
+    "baseStats": {
+      "HP": "100",
+      "ATK": "135",
+      "DEF": "120",
+      "SPA": "60",
+      "SPD": "85",
+      "SPE": "50"
+    },
+    "evs": {},
+    "speedStat": "112",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Primarina",
+    "level": "Highest Lv",
+    "nature": "Modest",
+    "ability": "Liquid Voice",
+    "item": "Leftovers",
+    "moves": [
+      "Calm Mind",
+      "Draining Kiss",
+      "Hyper Voice",
+      "Ice Beam"
+    ],
+    "baseStats": {
+      "HP": "80",
+      "ATK": "74",
+      "DEF": "74",
+      "SPA": "126",
+      "SPD": "116",
+      "SPE": "60"
+    },
+    "evs": {},
+    "speedStat": "128",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Chandelure",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Shadow Tag",
+    "item": "Life Orb",
+    "moves": [
+      "Flamethrower",
+      "Shadow Ball",
+      "Energy Ball",
+      "Calm Mind"
+    ],
+    "baseStats": {
+      "HP": "60",
+      "ATK": "55",
+      "DEF": "90",
+      "SPA": "145",
+      "SPD": "90",
+      "SPE": "80"
+    },
+    "evs": {},
+    "speedStat": "177",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Hydreigon",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Levitate",
+    "item": "",
+    "moves": [
+      "Nasty Plot",
+      "Dark Pulse",
+      "Flash Cannon",
+      "Flamethrower"
+    ],
+    "baseStats": {
+      "HP": "92",
+      "ATK": "105",
+      "DEF": "90",
+      "SPA": "125",
+      "SPD": "90",
+      "SPE": "98"
+    },
+    "evs": {},
+    "speedStat": "210",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Venusaur-Mega",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Thick Fat",
+    "item": "",
+    "moves": [
+      "Chloroblast",
+      "Sludge Bomb",
+      "Earth Power",
+      "Sleep Powder"
+    ],
+    "baseStats": {
+      "HP": "80",
+      "ATK": "100",
+      "DEF": "123",
+      "SPA": "122",
+      "SPD": "120",
+      "SPE": "80"
+    },
+    "evs": {},
+    "speedStat": "177",
+    "altSpeeds": {}
+  }
+]

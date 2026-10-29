@@ -1,0 +1,8 @@
+return q.array(
+    'aerodactyl moves=stealthrock,stoneedge,earthquake,taunt nature=jolly held_item=cobblemon:focus_sash ability=unnerve',
+    'roaringmoon moves=dragondance,crunch,earthquake,ironhead nature=jolly ability=protosynthesis',
+    'dragonite moves=extremespeed,dragondance,firepunch,dualwingbeat nature=adamant held_item=cobblemon:weakness_policy ability=multiscale',
+    'magearna moves=shiftgear,fleurcannon,flashcannon,aurasphere nature=modest held_item=cobblemon:leftovers ability=soulheart',
+    'gougingfire moves=dragondance,flareblitz,earthquake,dragonclaw nature=jolly ability=protosynthesis',
+    'naganadel moves=flamethrower,nastyplot,sludgewave,dracometeor nature=timid held_item=cobblemon:life_orb ability=beastboost'
+);

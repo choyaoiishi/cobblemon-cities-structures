@@ -1,0 +1,148 @@
+[
+  {
+    "species": "Aggron",
+    "level": "73",
+    "nature": "Adamant",
+    "ability": "Sturdy",
+    "item": "Custap Berry",
+    "moves": [
+      "Stone Edge",
+      "Heavy Slam",
+      "Heat Crash",
+      "Endeavor"
+    ],
+    "baseStats": {
+      "HP": "70",
+      "ATK": "110",
+      "DEF": "180",
+      "SPA": "60",
+      "SPD": "60",
+      "SPE": "50"
+    },
+    "evs": {},
+    "speedStat": "100",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Jumpluff",
+    "level": "73",
+    "nature": "Jolly",
+    "ability": "Aerilate",
+    "item": "Flying Gem",
+    "moves": [
+      "Double-Edge",
+      "U-Turn",
+      "Spore",
+      "Synthesis"
+    ],
+    "baseStats": {
+      "HP": "75",
+      "ATK": "85",
+      "DEF": "70",
+      "SPA": "35",
+      "SPD": "95",
+      "SPE": "110"
+    },
+    "evs": {},
+    "speedStat": "206",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Regieleki",
+    "level": "73",
+    "nature": "Naive",
+    "ability": "Transistor",
+    "item": "Life Orb",
+    "moves": [
+      "Thunderbolt",
+      "Electro Ball",
+      "Volt Switch",
+      "Explosion"
+    ],
+    "baseStats": {
+      "HP": "80",
+      "ATK": "100",
+      "DEF": "50",
+      "SPA": "100",
+      "SPD": "50",
+      "SPE": "200"
+    },
+    "evs": {},
+    "speedStat": "350",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Slowbro",
+    "level": "73",
+    "nature": "Bold",
+    "ability": "Regenerator",
+    "item": "Leftovers",
+    "moves": [
+      "Scald",
+      "Body Press",
+      "Teleport",
+      "Slack Off"
+    ],
+    "baseStats": {
+      "HP": "95",
+      "ATK": "75",
+      "DEF": "110",
+      "SPA": "100",
+      "SPD": "80",
+      "SPE": "30"
+    },
+    "evs": {},
+    "speedStat": "71",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Snorlax",
+    "level": "73",
+    "nature": "Careful",
+    "ability": "Thick Fat",
+    "item": "Leftovers",
+    "moves": [
+      "Body Slam",
+      "Darkest Lariat",
+      "Curse",
+      "Rest"
+    ],
+    "baseStats": {
+      "HP": "160",
+      "ATK": "110",
+      "DEF": "65",
+      "SPA": "65",
+      "SPD": "110",
+      "SPE": "30"
+    },
+    "evs": {},
+    "speedStat": "71",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Blaziken-Mega",
+    "level": "73",
+    "nature": "Jolly",
+    "ability": "Speed Boost",
+    "item": "",
+    "moves": [
+      "Swords Dance",
+      "Flare Blitz",
+      "Close Combat",
+      "Thunder Punch"
+    ],
+    "baseStats": {
+      "HP": "80",
+      "ATK": "160",
+      "DEF": "80",
+      "SPA": "130",
+      "SPD": "80",
+      "SPE": "100"
+    },
+    "evs": {},
+    "speedStat": "190",
+    "altSpeeds": {
+      "1 S. Boost": "285"
+    }
+  }
+]

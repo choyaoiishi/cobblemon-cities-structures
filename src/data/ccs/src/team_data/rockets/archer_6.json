@@ -1,0 +1,147 @@
+[
+  {
+    "species": "Aerodactyl",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Rock Head",
+    "item": "Sharp Beak",
+    "moves": [
+      "Brave Bird",
+      "Stone Edge",
+      "Headlong Rush",
+      "Fire Fang"
+    ],
+    "baseStats": {
+      "HP": "80",
+      "ATK": "105",
+      "DEF": "65",
+      "SPA": "60",
+      "SPD": "75",
+      "SPE": "130"
+    },
+    "evs": {},
+    "speedStat": "325",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Heliolisk",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Solar Power",
+    "item": "Focus Sash",
+    "moves": [
+      "Boomburst",
+      "Thunderbolt",
+      "Grass Knot",
+      "Weather Ball"
+    ],
+    "baseStats": {
+      "HP": "62",
+      "ATK": "55",
+      "DEF": "52",
+      "SPA": "109",
+      "SPD": "94",
+      "SPE": "109"
+    },
+    "evs": {},
+    "speedStat": "279",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Zygarde",
+    "level": "Highest Lv",
+    "nature": "Impish",
+    "ability": "Power Construct",
+    "item": "",
+    "moves": [
+      "Thousand Arrows",
+      "Extreme Speed",
+      "Glare",
+      "Dragon Dance"
+    ],
+    "baseStats": {
+      "HP": "216",
+      "ATK": "100",
+      "DEF": "121",
+      "SPA": "91",
+      "SPD": "95",
+      "SPE": "85"
+    },
+    "evs": {},
+    "speedStat": "206",
+    "altSpeeds": {},
+    "aspect": "complete-percent"
+  },
+  {
+    "species": "Heatran",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Flash Fire",
+    "item": "Air Balloon",
+    "moves": [
+      "Protect",
+      "Flamethrower",
+      "Flash Cannon",
+      "Earth Power"
+    ],
+    "baseStats": {
+      "HP": "91",
+      "ATK": "90",
+      "DEF": "106",
+      "SPA": "130",
+      "SPD": "106",
+      "SPE": "77"
+    },
+    "evs": {},
+    "speedStat": "209",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Salamence-Mega",
+    "level": "Highest Lv",
+    "nature": "Naive",
+    "ability": "Aerilate",
+    "item": "",
+    "moves": [
+      "Double-Edge",
+      "Flamethrower",
+      "Roost",
+      "Protect"
+    ],
+    "baseStats": {
+      "HP": "95",
+      "ATK": "145",
+      "DEF": "130",
+      "SPA": "120",
+      "SPD": "90",
+      "SPE": "120"
+    },
+    "evs": {},
+    "speedStat": "303",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Houndoom-Mega",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Solar Power",
+    "item": "",
+    "moves": [
+      "Dark Hole",
+      "Fire Blast",
+      "Sludge Bomb",
+      "Solar Beam"
+    ],
+    "baseStats": {
+      "HP": "75",
+      "ATK": "110",
+      "DEF": "90",
+      "SPA": "140",
+      "SPD": "90",
+      "SPE": "115"
+    },
+    "evs": {},
+    "speedStat": "292",
+    "altSpeeds": {}
+  }
+]

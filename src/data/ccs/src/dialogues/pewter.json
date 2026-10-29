@@ -67,11 +67,12 @@
             "Are you the twerp messing with my grunts?"
         ],
         "battle": [
-            "rocket_admin_archer_002e",
-            "Little kid, you think you\\'re brave, eh? I'll teach you a valuable lesson.",
-            "Whatever, we've done everything we needed. I won\\'t be as nice to you next time.",
-            "I\\'ll be seeing you.",
-            "rocket_admin_archer_1"
+            "rocket_archer",
+            "Little kid, you think you're brave, eh? I'll teach you a valuable lesson.",
+            "Whatever, we've done everything we needed. I won't be as nice to you next time.",
+            "I'll be seeing you.",
+            "20",
+            "ccs:kanto/pewter/archer"
         ]
     },
     "grunt_1": {
@@ -79,10 +80,11 @@
             "Huh?"
         ],
         "battle": [
-            "team_rocket_grunt_0160",
+            "grunt",
             "We're pulling a big job here! Get lost, kid!",
             "Urgh! Now I'm mad!",
-            "If you find a fossil, give it to me and scram!"
+            "If you find a fossil, give it to me and scram!",
+            "20"
         ]
     },
     "brock": {
@@ -91,17 +93,18 @@
             "That's why my Pokémon are all the rock-type!"
         ],
         "battle": [
-            "leader_brock_019e",
+            "leader_brock",
             "Do you still want to challenge me? Fine then! Show me your best!",
             "I took you for granted. As proof of your victory, here's the Boulder Badge! That's an official Pokémon League Badge!",
             "There are all kinds of trainers in the world! You appear to be very gifted as a Pokémon trainer! Go to the Gym in Cerulean and test your abilities!",
-            "leader_brock"
+            "15",
+            "ccs:kanto/pewter/brock"
         ],
         "reward":[
             "tm",
             "rocktomb",
             "Wait! Take this with you!",
-            "A TM, Technical Machine, contains a technique for Pokémon. Using a TM teaches the move it contains to a Pokémon. Anyways TM39 contains Rock Tomb. It hurls boulders at the foe and lowers its Speed."
+            "TM39 contains Rock Tomb. It hurls boulders at the foe and lowers its Speed."
         ]
     }
 }

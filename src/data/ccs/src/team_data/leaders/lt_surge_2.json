@@ -1,0 +1,151 @@
+[
+  {
+    "species": "Rotom",
+    "level": "35",
+    "nature": "Timid",
+    "ability": "Levitate",
+    "item": "",
+    "moves": [
+      "Thunderbolt",
+      "Blizzard",
+      "Freeze-Dry",
+      "Nasty Plot"
+    ],
+    "baseStats": {
+      "HP": "50",
+      "ATK": "65",
+      "DEF": "107",
+      "SPA": "105",
+      "SPD": "107",
+      "SPE": "86"
+    },
+    "evs": {},
+    "speedStat": "83",
+    "altSpeeds": {},
+    "aspect": "frost-appliance"
+  },
+  {
+    "species": "Electrode-Hisui",
+    "level": "36",
+    "nature": "Naive",
+    "ability": "Reckless",
+    "item": "Life Orb",
+    "moves": [
+      "Chloroblast",
+      "Volt Switch",
+      "Hidden Power",
+      "Explosion"
+    ],
+    "baseStats": {
+      "HP": "60",
+      "ATK": "55",
+      "DEF": "70",
+      "SPA": "95",
+      "SPD": "80",
+      "SPE": "150"
+    },
+    "evs": {},
+    "speedStat": "136",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Raichu-Alola",
+    "level": "36",
+    "nature": "Modest",
+    "ability": "Surge Surfer",
+    "item": "Focus Sash",
+    "moves": [
+      "Rising Voltage",
+      "Psyshock",
+      "Nasty Plot",
+      "Surf"
+    ],
+    "baseStats": {
+      "HP": "60",
+      "ATK": "85",
+      "DEF": "50",
+      "SPA": "95",
+      "SPD": "85",
+      "SPE": "110"
+    },
+    "evs": {},
+    "speedStat": "95",
+    "altSpeeds": {
+      "Surge Surf": "190"
+    }
+  },
+  {
+    "species": "Hitmonlee",
+    "level": "36",
+    "nature": "Adamant",
+    "ability": "Unburden",
+    "item": "Electric Seed",
+    "moves": [
+      "Knock Off",
+      "Close Combat",
+      "Rock Slide",
+      "Bulk Up"
+    ],
+    "baseStats": {
+      "HP": "50",
+      "ATK": "120",
+      "DEF": "53",
+      "SPA": "35",
+      "SPD": "110",
+      "SPE": "87"
+    },
+    "evs": {},
+    "speedStat": "78",
+    "altSpeeds": {
+      "Unburden": "156"
+    }
+  },
+  {
+    "species": "Pawmot",
+    "level": "36",
+    "nature": "Jolly",
+    "ability": "Iron Fist",
+    "item": "Punching Glove",
+    "moves": [
+      "Plasma Fists",
+      "Mach Punch",
+      "Ice Punch",
+      "Close Combat"
+    ],
+    "baseStats": {
+      "HP": "70",
+      "ATK": "115",
+      "DEF": "70",
+      "SPA": "70",
+      "SPD": "60",
+      "SPE": "105"
+    },
+    "evs": {},
+    "speedStat": "100",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Ampharos-Mega",
+    "level": "36",
+    "nature": "Modest",
+    "ability": "Mold Breaker",
+    "item": "",
+    "moves": [
+      "Volt Switch",
+      "Dragon Pulse",
+      "Focus Blast",
+      "Hidden Power"
+    ],
+    "baseStats": {
+      "HP": "90",
+      "ATK": "95",
+      "DEF": "105",
+      "SPA": "165",
+      "SPD": "110",
+      "SPE": "45"
+    },
+    "evs": {},
+    "speedStat": "48",
+    "altSpeeds": {}
+  }
+]

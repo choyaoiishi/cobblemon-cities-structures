@@ -1,0 +1,8 @@
+return q.array(
+    'hippopotas moves=bulldoze,rocktomb,toxic,slackoff nature=careful held_item=cobblemon:berry_juice ability=sandstream',
+    'cacnea moves=poweruppunch,bulletseed,thunderpunch,pinmissile nature=bashful held_item=cobblemon:eviolite ability=sandrush',
+    'lunatone moves=ancientpower,psybeam,hiddenpower,icywind nature=bashful held_item=cobblemon:lum_berry ability=levitate',
+    'lileep moves=stockpile,recover,hiddenpower,megadrain nature=bold held_item=cobblemon:oran_berry ability=stormdrain',
+    'archen moves=wingattack,rocktomb,bulldoze,facade nature=bashful held_item=cobblemon:iapapa_berry ability=defeatist',
+    'varoom moves=bulldoze,gyroball,toxic,protect nature=careful held_item=cobblemon:air_balloon ability=filter'
+);

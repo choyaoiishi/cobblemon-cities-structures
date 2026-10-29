@@ -1,0 +1,8 @@
+return q.array(
+    'aerodactyl moves=bravebird,stoneedge,earthquake,firefang nature=jolly held_item=cobblemon:sharp_beak ability=rockhead',
+    'heliolisk moves=hypervoice,thunderbolt,grassknot,voltswitch nature=timid held_item=cobblemon:focus_sash ability=solarpower',
+    'latias moves=thunderbolt,icebeam,calmmind,psyshock nature=timid ability=levitate aspect=mega',
+    'houndoom moves=fierywrath,flamethrower,sludgebomb,solarbeam nature=timid ability=solarpower aspect=mega',
+    'mismagius moves=shadowball,moonblast,mysticalfire,thunderbolt nature=timid ability=levitate',
+    'heatran moves=protect,flamethrower,flashcannon,earthquake nature=timid held_item=cobblemon:air_balloon ability=flashfire'
+);

@@ -1,0 +1,148 @@
+[
+  {
+    "species": "Lopunny-Mega",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Scrappy",
+    "item": "",
+    "moves": [
+      "Fake Out",
+      "Double-Edge",
+      "Close Combat",
+      "U-Turn"
+    ],
+    "baseStats": {
+      "HP": "65",
+      "ATK": "136",
+      "DEF": "94",
+      "SPA": "54",
+      "SPD": "96",
+      "SPE": "135"
+    },
+    "evs": {},
+    "speedStat": "336",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Greninja",
+    "level": "Highest Lv",
+    "nature": "Naive",
+    "ability": "Protean",
+    "item": "",
+    "moves": [
+      "Hydro Pump",
+      "Ice Beam",
+      "Gunk Shot",
+      "U-Turn"
+    ],
+    "baseStats": {
+      "HP": "72",
+      "ATK": "95",
+      "DEF": "67",
+      "SPA": "103",
+      "SPD": "71",
+      "SPE": "122"
+    },
+    "evs": {},
+    "speedStat": "308",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Dragonite",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Multiscale",
+    "item": "Lum Berry",
+    "moves": [
+      "Dragon Dance",
+      "Dual Wingbeat",
+      "Earthquake",
+      "Fire Punch"
+    ],
+    "baseStats": {
+      "HP": "91",
+      "ATK": "134",
+      "DEF": "95",
+      "SPA": "100",
+      "SPD": "100",
+      "SPE": "80"
+    },
+    "evs": {},
+    "speedStat": "215",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Delphox",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Magic Guard",
+    "item": "Life Orb",
+    "moves": [
+      "Mind Blown",
+      "Psyshock",
+      "Grass Knot",
+      "Dazzling Gleam"
+    ],
+    "baseStats": {
+      "HP": "75",
+      "ATK": "69",
+      "DEF": "72",
+      "SPA": "114",
+      "SPD": "100",
+      "SPE": "104"
+    },
+    "evs": {},
+    "speedStat": "268",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Xerneas",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Fairy Aura",
+    "item": "Power Herb",
+    "moves": [
+      "Geomancy",
+      "Moonblast",
+      "Thunderbolt",
+      "Draining Kiss"
+    ],
+    "baseStats": {
+      "HP": "126",
+      "ATK": "131",
+      "DEF": "95",
+      "SPA": "131",
+      "SPD": "98",
+      "SPE": "99"
+    },
+    "evs": {},
+    "speedStat": "257",
+    "altSpeeds": {
+      "Geomancy": "514"
+    }
+  },
+  {
+    "species": "Mawile-Mega",
+    "level": "Highest Lv",
+    "nature": "Adamant",
+    "ability": "Huge Power",
+    "item": "",
+    "moves": [
+      "Iron Head",
+      "Play Rough",
+      "Knock Off",
+      "Thunder Punch"
+    ],
+    "baseStats": {
+      "HP": "50",
+      "ATK": "105",
+      "DEF": "125",
+      "SPA": "55",
+      "SPD": "95",
+      "SPE": "50"
+    },
+    "evs": {},
+    "speedStat": "136",
+    "altSpeeds": {}
+  }
+]

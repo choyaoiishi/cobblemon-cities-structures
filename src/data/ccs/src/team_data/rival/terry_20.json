@@ -1,0 +1,148 @@
+[
+  {
+    "species": "Zapdos",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Static",
+    "item": "",
+    "moves": [
+      "Hurricane",
+      "Thunder",
+      "Weather Ball",
+      "Roost"
+    ],
+    "baseStats": {
+      "HP": "90",
+      "ATK": "90",
+      "DEF": "85",
+      "SPA": "125",
+      "SPD": "90",
+      "SPE": "100"
+    },
+    "evs": {},
+    "speedStat": "213",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Ferrothorn",
+    "level": "Highest Lv",
+    "nature": "Relaxed",
+    "ability": "Iron Barbs",
+    "item": "Rocky Helmet",
+    "moves": [
+      "Leech Seed",
+      "Power Whip",
+      "Gyro Ball",
+      "Thunder"
+    ],
+    "baseStats": {
+      "HP": "74",
+      "ATK": "94",
+      "DEF": "131",
+      "SPA": "54",
+      "SPD": "116",
+      "SPE": "20"
+    },
+    "evs": {},
+    "speedStat": "33",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Celesteela",
+    "level": "Highest Lv",
+    "nature": "Naive",
+    "ability": "Beast Boost",
+    "item": "Weakness Policy",
+    "moves": [
+      "Autotomize",
+      "Iron Head",
+      "Air Slash",
+      "Giga Drain"
+    ],
+    "baseStats": {
+      "HP": "97",
+      "ATK": "101",
+      "DEF": "103",
+      "SPA": "107",
+      "SPD": "101",
+      "SPE": "61"
+    },
+    "evs": {},
+    "speedStat": "143",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Basculegion",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Swift Swim",
+    "item": "Mystic Water",
+    "moves": [
+      "Wave Crash",
+      "Last Respects",
+      "Flip Turn",
+      "Zen Headbutt"
+    ],
+    "baseStats": {
+      "HP": "120",
+      "ATK": "112",
+      "DEF": "65",
+      "SPA": "80",
+      "SPD": "75",
+      "SPE": "78"
+    },
+    "evs": {},
+    "speedStat": "173",
+    "altSpeeds": {
+      "Swift Swim": "346"
+    }
+  },
+  {
+    "species": "Goodra",
+    "level": "Highest Lv",
+    "nature": "Modest",
+    "ability": "Hydration",
+    "item": "Leftovers",
+    "moves": [
+      "Thunder",
+      "Hydro Pump",
+      "Ice Beam",
+      "Rest"
+    ],
+    "baseStats": {
+      "HP": "90",
+      "ATK": "100",
+      "DEF": "70",
+      "SPA": "110",
+      "SPD": "150",
+      "SPE": "80"
+    },
+    "evs": {},
+    "speedStat": "161",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Blastoise-Mega",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Mega Launcher",
+    "item": "",
+    "moves": [
+      "Shell Smash",
+      "Dark Pulse",
+      "Hydro Pump",
+      "Ice Beam"
+    ],
+    "baseStats": {
+      "HP": "79",
+      "ATK": "103",
+      "DEF": "120",
+      "SPA": "135",
+      "SPD": "115",
+      "SPE": "78"
+    },
+    "evs": {},
+    "speedStat": "173",
+    "altSpeeds": {}
+  }
+]

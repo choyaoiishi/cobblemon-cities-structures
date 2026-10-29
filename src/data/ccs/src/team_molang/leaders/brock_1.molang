@@ -1,0 +1,6 @@
+return q.array(
+    'geodude moves=bulldoze,rocktomb,spark,selfdestruct nature=adamant held_item=cobblemon:custap_berry ability=sturdy aspect=alolan',
+    'varoom moves=gyroball,bulldoze,toxic,protect nature=brave held_item=cobblemon:air_balloon ability=filter',
+    'onix moves=rocktomb,bulldoze,sleeptalk nature=bashful held_item=cobblemon:berry_juice ability=sturdy',
+    'archen moves=pluck,rocktomb,bulldoze,facade nature=jolly held_item=cobblemon:berry_juice ability=defeatist'
+);

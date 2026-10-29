@@ -1,0 +1,170 @@
+[
+  {
+    "species": "Incineroar",
+    "level": "54",
+    "nature": "Adamant",
+    "ability": "Intimidate",
+    "item": "Sitrus Berry",
+    "moves": [
+      "Fake Out",
+      "Parting Shot",
+      "Darkest Lariat",
+      "Fire Punch"
+    ],
+    "baseStats": {
+      "HP": "95",
+      "ATK": "115",
+      "DEF": "90",
+      "SPA": "80",
+      "SPD": "90",
+      "SPE": "60"
+    },
+    "evs": {
+      "HP": "252",
+      "ATK": "252",
+      "SPE": "6"
+    },
+    "speedStat": "87",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Primarina",
+    "level": "55",
+    "nature": "Modest",
+    "ability": "Liquid Voice",
+    "item": "Throat Spray",
+    "moves": [
+      "Hyper Voice",
+      "Scald",
+      "Psychic",
+      "Dazzling Gleam"
+    ],
+    "baseStats": {
+      "HP": "80",
+      "ATK": "74",
+      "DEF": "74",
+      "SPA": "126",
+      "SPD": "116",
+      "SPE": "60"
+    },
+    "evs": {
+      "HP": "6",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "122",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Mawile-Mega",
+    "level": "55",
+    "nature": "Adamant",
+    "ability": "Huge Power",
+    "item": "",
+    "moves": [
+      "Play Rough",
+      "Sucker Punch",
+      "Iron Head",
+      "Thunder Punch"
+    ],
+    "baseStats": {
+      "HP": "50",
+      "ATK": "105",
+      "DEF": "125",
+      "SPA": "55",
+      "SPD": "95",
+      "SPE": "50"
+    },
+    "evs": {
+      "HP": "252",
+      "ATK": "252",
+      "SPE": "6"
+    },
+    "speedStat": "77",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Gothitelle",
+    "level": "54",
+    "nature": "Modest",
+    "ability": "Competitive",
+    "item": "Colbur Berry",
+    "moves": [
+      "Psychic",
+      "Shadow Ball",
+      "Hidden Power",
+      "Thunder Wave"
+    ],
+    "baseStats": {
+      "HP": "70",
+      "ATK": "55",
+      "DEF": "95",
+      "SPA": "95",
+      "SPD": "110",
+      "SPE": "65"
+    },
+    "evs": {
+      "HP": "252",
+      "DEF": "4",
+      "SPA": "252"
+    },
+    "speedStat": "91",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Gholdengo",
+    "level": "55",
+    "nature": "Timid",
+    "ability": "Good As Gold",
+    "item": "Sitrus Berry",
+    "moves": [
+      "Shadow Ball",
+      "Make It Rain",
+      "Focus Blast",
+      "Recover"
+    ],
+    "baseStats": {
+      "HP": "87",
+      "ATK": "60",
+      "DEF": "95",
+      "SPA": "133",
+      "SPD": "91",
+      "SPE": "84"
+    },
+    "evs": {
+      "DEF": "4",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "163",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Houndoom-Mega",
+    "level": "55",
+    "nature": "Naive",
+    "ability": "Dark Aura",
+    "item": "",
+    "moves": [
+      "Heat Wave",
+      "Dark Pulse",
+      "Scorching Sands",
+      "Sucker Punch"
+    ],
+    "baseStats": {
+      "HP": "75",
+      "ATK": "110",
+      "DEF": "90",
+      "SPA": "140",
+      "SPD": "90",
+      "SPE": "115"
+    },
+    "evs": {
+      "DEF": "4",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "201",
+    "altSpeeds": {}
+  }
+]

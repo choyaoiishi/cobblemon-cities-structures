@@ -1,0 +1,8 @@
+return q.array(
+    'tapufini moves=mistyexplosion,muddywater,moonblast,flipturn nature=quiet held_item=cobblemon:focus_sash ability=mistysurge',
+    'camerupt moves=flamethrower,earthpower,steameruption,slackoff nature=quiet ability=sheerforce aspect=mega',
+    'glastrier moves=swordsdance,icehammer,closecombat,highhorsepower nature=brave held_item=cobblemon:iapapa_berry ability=chillingneigh',
+    'magearna moves=moonblast,flashcannon,focusblast,thunderbolt nature=quiet ability=soulheart',
+    'ironhands moves=drainpunch,plasmafists,knockoff,icepunch nature=brave ability=quarkdrive',
+    'jellicent moves=waterspout,shadowball,strengthsap,hydropump nature=quiet held_item=cobblemon:mystic_water ability=waterbubble'
+);

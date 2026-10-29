@@ -1,0 +1,151 @@
+[
+  {
+    "species": "Groudon",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Desolate Land",
+    "item": "",
+    "moves": [
+      "Stealth Rock",
+      "Precipice Blades",
+      "Heat Crash",
+      "Rock Tomb"
+    ],
+    "baseStats": {
+      "HP": "100",
+      "ATK": "180",
+      "DEF": "160",
+      "SPA": "150",
+      "SPD": "90",
+      "SPE": "90"
+    },
+    "evs": {},
+    "speedStat": "202",
+    "altSpeeds": {},
+    "aspect": "primal"
+  },
+  {
+    "species": "Gouging Fire",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Protosynthesis",
+    "item": "Leftovers",
+    "moves": [
+      "Dragon Dance",
+      "Flare Blitz",
+      "Draco Barrage",
+      "Morning Sun"
+    ],
+    "baseStats": {
+      "HP": "105",
+      "ATK": "115",
+      "DEF": "121",
+      "SPA": "65",
+      "SPD": "93",
+      "SPE": "91"
+    },
+    "evs": {},
+    "speedStat": "204",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Koraidon",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Orichalcum Pulse",
+    "item": "Roseli Berry",
+    "moves": [
+      "Swords Dance",
+      "Flare Blitz",
+      "Collision Course",
+      "Draco Barrage"
+    ],
+    "baseStats": {
+      "HP": "100",
+      "ATK": "135",
+      "DEF": "115",
+      "SPA": "85",
+      "SPD": "100",
+      "SPE": "135"
+    },
+    "evs": {},
+    "speedStat": "286",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Arceus",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Multitype",
+    "item": "",
+    "moves": [
+      "Calm Mind",
+      "Earth Power",
+      "Ice Beam",
+      "Recover"
+    ],
+    "baseStats": {
+      "HP": "120",
+      "ATK": "120",
+      "DEF": "120",
+      "SPA": "120",
+      "SPD": "120",
+      "SPE": "120"
+    },
+    "evs": {},
+    "speedStat": "258",
+    "altSpeeds": {},
+    "aspect": "ground-plate"
+  },
+  {
+    "species": "Xerneas",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Fairy Aura",
+    "item": "Power Herb",
+    "moves": [
+      "Geomancy",
+      "Moonblast",
+      "Thunderbolt",
+      "Focus Blast"
+    ],
+    "baseStats": {
+      "HP": "126",
+      "ATK": "131",
+      "DEF": "95",
+      "SPA": "131",
+      "SPD": "98",
+      "SPE": "99"
+    },
+    "evs": {},
+    "speedStat": "218",
+    "altSpeeds": {
+      "Geomancy": "436"
+    }
+  },
+  {
+    "species": "Eternatus",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Levitate",
+    "item": "Eternamax Orb",
+    "moves": [
+      "Draco Barrage",
+      "Sludge Wave",
+      "Flamethrower",
+      "Recover"
+    ],
+    "baseStats": {
+      "HP": "140",
+      "ATK": "105",
+      "DEF": "110",
+      "SPA": "185",
+      "SPD": "110",
+      "SPE": "140"
+    },
+    "evs": {},
+    "speedStat": "295",
+    "altSpeeds": {},
+    "aspect": "eternamax"
+  }
+]

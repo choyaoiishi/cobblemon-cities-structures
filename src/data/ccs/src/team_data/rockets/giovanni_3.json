@@ -1,0 +1,172 @@
+[
+  {
+    "species": "Hippowdon",
+    "level": "56",
+    "nature": "Adamant",
+    "ability": "Sand Stream",
+    "item": "Smooth Rock",
+    "moves": [
+      "Stone Edge",
+      "Earthquake",
+      "Roar",
+      "Stealth Rock"
+    ],
+    "baseStats": {
+      "HP": "108",
+      "ATK": "112",
+      "DEF": "118",
+      "SPA": "68",
+      "SPD": "72",
+      "SPE": "47"
+    },
+    "evs": {
+      "HP": "252",
+      "ATK": "252",
+      "DEF": "4"
+    },
+    "speedStat": "75",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Excadrill",
+    "level": "57",
+    "nature": "Adamant",
+    "ability": "Sand Rush",
+    "item": "Focus Sash",
+    "moves": [
+      "Earthquake",
+      "Iron Head",
+      "Rock Slide",
+      "Swords Dance"
+    ],
+    "baseStats": {
+      "HP": "110",
+      "ATK": "135",
+      "DEF": "60",
+      "SPA": "50",
+      "SPD": "65",
+      "SPE": "88"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "158",
+    "altSpeeds": {
+      "Sand Rush": "316"
+    }
+  },
+  {
+    "species": "Kangaskhan-Mega",
+    "level": "57",
+    "nature": "Jolly",
+    "ability": "Parental Bond",
+    "item": "",
+    "moves": [
+      "Power Up Punch",
+      "Fake Out",
+      "Body Slam",
+      "Crunch"
+    ],
+    "baseStats": {
+      "HP": "105",
+      "ATK": "125",
+      "DEF": "100",
+      "SPA": "60",
+      "SPD": "100",
+      "SPE": "100"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "189",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Garganacl",
+    "level": "57",
+    "nature": "Impish",
+    "ability": "Purifying Salt",
+    "item": "Leftovers",
+    "moves": [
+      "Protect",
+      "Body Press",
+      "Salt Cure",
+      "Recover"
+    ],
+    "baseStats": {
+      "HP": "100",
+      "ATK": "100",
+      "DEF": "130",
+      "SPA": "45",
+      "SPD": "90",
+      "SPE": "35"
+    },
+    "evs": {
+      "HP": "252",
+      "DEF": "252",
+      "SPD": "4"
+    },
+    "speedStat": "62",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Garchomp",
+    "level": "57",
+    "nature": "Jolly",
+    "ability": "Sand Veil",
+    "item": "Yache Berry",
+    "moves": [
+      "Swords Dance",
+      "Earthquake",
+      "Rock Slide",
+      "Scale Shot"
+    ],
+    "baseStats": {
+      "HP": "108",
+      "ATK": "130",
+      "DEF": "95",
+      "SPA": "80",
+      "SPD": "85",
+      "SPE": "102"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "191",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Torterra",
+    "level": "56",
+    "nature": "Jolly",
+    "ability": "Rock Head",
+    "item": "White Herb",
+    "moves": [
+      "Shell Smash",
+      "Wood Hammer",
+      "Earthquake",
+      "Head Smash"
+    ],
+    "baseStats": {
+      "HP": "95",
+      "ATK": "109",
+      "DEF": "105",
+      "SPA": "75",
+      "SPD": "85",
+      "SPE": "56"
+    },
+    "evs": {
+      "ATK": "252",
+      "SPD": "4",
+      "SPE": "252"
+    },
+    "speedStat": "132",
+    "altSpeeds": {}
+  }
+]

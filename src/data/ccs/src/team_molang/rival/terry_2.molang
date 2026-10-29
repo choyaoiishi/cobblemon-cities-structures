@@ -1,0 +1,5 @@
+return q.array(
+    'snubbull moves=poweruppunch,covet,thunderwave,firefang nature=adamant held_item=cobblemon:muscle_band ability=intimidate',
+    'litleo moves=incinerate,round,hiddenpower,sleeptalk nature=timid held_item=cobblemon:wise_glasses ability=rivalry',
+    'squirtle moves=poweruppunch,aquajet,rocktomb,curse nature=adamant held_item=cobblemon:oran_berry ability=torrent'
+);

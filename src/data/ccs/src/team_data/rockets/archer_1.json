@@ -1,0 +1,74 @@
+[
+  {
+    "species": "Glimmet",
+    "level": "18",
+    "nature": "Timid",
+    "ability": "Toxic Debris",
+    "item": "Shuca Berry",
+    "moves": [
+      "Ancient Power",
+      "Venoshock",
+      "Mud Shot",
+      "Protect"
+    ],
+    "baseStats": {
+      "HP": "48",
+      "ATK": "35",
+      "DEF": "42",
+      "SPA": "105",
+      "SPD": "60",
+      "SPE": "60"
+    },
+    "evs": {},
+    "speedStat": "35",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Houndour",
+    "level": "19",
+    "nature": "Timid",
+    "ability": "Unnerve",
+    "item": "Wise Glasses",
+    "moves": [
+      "Snarl",
+      "Incinerate",
+      "Hidden Power",
+      "Protect"
+    ],
+    "baseStats": {
+      "HP": "45",
+      "ATK": "60",
+      "DEF": "30",
+      "SPA": "80",
+      "SPD": "50",
+      "SPE": "65"
+    },
+    "evs": {},
+    "speedStat": "38",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Mightyena",
+    "level": "21",
+    "nature": "Jolly",
+    "ability": "Strong Jaw",
+    "item": "Berry Juice",
+    "moves": [
+      "Bite",
+      "Ice Fang",
+      "Howl",
+      "Fire Fang"
+    ],
+    "baseStats": {
+      "HP": "70",
+      "ATK": "95",
+      "DEF": "70",
+      "SPA": "60",
+      "SPD": "60",
+      "SPE": "70"
+    },
+    "evs": {},
+    "speedStat": "44",
+    "altSpeeds": {}
+  }
+]

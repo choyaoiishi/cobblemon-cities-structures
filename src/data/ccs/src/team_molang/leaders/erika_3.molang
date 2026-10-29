@@ -1,0 +1,8 @@
+return q.array(
+    'ogerpon moves=hornleech,ivycudgel,knockoff,uturn nature=jolly ability=sturdy aspect=cornerstone-mask',
+    'meowscarada moves=uturn,knockoff,flowertrick,tripleaxel nature=jolly held_item=cobblemon:life_orb ability=protean',
+    'hawlucha moves=swordsdance,closecombat,acrobatics,stoneedge nature=adamant held_item=cobblemon:grassy_seed ability=unburden',
+    'sinistcha moves=strengthsap,willowisp,shadowball,matchagotcha nature=modest held_item=cobblemon:leftovers ability=heatproof',
+    'lilligant moves=victorydance,leafblade,closecombat,icespinner nature=jolly held_item=cobblemon:wide_lens ability=hustle aspect=hisuian',
+    'venusaur moves=gigadrain,earthpower,synthesis,sludgebomb nature=modest ability=thickfat aspect=mega'
+);

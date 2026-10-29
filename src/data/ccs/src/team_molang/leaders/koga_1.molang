@@ -1,0 +1,8 @@
+return q.array(
+    'swellow moves=boomburst,uturn nature=timid held_item=cobblemon:choice_specs ability=aerilate',
+    'accelgor moves=bugbuzz,uturn,focusblast,sludgebomb nature=timid held_item=cobblemon:life_orb ability=sheerforce',
+    'greninja moves=hydropump,watershuriken,darkpulse,icebeam nature=timid held_item=cobblemon:life_orb ability=battlebond',
+    'drapion moves=wickedblow,crosspoison nature=adamant held_item=cobblemon:choice_scarf ability=sniper',
+    'ironvaliant moves=closecombat,spiritbreak,knockoff,liquidation nature=timid ability=quarkdrive',
+    'toxtricity moves=boomburst,overdrive,sludgebomb,hiddenpower nature=timid ability=punkrock aspect=mega'
+);

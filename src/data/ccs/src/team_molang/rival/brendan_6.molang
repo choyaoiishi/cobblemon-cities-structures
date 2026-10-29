@@ -1,0 +1,8 @@
+return q.array(
+    'gengar moves=shadowball,sludgewave,focusblast,gigadrain nature=timid held_item=cobblemon:focus_sash ability=levitate',
+    'nihilego moves=meteorbeam,sludgewave,thunderbolt,grassknot nature=timid held_item=cobblemon:power_herb ability=beastboost',
+    'tapukoko moves=wildcharge,playrough,risingvoltage,grassknot nature=naive held_item=cobblemon:leftovers ability=electricsurge',
+    'urshifu moves=surgingstrikes,closecombat,aquajet,uturn nature=jolly held_item=cobblemon:mystic_water ability=unseenfist aspect=rapid_strike-style',
+    'deoxys moves=psychic,icebeam,extremespeed,firepunch nature=naive held_item=cobblemon:life_orb ability=pressure aspect=attack-forme',
+    'sceptile moves=dragondance,dualchop,bulletseed,earthquake nature=jolly ability=technician aspect=mega'
+);

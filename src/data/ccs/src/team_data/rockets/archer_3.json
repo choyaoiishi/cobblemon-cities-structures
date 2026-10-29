@@ -1,0 +1,114 @@
+[
+  {
+    "species": "Mamoswine",
+    "level": "77",
+    "nature": "Jolly",
+    "ability": "Thick Fat",
+    "item": "Focus Sash",
+    "moves": [
+      "Earthquake",
+      "Ice Shard",
+      "Endeavor",
+      "Icicle Crash"
+    ],
+    "baseStats": {
+      "HP": "110",
+      "ATK": "130",
+      "DEF": "80",
+      "SPA": "70",
+      "SPD": "60",
+      "SPE": "80"
+    },
+    "evs": {
+      "HP": "6",
+      "ATK": "252",
+      "SPE": "252"
+    },
+    "speedStat": "220",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Durant",
+    "level": "78",
+    "nature": "Jolly",
+    "ability": "Hustle",
+    "item": "Life Orb",
+    "moves": [
+      "Hone Claws",
+      "Iron Head",
+      "X-Scissor",
+      "Superpower"
+    ],
+    "baseStats": {
+      "HP": "58",
+      "ATK": "109",
+      "DEF": "112",
+      "SPA": "48",
+      "SPD": "48",
+      "SPE": "109"
+    },
+    "evs": {
+      "HP": "6",
+      "ATK": "252",
+      "SPE": "252"
+    },
+    "speedStat": "272",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Mimikyu",
+    "level": "79",
+    "nature": "Jolly",
+    "ability": "Disguise",
+    "item": "Lum Berry",
+    "moves": [
+      "Play Rough",
+      "Swords Dance",
+      "Shadow Claw",
+      "Shadow Sneak"
+    ],
+    "baseStats": {
+      "HP": "55",
+      "ATK": "90",
+      "DEF": "80",
+      "SPA": "50",
+      "SPD": "105",
+      "SPE": "96"
+    },
+    "evs": {
+      "HP": "6",
+      "ATK": "252",
+      "SPE": "252"
+    },
+    "speedStat": "253",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Houndoom-Mega",
+    "level": "79",
+    "nature": "Timid",
+    "ability": "Dark Aura",
+    "item": "",
+    "moves": [
+      "Fiery Wrath",
+      "Flamethrower",
+      "Sucker Punch",
+      "Sludge Bomb"
+    ],
+    "baseStats": {
+      "HP": "75",
+      "ATK": "110",
+      "DEF": "90",
+      "SPA": "140",
+      "SPD": "90",
+      "SPE": "115"
+    },
+    "evs": {
+      "HP": "6",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "286",
+    "altSpeeds": {}
+  }
+]

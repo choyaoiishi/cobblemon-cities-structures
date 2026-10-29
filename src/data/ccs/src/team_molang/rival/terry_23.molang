@@ -1,0 +1,8 @@
+return q.array(
+    'staraptor moves=bravebird,quickattack,uturn,closecombat nature=jolly held_item=cobblemon:sharp_beak ability=intimidate',
+    'kingambit moves=ironhead,swordsdance,knockoff,suckerpunch nature=adamant held_item=cobblemon:chople_berry ability=supremeoverlord',
+    'darmanitan moves=flareblitz,rockslide,uturn,earthquake nature=jolly held_item=cobblemon:life_orb ability=sheerforce',
+    'ironbundle moves=hydropump,freezedry,flipturn,icebeam nature=timid ability=quarkdrive',
+    'sneasler moves=closecombat,uturn,direclaw,firepunch nature=jolly held_item=cobblemon:focus_sash ability=unburden',
+    'venusaur moves=chloroblast,sludgebomb,sleeppowder,earthpower nature=timid ability=thickfat aspect=mega'
+);

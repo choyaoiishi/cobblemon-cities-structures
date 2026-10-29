@@ -1,0 +1,142 @@
+[
+  {
+    "species": "Rillaboom",
+    "level": "43",
+    "nature": "Jolly",
+    "ability": "Grassy Surge",
+    "item": "Terrain Extender",
+    "moves": [
+      "Grassy Glide",
+      "U-Turn",
+      "High Horsepower",
+      "Drain Punch"
+    ],
+    "baseStats": {
+      "HP": "100",
+      "ATK": "125",
+      "DEF": "90",
+      "SPA": "60",
+      "SPD": "70",
+      "SPE": "85"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "129",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Meowscarada",
+    "level": "43",
+    "nature": "Jolly",
+    "ability": "Protean",
+    "item": "Focus Sash",
+    "moves": [
+      "Flower Trick",
+      "Knock Off",
+      "U-Turn",
+      "Triple Axel"
+    ],
+    "baseStats": {
+      "HP": "76",
+      "ATK": "110",
+      "DEF": "70",
+      "SPA": "81",
+      "SPD": "70",
+      "SPE": "123"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "166",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Venusaur-Mega",
+    "level": "44",
+    "nature": "Modest",
+    "ability": "Thick Fat",
+    "item": "",
+    "moves": [
+      "Giga Drain",
+      "Sludge Bomb",
+      "Sleep Powder",
+      "Earth Power"
+    ],
+    "baseStats": {
+      "HP": "80",
+      "ATK": "100",
+      "DEF": "123",
+      "SPA": "122",
+      "SPD": "120",
+      "SPE": "80"
+    },
+    "evs": {
+      "HP": "252",
+      "DEF": "4",
+      "SPA": "252"
+    },
+    "speedStat": "89",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Meganium",
+    "level": "44",
+    "nature": "Modest",
+    "ability": "Triage",
+    "item": "",
+    "moves": [
+      "Ancient Power",
+      "Giga Drain",
+      "Dazzling Gleam",
+      "Hidden Power"
+    ],
+    "baseStats": {
+      "HP": "80",
+      "ATK": "82",
+      "DEF": "100",
+      "SPA": "83",
+      "SPD": "100",
+      "SPE": "80"
+    },
+    "evs": {
+      "HP": "252",
+      "DEF": "4",
+      "SPA": "252"
+    },
+    "speedStat": "88",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Electrode-Hisui",
+    "level": "44",
+    "nature": "Naive",
+    "ability": "Reckless",
+    "item": "Life Orb",
+    "moves": [
+      "Thunderbolt",
+      "Chloroblast",
+      "Hidden Power",
+      "Explosion"
+    ],
+    "baseStats": {
+      "HP": "60",
+      "ATK": "55",
+      "DEF": "70",
+      "SPA": "95",
+      "SPD": "80",
+      "SPE": "150"
+    },
+    "evs": {
+      "ATK": "4",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "195",
+    "altSpeeds": {}
+  }
+]

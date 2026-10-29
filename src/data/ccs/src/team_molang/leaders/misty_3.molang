@@ -1,0 +1,8 @@
+return q.array(
+    'palafin moves=flipturn,wavecrash,jetpunch,drainpunch nature=jolly held_item=cobblemon:mystic_water ability=zerotohero aspect=hero-form',
+    'kingdra moves=snipeshot,dragonpulse,hurricane,icebeam nature=jolly held_item=cobblemon:scope_lens ability=swiftswim',
+    'archaludon moves=electroshot,flashcannon,dragonpulse,bodypress nature=modest held_item=cobblemon:leftovers ability=sturdy',
+    'gyarados moves=dragondance,waterfall,crunch,earthquake nature=jolly ability=moldbreaker aspect=mega',
+    'ferrothorn moves=leechseed,gyroball,powerwhip,thunderwave nature=relaxed held_item=cobblemon:rocky_helmet ability=ironbarbs',
+    'gorebyss moves=shellsmash,surf,icebeam,moonblast nature=timid held_item=cobblemon:focus_sash ability=dazzling'
+);

@@ -1,0 +1,8 @@
+return q.array(
+    'crawdaunt moves=aquajet,liquidation,knockoff,xscissor nature=adamant held_item=cobblemon:focus_sash ability=adaptability',
+    'slaking moves=bodyslam,knockoff,brickbreak,slackoff nature=jolly held_item=cobblemon:leftovers ability=truant',
+    'plusle moves=voltswitch,grassknot,surf,hiddenpower nature=timid held_item=cobblemon:magnet ability=transistor',
+    'gardevoir moves=psychic,calmmind,moonblast,mysticalfire nature=timid held_item=cobblemon:leftovers ability=trace',
+    'sceptile moves=swordsdance,leafblade,drainpunch,rockslide nature=jolly held_item=cobblemon:life_orb ability=overgrow',
+    'hariyama moves=drainpunch,bulletpunch,knockoff,fakeout nature=adamant held_item=cobblemon:flame_orb ability=guts'
+);

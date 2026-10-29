@@ -1,0 +1,8 @@
+return q.array(
+    'azelf moves=stealthrock,explosion,flamethrower,psychic nature=naive held_item=cobblemon:focus_sash ability=levitate',
+    'jumpluff moves=spore,doubleedge,leafblade,swordsdance nature=jolly held_item=cobblemon:sharp_beak ability=aerilate',
+    'celesteela moves=autotomize,airslash,flamethrower,gigadrain nature=modest held_item=cobblemon:weakness_policy ability=beastboost',
+    'electivire moves=machpunch,plasmafists,closecombat,icepunch nature=jolly held_item=cobblemon:electirizer ability=ironfist',
+    'gorebyss moves=shellsmash,surf,moonblast,psychic nature=timid held_item=cobblemon:white_herb ability=dazzling',
+    'charizard moves=dragondance,dragonclaw,flareblitz,earthquake nature=jolly ability=toughclaws aspect=mega_x'
+);

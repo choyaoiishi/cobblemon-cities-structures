@@ -1,0 +1,8 @@
+return q.array(
+    'hitmonchan moves=drainpunch,icepunch,machpunch,suckerpunch nature=jolly held_item=cobblemon:black_belt ability=ironfist',
+    'clefable moves=chargebeam,drainingkiss,icywind,mysticalfire nature=timid held_item=cobblemon:life_orb ability=magicguard',
+    'simipour moves=waterpulse,icywind,hiddenpower,grassknot nature=timid held_item=cobblemon:mystic_water ability=sagepower',
+    'arbok moves=poisonjab,suckerpunch,crunch,thunderfang nature=jolly held_item=cobblemon:poison_barb ability=intimidate',
+    'eevee moves=lastresort,round,doublekick,bite nature=lonely ability=adaptability',
+    'ivysaur moves=leechseed,protect,sludge,gigadrain nature=timid held_item=cobblemon:eviolite ability=overgrow'
+);

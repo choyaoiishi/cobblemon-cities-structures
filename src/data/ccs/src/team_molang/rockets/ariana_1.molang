@@ -1,0 +1,6 @@
+return q.array(
+    'hatterene moves=trickroom,psychic,dazzlinggleam,mysticalfire nature=modest held_item=cobblemon:sitrus_berry ability=magicbounce',
+    'rhyperior moves=earthquake,rockblast,icepunch,heatcrash nature=adamant held_item=cobblemon:weakness_policy ability=solidrock',
+    'honchkrow moves=suckerpunch,nightslash,drillpeck,superpower nature=jolly held_item=cobblemon:scope_lens ability=superluck',
+    'mawile moves=suckerpunch,ironhead,playrough,swordsdance nature=adamant ability=hugepower aspect=mega'
+);

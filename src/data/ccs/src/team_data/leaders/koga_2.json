@@ -1,0 +1,159 @@
+[
+  {
+    "species": "Tapu Lele",
+    "level": "68",
+    "nature": "Modest",
+    "ability": "Psychic Surge",
+    "item": "Twisted Spoon",
+    "moves": [
+      "Psyshock",
+      "Moonblast",
+      "Focus Blast",
+      "Hidden Power"
+    ],
+    "baseStats": {
+      "HP": "70",
+      "ATK": "85",
+      "DEF": "75",
+      "SPA": "130",
+      "SPD": "115",
+      "SPE": "95"
+    },
+    "evs": {},
+    "speedStat": "154",
+    "altSpeeds": {
+      "Tailwind": "308"
+    }
+  },
+  {
+    "species": "Hoopa",
+    "level": "68",
+    "nature": "Modest",
+    "ability": "Magician",
+    "item": "",
+    "moves": [
+      "Dark Pulse",
+      "Expanding Force",
+      "Thunderbolt",
+      "Focus Blast"
+    ],
+    "baseStats": {
+      "HP": "80",
+      "ATK": "160",
+      "DEF": "60",
+      "SPA": "170",
+      "SPD": "130",
+      "SPE": "80"
+    },
+    "evs": {},
+    "speedStat": "134",
+    "altSpeeds": {
+      "Tailwind": "268"
+    },
+    "aspect": "unbound"
+  },
+  {
+    "species": "Krookodile",
+    "level": "68",
+    "nature": "Adamant",
+    "ability": "Moxie",
+    "item": "Black Glasses",
+    "moves": [
+      "Wicked Blow",
+      "Earthquake",
+      "Close Combat",
+      "Stone Edge"
+    ],
+    "baseStats": {
+      "HP": "95",
+      "ATK": "117",
+      "DEF": "80",
+      "SPA": "65",
+      "SPD": "70",
+      "SPE": "92"
+    },
+    "evs": {},
+    "speedStat": "151",
+    "altSpeeds": {
+      "Tailwind": "302"
+    }
+  },
+  {
+    "species": "Chi-Yu",
+    "level": "68",
+    "nature": "Modest",
+    "ability": "Beads of Ruin",
+    "item": "Focus Sash",
+    "moves": [
+      "Dark Pulse",
+      "Flamethrower",
+      "Psychic",
+      "Hidden Power"
+    ],
+    "baseStats": {
+      "HP": "55",
+      "ATK": "80",
+      "DEF": "80",
+      "SPA": "135",
+      "SPD": "120",
+      "SPE": "100"
+    },
+    "evs": {},
+    "speedStat": "162",
+    "altSpeeds": {
+      "Tailwind": "324"
+    }
+  },
+  {
+    "species": "Nidoking",
+    "level": "68",
+    "nature": "Rash",
+    "ability": "Sheer Force",
+    "item": "Life Orb",
+    "moves": [
+      "Earth Power",
+      "Poison Jab",
+      "Ice Beam",
+      "Thunderbolt"
+    ],
+    "baseStats": {
+      "HP": "81",
+      "ATK": "102",
+      "DEF": "77",
+      "SPA": "85",
+      "SPD": "75",
+      "SPE": "85"
+    },
+    "evs": {},
+    "speedStat": "141",
+    "altSpeeds": {
+      "Tailwind": "282"
+    }
+  },
+  {
+    "species": "Toxtricity-Mega",
+    "level": "68",
+    "nature": "Rash",
+    "ability": "Punk Rock",
+    "item": "",
+    "moves": [
+      "Boomburst",
+      "Overdrive",
+      "Drain Punch",
+      "Hidden Power"
+    ],
+    "baseStats": {
+      "HP": "75",
+      "ATK": "120",
+      "DEF": "80",
+      "SPA": "155",
+      "SPD": "80",
+      "SPE": "111"
+    },
+    "evs": {},
+    "speedStat": "177",
+    "altSpeeds": {
+      "Tailwind": "354"
+    }
+  }
+]

@@ -1,0 +1,6 @@
+return q.array(
+    'kirlia moves=psybeam,drainingkiss,magicalleaf nature=modest held_item=cobblemon:sitrus_berry ability=trace',
+    'staravia moves=quickattack,pluck,uturn,sleeptalk nature=adamant held_item=cobblemon:muscle_band ability=intimidate',
+    'pawniard moves=knockoff,suckerpunch,cut,lowsweep nature=adamant held_item=cobblemon:chople_berry ability=defiant',
+    'ivysaur moves=megadrain,protect,leechseed,sludge nature=modest held_item=cobblemon:eviolite ability=overgrow'
+);

@@ -1,0 +1,149 @@
+[
+  {
+    "species": "Charizard-MegaY",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Drought",
+    "item": "",
+    "moves": [
+      "Weather Ball",
+      "Solar Beam",
+      "Focus Blast",
+      "Protect"
+    ],
+    "baseStats": {
+      "HP": "78",
+      "ATK": "104",
+      "DEF": "78",
+      "SPA": "159",
+      "SPD": "115",
+      "SPE": "100"
+    },
+    "evs": {},
+    "speedStat": "213",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Garchomp",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Rough Skin",
+    "item": "Yache Berry",
+    "moves": [
+      "Swords Dance",
+      "Scale Shot",
+      "Earthquake",
+      "Stone Edge"
+    ],
+    "baseStats": {
+      "HP": "108",
+      "ATK": "130",
+      "DEF": "95",
+      "SPA": "80",
+      "SPD": "85",
+      "SPE": "102"
+    },
+    "evs": {},
+    "speedStat": "216",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Sunflora",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Chlorophyll",
+    "item": "Focus Sash",
+    "moves": [
+      "Growth",
+      "Solar Beam",
+      "Fiery Dance",
+      "Hidden Power"
+    ],
+    "baseStats": {
+      "HP": "95",
+      "ATK": "75",
+      "DEF": "55",
+      "SPA": "135",
+      "SPD": "85",
+      "SPE": "55"
+    },
+    "evs": {},
+    "speedStat": "130",
+    "altSpeeds": {
+      "Chlorophy.": "260"
+    }
+  },
+  {
+    "species": "Zamazenta",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Dauntless Shield",
+    "item": "",
+    "moves": [
+      "Body Press",
+      "Bulk Up",
+      "Wild Charge",
+      "Behemoth Bash"
+    ],
+    "baseStats": {
+      "HP": "92",
+      "ATK": "120",
+      "DEF": "140",
+      "SPA": "80",
+      "SPD": "140",
+      "SPE": "128"
+    },
+    "evs": {},
+    "speedStat": "264",
+    "altSpeeds": {},
+    "aspect": "crowned"
+  },
+  {
+    "species": "Gliscor",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Poison Heal",
+    "item": "Toxic Orb",
+    "moves": [
+      "Swords Dance",
+      "Protect",
+      "Earthquake",
+      "Facade"
+    ],
+    "baseStats": {
+      "HP": "75",
+      "ATK": "95",
+      "DEF": "125",
+      "SPA": "45",
+      "SPD": "75",
+      "SPE": "95"
+    },
+    "evs": {},
+    "speedStat": "204",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Latias",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Levitate",
+    "item": "Leftovers",
+    "moves": [
+      "Calm Mind",
+      "Roost",
+      "Mist Ball",
+      "Mystical Fire"
+    ],
+    "baseStats": {
+      "HP": "80",
+      "ATK": "80",
+      "DEF": "90",
+      "SPA": "110",
+      "SPD": "130",
+      "SPE": "110"
+    },
+    "evs": {},
+    "speedStat": "231",
+    "altSpeeds": {}
+  }
+]

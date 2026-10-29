@@ -1,0 +1,148 @@
+[
+  {
+    "species": "Tyrantrum",
+    "level": "Highest Lv",
+    "nature": "Adamant",
+    "ability": "Rock Head",
+    "item": "Focus Sash",
+    "moves": [
+      "Dragon Claw",
+      "Head Smash",
+      "Earthquake",
+      "Close Combat"
+    ],
+    "baseStats": {
+      "HP": "82",
+      "ATK": "121",
+      "DEF": "119",
+      "SPA": "69",
+      "SPD": "59",
+      "SPE": "71"
+    },
+    "evs": {},
+    "speedStat": "146",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Marowak-Alola",
+    "level": "Highest Lv",
+    "nature": "Adamant",
+    "ability": "Bone Zone",
+    "item": "Thick Club",
+    "moves": [
+      "Shadow Bone",
+      "Fire Punch",
+      "Bonemerang",
+      "Swords Dance"
+    ],
+    "baseStats": {
+      "HP": "60",
+      "ATK": "80",
+      "DEF": "110",
+      "SPA": "50",
+      "SPD": "80",
+      "SPE": "45"
+    },
+    "evs": {},
+    "speedStat": "104",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Empoleon",
+    "level": "Highest Lv",
+    "nature": "Bold",
+    "ability": "Competitive",
+    "item": "Leftovers",
+    "moves": [
+      "Calm Mind",
+      "Roost",
+      "Scald",
+      "Ice Beam"
+    ],
+    "baseStats": {
+      "HP": "84",
+      "ATK": "86",
+      "DEF": "88",
+      "SPA": "111",
+      "SPD": "101",
+      "SPE": "60"
+    },
+    "evs": {},
+    "speedStat": "128",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Landorus",
+    "level": "Highest Lv",
+    "nature": "Rash",
+    "ability": "Sheer Force",
+    "item": "Life Orb",
+    "moves": [
+      "Earth Power",
+      "Rock Slide",
+      "Psychic",
+      "Hidden Power"
+    ],
+    "baseStats": {
+      "HP": "89",
+      "ATK": "125",
+      "DEF": "90",
+      "SPA": "115",
+      "SPD": "80",
+      "SPE": "101"
+    },
+    "evs": {},
+    "speedStat": "196",
+    "altSpeeds": {},
+    "aspect": "incarnate-forme"
+  },
+  {
+    "species": "Ursaluna",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Scrappy",
+    "item": "Assault Vest",
+    "moves": [
+      "Hyper Voice",
+      "Earth Power",
+      "Blood Moon",
+      "Aura Sphere"
+    ],
+    "baseStats": {
+      "HP": "113",
+      "ATK": "70",
+      "DEF": "120",
+      "SPA": "135",
+      "SPD": "65",
+      "SPE": "52"
+    },
+    "evs": {},
+    "speedStat": "126",
+    "altSpeeds": {},
+    "aspect": "bloodmoon"
+  },
+  {
+    "species": "Sceptile-Mega",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Technician",
+    "item": "",
+    "moves": [
+      "Swords Dance",
+      "Dual Chop",
+      "Bullet Seed",
+      "Earthquake"
+    ],
+    "baseStats": {
+      "HP": "70",
+      "ATK": "135",
+      "DEF": "75",
+      "SPA": "110",
+      "SPD": "85",
+      "SPE": "145"
+    },
+    "evs": {},
+    "speedStat": "294",
+    "altSpeeds": {}
+  }
+]

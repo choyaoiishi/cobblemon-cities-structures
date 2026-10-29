@@ -1,0 +1,8 @@
+return q.array(
+    'hatterene moves=trickroom,expandingforce,drainingkiss,mysticalfire nature=quiet held_item=cobblemon:psychic_seed ability=magicbounce',
+    'indeedee moves=expandingforce,hypervoice,mysticalfire,shadowball nature=quiet held_item=cobblemon:terrain_extender ability=psychicsurge aspect=female',
+    'brutebonnet moves=knockoff,leafblade,closecombat,spore nature=brave ability=protosynthesis',
+    'porygon2 moves=trickroom,teleport,icebeam,thunderbolt nature=relaxed held_item=cobblemon:eviolite ability=trace',
+    'ursaluna moves=protect,highhorsepower,facade,crunch nature=brave held_item=cobblemon:flame_orb ability=guts',
+    'gardevoir moves=hypervoice,expandingforce,shadowball,trickroom nature=quiet ability=pixilate aspect=mega'
+);

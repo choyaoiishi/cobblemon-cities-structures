@@ -1,0 +1,8 @@
+return q.array(
+    'pheromosa moves=uturn,closecombat,tripleaxel,poisonjab nature=jolly held_item=cobblemon:focus_sash ability=beastboost',
+    'metagross moves=bulletpunch,zenheadbutt,firepunch,meteormash nature=jolly ability=toughclaws aspect=mega',
+    'miraidon moves=calmmind,electrodrift,dragonpulse,hiddenpower nature=timid held_item=cobblemon:leftovers ability=hadronengine',
+    'yveltal moves=oblivionwing,darkhole,heatwave,suckerpunch nature=modest held_item=cobblemon:assault_vest ability=darkaura',
+    'eternatus moves=meteorbeam,sludgewave,flamethrower,dynamaxcannon nature=timid held_item=cobblemon:power_herb ability=pressure',
+    'ditto moves=transform nature=timid held_item=cobblemon:choice_scarf ability=imposter'
+);

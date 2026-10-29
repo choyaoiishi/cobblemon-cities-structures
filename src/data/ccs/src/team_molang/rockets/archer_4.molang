@@ -1,0 +1,7 @@
+return q.array(
+    'ninetales moves=weatherball,solarbeam,scorchingsands,hypnosis nature=timid held_item=cobblemon:charcoal ability=drought',
+    'exeggutor moves=solarbeam,psyshock,weatherball,earthpower nature=timid held_item=cobblemon:life_orb ability=chlorophyll',
+    'landorus moves=earthquake,fly,stoneedge,swordsdance nature=jolly ability=intimidate aspect=therian-forme',
+    'houndoom moves=darkhole,flamethrower,suckerpunch,solarbeam nature=naive ability=solarpower aspect=mega',
+    'sunflora moves=growth,solarbeam,weatherball,hiddenpower nature=timid held_item=cobblemon:focus_sash ability=chlorophyll'
+);

@@ -1,0 +1,170 @@
+[
+  {
+    "species": "Aerodactyl",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Rock Head",
+    "item": "Sharp Beak",
+    "moves": [
+      "Brave Bird",
+      "Stone Edge",
+      "Earthquake",
+      "Fire Fang"
+    ],
+    "baseStats": {
+      "HP": "80",
+      "ATK": "105",
+      "DEF": "65",
+      "SPA": "60",
+      "SPD": "75",
+      "SPE": "130"
+    },
+    "evs": {
+      "HP": "6",
+      "ATK": "252",
+      "SPE": "252"
+    },
+    "speedStat": "394",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Heliolisk",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Solar Power",
+    "item": "Focus Sash",
+    "moves": [
+      "Hyper Voice",
+      "Thunderbolt",
+      "Grass Knot",
+      "Volt Switch"
+    ],
+    "baseStats": {
+      "HP": "62",
+      "ATK": "55",
+      "DEF": "52",
+      "SPA": "109",
+      "SPD": "94",
+      "SPE": "109"
+    },
+    "evs": {
+      "HP": "6",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "348",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Latias-Mega",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Levitate",
+    "item": "",
+    "moves": [
+      "Thunderbolt",
+      "Ice Beam",
+      "Calm Mind",
+      "Psyshock"
+    ],
+    "baseStats": {
+      "HP": "80",
+      "ATK": "100",
+      "DEF": "120",
+      "SPA": "140",
+      "SPD": "150",
+      "SPE": "110"
+    },
+    "evs": {
+      "HP": "252",
+      "SPA": "4",
+      "SPE": "252"
+    },
+    "speedStat": "350",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Houndoom-Mega",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Solar Power",
+    "item": "",
+    "moves": [
+      "Fiery Wrath",
+      "Flamethrower",
+      "Sludge Bomb",
+      "Solar Beam"
+    ],
+    "baseStats": {
+      "HP": "75",
+      "ATK": "110",
+      "DEF": "90",
+      "SPA": "140",
+      "SPD": "90",
+      "SPE": "115"
+    },
+    "evs": {
+      "HP": "6",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "361",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Mismagius",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Levitate",
+    "item": "",
+    "moves": [
+      "Shadow Ball",
+      "Moonblast",
+      "Mystical Fire",
+      "Thunderbolt"
+    ],
+    "baseStats": {
+      "HP": "70",
+      "ATK": "60",
+      "DEF": "70",
+      "SPA": "105",
+      "SPD": "105",
+      "SPE": "105"
+    },
+    "evs": {
+      "HP": "6",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "339",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Heatran",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Flash Fire",
+    "item": "Air Balloon",
+    "moves": [
+      "Protect",
+      "Flamethrower",
+      "Flash Cannon",
+      "Earthquake"
+    ],
+    "baseStats": {
+      "HP": "91",
+      "ATK": "90",
+      "DEF": "106",
+      "SPA": "130",
+      "SPD": "106",
+      "SPE": "77"
+    },
+    "evs": {
+      "HP": "6",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "278",
+    "altSpeeds": {}
+  }
+]
