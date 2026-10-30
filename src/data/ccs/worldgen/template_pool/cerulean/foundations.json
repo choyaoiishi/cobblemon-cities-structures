@@ -1,6 +1,20 @@
 {
     "template_pools": "ccs:cerulean/foundations",
     "fallback": "minecraft:empty",
+    "gym": [
+        {
+            "weight": 150,
+            "element": {
+                "element_type": "lithostitched:guaranteed",
+                "delegate": {
+                    "location": "ccs:foundations/2x2",
+                    "processors": "ccs:cerulean/base"
+                },
+                "count": 1,
+                "min_depth": 2
+            }
+        }
+    ],
     "elements": [
         {
             "weight": 1,
@@ -18,20 +32,6 @@
                 "location": "ccs:foundations/2x1",
                 "processors": "ccs:cerulean/base",
                 "projection": "rigid"
-            }
-        },
-        {
-            "weight": 150,
-            "element": {
-                "element_type": "lithostitched:guaranteed",
-                "delegate": {
-                    "location": "ccs:foundations/2x2",
-                    "processors": "ccs:cerulean/base",
-                    "element_type": "minecraft:single_pool_element",
-                    "projection": "rigid"
-                },
-                "count": 3,
-                "min_depth": 2
             }
         },
         {
@@ -59,6 +59,20 @@
                     "projection": "rigid"
                 },
                 "count": 1,
+                "min_depth": 2
+            }
+        },
+        {
+            "weight": 150,
+            "element": {
+                "element_type": "lithostitched:guaranteed",
+                "delegate": {
+                    "location": "ccs:foundations/2x2",
+                    "processors": "ccs:cerulean/base",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid"
+                },
+                "count": 2,
                 "min_depth": 2
             }
         }

@@ -1,36 +1,41 @@
 {
 	"template_pools": "ccs:#town_id/houses/2x2",
 	"fallback": "minecraft:empty",
-	"elements": [
-		{
-			"weight": 150,
-			"element": {
-				"element_type": "lithostitched:limited",
-				"delegate": {
-					"location": "ccs:houses/2x2/pokecenter"
-				},
-				"limit": 1
+	"elements": [],
+	"library":{
+		"basic":[
+			{
+				"weight": 150,
+				"element": {
+					"element_type": "lithostitched:limited",
+					"delegate": {
+						"location": "ccs:houses/2x2/pokecenter"
+					},
+					"limit": 1
+				}
+			},
+			{
+				"weight": 150,
+				"element": {
+					"element_type": "lithostitched:limited",
+					"delegate": {
+						"location": "ccs:houses/2x2/pokemart"
+					},
+					"limit": 1
+				}
 			}
-		},
-		{
-			"weight": 150,
-			"element": {
-				"element_type": "lithostitched:limited",
-				"delegate": {
-					"location": "ccs:houses/2x2/pokemart"
-				},
-				"limit": 1
+		],
+		"gym":[
+			{
+				"weight": 150,
+				"element": {
+					"element_type": "lithostitched:limited",
+					"delegate": {
+						"location": "ccs:houses/#town_id/2x2/gym"
+					},
+					"limit": 1
+				}
 			}
-		},
-		{
-			"weight": 150,
-			"element": {
-				"element_type": "lithostitched:limited",
-				"delegate": {
-					"location": "ccs:houses/#town_id/2x2/gym"
-				},
-				"limit": 1
-			}
-		}
-	]
+		]
+	}
 }

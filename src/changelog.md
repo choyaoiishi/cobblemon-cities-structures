@@ -1,3 +1,7 @@
+### 30-10-2026 - 1.0.15
+- fix scientist dont have pokemon
+- fix teams only have 1 and level 1 pokemon
+
 ### 29-10-2026 - 1.0.14
 #### structures
 - added celadon department store

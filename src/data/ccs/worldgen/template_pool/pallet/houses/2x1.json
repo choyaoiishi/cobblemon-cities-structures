@@ -1,0 +1,37 @@
+{
+    "template_pools": "ccs:pallet/houses/2x1",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:houses/2x1/battlepad",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:pallet/general"
+                },
+                "limit": 1
+            }
+        },
+        {
+            "weight": 5,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:houses/2x1/small",
+                "processors": "ccs:pallet/general",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 5,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:houses/2x1/small_1",
+                "processors": "ccs:pallet/general",
+                "projection": "rigid"
+            }
+        }
+    ]
+}

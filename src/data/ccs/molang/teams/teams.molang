@@ -33,7 +33,6 @@ t.added_count = 0;
 v.msg = 'loop count:' + v.loop_count + ' pokemons_count:' + t.pokemons_count;
 q.run_script('ccs:print');
 t.loop_index = 0;
-v.loop_count=1;
 
 loop(1024, {
 	v.msg = 'loop index:' + t.loop_index;
@@ -46,7 +45,6 @@ loop(1024, {
 
         !t.is_duplicate ? {
             t.level = v.base_level + math.random_integer(v.level_variation_min, v.level_variation_max);
-            t.level=1;
             t.props = t.pokemons[t.index] + t.constants + ' level=' + t.level;
             q.party.add_by_properties(t.props);
 

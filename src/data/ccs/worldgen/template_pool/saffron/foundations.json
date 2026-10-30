@@ -1,6 +1,20 @@
 {
     "template_pools": "ccs:saffron/foundations",
     "fallback": "minecraft:empty",
+    "gym": [
+        {
+            "weight": 150,
+            "element": {
+                "element_type": "lithostitched:guaranteed",
+                "delegate": {
+                    "location": "ccs:foundations/2x2",
+                    "processors": "ccs:saffron/base"
+                },
+                "count": 1,
+                "min_depth": 2
+            }
+        }
+    ],
     "elements": [
         {
             "weight": 1,
@@ -25,12 +39,12 @@
             "element": {
                 "element_type": "lithostitched:guaranteed",
                 "delegate": {
-                    "location": "ccs:foundations/2x2",
+                    "location": "ccs:foundations/3x2",
                     "processors": "ccs:saffron/base",
                     "element_type": "minecraft:single_pool_element",
                     "projection": "rigid"
                 },
-                "count": 3,
+                "count": 1,
                 "min_depth": 2
             }
         },
@@ -39,12 +53,12 @@
             "element": {
                 "element_type": "lithostitched:guaranteed",
                 "delegate": {
-                    "location": "ccs:foundations/3x2",
+                    "location": "ccs:foundations/2x2",
                     "processors": "ccs:saffron/base",
                     "element_type": "minecraft:single_pool_element",
                     "projection": "rigid"
                 },
-                "count": 1,
+                "count": 2,
                 "min_depth": 2
             }
         }

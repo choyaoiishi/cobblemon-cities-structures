@@ -1,0 +1,38 @@
+{
+    "template_pools": "ccs:pallet/foundations",
+    "fallback": "minecraft:empty",
+    "gym": [
+        {
+            "weight": 150,
+            "element": {
+                "element_type": "lithostitched:guaranteed",
+                "delegate": {
+                    "location": "ccs:foundations/2x2",
+                    "processors": "ccs:pallet/base"
+                },
+                "count": 1,
+                "min_depth": 2
+            }
+        }
+    ],
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:foundations/1x1",
+                "processors": "ccs:pallet/base",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 10,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:foundations/2x1",
+                "processors": "ccs:pallet/base",
+                "projection": "rigid"
+            }
+        }
+    ]
+}

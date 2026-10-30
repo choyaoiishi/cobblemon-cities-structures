@@ -1,0 +1,68 @@
+{
+    "template_pools": "ccs:pallet/roads",
+    "fallback": "ccs:terminator",
+    "elements": [
+        {
+            "weight": 150,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:roads/s",
+                    "processors": "ccs:pallet/base",
+                    "projection": "terrain_matching",
+                    "element_type": "minecraft:single_pool_element"
+                },
+                "limit": 4
+            }
+        },
+        {
+            "weight": 3,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:roads/s",
+                "processors": "ccs:pallet/base",
+                "projection": "terrain_matching"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:roads/t",
+                "processors": "ccs:pallet/base",
+                "projection": "terrain_matching"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:roads/c",
+                "processors": "ccs:pallet/base",
+                "projection": "terrain_matching"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:roads/x",
+                "processors": "ccs:pallet/base",
+                "projection": "terrain_matching"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "lithostitched:delegating",
+                "delegate": {
+                    "location": "ccs:roads/entrance",
+                    "processors": "ccs:pallet/road_entrance",
+                    "projection": "terrain_matching",
+                    "element_type": "minecraft:single_pool_element"
+                },
+                "allow_bounding_box_collisions": true
+            }
+        }
+    ]
+}

@@ -16,6 +16,8 @@ CATEGORIES = [
 ]
 OUTPUT_DIR = "worldgen/template_pool/"
 TOWNS = [
+    "pallet",
+    "lavender",
     "viridian",
     "cinnabar",
     "saffron",
@@ -24,7 +26,6 @@ TOWNS = [
     "vermilion",
     "cerulean",
     "pewter"
-    # "lavender",
 ]
 
 def replace_town_id(obj, town_name):

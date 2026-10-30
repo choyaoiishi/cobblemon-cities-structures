@@ -1,0 +1,5 @@
+{
+    "template_pools": "ccs:pallet/houses/3x2",
+    "fallback": "minecraft:empty",
+    "elements": []
+}

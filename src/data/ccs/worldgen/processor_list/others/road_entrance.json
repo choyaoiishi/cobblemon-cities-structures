@@ -36,7 +36,10 @@
                                 "minecraft:mossy_stone_bricks",
                                 "minecraft:polished_andesite",
                                 "minecraft:light_gray_concrete_powder",
-                                "minecraft:dark_oak_planks"
+                                "minecraft:dark_oak_planks",
+                                "minecraft:blackstone",
+                                "minecraft:polished_blackstone",
+                                "minecraft:polished_blackstone_bricks"
                             ],
                             "match_type": "location"
                         }

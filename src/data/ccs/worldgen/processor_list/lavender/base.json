@@ -1,0 +1,21 @@
+{
+    "processors": [
+        {
+            "processor_type": "lithostitched:block_swap",
+            "blocks": {
+                "minecraft:crying_obsidian": "minecraft:cobblestone",
+                "minecraft:obsidian": "minecraft:cobblestone",
+                // road side
+                "minecraft:birch_log": "minecraft:polished_blackstone",
+                // road
+                "minecraft:birch_wood": "minecraft:gray_concrete_powder"
+            }
+        },
+        {
+            "processor_type": "lithostitched:reference",
+            "processor_lists": [
+                "ccs:others/cobblestone/blackstone"
+            ]
+        }
+    ]
+}

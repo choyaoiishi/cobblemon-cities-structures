@@ -10,5 +10,7 @@
 			"limit": 1,
 			"min_depth": 3
 		}
-	}
+	},
+		"basic",
+		"gym"
 ]

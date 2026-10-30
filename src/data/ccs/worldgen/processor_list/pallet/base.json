@@ -1,0 +1,15 @@
+{
+    "processors": [
+        {
+            "processor_type": "lithostitched:block_swap",
+            "blocks": {
+                "minecraft:crying_obsidian": "minecraft:grass_block",
+                "minecraft:obsidian": "minecraft:grass_block",
+                // road side
+                "minecraft:birch_log": "minecraft:dirt_path",
+                // road
+                "minecraft:birch_wood": "minecraft:dirt_path"
+            }
+        }
+    ]
+}

@@ -2,6 +2,12 @@ import os
 import json
 
 TOWN_BIOMES = {
+    "pallet": [
+        "#cobblemon:is_plains"
+    ],
+     "lavender": [
+            "#cobblemon:is_spooky"
+        ],
     "viridian": [
         "#cobblemon:is_forest"
     ],

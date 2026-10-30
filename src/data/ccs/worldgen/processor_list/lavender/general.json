@@ -1,0 +1,83 @@
+{
+    "processors": [
+        {
+            "processor_type": "lithostitched:reference",
+            "processor_lists": [
+                "ccs:lavender/base",
+                "ccs:lavender/berry"
+            ]
+        },
+        {
+            "processor_type": "lithostitched:block_swap",
+            "blocks": {
+                "minecraft:stripped_warped_hyphae": "minecraft:stripped_crimson_hyphae",
+                "minecraft:prismarine_bricks": "minecraft:magenta_concrete",
+                "minecraft:stripped_spruce_wood": "minecraft:stripped_dark_oak_wood",
+                "minecraft:stripped_oak_wood": "minecraft:blue_terracotta",
+                "minecraft:spruce_planks": "minecraft:dark_oak_planks",
+                "minecraft:spruce_slab": "minecraft:dark_oak_slab",
+                "minecraft:spruce_door": "minecraft:dark_oak_door",
+                "minecraft:spruce_trapdoor": "minecraft:dark_oak_trapdoor",
+                "minecraft:spruce_fence": "minecraft:dark_oak_fence",
+                // "minecraft:oak_leaves": "minecraft:air",
+                // "minecraft:grass_block": "minecraft:cobblestone",
+                // "minecraft:polished_blackstone_brick_stairs": "minecraft:prismarine_brick_stairs",
+                // "minecraft:polished_blackstone_brick_slab": "minecraft:prismarine_brick_slab",
+                // furnies
+                // "cobblefurnies:black_sofa": "cobblefurnies:cyan_sofa",
+                // "cobblefurnies:black_armchair": "cobblefurnies:cyan_armchair",
+                // "cobblefurnies:black_dark_table": "cobblefurnies:cyan_dark_table",
+                // "cobblefurnies:black_poke_wool": "cobblefurnies:cyan_poke_wool",
+                // "cobblefurnies:black_poke_wool_carpet": "cobblefurnies:cyan_poke_wool_carpet",
+                // "cobblemon:black_plaque": "cobblemon:cyan_plaque",
+                // "cobblemon:campfire_pot_black": "cobblemon:campfire_pot_cyan",
+                // "minecraft:black_bed": "minecraft:cyan_bed",
+                // lamp
+                // "minecraft:polished_blackstone_wall": "minecraft:andesite_wall",
+                // deco
+                "minecraft:brick_slab": "minecraft:polished_blackstone_brick_slab"
+            }
+        },
+        {
+            "processor_type": "lithostitched:reference",
+            "processor_lists": [
+                "ccs:others/red",
+                "ccs:others/blue",
+                "ccs:others/magenta",
+                "ccs:others/cobblestone/blackstone"
+            ]
+        },
+        {
+            "processor_type": "lithostitched:condition",
+            "random_mode": "per_piece",
+            "if_true": {
+                "type": "lithostitched:all_of",
+                "conditions": [
+                    {
+                        "type": "lithostitched:matching_blocks",
+                        "blocks": "minecraft:red_tulip",
+                        "match_type": "input"
+                    }
+                ]
+            },
+            "then": {
+                "processor_type": "lithostitched:set_block",
+                "state_provider": {
+                    "type": "minecraft:weighted_state_provider",
+                    "entries": [
+                       {
+                        "weight": 1,
+                        "data": {
+                            "Name": "minecraft:dead_bush"
+                        }
+                    }
+                    ]
+                },
+                "random_mode": "per_piece"
+            },
+            "else": {
+                "processor_type": "minecraft:nop"
+            }
+        }
+    ]
+}

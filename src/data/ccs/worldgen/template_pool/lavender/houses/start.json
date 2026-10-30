@@ -1,0 +1,5 @@
+{
+    "template_pools": "ccs:lavender/houses/start",
+    "fallback": "minecraft:empty",
+    "elements": []
+}
