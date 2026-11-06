@@ -1,0 +1,10 @@
+return q.array(
+    'hitmontop moves=triplekick,tripleaxel,fakeout,brutalswing nature=jolly held_item=cobblemon:focus_sash ability=technician',
+    'breloom moves=spore,substitute,focuspunch,rockslide nature=jolly held_item=cobblemon:toxic_orb ability=poisonheal',
+    'quaquaval moves=aquastep,closecombat,bulkup,icespinner nature=jolly held_item=cobblemon:mystic_water ability=moxie',
+    'lucario moves=nastyplot,aurasphere,vacuumwave,flashcannon nature=jolly held_item=cobblemon:air_balloon ability=innerfocus',
+    'sneasler moves=closecombat,poisonjab,knockoff,earthquake nature=jolly held_item=cobblemon:liechi_berry ability=unburden',
+    'kommoo moves=clangingscales,closecombat,poisonjab,flamethrower nature=naive ability=overcoat',
+    'annihilape moves=bulkup,drainpunch,ragefist,icepunch nature=jolly held_item=cobblemon:salac_berry ability=defiant',
+    'gallade moves=bulkup,drainpunch,psychocut,nightslash nature=jolly ability=sharpness aspect=mega'
+);

@@ -1,0 +1,13 @@
+[
+	{
+		"weight": 150,
+		"element": {
+			"element_type": "lithostitched:delegating",
+			"delegate": {
+				"location": "ccs:houses/vermilion/3x2/power_plant",
+				"processors": "ccs:vermilion/power_plant"
+			},
+			"forced_count": 1
+		}
+	}
+]

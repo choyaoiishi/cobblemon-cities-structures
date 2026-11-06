@@ -1,0 +1,23 @@
+v.level_variation_min = -5;
+v.level_variation_max = 0;
+v.loop_count = math.random_integer(2, 3);
+
+v.base_level < 30 ? {
+	return q.array(
+		'gastly',
+		'slowpoke',
+		'drowzee',
+		'spiritomb',
+		'mimikyu',
+		'duskull'
+	);
+};
+
+return q.array(
+	'haunter',
+	'hypno',
+	'slowbro',
+	'spiritomb',
+	'mimikyu',
+	'dusclops'
+);

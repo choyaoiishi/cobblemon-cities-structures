@@ -60,13 +60,55 @@
             "I'm shocked! But, a loss is a loss. I admit I didn't work hard enough to win! You earned the Marsh Badge!",
             "Everyone has psychic power! People just don't realize it!",
             "55",
-           "ccs:kanto/saffron/sabrina"
+            "ccs:kanto/saffron/sabrina"
         ],
         "reward": [
             "tm",
             "trickroom",
             "Wait, please take this TM with you!",
             "TM116 is Trick Room. It flips dimensions to allow slower Pokémon to go first. It's quite a potent strategy in Doubles."
+        ]
+    },
+    "karate_master": {
+        "lines": [
+            "Grunt! I am the karate master!",
+            "I am the leader here!"
+        ],
+        "battle": [
+            "karate_master",
+            "You wish to challenge us? Expect no mercy! Fwaaa!",
+            "Hwa! Arrgh! Beaten!",
+            "Grunt! Stay and train at karate with us!",
+            "55",
+            "ccs:kanto/saffron/karate_master"
+        ],
+        "reward": [
+            "pokemon",
+            "Hitmonchan",
+            "Indeed, I have lost! I will give you a prized fighting Pokémon!",
+            "Grunt! Stay and train at karate with us!"
+        ]
+    },
+    "black_belt_1":{
+        "lines": [],
+        "battle": [
+            "black_belt",
+            "Hoargh! Take your shoes off!",
+            "I give up!",
+            "You wait 'til you see our master! I'm a small fry compared to him!",
+            "55"
+        ]
+    },
+    "black_belt_2": {
+        "lines": [
+            "Hiyah! I have no fear for anything tough!"
+        ],
+        "battle": [
+            "black_belt",
+            "I shatter boulders for training every day!",
+            "Yow! Stubbed fingers!",
+            "The only thing that frightens us is psychic power!",
+            "55"
         ]
     }
 }

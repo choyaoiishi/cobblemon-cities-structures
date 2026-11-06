@@ -1,1 +1,14 @@
-[]
+[
+	{
+		"weight": 100,
+		"element": {
+			"element_type": "lithostitched:delegating",
+			"delegate": {
+				"location": "ccs:houses/#town_id/2x2/lab",
+				"processors": "ccs:#town_id/general"
+			},
+			"allow_bounding_box_collisions": true,
+			"forced_count": 1
+		}
+	}
+]

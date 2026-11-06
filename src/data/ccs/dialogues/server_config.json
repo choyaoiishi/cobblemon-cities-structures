@@ -40,6 +40,7 @@
             "text": "Silph Co. Rewards",
             "value": "silph_reward",
             "action": [
+              "v.status_script = 'reward__silph_status';",
               "q.dialogue.set_page('silph_rewards_menu')"
             ]
           },
@@ -48,6 +49,66 @@
             "value": "disable_npc",
             "action": [
               "q.dialogue.set_page('npc_spawning_menu')"
+            ]
+          },
+          {
+            "text": "Oak's Welcome",
+            "value": "oak_welcome",
+            "action": [
+              "v.status_script = 'config__oak_welcome_status';",
+              "q.dialogue.set_page('oak_welcome_menu')"
+            ]
+          },
+          {
+            "text": "Close Menu",
+            "value": "close",
+            "action": [
+              "q.dialogue.close();"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "oak_welcome_menu",
+      "speaker": "npc",
+      "lines": [
+        "Should Professor Oak welcome new players?",
+        " ",
+        {
+          "type": "expression",
+          "expression": "'Current: ' + q.run_script('ccs:' + v.status_script);"
+        }
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "Yes",
+            "value": "yes",
+            "isSelectable": "v.data.disable_oak_welcome == 1",
+            "action": [
+              "v.data.disable_oak_welcome = 0;",
+              "v.server.save_data();",
+              "q.dialogue.set_page('setting_updated')"
+            ]
+          },
+          {
+            "text": "No",
+            "value": "no",
+            "isSelectable": "v.data.disable_oak_welcome == 0",
+            "action": [
+              "v.data.disable_oak_welcome = 1;",
+              "v.server.save_data();",
+              "q.dialogue.set_page('setting_updated')"
+            ]
+          },
+          {
+            "text": "Back",
+            "value": "back",
+            "action": [
+              "q.dialogue.set_page('main_menu')"
             ]
           }
         ]
@@ -85,6 +146,13 @@
             "action": [
               "v.pending_mode = 'none';",
               "q.dialogue.set_page('confirm_npc_wipe')"
+            ]
+          },
+          {
+            "text": "Back",
+            "value": "back",
+            "action": [
+              "q.dialogue.set_page('main_menu')"
             ]
           }
         ]
@@ -141,7 +209,7 @@
         " ",
         {
           "type": "expression",
-          "expression": "'Current: ' + q.run_script('ccs:reward__silph_status');"
+          "expression": "'Current: ' + q.run_script('ccs:' + v.status_script);"
         }
       ],
       "input": {
@@ -155,7 +223,7 @@
             "action": [
               "v.data.silph_random_rewards = 0;",
               "v.server.save_data();",
-              "q.dialogue.set_page('silph_rewards_done')"
+              "q.dialogue.set_page('setting_updated')"
             ]
           },
           {
@@ -165,19 +233,26 @@
             "action": [
               "v.data.silph_random_rewards = 1;",
               "v.server.save_data();",
-              "q.dialogue.set_page('silph_rewards_done')"
+              "q.dialogue.set_page('setting_updated')"
+            ]
+          },
+          {
+            "text": "Back",
+            "value": "back",
+            "action": [
+              "q.dialogue.set_page('main_menu')"
             ]
           }
         ]
       }
     },
     {
-      "id": "silph_rewards_done",
+      "id": "setting_updated",
       "speaker": "npc",
       "lines": [
         {
           "type": "expression",
-          "expression": "'Updated to: ' + q.run_script('ccs:reward__silph_status');"
+          "expression": "'Updated to: ' + q.run_script('ccs:' + v.status_script);"
         }
       ],
       "input": [

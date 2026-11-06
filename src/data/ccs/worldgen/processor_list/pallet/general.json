@@ -20,16 +20,16 @@
                 "minecraft:spruce_trapdoor": "minecraft:dark_oak_trapdoor",
                 "minecraft:spruce_fence": "minecraft:dark_oak_fence",
                 // furnies
-                "cobblefurnies:black_sofa": "cobblefurnies:red_sofa",
-                "cobblefurnies:black_armchair": "cobblefurnies:red_armchair",
-                "cobblefurnies:black_dark_table": "cobblefurnies:red_dark_table",
+                "cobblefurnies:black_sofa": "cobblefurnies:yellow_sofa",
+                "cobblefurnies:black_armchair": "cobblefurnies:yellow_armchair",
+                "cobblefurnies:black_dark_table": "cobblefurnies:yellow_dark_table",
                 "cobblefurnies:black_poke_wool": "cobblefurnies:red_poke_wool",
                 "cobblefurnies:black_poke_wool_carpet": "cobblefurnies:red_poke_wool_carpet",
                 "cobblemon:black_plaque": "cobblemon:red_plaque",
                 "cobblemon:campfire_pot_black": "cobblemon:campfire_pot_red",
-                "minecraft:black_bed": "minecraft:red_bed",
+                "minecraft:black_bed": "minecraft:yellow_bed",
                 // lamp
-                // "minecraft:polished_blackstone_wall": "minecraft:andesite_wall",
+                "minecraft:polished_blackstone_wall": "minecraft:stone_brick_wall",
                 // deco
                 "minecraft:brick_slab": "minecraft:air"
             }

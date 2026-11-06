@@ -1,0 +1,12 @@
+{
+  "name": "ccs:npcs/delia",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:standard",
+      "model": "cobblemon:alex.geo",
+      "texture": "ccs:textures/npcs/delia.png"
+    }
+  ]
+}

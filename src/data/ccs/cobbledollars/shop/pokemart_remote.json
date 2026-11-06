@@ -1,0 +1,115 @@
+[
+  {
+    "name": "Poké Balls",
+    "offers": [
+      {
+        "item": "cobblemon:poke_ball",
+        "price": "2500"
+      },
+      {
+        "item": "cobblemon:great_ball",
+        "price": "7500"
+      },
+      {
+        "item": "cobblemon:ultra_ball",
+        "price": "15000"
+      }
+    ]
+  },
+  {
+    "name": "Cures",
+    "offers": [
+      {
+        "item": "cobblemon:antidote",
+        "price": "1500"
+      },
+      {
+        "item": "cobblemon:paralyze_heal",
+        "price": "3000"
+      },
+      {
+        "item": "cobblemon:awakening",
+        "price": "4000"
+      },
+      {
+        "item": "cobblemon:burn_heal",
+        "price": "4000"
+      },
+      {
+        "item": "cobblemon:ice_heal",
+        "price": "4000"
+      },
+      {
+        "item": "cobblemon:full_heal",
+        "price": "9000"
+      }
+    ]
+  },
+  {
+    "name": "Potions",
+    "offers": [
+      {
+        "item": "cobblemon:potion",
+        "price": "3500"
+      },
+      {
+        "item": "cobblemon:super_potion",
+        "price": "8000"
+      },
+      {
+        "item": "cobblemon:hyper_potion",
+        "price": "14000"
+      },
+      {
+        "item": "cobblemon:revive",
+        "price": "17500"
+      }
+    ]
+  },
+  {
+    "name": "Foods",
+    "offers": [
+      {
+        "item": "minecraft:cooked_beef",
+        "price": "2000",
+        "components": {
+          "minecraft:custom_name": "[{\"text\":\"Jerky\",\"italic\":false}]",
+          "minecraft:food": {
+            "nutrition": 8,
+            "saturation": 12,
+            "can_always_eat": true,
+            "eat_seconds": 5,
+            "effects": [{
+              "effect": {
+                "id": "saturation",
+                "duration": 200
+              }
+            }]
+          }
+          
+        }
+      },
+      {
+        "item": "cobblemon:lumiose_galette",
+        "price": "1000",
+        "components": {
+          "minecraft:custom_name": "[{\"text\":\"Hard bread\",\"italic\":false}]",
+          "minecraft:food": {
+            "nutrition": 5,
+            "saturation": 6,
+            "can_always_eat": true,
+            "eat_seconds": 5,
+            "effects": [
+              {
+                "effect": {
+                  "id": "saturation",
+                  "duration": 200
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]

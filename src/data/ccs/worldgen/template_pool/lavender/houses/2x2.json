@@ -27,6 +27,35 @@
                 },
                 "limit": 1
             }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "lithostitched:delegating",
+                "delegate": {
+                    "location": "ccs:houses/lavender/2x2/tower",
+                    "processors": "ccs:lavender/tower",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid"
+                },
+                "allow_bounding_box_collisions": true,
+                "min_depth": 2,
+                "forced_count": 1
+            }
+        },
+        {
+            "weight": 50,
+            "element": {
+                "element_type": "lithostitched:delegating",
+                "delegate": {
+                    "location": "ccs:houses/lavender/2x2/graveyard",
+                    "processors": "ccs:lavender/general",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid"
+                },
+                "min_depth": 2,
+                "forced_count": 1
+            }
         }
     ]
 }

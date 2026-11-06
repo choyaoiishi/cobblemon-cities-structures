@@ -1,0 +1,59 @@
+{
+	"level": "35-37",
+	"spawns": [
+		[
+			"Zebstrika",
+			10
+		],
+		[
+			"Tynamo",
+			10,
+			"uncommon",
+			"1-3"
+		],
+		[
+			"Voltorb"
+		],
+		[
+			"Electrode"
+		],
+		[
+			"Magnemite"
+		],
+		[
+			"Magneton",
+			10
+		],
+		[
+			"Electabuzz",
+			10,
+			"uncommon",
+			"4-5"
+		],
+		[
+			"Grimer",
+			20,
+			"common",
+			"1-3"
+		],
+		[
+			"Muk",
+			10,
+			"common",
+			"1-3"
+		],
+		[
+			"Koffing",
+			20,
+			"common",
+			"4-5"
+		],
+		[
+			"Weezing",
+			10,
+			"common",
+			"4-5"
+		]
+
+	]
+}

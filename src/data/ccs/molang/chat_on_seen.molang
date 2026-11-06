@@ -1,5 +1,7 @@
 ! q.entity.config.chat_on_seen_enable ? return 0;
 
+q.run_script('ccs:is_debug') != 0 ? return 0;
+
 math.mod(q.entity.world.game_time(), 5) != 0 ? return 0;
 
 t.range = q.entity.config.chat_range;

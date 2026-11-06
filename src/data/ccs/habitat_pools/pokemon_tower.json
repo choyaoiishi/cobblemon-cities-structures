@@ -1,0 +1,86 @@
+{
+  "name": "pokemon_tower",
+  "type": "cobblemon:natural",
+  "spawns": [
+    {
+      "species": "Haunter",
+      "bucket": "common",
+      "spawnablePositionType": "grounded",
+      "weight": 20.0,
+      "levelRange": "45-47",
+      "phases": "1-5"
+    },
+    {
+      "species": "Cofagrigus",
+      "bucket": "common",
+      "spawnablePositionType": "grounded",
+      "weight": 20.0,
+      "levelRange": "45-47",
+      "phases": "1-5"
+    },
+    {
+      "species": "Dusclops",
+      "bucket": "uncommon",
+      "spawnablePositionType": "grounded",
+      "weight": 10.0,
+      "levelRange": "45-47",
+      "phases": "1-2"
+    },
+    {
+      "species": "Mismagius",
+      "bucket": "common",
+      "spawnablePositionType": "grounded",
+      "weight": 20.0,
+      "levelRange": "45-47",
+      "phases": "2-3"
+    },
+    {
+      "species": "Cubone",
+      "bucket": "uncommon",
+      "spawnablePositionType": "grounded",
+      "weight": 10.0,
+      "levelRange": "45-47",
+      "phases": "3-4"
+    },
+    {
+      "species": "Spiritomb",
+      "bucket": "common",
+      "spawnablePositionType": "grounded",
+      "weight": 5.0,
+      "levelRange": "45-47",
+      "phases": "4-5"
+    },
+    {
+      "species": "Sableye",
+      "bucket": "uncommon",
+      "spawnablePositionType": "grounded",
+      "weight": 5.0,
+      "levelRange": "45-47",
+      "phases": "1-2"
+    },
+    {
+      "species": "Lampent",
+      "bucket": "uncommon",
+      "spawnablePositionType": "grounded",
+      "weight": 2.0,
+      "levelRange": "45-47",
+      "phases": "3-4"
+    },
+    {
+      "species": "Annihilape",
+      "bucket": "uncommon",
+      "spawnablePositionType": "grounded",
+      "weight": 20.0,
+      "levelRange": "45-47",
+      "phases": "4-5"
+    },
+    {
+      "species": "Mimikyu",
+      "bucket": "uncommon",
+      "spawnablePositionType": "grounded",
+      "weight": 10.0,
+      "levelRange": "45-47",
+      "phases": "1-2"
+    }
+  ]
+}

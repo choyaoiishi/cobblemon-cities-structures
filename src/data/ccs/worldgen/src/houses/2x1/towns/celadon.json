@@ -1,4 +1,15 @@
 [
 	"tree",
-	"modern_2"
+	"modern_2",
+	{
+		"weight": 100,
+		"element": {
+			"element_type": "lithostitched:delegating",
+			"delegate": {
+				"location": "ccs:houses/celadon/2x1/flower_shop"
+			},
+			"allow_bounding_box_collisions": true,
+			"max_count": 1
+		}
+	}
 ]

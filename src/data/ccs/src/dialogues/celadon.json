@@ -215,5 +215,16 @@
             "Protein increases attack power.",
             "Iron increases defense!"
         ]
+    },
+    "flower_shop":{
+        "lines": [
+            "Hello! This is the Celadon flower shop."
+        ],
+        "shop": [
+            "celadon/flower",
+            "",
+            "Spreading flowers throughout the world!",
+            "Please come again!"
+        ]
     }
 }

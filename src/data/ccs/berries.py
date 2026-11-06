@@ -79,6 +79,22 @@ TOWN_BERRIES = {
         "Charti",
         "Haban",
         "Colbur"
+    ],
+    "pallet": [
+        "Oran",
+        "Persim",
+        "Cheri",
+        "Wepear",
+        "Wacan",
+        "Chilan" 
+    ],
+    "lavender": [
+        "Oran",
+        "Persim",
+        "Kebia",
+        "Payapa",
+        "Kasib",
+        "Colbur"
     ]
 }
 

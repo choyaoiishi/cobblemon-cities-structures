@@ -1,4 +1,9 @@
 {
+  "initializationAction": [
+    "t.server = q.player.world.server();",
+    "t.data = t.server.data();",
+    "t.data.disable_oak_welcome == 1 ? q.dialogue.close();"
+  ],
   "speakers": {
     "npc": {
       "name": "Professor Oak",
@@ -43,18 +48,23 @@
         "vertical": true,
         "options": [
           {
-            "text": "Get Starter Kit",
-            "value": "starter_kit",
-            "isSelectable": "v.data.kit_received!=1",
+            "text": "Start at Pallet Town",
+            "value": "tp_pallet",
             "action": [
-              "q.dialogue.set_page('starter_kit');"
+              "v.spawn_location = 'pallet';",
+              "v.city_name = 'Pallet Town';",
+              "v.tp_function = 'ccs:tp_pallet';",
+              "q.dialogue.set_page('tp_location');"
             ]
           },
           {
             "text": "Start at Pewter City",
             "value": "tp_pewter",
             "action": [
-              "q.dialogue.set_page('tp_pewter');"
+              "v.spawn_location = 'pewter';",
+              "v.city_name = 'Pewter City';",
+              "v.tp_function = 'ccs:tp_pewter';",
+              "q.dialogue.set_page('tp_location');"
             ]
           },
           {
@@ -68,7 +78,56 @@
       }
     },
     {
-      "id": "starter_kit",
+      "id": "tp_location",
+      "speaker": "npc",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "'Do you wish to start your journey directly at ' + v.city_name + '?'"
+        }
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "Yes, take me there!",
+            "value": "confirm_tp",
+            "action": [
+              "q.dialogue.set_page('tp_process');"
+            ]
+          },
+          {
+            "text": "Back",
+            "value": "back",
+            "action": [
+              "q.dialogue.set_page('main_menu');"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "tp_process",
+      "speaker": "npc",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "'Just wait a moment! Locating ' + v.city_name + '...'"
+        }
+      ],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": [
+          "q.run_command('execute as ' + q.player.username() + ' run function ' + v.tp_function);",
+          "v.spawn_location == 'pewter' ? q.dialogue.set_page('starter_kit_prompt') : q.dialogue.set_page('tp_pallet_done');"
+        ]
+      }
+    },
+    {
+      "id": "starter_kit_prompt",
       "speaker": "npc",
       "lines": [
         "Do you wish to receive your starter kit?"
@@ -80,6 +139,7 @@
           {
             "text": "Yes",
             "value": "yes",
+            "isSelectable": "v.data.kit_received!=1",
             "action": [
               "q.run_command('execute as ' + q.player.username() + ' run function ccs:starter_kit');",
               "q.player.play_sound_on_server('ccs:item_get', 'blocks');",
@@ -88,10 +148,10 @@
             ]
           },
           {
-            "text": "Back",
-            "value": "back",
+            "text": "No",
+            "value": "no",
             "action": [
-              "q.dialogue.set_page('main_menu');"
+              "q.dialogue.set_page('tp_done');"
             ]
           }
         ]
@@ -104,59 +164,30 @@
         "Starter kit received!"
       ],
       "input": {
-        "type": "option",
-        "vertical": true,
-        "options": [
-          {
-            "text": "Back to menu",
-            "value": "back",
-            "action": [
-              "q.dialogue.set_page('main_menu');"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "id": "tp_pewter",
-      "speaker": "npc",
-      "lines": [
-        "Do you wish to start your journey directly at Pewter City?"
-      ],
-      "input": {
-        "type": "option",
-        "vertical": true,
-        "options": [
-          {
-            "text": "Yes, take me there!",
-            "value": "confirm_tp",
-            "action": [
-              "q.dialogue.set_page('tp_to_pewter');"
-            ]
-          },
-          {
-            "text": "Back",
-            "value": "back",
-            "action": [
-              "q.dialogue.set_page('main_menu');"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "id": "tp_to_pewter",
-      "speaker": "npc",
-      "lines": [
-        "Just wait a moment! Locating Pewter City..."
-      ],
-      "input": {
         "type": "auto-continue",
-        "delay": 0.01,
-        "allowSkip": false,
+        "delay": 1.0,
         "action": [
-          "q.run_command('execute as ' + q.player.username() + ' run function ccs:tp_spawn');",
           "q.dialogue.set_page('tp_done');"
+        ]
+      }
+    },
+    {
+      "id": "tp_pallet_done",
+      "speaker": "npc",
+      "lines": [
+        "All set! Come visit me at my lab, I have something to give you!"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "Done",
+            "value": "done",
+            "action": [
+              "q.dialogue.close();"
+            ]
+          }
         ]
       }
     },

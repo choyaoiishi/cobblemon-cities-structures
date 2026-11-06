@@ -1,0 +1,25 @@
+{
+    "processors": [
+        {
+            "processor_type": "lithostitched:block_swap",
+            "blocks": {
+                "minecraft:crying_obsidian": "minecraft:grass_block",
+                "minecraft:obsidian": "minecraft:grass_block",
+                // road
+                "minecraft:birch_log": "minecraft:grass_block",
+                "minecraft:birch_wood": "minecraft:grass_block",
+
+                "minecraft:grass_block": "minecraft:grass_block",
+
+                "minecraft:oak_leaves": "minecraft:air"
+            }
+        },
+        {
+            "processor_type": "lithostitched:reference",
+            "processor_lists": [
+                "ccs:others/red",
+                "ccs:others/cobblestone/mossy_stone"
+            ]
+        }
+    ]
+}

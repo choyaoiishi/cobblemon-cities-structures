@@ -8,6 +8,17 @@
             "Please come again!"
         ]
     },
+    "pokemart_2": {
+        "lines": [
+            "Hi there! Welcome to remote Pokemart!"
+        ],
+        "shop": [
+            "pokemart_remote",
+            "pokemart",
+            "Stocks are limited here, but please have a look!",
+            "Please come again!"
+        ]
+    },
     "1": {
         "lines": [
             "Even if they are the same level, Pokemon can have very different abilities.",

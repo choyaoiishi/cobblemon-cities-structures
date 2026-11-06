@@ -1,21 +1,29 @@
 {
 	"name": "ccs:trees",
-	"fallback": "minecraft:empty",
+	"fallback": "ccs:trees_only",
 	"elements": [
 		{
-			"weight": 5,
+			"weight": 1,
 			"element": {
-				"element_type": "minecraft:feature_pool_element",
-				"feature": "ccs:trees",
-				"projection": "rigid"
+				"element_type": "lithostitched:delegating",
+				"delegate": {
+					"element_type": "minecraft:feature_pool_element",
+					"feature": "ccs:trees",
+					"projection": "rigid"
+				},
+				"allow_bounding_box_collisions": true
 			}
 		},
 		{
 			"weight": 1,
 			"element": {
-				"element_type": "minecraft:feature_pool_element",
-				"feature": "ccs:cobblemon_trees",
-				"projection": "rigid"
+				"element_type": "lithostitched:delegating",
+				"delegate": {
+					"element_type": "minecraft:feature_pool_element",
+					"feature": "ccs:cobblemon_trees",
+					"projection": "rigid"
+				},
+				"allow_bounding_box_collisions": true
 			}
 		}
 	]

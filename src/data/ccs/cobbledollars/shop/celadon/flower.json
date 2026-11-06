@@ -1,0 +1,109 @@
+[
+  {
+    "name": "Sapling",
+    "offers": [
+      {
+        "item": "minecraft:oak_sapling",
+        "price": "1000"
+      },
+      {
+        "item": "minecraft:spruce_sapling",
+        "price": "1000"
+      },
+      {
+        "item": "minecraft:birch_sapling",
+        "price": "1000"
+      },
+      {
+        "item": "minecraft:jungle_sapling",
+        "price": "1000"
+      },
+      {
+        "item": "minecraft:acacia_sapling",
+        "price": "1000"
+      },
+      {
+        "item": "minecraft:dark_oak_sapling",
+        "price": "5000"
+      },
+      {
+        "item": "minecraft:cherry_sapling",
+        "price": "5000"
+      },
+      {
+        "item": "cobblemon:saccharine_sapling",
+        "price": "10000"
+      }
+    ]
+  },
+  {
+    "name": "Sprout",
+    "offers": [
+      {
+        "item": "cobblemon:red_apricorn_seed",
+        "price": "2000"
+      },
+      {
+        "item": "cobblemon:yellow_apricorn_seed",
+        "price": "2000"
+      },
+      {
+        "item": "cobblemon:green_apricorn_seed",
+        "price": "2000"
+      },
+      {
+        "item": "cobblemon:blue_apricorn_seed",
+        "price": "2000"
+      },
+      {
+        "item": "cobblemon:pink_apricorn_seed",
+        "price": "2000"
+      },
+      {
+        "item": "cobblemon:black_apricorn_seed",
+        "price": "2000"
+      },
+      {
+        "item": "cobblemon:white_apricorn_seed",
+        "price": "2000"
+      }
+    ]
+  },
+  {
+    "name": "Mulch",
+    "offers": [
+      {
+        "item": "cobblemon:growth_mulch",
+        "price": "3000"
+      },
+      {
+        "item": "cobblemon:rich_mulch",
+        "price": "30000"
+      },{
+        "item": "cobblemon:surprise_mulch",
+        "price": "60000"
+      },{
+        "item": "cobblemon:loamy_mulch",
+        "price": "3000"
+      },{
+        "item": "cobblemon:coarse_mulch",
+        "price": "4000"
+      },{
+        "item": "cobblemon:peat_mulch",
+        "price": "5000"
+      },
+      {
+        "item": "cobblemon:humid_mulch",
+        "price": "5000"
+      },
+      {
+        "item": "cobblemon:sandy_mulch",
+        "price": "3000"
+      },
+      {
+        "item": "cobblemon:mulch_base",
+        "price": "1000"
+      }
+    ]
+  }
+]

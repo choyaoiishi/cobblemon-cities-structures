@@ -2,12 +2,15 @@ import os
 import json
 
 TOWN_BIOMES = {
+    "pokecenter": [
+        "#cobblemon:has_block/apricorn_log"
+    ],
     "pallet": [
         "#cobblemon:is_plains"
     ],
      "lavender": [
-            "#cobblemon:is_spooky"
-        ],
+        "#cobblemon:is_spooky"
+    ],
     "viridian": [
         "#cobblemon:is_forest"
     ],

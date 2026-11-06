@@ -12,6 +12,10 @@
 	},
 	"structures": [
 		{
+			"structure": "ccs:pokecenter",
+			"weight": 1
+		},
+		{
 			"structure": "ccs:fuchsia",
 			"weight": 1
 		},
@@ -29,6 +33,14 @@
 		},
 		{
 			"structure": "ccs:vermilion",
+			"weight": 1
+		},
+		{
+			"structure": "ccs:pallet",
+			"weight": 1
+		},
+		{
+			"structure": "ccs:lavender",
 			"weight": 1
 		},
 		{

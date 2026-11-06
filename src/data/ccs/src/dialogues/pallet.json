@@ -1,0 +1,48 @@
+{
+    "1": {
+        "lines": [
+            "Prof. Oak may not look like much, but he's the authority on Pokémon.",
+            "Many Pokémon Trainers hold him in high regard."
+        ]
+    },
+    "oak": {
+        "lines": [
+            "Hello there! My name is Oak. People call me the Pokémon Professor!",
+            "Recently, there have been sightings of many rare Pokémon species.",
+            "I'm talking about Pokémon that have never been seen in Kanto.",
+            "I would love to check it out myself, but I'm much too old.",
+            "Since I can't do it, I'd like you to go in my place.",
+            "It is my invention, the Pokédex!",
+            "It is a high-tech encyclopedia that automatically records data on Pokémon you have seen or caught.",
+            "To make a complete guide on all the Pokémon in the world...",
+            "That was my dream!",
+            "Get moving! Truly, this is a great undertaking in Pokémon history!"
+        ],
+        "reward": [
+            "item",
+            "cobblemon:poke_rod",
+            "Here, take these with you.",
+            "Get moving! Truly, this is a great undertaking in Pokémon history!"
+        ]
+    },
+    "daisy": {
+        "lines": [
+            "Just like people, Pokémon are living things.",
+            "When they get tired, please give them a rest.",
+            "Grandpa asked you to run an errand? Gee, that's lazy of him. "
+        ],
+        "reward": [
+            "function",
+            "starter_kit_daisy",
+            "Here, this will help you.",
+            "Good luck, and take care!"
+        ]
+    },
+    "mom": {
+        "lines": [
+            "Welcome home.",
+            "It sounds like you had quite the experience out there.",
+            "Maybe you should take a quick rest so you can relax."
+        ]
+    }
+}

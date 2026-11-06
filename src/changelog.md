@@ -1,3 +1,26 @@
+### 06-11-2026 - 1.0.16
+- add lavender town
+	- add pokemon tower
+	- add graveyard
+- add pallet town
+	- add oak lab
+	- add daisy house
+	- add mom house
+- add vermilion pokemon fanclub
+- add celadon flower shop
+- add saffron fighting dojo
+- add remote pokecenter
+- changed town center to 1x1 to reduce the awkward roads spawn chance
+- add min depth to some buildings so they don't spawn too close to the center
+- add fallback to cobblemon trees to reduce the empty plot chance
+
+#### oak welcome
+- add option to teleport to pallet town
+- move starter kit to after player teleported to pewter city
+
+#### server config
+- add option to disable oak welcome player
+
 ### 30-10-2026 - 1.0.15
 - fix scientist dont have pokemon
 - fix teams only have 1 and level 1 pokemon

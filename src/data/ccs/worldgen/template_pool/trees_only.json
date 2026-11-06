@@ -1,0 +1,18 @@
+{
+	"name": "ccs:trees_only",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "lithostitched:delegating",
+				"delegate": {
+					"element_type": "minecraft:feature_pool_element",
+					"feature": "ccs:trees",
+					"projection": "rigid"
+				},
+				"allow_bounding_box_collisions": true
+			}
+		}
+	]
+}

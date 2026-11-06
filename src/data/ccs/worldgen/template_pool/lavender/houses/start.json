@@ -1,5 +1,15 @@
 {
     "template_pools": "ccs:lavender/houses/start",
     "fallback": "minecraft:empty",
-    "elements": []
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:houses/1x1/start",
+                "processors": "ccs:lavender/general",
+                "projection": "rigid"
+            }
+        }
+    ]
 }

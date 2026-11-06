@@ -1,0 +1,284 @@
+{
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();"
+    }
+  },
+  "pages": [
+    {
+      "id": "line_0",
+      "speaker": "npc",
+      "lines": [],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": [
+          "v.reward_type='item';",
+          "v.reward='cobblemon:rare_candy';",
+          "t.reward_landing = q.run_script('ccs:reward__landing');",
+          "t.next_page = t.reward_landing == 'reward_give' ? 'line_1' : t.reward_landing;",
+          "q.dialogue.set_page(t.next_page)"
+        ]
+      }
+    },
+    {
+      "id": "reward_give",
+      "speaker": "npc",
+      "lines": [
+        "Thanks for hearing me out. I want you to have this!"
+      ],
+      "input": [
+        "q.run_script('ccs:give_reward');",
+        "q.dialogue.set_page('reward_gave');"
+      ]
+    },
+    {
+      "id": "reward_gave",
+      "speaker": "npc",
+      "lines": [
+        "It's a rare candy that makes Pok\u00e9mon stronger. I prefer making my Pok\u00e9mon stronger by battling, so you can have it."
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    },
+    {
+      "id": "bye",
+      "speaker": "npc",
+      "lines": [],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": [
+          "q.dialogue.close();"
+        ]
+      }
+    },
+    {
+      "id": "line_1",
+      "speaker": "npc",
+      "lines": [
+        "I'm the chairman of the Pok\u00e9mon fan club."
+      ],
+      "input": [
+        "q.dialogue.set_page('line_2');"
+      ]
+    },
+    {
+      "id": "line_2",
+      "speaker": "npc",
+      "lines": [
+        "I've raised over 150 Pok\u00e9mon."
+      ],
+      "input": [
+        "q.dialogue.set_page('line_3');"
+      ]
+    },
+    {
+      "id": "line_3",
+      "speaker": "npc",
+      "lines": [
+        "I'm very fussy when it comes to Pok\u00e9mon."
+      ],
+      "input": [
+        "q.dialogue.set_page('line_4');"
+      ]
+    },
+    {
+      "id": "line_4",
+      "speaker": "npc",
+      "lines": [
+        "Did you visit just to hear about my Pok\u00e9mon?"
+      ],
+      "input": [
+        "q.dialogue.set_page('line_5');"
+      ]
+    },
+    {
+      "id": "line_5",
+      "speaker": "npc",
+      "lines": [
+        "Good!"
+      ],
+      "input": [
+        "q.dialogue.set_page('line_6');"
+      ]
+    },
+    {
+      "id": "line_6",
+      "speaker": "npc",
+      "lines": [
+        "Then listen up!"
+      ],
+      "input": [
+        "q.dialogue.set_page('line_7');"
+      ]
+    },
+    {
+      "id": "line_7",
+      "speaker": "npc",
+      "lines": [
+        "So\u2026 my favorite Rapidash\u2026"
+      ],
+      "input": [
+        "q.dialogue.set_page('line_8');"
+      ]
+    },
+    {
+      "id": "line_8",
+      "speaker": "npc",
+      "lines": [
+        "It\u2026 cute\u2026 lovely\u2026"
+      ],
+      "input": [
+        "q.dialogue.set_page('line_9');"
+      ]
+    },
+    {
+      "id": "line_9",
+      "speaker": "npc",
+      "lines": [
+        "Smart\u2026 unbearably\u2026"
+      ],
+      "input": [
+        "q.dialogue.set_page('line_10');"
+      ]
+    },
+    {
+      "id": "line_10",
+      "speaker": "npc",
+      "lines": [
+        "Plus\u2026 amazing\u2026 oh\u2026"
+      ],
+      "input": [
+        "q.dialogue.set_page('line_11');"
+      ]
+    },
+    {
+      "id": "line_11",
+      "speaker": "npc",
+      "lines": [
+        "You think so?\u2026"
+      ],
+      "input": [
+        "q.dialogue.set_page('line_12');"
+      ]
+    },
+    {
+      "id": "line_12",
+      "speaker": "npc",
+      "lines": [
+        "Too much\u2026 wild\u2026"
+      ],
+      "input": [
+        "q.dialogue.set_page('line_13');"
+      ]
+    },
+    {
+      "id": "line_13",
+      "speaker": "npc",
+      "lines": [
+        "Beautiful\u2026 kindly\u2026"
+      ],
+      "input": [
+        "q.dialogue.set_page('line_14');"
+      ]
+    },
+    {
+      "id": "line_14",
+      "speaker": "npc",
+      "lines": [
+        "Love it!"
+      ],
+      "input": [
+        "q.dialogue.set_page('line_15');"
+      ]
+    },
+    {
+      "id": "line_15",
+      "speaker": "npc",
+      "lines": [
+        "Hug it\u2026 when\u2026"
+      ],
+      "input": [
+        "q.dialogue.set_page('line_16');"
+      ]
+    },
+    {
+      "id": "line_16",
+      "speaker": "npc",
+      "lines": [
+        "Sleeping\u2026 warm and cuddly\u2026"
+      ],
+      "input": [
+        "q.dialogue.set_page('line_17');"
+      ]
+    },
+    {
+      "id": "line_17",
+      "speaker": "npc",
+      "lines": [
+        "Oh, and\u2026"
+      ],
+      "input": [
+        "q.dialogue.set_page('line_18');"
+      ]
+    },
+    {
+      "id": "line_18",
+      "speaker": "npc",
+      "lines": [
+        "Spectacular\u2026"
+      ],
+      "input": [
+        "q.dialogue.set_page('line_19');"
+      ]
+    },
+    {
+      "id": "line_19",
+      "speaker": "npc",
+      "lines": [
+        "Ravishing\u2026 simply divine\u2026"
+      ],
+      "input": [
+        "q.dialogue.set_page('line_20');"
+      ]
+    },
+    {
+      "id": "line_20",
+      "speaker": "npc",
+      "lines": [
+        "Oops!"
+      ],
+      "input": [
+        "q.dialogue.set_page('line_21');"
+      ]
+    },
+    {
+      "id": "line_21",
+      "speaker": "npc",
+      "lines": [
+        "Look at the time!"
+      ],
+      "input": [
+        "q.dialogue.set_page('line_22');"
+      ]
+    },
+    {
+      "id": "line_22",
+      "speaker": "npc",
+      "lines": [
+        "I've kept you too long!"
+      ],
+      "input": [
+        "q.dialogue.set_page('reward_give');"
+      ]
+    }
+  ]
+}

@@ -48,8 +48,8 @@
             "Whoa! You're the real deal, kid! Fine then, take the Thunder Badge!",
             "A little word of advice, kid! Electricity is sure powerful! But, it's useless against ground-type Pokémon!",
             "35",
-                        "ccs:kanto/vermilion/lt_surge"
-                    ],
+            "ccs:kanto/vermilion/lt_surge"
+        ],
         "reward": [
             "tm",
             "shockwave",
@@ -67,7 +67,7 @@
             "You're seriously just a step ahead of me. It's admirable, really.",
             "The Lucky Egg speeds up training significantly. I hope you put it to good use. Well, it's back to training for me.",
             "35",
-                        "ccs:kanto/vermilion/brendan"
+            "ccs:kanto/vermilion/brendan"
         ],
         "reward": [
             "item",
@@ -75,6 +75,48 @@
             "I've got another useful item for you, my friend.",
             "The Lucky Egg speeds up training significantly. I hope you put it to good use. Well, it's back to training for me."
         ]
+    },
+    "chairman": {
+        "lines": [
+            "I'm the chairman of the Pokémon fan club.",
+            "I've raised over 150 Pokémon.",
+            "I'm very fussy when it comes to Pokémon.",
+            "Did you visit just to hear about my Pokémon?",
+            "Good!",
+            "Then listen up!",
+            "So… my favorite Rapidash…",
+            "It… cute… lovely…",
+            "Smart… unbearably…",
+            "Plus… amazing… oh…",
+            "You think so?…",
+            "Too much… wild…",
+            "Beautiful… kindly…",
+            "Love it!",
+            "Hug it… when…",
+            "Sleeping… warm and cuddly…",
+            "Oh, and…",
+            "Spectacular…",
+            "Ravishing… simply divine…",
+            "Oops!",
+            "Look at the time!",
+            "I've kept you too long!"
+        ],
+        "reward": [
+            "item",
+            "cobblemon:rare_candy",
+            "Thanks for hearing me out. I want you to have this!",
+            "It's a rare candy that makes Pokémon stronger. I prefer making my Pokémon stronger by battling, so you can have it."
+        ]
+    },
+    "4": {
+        "lines": [
+            "I love the way Clefairy waggles its finger when it's trying to use Metronome.",
+            "It's so adorable!"
+        ]
+    },
+    "5": {
+        "lines": [
+            "Our chairman is very vocal when it comes to Pokémon…"
+        ]
     }
 }
-

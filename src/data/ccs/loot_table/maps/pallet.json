@@ -1,0 +1,28 @@
+{
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "destination": "ccs:pallet",
+                            "decoration": "minecraft:banner_red",
+                            "function": "minecraft:exploration_map",
+                            "search_radius": 100,
+                            "zoom": 4,
+                            "skip_existing_chunks": false
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": "Pallet Town",
+                            "target": "item_name"
+                        }
+                    ],
+                    "name": "minecraft:map"
+                }
+            ],
+            "rolls": 1
+        }
+    ]
+}

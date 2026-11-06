@@ -1,0 +1,15 @@
+{
+    "template_pools": "ccs:pallet/center_1x1",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "ccs:foundations/center_1x1",
+                "processors": "ccs:pallet/base",
+                "projection": "rigid"
+            }
+        }
+    ]
+}

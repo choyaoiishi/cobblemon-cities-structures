@@ -39,25 +39,7 @@
                         {
                             "weight": 1,
                             "data": {
-                                "Name": "cobblemon:occa_berry",
-                                "Properties": {
-                                    "age": "5"
-                                }
-                            }
-                        },
-                        {
-                            "weight": 1,
-                            "data": {
-                                "Name": "cobblemon:passho_berry",
-                                "Properties": {
-                                    "age": "5"
-                                }
-                            }
-                        },
-                        {
-                            "weight": 1,
-                            "data": {
-                                "Name": "cobblemon:charti_berry",
+                                "Name": "cobblemon:kebia_berry",
                                 "Properties": {
                                     "age": "5"
                                 }
@@ -75,7 +57,16 @@
                         {
                             "weight": 1,
                             "data": {
-                                "Name": "cobblemon:roseli_berry",
+                                "Name": "cobblemon:kasib_berry",
+                                "Properties": {
+                                    "age": "5"
+                                }
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "data": {
+                                "Name": "cobblemon:colbur_berry",
                                 "Properties": {
                                     "age": "5"
                                 }

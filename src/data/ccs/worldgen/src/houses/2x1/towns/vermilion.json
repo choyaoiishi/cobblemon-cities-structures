@@ -30,5 +30,15 @@
 			"limit": 1
 		}
 	},
+	{
+		"weight": 100,
+		"element": {
+			"element_type": "lithostitched:limited",
+			"delegate": {
+				"location": "ccs:houses/vermilion/2x1/fan_club"
+			},
+			"limit": 1
+		}
+	},
 	"basic"
 ]

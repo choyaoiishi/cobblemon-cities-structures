@@ -293,6 +293,71 @@
             "element": {
                 "element_type": "minecraft:empty_pool_element"
             }
+        },
+        {
+            "weight": 20,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:city_npc/lavender/001",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:lavender/general"
+                },
+                "limit": 1
+            }
+        },
+        {
+            "weight": 20,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:city_npc/lavender/002",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:lavender/general"
+                },
+                "limit": 1
+            }
+        },
+        {
+            "weight": 20,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:city_npc/lavender/003",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:lavender/general"
+                },
+                "limit": 1
+            }
+        },
+        {
+            "weight": 20,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:city_npc/lavender/004",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:lavender/general"
+                },
+                "limit": 1
+            }
+        },
+        {
+            "weight": 20,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:city_npc/lavender/005",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:lavender/general"
+                },
+                "limit": 1
+            }
         }
     ]
 }

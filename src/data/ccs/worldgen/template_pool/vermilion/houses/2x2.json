@@ -40,6 +40,19 @@
                 },
                 "limit": 1
             }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "lithostitched:delegating",
+                "delegate": {
+                    "location": "ccs:houses/vermilion/2x2/containers",
+                    "processors": "ccs:vermilion/general",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid"
+                },
+                "forced_count": 1
+            }
         }
     ]
 }

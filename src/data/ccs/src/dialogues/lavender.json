@@ -1,0 +1,148 @@
+{
+    "1": {
+        "lines": [
+            "This town is known as the grave site of Pokémon.",
+            "Memorial services are held in Pokémon Tower."
+        ]
+    },
+    "2": {
+        "lines": [
+            "Ghosts appeared in Pokémon Tower.",
+            "I think they're the spirits of Pokémon that the Rockets killed."
+        ]
+    },
+    "3": {
+        "lines": [
+            "I hate those horrible Rockets!",
+            "That poor Cubone's mother...",
+            "It was killed trying to escape from Team Rocket!"
+        ]
+    },
+    "4": {
+        "lines": [
+            "Cubones wear skulls, right?",
+            "People will pay a lot for one!"
+        ]
+    },
+    "45":{
+"lines": [
+    "Did you come to pay respects?",
+    "Bless your Pokémon-loving heart."
+]
+    },
+    "5": {
+        "lines": [
+            "Pokémon Tower was erected in the memory of Pokémon that died."
+        ]
+    },
+    "6": {
+        "lines": [
+            "I came to pray for my Clefairy.",
+            "Sniff! I can't stop crying..."
+        ]
+    },
+    "7": {
+        "lines": [
+            "I am a Channeler.",
+            "There are spirits up to mischief.",
+            "I sense them high in the Tower."
+        ]
+    },
+    "8": {
+        "battle": [
+            "medium",
+            "Be gone! Evil spirit!",
+            "Whew! The spirit left!",
+            "My friends were possessed too!",
+            "50"
+        ]
+    },
+    "9": {
+        "battle": [
+            "medium",
+            "Kekeke.... Kwaaah!",
+            "Hmm? What am I doing?",
+            "Sorry! I was possessed!",
+            "50"
+        ]
+    },
+    "10": {
+        "battle": [
+            "medium",
+            "Ghost! No! Kwaaah!",
+            "Where is the ghost?",
+            "I must have been dreaming...",
+            "50"
+        ]
+    },
+    "11": {
+        "battle": [
+            "medium",
+            "Be cursed with me! Kwaaah!",
+            "What!",
+            "May the departed souls of Pokémon rest in peace...",
+            "50"
+        ]
+    },
+    "12": {
+        "battle": [
+            "medium",
+            "Give...me...your...soul...",
+            "Gasp!",
+            "I was under possession!",
+            "50"
+        ]
+    },
+    "13": {
+        "battle": [
+            "medium",
+            "Ke...ke...ke...ke...ke...ke!!",
+            "Keee!",
+            "What's going on here?",
+            "50"
+        ]
+    },
+    "14": {
+        "battle": [
+            "grunt",
+            "What do you want? Why are you here?",
+            "I give up!",
+            "I'm not going to forget this!",
+            "50"
+        ]
+    },
+    "15": {
+        "lines": [
+            "This old guy came and complained about us harming useless Pokémon!"
+        ],
+        "battle": [
+            "grunt",
+            "We're talking it over as adults!",
+            "Please! No more!",
+            "Pokémon are only good for making money! Stay out of our business!",
+            "50"
+        ]
+    },
+    "gary": {
+        "lines": [
+            "Hey! What brings you here? Is your Pokémon dead?",
+            "Hey! It's alive!"
+        ],
+        "battle": [
+            "rival_gary",
+            "I can at least make them faint! Let's go!",
+            "What? You stinker! I took it easy on you too!",
+            "Well, I better get going. I've got a lot to accomplish, unlike you. Smell ya later!",
+            "50",
+            "ccs:kanto/lavender/gary"
+        ]
+    },
+    "fuji": {
+        "lines": [
+            "Heh? You came to save me?",
+            "Thank you. But, I came here of my own free will.",
+            "I came to calm the spirit of Cubone's mother.",
+            "I think Marowak's spirit has finally left us."
+        ]
+    }
+}

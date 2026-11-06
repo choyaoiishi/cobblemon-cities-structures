@@ -1,0 +1,42 @@
+v.level_variation_min = -5;
+v.level_variation_max = 0;
+v.loop_count = math.random_integer(2, 4);
+
+v.base_level < 30 ? {
+	return q.array(
+		'mankey',
+		'machop',
+		'hitmonlee',
+'hitmonchan',
+'hitmontop',
+'makuhita',
+'meditite',
+'heracross',
+'croagunk',
+'tyrogue',
+'breloom',
+'riolu',
+'throh',
+'sawk',
+'poliwhirl'
+);
+};
+
+return q.array(
+'primeape',
+'machoke',
+'hitmonlee',
+'hitmonchan',
+'hitmontop',
+'hariyama',
+'machamp',
+'medicham',
+'heracross',
+'poliwrath',
+'marowak',
+'breloom',
+'toxicroak',
+'lucario',
+'throh',
+'sawk'
+);

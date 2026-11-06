@@ -1,0 +1,7 @@
+[
+	{
+		"weight": 1,
+		"location": "ccs:houses/1x1/start",
+		"processors": "ccs:#town_id/general"
+	}
+]

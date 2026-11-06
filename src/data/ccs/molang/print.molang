@@ -1,6 +1,3 @@
-t.server = q.player.world.server();
-t.data = t.server.data();
-
-!t.data.is_debug ? return 0;
-
-q.print(v.msg);
+q.run_script('ccs:is_debug') ? {
+	q.print(v.msg);
+};

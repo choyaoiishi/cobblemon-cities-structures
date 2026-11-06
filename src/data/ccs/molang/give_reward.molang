@@ -13,6 +13,13 @@ v.reward_type == 'item' ? {
 	return 1;
 };
 
+v.reward_type == 'function' ? {
+	q.run_command('execute as ' + q.player.username() + ' run function ccs:' + v.reward);
+    q.player.play_sound_on_server('ccs:item_get','blocks');
+    q.player.set_npc_variable(q.npc, 'reward_gave', 1);
+	return 1;
+};
+
 v.reward_type == 'pokemon' ? {
 	q.run_command('pokegiveother ' + q.player.username() + ' ' + v.reward);
 	q.player.play_sound_on_server('ccs:pokemon_get','blocks');

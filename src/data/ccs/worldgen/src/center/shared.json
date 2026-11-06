@@ -3,7 +3,7 @@
 	"fallback": "minecraft:empty",
 	"elements": [
 		{
-			"location": "ccs:foundations/center",
+			"location": "ccs:foundations/center_1x1",
 			"processors": "ccs:#town_id/base"
 		}
 	]

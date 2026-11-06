@@ -1,0 +1,53 @@
+[
+	
+	{
+		"weight": 20,
+		"element": {
+			"element_type": "lithostitched:limited",
+			"delegate": {
+				"location": "ccs:city_npc/lavender/001"
+			},
+			"limit": 1
+		}
+	},
+	{
+		"weight": 20,
+		"element": {
+			"element_type": "lithostitched:limited",
+			"delegate": {
+				"location": "ccs:city_npc/lavender/002"
+			},
+			"limit": 1
+		}
+	},
+	{
+		"weight": 20,
+		"element": {
+			"element_type": "lithostitched:limited",
+			"delegate": {
+				"location": "ccs:city_npc/lavender/003"
+			},
+			"limit": 1
+		}
+	},
+	{
+		"weight": 20,
+		"element": {
+			"element_type": "lithostitched:limited",
+			"delegate": {
+				"location": "ccs:city_npc/lavender/004"
+			},
+			"limit": 1
+		}
+	},
+	{
+		"weight": 20,
+		"element": {
+			"element_type": "lithostitched:limited",
+			"delegate": {
+				"location": "ccs:city_npc/lavender/005"
+			},
+			"limit": 1
+		}
+	}
+]

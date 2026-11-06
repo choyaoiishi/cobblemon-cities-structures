@@ -26,20 +26,46 @@
 					"min_depth": 2
 				}
 			}
-		]
-	},
-	"gym": [
-		{
-			"weight": 150,
-			"element": {
-				"element_type": "lithostitched:guaranteed",
-				"delegate": {
-					"location": "ccs:foundations/2x2",
-					"processors": "ccs:#town_id/base"
-				},
-				"count": 1,
-				"min_depth": 2
+		],
+		"basic_small": [
+			{
+				"weight": 150,
+				"element": {
+					"element_type": "lithostitched:guaranteed",
+					"delegate": {
+						"location": "ccs:foundations/2x2",
+						"processors": "ccs:#town_id/base"
+					},
+					"count": 2
+				}
 			}
-		}
-	]
+		],
+		"gym": [
+			{
+				"weight": 150,
+				"element": {
+					"element_type": "lithostitched:guaranteed",
+					"delegate": {
+						"location": "ccs:foundations/2x2",
+						"processors": "ccs:#town_id/base"
+					},
+					"count": 1,
+					"min_depth": 2
+				}
+			}
+		],
+		"park":[
+			{
+				"weight": 100,
+				"element": {
+					"element_type": "lithostitched:guaranteed",
+					"delegate": {
+						"location": "ccs:foundations/2x2",
+						"processors": "ccs:#town_id/base"
+					},
+					"count": 1
+				}
+			}
+		]
+	}
 }

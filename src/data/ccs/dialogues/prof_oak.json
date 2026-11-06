@@ -1,0 +1,154 @@
+{
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();"
+    }
+  },
+  "pages": [
+    {
+      "id": "line_0",
+      "speaker": "npc",
+      "lines": [],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": [
+          "v.reward_type='item';",
+          "v.reward='cobblemon:pokedex_red';",
+          "t.reward_landing = q.run_script('ccs:reward__landing');",
+          "t.next_page = t.reward_landing == 'reward_give' ? 'line_1' : t.reward_landing;",
+          "q.dialogue.set_page(t.next_page)"
+        ]
+      }
+    },
+    {
+      "id": "reward_give",
+      "speaker": "npc",
+      "lines": [
+        "Here, take these with you."
+      ],
+      "input": [
+        "q.run_script('ccs:give_reward');",
+        "q.dialogue.set_page('line_6');"
+      ]
+    },
+    {
+      "id": "reward_gave",
+      "speaker": "npc",
+      "lines": [
+        "Get moving! Truly, this is a great undertaking in Pok\u00e9mon history!"
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    },
+    {
+      "id": "bye",
+      "speaker": "npc",
+      "lines": [],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": [
+          "q.dialogue.close();"
+        ]
+      }
+    },
+    {
+      "id": "line_1",
+      "speaker": "npc",
+      "lines": [
+        "Hello there! My name is Oak. People call me the Pok\u00e9mon Professor!"
+      ],
+      "input": [
+        "q.dialogue.set_page('line_2');"
+      ]
+    },
+    {
+      "id": "line_2",
+      "speaker": "npc",
+      "lines": [
+        "Recently, there have been sightings of many rare Pok\u00e9mon species."
+      ],
+      "input": [
+        "q.dialogue.set_page('line_3');"
+      ]
+    },
+    {
+      "id": "line_3",
+      "speaker": "npc",
+      "lines": [
+        "I'm talking about Pok\u00e9mon that have never been seen in Kanto."
+      ],
+      "input": [
+        "q.dialogue.set_page('line_4');"
+      ]
+    },
+    {
+      "id": "line_4",
+      "speaker": "npc",
+      "lines": [
+        "I would love to check it out myself, but I'm much too old."
+      ],
+      "input": [
+        "q.dialogue.set_page('line_5');"
+      ]
+    },
+    {
+      "id": "line_5",
+      "speaker": "npc",
+      "lines": [
+        "Since I can't do it, I'd like you to go in my place."
+      ],
+      "input": [
+        "q.dialogue.set_page('reward_give');"
+      ]
+    },
+    {
+      "id": "line_6",
+      "speaker": "npc",
+      "lines": [
+        "It is my invention, the Pok\u00e9dex!"
+      ],
+      "input": [
+        "q.dialogue.set_page('line_7');"
+      ]
+    },
+    {
+      "id": "line_7",
+      "speaker": "npc",
+      "lines": [
+        "It is a high-tech encyclopedia that automatically records data on Pok\u00e9mon you have seen or caught."
+      ],
+      "input": [
+        "q.dialogue.set_page('line_8');"
+      ]
+    },
+    {
+      "id": "line_8",
+      "speaker": "npc",
+      "lines": [
+        "To make a complete guide on all the Pok\u00e9mon in the world..."
+      ],
+      "input": [
+        "q.dialogue.set_page('line_9');"
+      ]
+    },
+    {
+      "id": "line_9",
+      "speaker": "npc",
+      "lines": [
+        "That was my dream!"
+      ],
+      "input": [
+        "q.dialogue.set_page('reward_gave');"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+v.data.disable_oak_welcome == 1 ? return 'No';
+
+return 'Yes';

@@ -3,16 +3,17 @@
     "fallback": "minecraft:empty",
     "elements": [
         {
-            "weight": 100,
+            "weight": 20,
             "element": {
-                "element_type": "lithostitched:limited",
+                "element_type": "lithostitched:guaranteed",
                 "delegate": {
                     "location": "ccs:houses/2x1/battlepad",
                     "element_type": "minecraft:single_pool_element",
                     "projection": "rigid",
                     "processors": "ccs:celadon/general"
                 },
-                "limit": 1
+                "min_depth": 3,
+                "count": 1
             }
         },
         {
@@ -61,6 +62,20 @@
                     "projection": "rigid"
                 },
                 "allow_bounding_box_collisions": true
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "lithostitched:delegating",
+                "delegate": {
+                    "location": "ccs:houses/celadon/2x1/flower_shop",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:celadon/general"
+                },
+                "allow_bounding_box_collisions": true,
+                "max_count": 1
             }
         }
     ]

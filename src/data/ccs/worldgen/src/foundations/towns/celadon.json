@@ -20,9 +20,10 @@
 				"processors": "ccs:celadon/base"
 			},
 			"count": 1,
-			"min_depth": 2
+			"min_depth": 3
 		}
 	},
 	"basic",
+	"park",
 	"gym"
 ]

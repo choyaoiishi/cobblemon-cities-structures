@@ -1,4 +1,17 @@
 [
 	"basic",
-	"gym"
+	"gym",
+	"park",
+	{
+		"weight": 150,
+		"element": {
+			"element_type": "lithostitched:guaranteed",
+			"delegate": {
+				"location": "ccs:foundations/3x2",
+				"processors": "ccs:vermilion/base"
+			},
+			"count": 1,
+			"min_depth": 3
+		}
+	}
 ]

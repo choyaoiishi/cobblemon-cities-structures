@@ -1,5 +1,19 @@
 {
     "template_pools": "ccs:vermilion/houses/3x2",
     "fallback": "minecraft:empty",
-    "elements": []
+    "elements": [
+        {
+            "weight": 150,
+            "element": {
+                "element_type": "lithostitched:delegating",
+                "delegate": {
+                    "location": "ccs:houses/vermilion/3x2/power_plant",
+                    "processors": "ccs:vermilion/power_plant",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid"
+                },
+                "forced_count": 1
+            }
+        }
+    ]
 }

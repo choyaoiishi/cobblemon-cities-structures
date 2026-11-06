@@ -1,0 +1,15 @@
+{
+    "template_pools": "ccs:pokecenter",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "location": "ccs:pokecenter",
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ccs:pokecenter"
+            }
+        }
+    ]
+}

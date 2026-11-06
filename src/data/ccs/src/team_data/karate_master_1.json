@@ -1,0 +1,170 @@
+[
+  {
+    "species": "Hitmontop",
+    "level": "Highest Lv -2",
+    "nature": "Jolly",
+    "ability": "Technician",
+    "item": "Focus Sash",
+    "moves": [
+      "Triple Kick",
+      "Triple Axel",
+      "Fake Out",
+      "Brutal Swing"
+    ],
+    "baseStats": {
+      "HP": "50",
+      "ATK": "95",
+      "DEF": "95",
+      "SPA": "35",
+      "SPD": "110",
+      "SPE": "70"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "151",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Sneasler",
+    "level": "Highest Lv -2",
+    "nature": "Jolly",
+    "ability": "Poison Touch",
+    "item": "Focus Sash",
+    "moves": [
+      "Close Combat",
+      "Poison Jab",
+      "Knock Off",
+      "Stone Edge"
+    ],
+    "baseStats": {
+      "HP": "80",
+      "ATK": "130",
+      "DEF": "60",
+      "SPA": "40",
+      "SPD": "80",
+      "SPE": "120"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "214",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Breloom",
+    "level": "Highest Lv -2",
+    "nature": "Jolly",
+    "ability": "Poison Heal",
+    "item": "Toxic Orb",
+    "moves": [
+      "Spore",
+      "Substitute",
+      "Focus Punch",
+      "Rock Slide"
+    ],
+    "baseStats": {
+      "HP": "60",
+      "ATK": "130",
+      "DEF": "80",
+      "SPA": "60",
+      "SPD": "60",
+      "SPE": "70"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "151",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Quaquaval",
+    "level": "Highest Lv -2",
+    "nature": "Jolly",
+    "ability": "Moxie",
+    "item": "Mystic Water",
+    "moves": [
+      "Aqua Step",
+      "Close Combat",
+      "Bulk Up",
+      "Ice Spinner"
+    ],
+    "baseStats": {
+      "HP": "85",
+      "ATK": "120",
+      "DEF": "80",
+      "SPA": "85",
+      "SPD": "75",
+      "SPE": "85"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "170",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Lucario",
+    "level": "Highest Lv -2",
+    "nature": "Jolly",
+    "ability": "Inner Focus",
+    "item": "Air Balloon",
+    "moves": [
+      "Nasty Plot",
+      "Aura Sphere",
+      "Vacuum Wave",
+      "Flash Cannon"
+    ],
+    "baseStats": {
+      "HP": "70",
+      "ATK": "110",
+      "DEF": "70",
+      "SPA": "115",
+      "SPD": "70",
+      "SPE": "90"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "177",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Gallade-Mega",
+    "level": "Highest Lv -2",
+    "nature": "Jolly",
+    "ability": "Sharpness",
+    "item": "",
+    "moves": [
+      "Bulk Up",
+      "Sacred Sword",
+      "Psycho Cut",
+      "Night Slash"
+    ],
+    "baseStats": {
+      "HP": "68",
+      "ATK": "165",
+      "DEF": "95",
+      "SPA": "65",
+      "SPD": "115",
+      "SPE": "110"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "201",
+    "altSpeeds": {}
+  }
+]

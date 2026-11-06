@@ -1,0 +1,8 @@
+return q.array(
+    'ironcrown moves=psychicnoise,tachyoncutter,secretsword,voltswitch nature=timid held_item=cobblemon:rocky_helmet ability=sharpness',
+    'sneasler moves=closecombat,poisonjab,knockoff,earthquake nature=jolly held_item=cobblemon:liechi_berry ability=unburden',
+    'kommo moves=clangingscales,closecombat,poisonjab,flamethrower nature=naive ability=overcoat aspect=o',
+    'annihilape moves=bulkup,drainpunch,ragefist,icepunch nature=jolly held_item=cobblemon:salac_berry ability=defiant',
+    'zamazenta moves=bulkup,behemothbash,bodypress,wildcharge nature=jolly ability=dauntlessshield aspect=crowned',
+    'gallade moves=bulkup,drainpunch,psychocut,nightslash nature=jolly ability=sharpness aspect=mega'
+);

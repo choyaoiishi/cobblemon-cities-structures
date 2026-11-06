@@ -1,0 +1,94 @@
+{
+  "name": "power_plant",
+  "type": "cobblemon:natural",
+  "spawns": [
+    {
+      "species": "Zebstrika",
+      "bucket": "common",
+      "spawnablePositionType": "grounded",
+      "weight": 10.0,
+      "levelRange": "35-37",
+      "phases": "1-5"
+    },
+    {
+      "species": "Tynamo",
+      "bucket": "uncommon",
+      "spawnablePositionType": "grounded",
+      "weight": 10.0,
+      "levelRange": "35-37",
+      "phases": "1-3"
+    },
+    {
+      "species": "Voltorb",
+      "bucket": "common",
+      "spawnablePositionType": "grounded",
+      "weight": 20.0,
+      "levelRange": "35-37",
+      "phases": "1-5"
+    },
+    {
+      "species": "Electrode",
+      "bucket": "common",
+      "spawnablePositionType": "grounded",
+      "weight": 20.0,
+      "levelRange": "35-37",
+      "phases": "1-5"
+    },
+    {
+      "species": "Magnemite",
+      "bucket": "common",
+      "spawnablePositionType": "grounded",
+      "weight": 20.0,
+      "levelRange": "35-37",
+      "phases": "1-5"
+    },
+    {
+      "species": "Magneton",
+      "bucket": "common",
+      "spawnablePositionType": "grounded",
+      "weight": 10.0,
+      "levelRange": "35-37",
+      "phases": "1-5"
+    },
+    {
+      "species": "Electabuzz",
+      "bucket": "uncommon",
+      "spawnablePositionType": "grounded",
+      "weight": 10.0,
+      "levelRange": "35-37",
+      "phases": "4-5"
+    },
+    {
+      "species": "Grimer",
+      "bucket": "common",
+      "spawnablePositionType": "grounded",
+      "weight": 20.0,
+      "levelRange": "35-37",
+      "phases": "1-3"
+    },
+    {
+      "species": "Muk",
+      "bucket": "common",
+      "spawnablePositionType": "grounded",
+      "weight": 10.0,
+      "levelRange": "35-37",
+      "phases": "1-3"
+    },
+    {
+      "species": "Koffing",
+      "bucket": "common",
+      "spawnablePositionType": "grounded",
+      "weight": 20.0,
+      "levelRange": "35-37",
+      "phases": "4-5"
+    },
+    {
+      "species": "Weezing",
+      "bucket": "common",
+      "spawnablePositionType": "grounded",
+      "weight": 10.0,
+      "levelRange": "35-37",
+      "phases": "4-5"
+    }
+  ]
+}

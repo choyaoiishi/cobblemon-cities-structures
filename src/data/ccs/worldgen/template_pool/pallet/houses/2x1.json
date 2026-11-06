@@ -3,16 +3,17 @@
     "fallback": "minecraft:empty",
     "elements": [
         {
-            "weight": 100,
+            "weight": 20,
             "element": {
-                "element_type": "lithostitched:limited",
+                "element_type": "lithostitched:guaranteed",
                 "delegate": {
                     "location": "ccs:houses/2x1/battlepad",
                     "element_type": "minecraft:single_pool_element",
                     "projection": "rigid",
                     "processors": "ccs:pallet/general"
                 },
-                "limit": 1
+                "min_depth": 3,
+                "count": 1
             }
         },
         {
@@ -31,6 +32,32 @@
                 "location": "ccs:houses/2x1/small_1",
                 "processors": "ccs:pallet/general",
                 "projection": "rigid"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:houses/pallet/2x1/daisy",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:pallet/general"
+                },
+                "limit": 1
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "lithostitched:limited",
+                "delegate": {
+                    "location": "ccs:houses/pallet/2x1/mom",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "processors": "ccs:pallet/general"
+                },
+                "limit": 1
             }
         }
     ]

@@ -29,6 +29,19 @@
             }
         },
         {
+            "weight": 100,
+            "element": {
+                "element_type": "lithostitched:delegating",
+                "delegate": {
+                    "location": "ccs:houses/saffron/2x2/park",
+                    "processors": "ccs:saffron/general",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid"
+                },
+                "forced_count": 1
+            }
+        },
+        {
             "weight": 150,
             "element": {
                 "element_type": "lithostitched:limited",
@@ -39,6 +52,20 @@
                     "processors": "ccs:saffron/general"
                 },
                 "limit": 1
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "lithostitched:guaranteed",
+                "delegate": {
+                    "location": "ccs:houses/saffron/2x2/dojo",
+                    "processors": "ccs:saffron/dojo",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid"
+                },
+                "count": 1,
+                "min_depth": 4
             }
         }
     ]

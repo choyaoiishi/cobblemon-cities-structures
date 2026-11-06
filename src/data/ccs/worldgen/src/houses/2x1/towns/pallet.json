@@ -1,3 +1,23 @@
 [
-	"basic"
+	"basic",
+	{
+		"weight": 100,
+		"element": {
+			"element_type": "lithostitched:limited",
+			"delegate": {
+				"location": "ccs:houses/pallet/2x1/daisy"
+			},
+			"limit": 1
+		}
+	},
+	{
+		"weight": 100,
+		"element": {
+			"element_type": "lithostitched:limited",
+			"delegate": {
+				"location": "ccs:houses/pallet/2x1/mom"
+			},
+			"limit": 1
+		}
+	}
 ]

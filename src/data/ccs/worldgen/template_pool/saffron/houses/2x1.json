@@ -3,16 +3,17 @@
     "fallback": "minecraft:empty",
     "elements": [
         {
-            "weight": 100,
+            "weight": 20,
             "element": {
-                "element_type": "lithostitched:limited",
+                "element_type": "lithostitched:guaranteed",
                 "delegate": {
                     "location": "ccs:houses/2x1/battlepad",
                     "element_type": "minecraft:single_pool_element",
                     "projection": "rigid",
                     "processors": "ccs:saffron/general"
                 },
-                "limit": 1
+                "min_depth": 3,
+                "count": 1
             }
         },
         {

@@ -5,14 +5,14 @@
         {
             "weight": 150,
             "element": {
-                "element_type": "lithostitched:limited",
+                "element_type": "lithostitched:guaranteed",
                 "delegate": {
                     "location": "ccs:roads/s",
                     "processors": "ccs:vermilion/base",
                     "projection": "terrain_matching",
                     "element_type": "minecraft:single_pool_element"
                 },
-                "limit": 4
+                "count": 4
             }
         },
         {

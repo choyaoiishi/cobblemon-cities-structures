@@ -91,7 +91,7 @@
       "id": "gym_2",
       "speaker": "npc",
       "lines": [
-        "He's an expert on electric Pokémon. Bird/Water-type Pokémon match poorly against the Electric type."
+        "He's an expert on electric Pokémon. Flying/Water type Pokémon match poorly against the Electric type."
       ],
       "input": "q.dialogue.set_page('gym_3');"
     },
