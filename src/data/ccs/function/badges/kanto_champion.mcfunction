@@ -1,1 +1,1 @@
-give @s cobbleversebadges:kanto_boulder_badge 1
+give @s cobbleversebadges:kanto_league_trophy 1
