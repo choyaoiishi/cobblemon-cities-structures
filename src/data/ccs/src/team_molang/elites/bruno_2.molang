@@ -1,0 +1,8 @@
+return q.array(
+    'infernape moves=stealthrock,pyroball,closecombat,thunderpunch nature=jolly held_item=cobblemon:focus_sash ability=blaze',
+    'zeraora moves=bulkup,drainpunch,plasmafists,knockoff nature=jolly held_item=cobblemon:misty_seed ability=voltabsorb',
+    'ironvaliant moves=calmmind,moonblast,psyshock,shadowball nature=timid ability=quarkdrive',
+    'necrozma moves=dragondance,sunsteelstrike,earthquake,stoneedge nature=adamant held_item=cobblemon:weakness_policy ability=prismarmor aspect=dusk-fusion',
+    'zacian moves=swordsdance,behemothblade,closecombat,wildcharge nature=jolly ability=intrepidsword aspect=crowned',
+    'lucario moves=swordsdance,closecombat,bulletpunch,meteormash nature=jolly ability=adaptability aspect=mega'
+);

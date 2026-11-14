@@ -75,5 +75,21 @@
             "I don't know if we'll bump into each other again, so please, have this.",
             "Take care!"
         ]
+    },
+    "3": {
+        "lines": [
+            "Hiya! I am important doctor.",
+            "Yes, very much so, indeed.",
+            "Here, I study rare Pokémon fossils.",
+            "All the time, I study.",
+            "You!",
+            "You can use the Resurrection Machine to make that fossil live again!"
+        ]
+    },
+    "4":{
+        "lines": [
+            "We study Pokémon extensively here.",
+            "People often bring us rare Pokémon for examination."
+        ]
     }
 }

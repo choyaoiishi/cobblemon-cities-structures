@@ -1,0 +1,170 @@
+[
+  {
+    "species": "Zoroark-Hisui",
+    "level": "85",
+    "nature": "Timid",
+    "ability": "Illusion",
+    "item": "Focus Sash",
+    "moves": [
+      "Taunt",
+      "Hyper Voice",
+      "Shadow Ball",
+      "Flamethrower"
+    ],
+    "baseStats": {
+      "HP": "55",
+      "ATK": "100",
+      "DEF": "60",
+      "SPA": "125",
+      "SPD": "60",
+      "SPE": "110"
+    },
+    "evs": {
+      "DEF": "4",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "298",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Gholdengo",
+    "level": "85",
+    "nature": "Timid",
+    "ability": "Good As Gold",
+    "item": "Air Balloon",
+    "moves": [
+      "Make It Rain",
+      "Thunder Wave",
+      "Shadow Ball",
+      "Focus Blast"
+    ],
+    "baseStats": {
+      "HP": "87",
+      "ATK": "60",
+      "DEF": "95",
+      "SPA": "133",
+      "SPD": "91",
+      "SPE": "84"
+    },
+    "evs": {
+      "DEF": "4",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "249",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Marshadow",
+    "level": "85",
+    "nature": "Jolly",
+    "ability": "Technician",
+    "item": "Focus Sash",
+    "moves": [
+      "Drain Punch",
+      "Bulk Up",
+      "Spectral Thief",
+      "Shadow Sneak"
+    ],
+    "baseStats": {
+      "HP": "90",
+      "ATK": "125",
+      "DEF": "80",
+      "SPA": "90",
+      "SPD": "90",
+      "SPE": "125"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "326",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Roaring Moon",
+    "level": "85",
+    "nature": "Jolly",
+    "ability": "Protosynthesis",
+    "item": "",
+    "moves": [
+      "Dragon Dance",
+      "Knock Off",
+      "Earthquake",
+      "Iron Head"
+    ],
+    "baseStats": {
+      "HP": "105",
+      "ATK": "139",
+      "DEF": "71",
+      "SPA": "55",
+      "SPD": "101",
+      "SPE": "119"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "315",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Chi-Yu",
+    "level": "Highest Lv -2",
+    "nature": "Timid",
+    "ability": "Beads of Ruin",
+    "item": "Charcoal",
+    "moves": [
+      "Dark Pulse",
+      "Flamethrower",
+      "Psychic",
+      "Hidden Power"
+    ],
+    "baseStats": {
+      "HP": "55",
+      "ATK": "80",
+      "DEF": "80",
+      "SPA": "135",
+      "SPD": "120",
+      "SPE": "100"
+    },
+    "evs": {
+      "DEF": "4",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "273",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Gengar-Mega",
+    "level": "Highest Lv -2",
+    "nature": "Timid",
+    "ability": "Shadow Tag",
+    "item": "",
+    "moves": [
+      "Shadow Ball",
+      "Sludge Wave",
+      "Nasty Plot",
+      "Focus Blast"
+    ],
+    "baseStats": {
+      "HP": "60",
+      "ATK": "65",
+      "DEF": "80",
+      "SPA": "170",
+      "SPD": "95",
+      "SPE": "130"
+    },
+    "evs": {
+      "DEF": "4",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "327",
+    "altSpeeds": {}
+  }
+]

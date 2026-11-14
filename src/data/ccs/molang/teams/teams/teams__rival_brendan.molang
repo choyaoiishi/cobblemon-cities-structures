@@ -1,4 +1,5 @@
 q.run_script('ccs:set_loop_count');
+v.pokeball = 'friend_ball';
 
 q.player.party.highest_level < 20 ? {
 	return q.array(

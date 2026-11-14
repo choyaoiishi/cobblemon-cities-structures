@@ -1,0 +1,152 @@
+[
+  {
+    "species": "Urshifu",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Unseen Fist",
+    "item": "Focus Sash",
+    "moves": [
+      "Wicked Blow",
+      "Close Combat",
+      "U-Turn",
+      "Poison Jab"
+    ],
+    "baseStats": {
+      "HP": "100",
+      "ATK": "130",
+      "DEF": "100",
+      "SPA": "63",
+      "SPD": "60",
+      "SPE": "97"
+    },
+    "evs": {},
+    "speedStat": "215",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Hawlucha",
+    "level": "Highest Lv",
+    "nature": "Adamant",
+    "ability": "Unburden",
+    "item": "Misty Seed",
+    "moves": [
+      "Swords Dance",
+      "Acrobatics",
+      "Close Combat",
+      "Roost"
+    ],
+    "baseStats": {
+      "HP": "78",
+      "ATK": "92",
+      "DEF": "75",
+      "SPA": "74",
+      "SPD": "63",
+      "SPE": "118"
+    },
+    "evs": {},
+    "speedStat": "231",
+    "altSpeeds": {
+      "Unburden": "462"
+    }
+  },
+  {
+    "species": "Iron Valiant",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Quark Drive",
+    "item": "",
+    "moves": [
+      "Calm Mind",
+      "Moonblast",
+      "Shadow Ball",
+      "Psyshock"
+    ],
+    "baseStats": {
+      "HP": "74",
+      "ATK": "130",
+      "DEF": "90",
+      "SPA": "120",
+      "SPD": "60",
+      "SPE": "116"
+    },
+    "evs": {},
+    "speedStat": "250",
+    "altSpeeds": {
+      "Quar. Drive": "375"
+    }
+  },
+  {
+    "species": "Necrozma",
+    "level": "Highest Lv",
+    "nature": "Adamant",
+    "ability": "Prism Armor",
+    "item": "Weakness Policy",
+    "moves": [
+      "Dragon Dance",
+      "Sunsteel Strike",
+      "Earthquake",
+      "Stone Edge"
+    ],
+    "baseStats": {
+      "HP": "97",
+      "ATK": "157",
+      "DEF": "127",
+      "SPA": "113",
+      "SPD": "109",
+      "SPE": "77"
+    },
+    "evs": {},
+    "speedStat": "162",
+    "altSpeeds": {},
+    "aspect": "dusk-fusion"
+  },
+  {
+    "species": "Zacian",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Intrepid Sword",
+    "item": "",
+    "moves": [
+      "Swords Dance",
+      "Behemoth Blade",
+      "Close Combat",
+      "Wild Charge"
+    ],
+    "baseStats": {
+      "HP": "92",
+      "ATK": "150",
+      "DEF": "115",
+      "SPA": "80",
+      "SPD": "115",
+      "SPE": "148"
+    },
+    "evs": {},
+    "speedStat": "310",
+    "altSpeeds": {},
+    "aspect": "crowned"
+  },
+  {
+    "species": "Medicham-Mega",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Pure Power",
+    "item": "",
+    "moves": [
+      "Fake Out",
+      "Close Combat",
+      "Zen Headbutt",
+      "Thunder Punch"
+    ],
+    "baseStats": {
+      "HP": "60",
+      "ATK": "100",
+      "DEF": "85",
+      "SPA": "80",
+      "SPD": "85",
+      "SPE": "100"
+    },
+    "evs": {},
+    "speedStat": "221",
+    "altSpeeds": {}
+  }
+]

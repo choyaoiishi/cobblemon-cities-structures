@@ -1,0 +1,173 @@
+[
+  {
+    "species": "Infernape",
+    "level": "85",
+    "nature": "Jolly",
+    "ability": "Blaze",
+    "item": "Focus Sash",
+    "moves": [
+      "Taunt",
+      "Pyro Ball",
+      "Stealth Rock",
+      "Close Combat"
+    ],
+    "baseStats": {
+      "HP": "76",
+      "ATK": "110",
+      "DEF": "71",
+      "SPA": "110",
+      "SPD": "71",
+      "SPE": "113"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "304",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Urshifu",
+    "level": "85",
+    "nature": "Jolly",
+    "ability": "Unseen Fist",
+    "item": "Black Glasses",
+    "moves": [
+      "Wicked Blow",
+      "Swords Dance",
+      "Close Combat",
+      "Sucker Punch"
+    ],
+    "baseStats": {
+      "HP": "100",
+      "ATK": "130",
+      "DEF": "100",
+      "SPA": "63",
+      "SPD": "60",
+      "SPE": "97"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "273",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Kommo-o",
+    "level": "85",
+    "nature": "Timid",
+    "ability": "Overcoat",
+    "item": "Throat Spray",
+    "moves": [
+      "Clanging Scales",
+      "Clangorous Soul",
+      "Aura Sphere",
+      "Flash Cannon"
+    ],
+    "baseStats": {
+      "HP": "75",
+      "ATK": "110",
+      "DEF": "125",
+      "SPA": "100",
+      "SPD": "105",
+      "SPE": "85"
+    },
+    "evs": {
+      "DEF": "4",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "251",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Iron Valiant",
+    "level": "85",
+    "nature": "Timid",
+    "ability": "Quark Drive",
+    "item": "",
+    "moves": [
+      "Moonblast",
+      "Thunderbolt",
+      "Aura Sphere",
+      "Shadow Ball"
+    ],
+    "baseStats": {
+      "HP": "74",
+      "ATK": "130",
+      "DEF": "90",
+      "SPA": "120",
+      "SPD": "60",
+      "SPE": "116"
+    },
+    "evs": {
+      "DEF": "4",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "310",
+    "altSpeeds": {
+      "Quar. Drive": "465"
+    }
+  },
+  {
+    "species": "Zacian",
+    "level": "85",
+    "nature": "Jolly",
+    "ability": "Intrepid Sword",
+    "item": "",
+    "moves": [
+      "Swords Dance",
+      "Behemoth Blade",
+      "Close Combat",
+      "Wild Charge"
+    ],
+    "baseStats": {
+      "HP": "92",
+      "ATK": "150",
+      "DEF": "115",
+      "SPA": "80",
+      "SPD": "115",
+      "SPE": "148"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "369",
+    "altSpeeds": {},
+    "aspect": "crowned"
+  },
+  {
+    "species": "Lucario-Mega",
+    "level": "85",
+    "nature": "Jolly",
+    "ability": "Adaptability",
+    "item": "",
+    "moves": [
+      "Bullet Punch",
+      "Meteor Mash",
+      "Close Combat",
+      "Swords Dance"
+    ],
+    "baseStats": {
+      "HP": "70",
+      "ATK": "145",
+      "DEF": "88",
+      "SPA": "140",
+      "SPD": "70",
+      "SPE": "112"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "302",
+    "altSpeeds": {}
+  }
+]

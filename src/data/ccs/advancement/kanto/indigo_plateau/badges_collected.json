@@ -1,0 +1,44 @@
+{
+  "criteria": {
+    "advancements": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "ccs:kanto/pewter/brock": true,
+              "ccs:kanto/cerulean/misty": true,
+              "ccs:kanto/vermilion/lt_surge": true,
+              "ccs:kanto/celadon/erika": true,
+              "ccs:kanto/fuchsia/koga": true,
+              "ccs:kanto/saffron/sabrina": true,
+              "ccs:kanto/cinnabar/blaine": true,
+              "ccs:kanto/viridian/clair": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": true,
+    "icon": {
+      "id": "cobblemon:black_belt"
+    },
+    "title": {
+      "text": "All Kanto Badges"
+    },
+    "description": {
+      "text": "Collect all Kanto Badges"
+    }
+  },
+  "requirements": [
+    [
+      "advancements"
+    ]
+  ],
+  "parent": "ccs:kanto/indigo_plateau/root"
+}

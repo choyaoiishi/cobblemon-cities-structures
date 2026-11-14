@@ -18,6 +18,7 @@
                 "minecraft:stone_brick_stairs": "minecraft:quartz_stairs",
                 "minecraft:stone_bricks": "minecraft:quartz_bricks",
                 "minecraft:spruce_planks": "minecraft:quartz_block",
+                "minecraft:spruce_slab": "minecraft:quartz_slab",
                 // "minecraft:polished_blackstone_brick_stairs": "minecraft:prismarine_brick_stairs",
                 // "minecraft:polished_blackstone_brick_slab": "minecraft:prismarine_brick_slab",
                 // furnies

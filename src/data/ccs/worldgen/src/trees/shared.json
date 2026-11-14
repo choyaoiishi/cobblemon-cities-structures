@@ -1,0 +1,402 @@
+{
+	"template_pools": "ccs:#town_id/trees",
+	"fallback": "minecraft:empty",
+	"elements": [],
+	"library": {
+		"saccharine": [
+			{
+				"weight": 1,
+				"element": {
+					"element_type": "lithostitched:delegating",
+					"delegate": {
+						"location": "ccs:trees/saccharine_1",
+						"processors": "minecraft:empty"
+					},
+					"allow_bounding_box_collisions": true
+				}
+			}
+		],
+		"apricorn_red": [
+			{
+				"weight": 1,
+				"element": {
+					"element_type": "lithostitched:delegating",
+					"delegate": {
+						"location": "ccs:trees/apricorn_1",
+						"processors": "ccs:others/apricorns/red"
+					},
+					"allow_bounding_box_collisions": true
+				}
+			},
+			{
+				"weight": 1,
+				"element": {
+					"element_type": "lithostitched:delegating",
+					"delegate": {
+						"location": "ccs:trees/apricorn_2",
+						"processors": "ccs:others/apricorns/red"
+					},
+					"allow_bounding_box_collisions": true
+				}
+			}
+		],
+		"apricorn_blue": [
+			{
+				"weight": 1,
+				"element": {
+					"element_type": "lithostitched:delegating",
+					"delegate": {
+						"location": "ccs:trees/apricorn_1",
+						"processors": "ccs:others/apricorns/blue"
+					},
+					"allow_bounding_box_collisions": true
+				}
+			},
+			{
+				"weight": 1,
+				"element": {
+					"element_type": "lithostitched:delegating",
+					"delegate": {
+						"location": "ccs:trees/apricorn_2",
+						"processors": "ccs:others/apricorns/blue"
+					},
+					"allow_bounding_box_collisions": true
+				}
+			}
+		],
+		"apricorn_black": [
+			{
+				"weight": 1,
+				"element": {
+					"element_type": "lithostitched:delegating",
+					"delegate": {
+						"location": "ccs:trees/apricorn_1",
+						"processors": "ccs:others/apricorns/black"
+					},
+					"allow_bounding_box_collisions": true
+				}
+			},
+			{
+				"weight": 1,
+				"element": {
+					"element_type": "lithostitched:delegating",
+					"delegate": {
+						"location": "ccs:trees/apricorn_2",
+						"processors": "ccs:others/apricorns/black"
+					},
+					"allow_bounding_box_collisions": true
+				}
+			}
+		],
+		"apricorn_pink": [
+			{
+				"weight": 1,
+				"element": {
+					"element_type": "lithostitched:delegating",
+					"delegate": {
+						"location": "ccs:trees/apricorn_1",
+						"processors": "ccs:others/apricorns/pink"
+					},
+					"allow_bounding_box_collisions": true
+				}
+			},
+			{
+				"weight": 1,
+				"element": {
+					"element_type": "lithostitched:delegating",
+					"delegate": {
+						"location": "ccs:trees/apricorn_2",
+						"processors": "ccs:others/apricorns/pink"
+					},
+					"allow_bounding_box_collisions": true
+				}
+			}
+		],
+		"apricorn_green": [
+			{
+				"weight": 1,
+				"element": {
+					"element_type": "lithostitched:delegating",
+					"delegate": {
+						"location": "ccs:trees/apricorn_1",
+						"processors": "ccs:others/apricorns/green"
+					},
+					"allow_bounding_box_collisions": true
+				}
+			},
+			{
+				"weight": 1,
+				"element": {
+					"element_type": "lithostitched:delegating",
+					"delegate": {
+						"location": "ccs:trees/apricorn_2",
+						"processors": "ccs:others/apricorns/green"
+					},
+					"allow_bounding_box_collisions": true
+				}
+			}
+		],
+		"apricorn_yellow": [
+			{
+				"weight": 1,
+				"element": {
+					"element_type": "lithostitched:delegating",
+					"delegate": {
+						"location": "ccs:trees/apricorn_1",
+						"processors": "ccs:others/apricorns/yellow"
+					},
+					"allow_bounding_box_collisions": true
+				}
+			},
+			{
+				"weight": 1,
+				"element": {
+					"element_type": "lithostitched:delegating",
+					"delegate": {
+						"location": "ccs:trees/apricorn_2",
+						"processors": "ccs:others/apricorns/yellow"
+					},
+					"allow_bounding_box_collisions": true
+				}
+			}
+		],
+		"apricorn_white": [
+			{
+				"weight": 1,
+				"element": {
+					"element_type": "lithostitched:delegating",
+					"delegate": {
+						"location": "ccs:trees/apricorn_1",
+						"processors": "ccs:others/apricorns/white"
+					},
+					"allow_bounding_box_collisions": true
+				}
+			},
+			{
+				"weight": 1,
+				"element": {
+					"element_type": "lithostitched:delegating",
+					"delegate": {
+						"location": "ccs:trees/apricorn_2",
+						"processors": "ccs:others/apricorns/white"
+					},
+					"allow_bounding_box_collisions": true
+				}
+			}
+		],
+		"acacia": [
+			{
+				"weight": 5,
+				"element": {
+					"element_type": "lithostitched:delegating",
+					"delegate": {
+						"location": "ccs:trees/acacia_1",
+						"processors": "minecraft:empty"
+					},
+					"allow_bounding_box_collisions": true
+				}
+			},
+			{
+				"weight": 5,
+				"element": {
+					"element_type": "lithostitched:delegating",
+					"delegate": {
+						"location": "ccs:trees/acacia_2",
+						"processors": "minecraft:empty"
+					},
+					"allow_bounding_box_collisions": true
+				}
+			},
+			{
+				"weight": 5,
+				"element": {
+					"element_type": "lithostitched:delegating",
+					"delegate": {
+						"location": "ccs:trees/acacia_3",
+						"processors": "minecraft:empty"
+					},
+					"allow_bounding_box_collisions": true
+				}
+			}
+		],
+		"cherry": [
+			{
+				"weight": 5,
+				"element": {
+					"element_type": "lithostitched:delegating",
+					"delegate": {
+						"location": "ccs:trees/cherry_1",
+						"processors": "minecraft:empty"
+					},
+					"allow_bounding_box_collisions": true
+				}
+			},
+			{
+				"weight": 5,
+				"element": {
+					"element_type": "lithostitched:delegating",
+					"delegate": {
+						"location": "ccs:trees/cherry_2",
+						"processors": "minecraft:empty"
+					},
+					"allow_bounding_box_collisions": true
+				}
+			}
+		],
+		"oak": [
+			{
+				"weight": 5,
+				"element": {
+					"element_type": "lithostitched:delegating",
+					"delegate": {
+						"location": "ccs:trees/oak_1",
+						"processors": "minecraft:empty"
+					},
+					"allow_bounding_box_collisions": true
+				}
+			},
+			{
+				"weight": 5,
+				"element": {
+					"element_type": "lithostitched:delegating",
+					"delegate": {
+						"location": "ccs:trees/oak_2",
+						"processors": "minecraft:empty"
+					},
+					"allow_bounding_box_collisions": true
+				}
+			}
+		],
+		"birch": [
+			{
+				"weight": 5,
+				"element": {
+					"element_type": "lithostitched:delegating",
+					"delegate": {
+						"location": "ccs:trees/oak_1",
+						"processors": "ccs:others/oak_birch"
+					},
+					"allow_bounding_box_collisions": true
+				}
+			},
+			{
+				"weight": 5,
+				"element": {
+					"element_type": "lithostitched:delegating",
+					"delegate": {
+						"location": "ccs:trees/oak_2",
+						"processors": "ccs:others/oak_birch"
+					},
+					"allow_bounding_box_collisions": true
+				}
+			}
+		],
+		"pine": [
+			{
+				"weight": 5,
+				"element": {
+					"element_type": "lithostitched:delegating",
+					"delegate": {
+						"location": "ccs:trees/spruce_1",
+						"processors": "ccs:others/spruce_oak"
+					},
+					"allow_bounding_box_collisions": true
+				}
+			},
+			{
+				"weight": 5,
+				"element": {
+					"element_type": "lithostitched:delegating",
+					"delegate": {
+						"location": "ccs:trees/spruce_2",
+						"processors": "ccs:others/spruce_oak"
+					},
+					"allow_bounding_box_collisions": true
+				}
+			}
+		],
+		"dark_oak": [
+			{
+				"weight": 5,
+				"element": {
+					"element_type": "lithostitched:delegating",
+					"delegate": {
+						"location": "ccs:trees/dark_oak_1",
+						"processors": "minecraft:empty"
+					},
+					"allow_bounding_box_collisions": true
+				}
+			},
+			{
+				"weight": 5,
+				"element": {
+					"element_type": "lithostitched:delegating",
+					"delegate": {
+						"location": "ccs:trees/dark_oak_2",
+						"processors": "minecraft:empty"
+					},
+					"allow_bounding_box_collisions": true
+				}
+			}
+		],
+		"palm": [
+			{
+				"weight": 5,
+				"element": {
+					"element_type": "lithostitched:delegating",
+					"delegate": {
+						"location": "ccs:trees/palm_1",
+						"processors": "minecraft:empty"
+					},
+					"allow_bounding_box_collisions": true
+				}
+			},
+			{
+				"weight": 5,
+				"element": {
+					"element_type": "lithostitched:delegating",
+					"delegate": {
+						"location": "ccs:trees/palm_2",
+						"processors": "minecraft:empty"
+					},
+					"allow_bounding_box_collisions": true
+				}
+			}
+		],
+		"spruce": [
+			{
+				"weight": 5,
+				"element": {
+					"element_type": "lithostitched:delegating",
+					"delegate": {
+						"location": "ccs:trees/spruce_1",
+						"processors": "minecraft:empty"
+					},
+					"allow_bounding_box_collisions": true
+				}
+			},
+			{
+				"weight": 5,
+				"element": {
+					"element_type": "lithostitched:delegating",
+					"delegate": {
+						"location": "ccs:trees/spruce_2",
+						"processors": "minecraft:empty"
+					},
+					"allow_bounding_box_collisions": true
+				}
+			},
+			{
+				"weight": 5,
+				"element": {
+					"element_type": "lithostitched:delegating",
+					"delegate": {
+						"location": "ccs:trees/spruce_3",
+						"processors": "minecraft:empty"
+					},
+					"allow_bounding_box_collisions": true
+				}
+			}
+		]
+	}
+}

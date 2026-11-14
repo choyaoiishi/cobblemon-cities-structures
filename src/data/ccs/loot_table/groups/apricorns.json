@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:black_apricorn"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:blue_apricorn"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:green_apricorn"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:pink_apricorn"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:red_apricorn"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:white_apricorn"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:yellow_apricorn"
+        }
+      ]
+    }
+  ]
+}

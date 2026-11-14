@@ -1,0 +1,8 @@
+return q.array(
+    'urshifu moves=wickedblow,closecombat,uturn,poisonjab nature=jolly held_item=cobblemon:focus_sash ability=unseenfist',
+    'hawlucha moves=swordsdance,acrobatics,closecombat,roost nature=adamant held_item=cobblemon:misty_seed ability=unburden',
+    'ironvaliant moves=calmmind,moonblast,shadowball,psyshock nature=timid ability=quarkdrive',
+    'necrozma moves=dragondance,sunsteelstrike,earthquake,stoneedge nature=adamant held_item=cobblemon:weakness_policy ability=prismarmor aspect=dusk-fusion',
+    'zacian moves=swordsdance,behemothblade,closecombat,wildcharge nature=jolly ability=intrepidsword aspect=crowned',
+    'medicham moves=fakeout,closecombat,zenheadbutt,thunderpunch nature=jolly ability=purepower aspect=mega'
+);

@@ -5,10 +5,38 @@ t.marker == 0 ? return 0;
 math.mod(q.entity.world.game_time(), 5) != 0 ? return 0;
 v.player = 0;
 
-for_each(t.nearby, q.entity.get_nearby_entities(0.5), {
-    v.player = t.nearby.is_player() ? t.nearby : 0;
-});
+t.door_width = q.to_int(q.entity.config.door_width);
+
+t.door_width == 1 ? {
+    for_each(t.nearby, q.entity.get_nearby_entities(0.5), {
+        v.player = t.nearby.is_player() ? t.nearby : 0;
+    });
+}:{
+    t.scan_range = (t.door_width / 2) + 1.5;
+
+    for_each(t.nearby, q.entity.get_nearby_entities(t.scan_range), {
+        t.nearby.is_player() ? {
+            t.dx = t.nearby.x - q.entity.x;
+            t.dz = t.nearby.z - q.entity.z;
+            t.rot = q.entity.yaw();
+
+            t.is_sideways = (t.rot <= -45 && t.rot > -135) || (t.rot >= 45 && t.rot < 135);
+
+            t.width_range = t.is_sideways ? t.dz : t.dx;
+            t.depth_range = t.is_sideways ? t.dx : t.dz;
+
+            v.is_touching = (math.abs(t.width_range) <= t.scan_range) && (math.abs(t.depth_range) <= 1);
+            v.player = v.is_touching ? t.nearby : 0;
+        };
+    });
+};
 
 v.player == 0 ? return 0;
+q.set_query('player', v.player);
+
+q.run_script('ccs:check_advancement') == 0 ? {
+    q.run_command('execute at ' + q.entity.uuid() + ' as '+q.player.username()+' run tp '+ q.player.username() +' ^ ^ ^3');
+    return 0;
+};
 
 q.run_command('/execute at @e[type=marker,tag=' + t.marker + ',limit=1,sort=nearest] run tp ' + v.player.username() + ' ~ ~ ~');

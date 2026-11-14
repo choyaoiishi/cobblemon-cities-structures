@@ -6,9 +6,9 @@
                 "minecraft:crying_obsidian": "minecraft:andesite",
                 "minecraft:obsidian": "minecraft:andesite",
                 // road side
-                "minecraft:birch_log": "minecraft:light_gray_concrete_powder",
+                "minecraft:birch_log": "minecraft:light_gray_wool",
                 // road
-                "minecraft:birch_wood": "minecraft:gray_concrete_powder"
+                "minecraft:birch_wood": "minecraft:gray_wool"
             }
         }
     ]

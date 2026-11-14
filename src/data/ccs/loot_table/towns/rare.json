@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 5,
+        "max": 10
+      },
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 20,
+          "value": "ccs:groups/gems"
+        },
+        {
+          "type": "loot_table",
+          "weight": 20,
+          "value": "ccs:groups/potions_tier_2"
+        },
+        {
+          "type": "loot_table",
+          "weight": 10,
+          "value": "ccs:groups/candies_tier_2"
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "ccs:groups/vitamins"
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "ccs:groups/evolution_stones"
+        }
+      ]
+    }
+  ]
+}

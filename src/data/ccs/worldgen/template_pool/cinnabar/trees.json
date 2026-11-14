@@ -1,0 +1,71 @@
+{
+    "template_pools": "ccs:cinnabar/trees",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 5,
+            "element": {
+                "element_type": "lithostitched:delegating",
+                "delegate": {
+                    "location": "ccs:trees/spruce_1",
+                    "processors": "ccs:others/spruce_oak",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid"
+                },
+                "allow_bounding_box_collisions": true
+            }
+        },
+        {
+            "weight": 5,
+            "element": {
+                "element_type": "lithostitched:delegating",
+                "delegate": {
+                    "location": "ccs:trees/spruce_2",
+                    "processors": "ccs:others/spruce_oak",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid"
+                },
+                "allow_bounding_box_collisions": true
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "lithostitched:delegating",
+                "delegate": {
+                    "location": "ccs:trees/saccharine_1",
+                    "processors": "minecraft:empty",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid"
+                },
+                "allow_bounding_box_collisions": true
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "lithostitched:delegating",
+                "delegate": {
+                    "location": "ccs:trees/apricorn_1",
+                    "processors": "ccs:others/apricorns/red",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid"
+                },
+                "allow_bounding_box_collisions": true
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "lithostitched:delegating",
+                "delegate": {
+                    "location": "ccs:trees/apricorn_2",
+                    "processors": "ccs:others/apricorns/red",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid"
+                },
+                "allow_bounding_box_collisions": true
+            }
+        }
+    ]
+}

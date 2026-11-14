@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 30,
+          "name": "cobblemon:super_potion"
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "cobblemon:hyper_potion"
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "cobblemon:max_potion"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:full_restore"
+        }
+      ]
+    }
+  ]
+}

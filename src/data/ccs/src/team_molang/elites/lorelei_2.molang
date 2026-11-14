@@ -1,0 +1,8 @@
+return q.array(
+    'ludicolo moves=fakeout,hydropump,energyball,icebeam nature=modest held_item=cobblemon:focus_sash ability=swiftswim',
+    'ironbundle moves=hydropump,freezedry,icywind,sleeptalk nature=timid ability=quarkdrive',
+    'genesect moves=uturn,ironhead,thunder,icebeam nature=hasty held_item=cobblemon:assault_vest ability=download',
+    'dragonite moves=hurricane,thunder,aquatail,extremespeed nature=mild ability=multiscale',
+    'palkia moves=dracobarrage,hydropump,thunder,aurasphere nature=timid held_item=cobblemon:lustrous_orb ability=pressure aspect=origin-forme',
+    'swampert moves=waterfall,earthquake,icepunch,brickbreak nature=adamant ability=swiftswim aspect=mega'
+);

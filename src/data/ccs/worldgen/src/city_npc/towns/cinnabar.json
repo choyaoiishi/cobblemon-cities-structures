@@ -8,15 +8,5 @@
 			},
 			"limit": 1
 		}
-	},
-	{
-		"weight": 20,
-		"element": {
-			"element_type": "lithostitched:limited",
-			"delegate": {
-				"location": "ccs:city_npc/cinnabar/002"
-			},
-			"limit": 1
-		}
 	}
 ]

@@ -1,0 +1,8 @@
+return q.array(
+    'krookodile moves=stealthrock,earthquake,knockoff,stoneedge nature=jolly held_item=cobblemon:focus_sash ability=intimidate',
+    'mewtwo moves=drainpunch,expandingforce,stoneedge,bulkup nature=naive ability=steadfast aspect=mega_x',
+    'yveltal moves=oblivionwing,darkhole,heatwave,uturn nature=timid held_item=cobblemon:assault_vest ability=darkaura',
+    'fluttermane moves=shadowball,moonblast,mysticalfire,psyshock nature=timid ability=protosynthesis',
+    'victini moves=celebrate,expandingforce,pyroball,focusblast nature=hasty ability=victorystar',
+    'calyrex moves=drainingkiss,expandingforce,astralbarrage,nastyplot nature=timid held_item=cobblemon:colbur_berry ability=asone aspect=shadow-rider'
+);

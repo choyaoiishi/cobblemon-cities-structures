@@ -97,7 +97,11 @@ if __name__ == "__main__":
         "rival": "rival/terry",
         "brendan": "rival/brendan",
         "may": "rival/may",
-        "SAFFRON DOJO · LEADER · CHUCK": "karate_master"
+        "SAFFRON DOJO · LEADER · CHUCK": "karate_master",
+        "ELITE FOUR · LORELEI": "elites/lorelei",
+        "ELITE FOUR · BRUNO": "elites/bruno",
+        "ELITE FOUR · AGATHA": "elites/agatha",
+        "ELITE FOUR · LANCE": "elites/lance"
     }
 
     extract_and_save_teams(trainers_to_extract, output_folder="team_data")

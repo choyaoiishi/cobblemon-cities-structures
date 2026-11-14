@@ -1,3 +1,5 @@
+v.pokeball = 'love_ball';
+
 return q.array(
     'solrock moves=stealthrock,photongeyser,explosion,earthquake nature=jolly held_item=cobblemon:focus_sash ability=levitate',
     'breloom moves=spore,substitute,focuspunch,rockslide nature=jolly held_item=cobblemon:toxic_orb ability=poisonheal',

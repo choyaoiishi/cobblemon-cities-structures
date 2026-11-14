@@ -1,0 +1,25 @@
+{
+  "name": "required_advancement",
+  "description": "required_advancement",
+  "configurations": [
+    {
+      "type": "add_variables",
+      "variables": [
+        {
+          "variableName": "required_advancement",
+          "displayName": "required_advancement",
+          "description": "required_advancement",
+          "type": "TEXT",
+          "defaultValue": ""
+        },
+        {
+          "variableName": "failed_dialogue",
+          "displayName": "failed_dialogue",
+          "description": "failed_dialogue",
+          "type": "TEXT",
+          "defaultValue": ""
+        }
+      ]
+    }
+  ]
+}

@@ -19,7 +19,7 @@
 				"location": "ccs:foundations/2x2",
 				"processors": "ccs:cerulean/base"
 			},
-			"count": 1,
+			"count": 2,
 			"min_depth": 2
 		}
 	},

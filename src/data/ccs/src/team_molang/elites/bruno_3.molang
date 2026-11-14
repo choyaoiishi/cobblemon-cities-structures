@@ -1,0 +1,8 @@
+return q.array(
+    'infernape moves=taunt,pyroball,stealthrock,closecombat nature=jolly held_item=cobblemon:focus_sash ability=blaze',
+    'urshifu moves=wickedblow,swordsdance,closecombat,suckerpunch nature=jolly held_item=cobblemon:black_glasses ability=unseenfist',
+    'kommo moves=clangingscales,clangoroussoul,aurasphere,flashcannon nature=timid held_item=cobblemon:throat_spray ability=overcoat aspect=o',
+    'ironvaliant moves=moonblast,thunderbolt,aurasphere,shadowball nature=timid ability=quarkdrive',
+    'zacian moves=swordsdance,behemothblade,closecombat,wildcharge nature=jolly ability=intrepidsword aspect=crowned',
+    'lucario moves=bulletpunch,meteormash,closecombat,swordsdance nature=jolly ability=adaptability aspect=mega'
+);

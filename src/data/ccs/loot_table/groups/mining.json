@@ -1,0 +1,76 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 20,
+          "value": "ccs:groups/bones"
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "minecraft:amethyst_shard"
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "minecraft:iron_pickaxe"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_pickaxe",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0,
+                "max": 100
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_pickaxe",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0,
+                "max": 100
+              }
+            },
+            {
+              "function": "enchant_randomly"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:rocky_helmet"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:hard_stone"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:float_stone"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:everstone"
+        }
+      ]
+    }
+  ]
+}

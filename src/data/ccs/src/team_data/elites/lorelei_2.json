@@ -1,0 +1,153 @@
+[
+  {
+    "species": "Ludicolo",
+    "level": "Highest Lv",
+    "nature": "Modest",
+    "ability": "Swift Swim",
+    "item": "Focus Sash",
+    "moves": [
+      "Fake Out",
+      "Hydro Pump",
+      "Energy Ball",
+      "Ice Beam"
+    ],
+    "baseStats": {
+      "HP": "80",
+      "ATK": "70",
+      "DEF": "70",
+      "SPA": "100",
+      "SPD": "100",
+      "SPE": "70"
+    },
+    "evs": {},
+    "speedStat": "150",
+    "altSpeeds": {
+      "Swift Swim": "300"
+    }
+  },
+  {
+    "species": "Iron Bundle",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Quark Drive",
+    "item": "",
+    "moves": [
+      "Hydro Pump",
+      "Freeze-Dry",
+      "Icy Wind",
+      "Sleep Talk"
+    ],
+    "baseStats": {
+      "HP": "56",
+      "ATK": "80",
+      "DEF": "114",
+      "SPA": "124",
+      "SPD": "60",
+      "SPE": "136"
+    },
+    "evs": {},
+    "speedStat": "288",
+    "altSpeeds": {
+      "Quar. Drive": "432"
+    }
+  },
+  {
+    "species": "Genesect",
+    "level": "Highest Lv",
+    "nature": "Hasty",
+    "ability": "Download",
+    "item": "Assault Vest",
+    "moves": [
+      "U-Turn",
+      "Iron Head",
+      "Thunder",
+      "Ice Beam"
+    ],
+    "baseStats": {
+      "HP": "71",
+      "ATK": "120",
+      "DEF": "95",
+      "SPA": "120",
+      "SPD": "95",
+      "SPE": "99"
+    },
+    "evs": {},
+    "speedStat": "218",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Dragonite",
+    "level": "Highest Lv",
+    "nature": "Mild",
+    "ability": "Multiscale",
+    "item": "",
+    "moves": [
+      "Hurricane",
+      "Thunder",
+      "Aqua Tail",
+      "Extreme Speed"
+    ],
+    "baseStats": {
+      "HP": "91",
+      "ATK": "134",
+      "DEF": "95",
+      "SPA": "100",
+      "SPD": "100",
+      "SPE": "80"
+    },
+    "evs": {},
+    "speedStat": "167",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Palkia",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Pressure",
+    "item": "Lustrous Orb",
+    "moves": [
+      "Draco Barrage",
+      "Hydro Pump",
+      "Thunder",
+      "Aura Sphere"
+    ],
+    "baseStats": {
+      "HP": "90",
+      "ATK": "100",
+      "DEF": "100",
+      "SPA": "150",
+      "SPD": "120",
+      "SPE": "120"
+    },
+    "evs": {},
+    "speedStat": "258",
+    "altSpeeds": {},
+    "aspect": "origin-forme"
+  },
+  {
+    "species": "Swampert-Mega",
+    "level": "Highest Lv",
+    "nature": "Adamant",
+    "ability": "Swift Swim",
+    "item": "",
+    "moves": [
+      "Waterfall",
+      "Earthquake",
+      "Ice Punch",
+      "Brick Break"
+    ],
+    "baseStats": {
+      "HP": "100",
+      "ATK": "150",
+      "DEF": "110",
+      "SPA": "95",
+      "SPD": "110",
+      "SPE": "70"
+    },
+    "evs": {},
+    "speedStat": "150",
+    "altSpeeds": {
+      "Swift Swim": "300"
+    }
+  }
+]

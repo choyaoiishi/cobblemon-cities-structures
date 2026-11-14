@@ -12,7 +12,8 @@ CATEGORIES = [
     "houses/3x2",
     "houses/start",
     "roads",
-    "city_npc"
+    "city_npc",
+    "trees"
 ]
 OUTPUT_DIR = "worldgen/template_pool/"
 TOWNS = [

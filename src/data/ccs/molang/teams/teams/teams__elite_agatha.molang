@@ -1,0 +1,12 @@
+v.pokeball = 'dusk_ball';
+
+return q.array(
+	'zoroark moves=taunt,darkpulse,flamethrower,sludgebomb nature=timid held_item=cobblemon:focus_sash ability=illusion',
+    'gholdengo moves=makeitrain,nastyplot,shadowball,focusblast nature=timid held_item=cobblemon:air_balloon ability=goodasgold',
+    'gengar moves=shadowball,sludgewave,nastyplot,aurasphere nature=timid ability=shadowtag aspect=mega',
+    'marowak moves=shadowbone,firepunch,bonemerang,swordsdance nature=adamant held_item=cobblemon:thick_club ability=bonezone aspect=alolan',
+    'krookodile moves=stealthrock,earthquake,knockoff,stoneedge nature=jolly held_item=cobblemon:focus_sash ability=intimidate',
+    'mewtwo moves=drainpunch,expandingforce,stoneedge,bulkup nature=naive ability=steadfast aspect=mega_x',
+    'mismagius moves=shadowball,moonblast,mysticalfire,thunderbolt nature=timid ability=levitate'
+
+);

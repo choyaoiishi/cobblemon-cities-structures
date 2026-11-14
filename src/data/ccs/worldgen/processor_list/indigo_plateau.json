@@ -1,0 +1,18 @@
+{
+    "processors": [
+        {
+            "processor_type": "lithostitched:block_swap",
+            "blocks": {
+                "minecraft:obsidian": "minecraft:dirt",
+               "minecraft:mangrove_planks": "minecraft:red_concrete"
+            }
+        },
+        {
+            "processor_type": "lithostitched:reference",
+            "processor_lists": [
+                "ccs:others/red",
+                "ccs:others/cobblestone/mossy_stone"
+            ]
+        }
+    ]
+}

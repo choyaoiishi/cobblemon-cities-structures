@@ -1,3 +1,14 @@
+### 15-11-2026 - 1.0.17
+- add indigo plateau
+- add cinnabar lab
+- add random chest with rare items
+- updated loot tables to use item groups for easier management
+- changed trees to fixed structures to stop empty plots
+- add lake to pallet and viridian
+- add lavender pokemon volunteer house
+- add cerulean day care
+- add different pokeball for trainers
+
 ### 06-11-2026 - 1.0.16
 - add lavender town
 	- add pokemon tower

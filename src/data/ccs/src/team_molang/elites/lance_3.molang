@@ -1,0 +1,8 @@
+return q.array(
+    'garchomp moves=stealthrock,earthquake,stoneedge,roar nature=jolly held_item=cobblemon:focus_sash ability=roughskin',
+    'melmetal moves=doubleironbash,earthquake,thunderpunch,icepunch nature=adamant held_item=cobblemon:assault_vest ability=ironfist',
+    'ironjugulis moves=darkhole,flamethrower,aeroblast,earthpower nature=timid ability=quarkdrive',
+    'dragonite moves=dragondance,extremespeed,earthquake,dualwingbeat nature=jolly held_item=cobblemon:lum_berry ability=multiscale',
+    'dialga moves=roaroftime,flashcannon,rest,sleeptalk nature=bold held_item=cobblemon:adamant_orb ability=primalarmor',
+    'salamence moves=dragondance,doubleedge,firefang,earthquake nature=jolly ability=aerilate aspect=mega'
+);

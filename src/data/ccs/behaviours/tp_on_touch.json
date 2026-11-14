@@ -11,6 +11,13 @@
           "description": "tp_marker",
           "type": "TEXT",
           "defaultValue": ""
+        },
+        {
+          "variableName": "door_width",
+          "displayName": "door_width",
+          "description": "door_width",
+          "type": "TEXT",
+          "defaultValue": "1"
         }
       ]
     },

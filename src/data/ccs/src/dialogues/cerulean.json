@@ -66,7 +66,7 @@
             "ccs:kanto/cerulean/gary"
         ]
     },
-    "old_man":{
+    "old_man": {
         "lines": [
             "It is dangerous to go alone."
         ],
@@ -75,6 +75,13 @@
             "honedge",
             "Take this.",
             "..."
+        ]
+    },
+    "day_care": {
+        "lines": [
+            "I'm the Day-Care Man.",
+            "We look after the precious Pokémon of other Trainers.",
+            "If you'd like us to raise your Pokémon, please use the pasture block behind me."
         ]
     }
 }

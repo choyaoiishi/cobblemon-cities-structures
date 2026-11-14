@@ -144,5 +144,16 @@
             "I came to calm the spirit of Cubone's mother.",
             "I think Marowak's spirit has finally left us."
         ]
+    },
+    "16":{
+        "lines": [
+            "There's talk about ghosts appearing lately in the Pokémon Tower.",
+            "I think they're the spirits of Pokémon kidnapped by Team Rocket and never seen again..."
+        ]
+    },
+    "17": {
+        "lines": [
+            "Don't go disturbing things in the Pokémon Tower!"
+        ]
     }
 }

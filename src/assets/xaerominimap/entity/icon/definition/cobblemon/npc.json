@@ -1,10 +1,14 @@
 {
     "variants": {
+        "ccs:textures/npcs/agatha.png": "outlined_sprite:ccs/leader/agatha_var_0.png",
         "ccs:textures/npcs/baked/leader/blaine_var_0.png": "outlined_sprite:ccs/leader/blaine_var_0.png",
         "ccs:textures/npcs/baked/leader/brock_var_0.png": "outlined_sprite:ccs/leader/brock_var_0.png",
+        "ccs:textures/npcs/bruno.png": "outlined_sprite:ccs/leader/bruno_var_0.png",
         "ccs:textures/npcs/baked/leader/clair_var_0.png": "outlined_sprite:ccs/leader/clair_var_0.png",
         "ccs:textures/npcs/baked/leader/erika_var_0.png": "outlined_sprite:ccs/leader/erika_var_0.png",
         "ccs:textures/npcs/baked/leader/koga_var_0.png": "outlined_sprite:ccs/leader/koga_var_0.png",
+        "ccs:textures/npcs/lance.png": "outlined_sprite:ccs/leader/lance_var_0.png",
+        "ccs:textures/npcs/lorelei.png": "outlined_sprite:ccs/leader/lorelei_var_0.png",
         "ccs:textures/npcs/baked/leader/lt_surge_var_0.png": "outlined_sprite:ccs/leader/lt_surge_var_0.png",
         "ccs:textures/npcs/baked/leader/misty_var_0.png": "outlined_sprite:ccs/leader/misty_var_0.png",
         "ccs:textures/npcs/baked/leader/sabrina_var_0.png": "outlined_sprite:ccs/leader/sabrina_var_0.png",

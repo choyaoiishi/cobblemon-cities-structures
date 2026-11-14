@@ -1,0 +1,108 @@
+{
+    "badges_incomplete": {
+        "lines": [
+            "Come back when you have all kanto badges."
+        ]
+    },
+    "lorelei": {
+        "lines": [
+            "Welcome to the Pokémon League.",
+            "I am Lorelei of the Elite Four.",
+            "No one can best me when it comes to icy Pokémon.",
+            "Freezing moves are powerful.",
+            "Your Pokémon will be at my mercy when they are frozen solid."
+        ],
+        "battle": [
+            "elite_lorelei",
+            "Hahaha! Are you ready?",
+            "…Things shouldn't be this way!",
+            "You're better than I thought. Go on ahead. You only got a taste of the Pokémon League's power.",
+            "85",
+            "ccs:kanto/indigo_plateau/lorelei"
+        ]
+    },
+    "bruno": {
+        "lines": [
+            "I am Bruno of the Elite Four!",
+            "Through rigorous training, people and Pokémon can become stronger without limit.",
+            "I've lived and trained with my fighting Pokémon!",
+            "And that will never change!"
+        ],
+        "battle": [
+            "elite_bruno",
+            "We will grind you down with our superior power!",
+            "Why? How could I lose?",
+            "My job is done. Go face your next challenge.",
+            "85",
+            "ccs:kanto/indigo_plateau/bruno"
+        ]
+    },
+    "agatha": {
+        "lines": [
+            "I am Agatha of the Elite Four.",
+            "I hear Oak's taken a lot of interest in you, child.",
+            "That old duff was once tough and handsome.",
+            "But that was decades ago.",
+            "He's a shadow of his former self.",
+            "Now he just wants to fiddle with his Pokédex.",
+            "He's wrong.",
+            "Pokémon are for battling!"
+        ],
+        "battle": [
+            "elite_agatha",
+            "I'll show you how a real Trainer battles!",
+            "Oh, my! You're something special, child!",
+            "You win! I see what the old duff sees in you now. I have nothing else to say. Run along now, child!",
+            "85",
+            "ccs:kanto/indigo_plateau/agatha"
+        ]
+    },
+    "lance": {
+        "lines": [
+            "I lead the Elite Four.",
+            "You can call me Lance the dragon Trainer.",
+            "You know that dragons are mythical Pokémon.",
+            "They're hard to catch and raise, but their powers are superior.",
+            "They're virtually indestructible.",
+            "There's no being clever with them.",
+            "Well, are you ready to lose?"
+        ],
+        "battle": [
+            "elite_lance",
+            "Your League challenge ends with me!",
+            "That's it! I hate to admit it, but you are a Pokémon master!",
+            "I still can't believe my dragons lost to you.",
+            "85",
+            "ccs:kanto/indigo_plateau/lance"
+        ]
+    },
+    "gary": {
+        "lines": [
+            "Hey, I was looking forward to seeing you!",
+            "My rival should be strong to keep me sharp.",
+            "While working on my Pokédex, I looked all over for Pokémon.",
+            "Not only that, I assembled teams that would beat any Pokémon type.",
+            "And now… I'm the Pokémon League Champion!",
+            "Do you know what that means?",
+            "I'll tell you."
+        ],
+        "battle": [
+            "rival_gary",
+            "I am the most powerful Trainer in the world!",
+            "No! That can't be! You beat me at my best! After all that work to become the League Champ?",
+            "Why? Why did I lose? I never made any mistakes raising my Pokémon… Darn it! You're the new Pokémon League Champion!",
+            "85",
+            "ccs:kanto/indigo_plateau/champion"
+        ]
+    },
+    "oak": {
+        "lines": [
+            "Er-hem! Congratulations!",
+            "This floor is the Pokémon Hall of Fame.",
+            "Pokémon League Champions are honored for their exploits here.",
+            "Their Pokémon are also recorded in the Hall of Fame.",
+            "You have worked hard to become the new League Champion.",
+            "Congratulations, you and your Pokémon are Hall of Famers!"
+        ]
+    }
+}

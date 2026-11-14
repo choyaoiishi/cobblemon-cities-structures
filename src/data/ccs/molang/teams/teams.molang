@@ -14,10 +14,10 @@ v.level_variation_min = -2;
 v.level_variation_max = 2;
 
 v.loop_count = math.random_integer(2, 6);
-
+v.pokeball = 'poke_ball';
 t.pokemons = q.run_script('ccs:teams__' + t.trainer_id);
 
-t.constants = ' hp_iv=31 attack_iv=31 defence_iv=31 special_attack_iv=31 special_defence_iv=31 speed_iv=31 speed_ev=252 hp_ev=252 uncatchable=true pokeball=ultra_ball';
+t.constants = ' hp_iv=31 attack_iv=31 defence_iv=31 special_attack_iv=31 special_defence_iv=31 speed_iv=31 speed_ev=252 hp_ev=252 uncatchable=true pokeball=' + v.pokeball;
 v.base_level = v.min_level >= v.base_level ?  v.min_level : v.base_level;
 
 t.pokemons_count = q.length(t.pokemons);
@@ -41,12 +41,21 @@ t.data.is_debug ? {
     v.loop_count =1;
 };
 
+t.pokemons_count <= v.loop_count ? {
+    t.loop_index = 0;
+    v.loop_count = t.pokemons_count;
+};
+
 loop(1024, {
 	v.msg = 'loop index:' + t.loop_index;
 	q.run_script('ccs:print');
     
 	t.added_count < v.loop_count ? {
-        t.index = math.random_integer(0, t.pokemons_count - 1);
+        t.pokemons_count == v.loop_count ? {
+            t.index = t.loop_index;
+        }:{
+            t.index = math.random_integer(0, t.pokemons_count - 1);
+        };
 
         t.is_duplicate = (t.index == t.used_0) || (t.index == t.used_1) || (t.index == t.used_2) || (t.index == t.used_3) || (t.index == t.used_4) || (t.index == t.used_5);
 

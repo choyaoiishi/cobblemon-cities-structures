@@ -1,3 +1,5 @@
+v.pokeball = 'fast_ball';
+
 return q.array(
     'hitmontop moves=triplekick,tripleaxel,fakeout,brutalswing nature=jolly held_item=cobblemon:focus_sash ability=technician',
     'breloom moves=spore,substitute,focuspunch,rockslide nature=jolly held_item=cobblemon:toxic_orb ability=poisonheal',

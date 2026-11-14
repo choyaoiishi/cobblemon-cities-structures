@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 5,
+        "max": 10
+      },
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "ccs:groups/lab"
+        }
+      ]
+    }
+  ]
+}

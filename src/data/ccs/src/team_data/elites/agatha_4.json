@@ -1,0 +1,151 @@
+[
+  {
+    "species": "Krookodile",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Intimidate",
+    "item": "Focus Sash",
+    "moves": [
+      "Stealth Rock",
+      "Earthquake",
+      "Knock Off",
+      "Stone Edge"
+    ],
+    "baseStats": {
+      "HP": "95",
+      "ATK": "117",
+      "DEF": "80",
+      "SPA": "65",
+      "SPD": "70",
+      "SPE": "92"
+    },
+    "evs": {},
+    "speedStat": "205",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Flutter Mane",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Protosynthesis",
+    "item": "",
+    "moves": [
+      "Shadow Ball",
+      "Moonblast",
+      "Psyshock",
+      "Mystical Fire"
+    ],
+    "baseStats": {
+      "HP": "55",
+      "ATK": "55",
+      "DEF": "55",
+      "SPA": "135",
+      "SPD": "135",
+      "SPE": "135"
+    },
+    "evs": {},
+    "speedStat": "286",
+    "altSpeeds": {
+      "Protosyn.": "429"
+    }
+  },
+  {
+    "species": "Mewtwo-MegaX",
+    "level": "Highest Lv",
+    "nature": "Naive",
+    "ability": "Steadfast",
+    "item": "",
+    "moves": [
+      "Drain Punch",
+      "Expanding Force",
+      "Stone Edge",
+      "Bulk Up"
+    ],
+    "baseStats": {
+      "HP": "106",
+      "ATK": "190",
+      "DEF": "100",
+      "SPA": "154",
+      "SPD": "100",
+      "SPE": "130"
+    },
+    "evs": {},
+    "speedStat": "277",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Yveltal",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Dark Aura",
+    "item": "Assault Vest",
+    "moves": [
+      "Oblivion Wing",
+      "Dark Hole",
+      "Heat Wave",
+      "U-Turn"
+    ],
+    "baseStats": {
+      "HP": "126",
+      "ATK": "131",
+      "DEF": "95",
+      "SPA": "131",
+      "SPD": "98",
+      "SPE": "99"
+    },
+    "evs": {},
+    "speedStat": "218",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Victini",
+    "level": "Highest Lv",
+    "nature": "Hasty",
+    "ability": "Victory Star",
+    "item": "",
+    "moves": [
+      "Celebrate",
+      "Expanding Force",
+      "Pyro Ball",
+      "Focus Blast"
+    ],
+    "baseStats": {
+      "HP": "100",
+      "ATK": "100",
+      "DEF": "100",
+      "SPA": "100",
+      "SPD": "100",
+      "SPE": "100"
+    },
+    "evs": {},
+    "speedStat": "221",
+    "altSpeeds": {
+      "Z-Celebrate": "331"
+    }
+  },
+  {
+    "species": "Calyrex",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "As One",
+    "item": "Colbur Berry",
+    "moves": [
+      "Draining Kiss",
+      "Expanding Force",
+      "Astral Barrage",
+      "Nasty Plot"
+    ],
+    "baseStats": {
+      "HP": "100",
+      "ATK": "85",
+      "DEF": "80",
+      "SPA": "165",
+      "SPD": "100",
+      "SPE": "150"
+    },
+    "evs": {},
+    "speedStat": "314",
+    "altSpeeds": {},
+    "aspect": "shadow-rider"
+  }
+]

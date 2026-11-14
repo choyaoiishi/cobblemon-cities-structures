@@ -1,4 +1,5 @@
 q.run_script('ccs:set_loop_count');
+v.pokeball = 'heavy_ball';
 
 q.player.party.highest_level < 30 ? {
 	return q.array(
@@ -27,12 +28,12 @@ q.player.party.highest_level < 60 ? {
 };
 
 return q.array(
-	'greattusk moves=stealthrock,closecombat,headlongrush,knockoff nature=jolly ability=protosynthesis',
+	'golem moves=bulldoze,rocktomb,spark,selfdestruct nature=adamant held_item=cobblemon:custap_berry ability=sturdy',
+	'steelix moves=rocktomb,bulldoze,sleeptalk nature=bashful held_item=cobblemon:berry_juice ability=sturdy',
+	'hippowdon moves=bulldoze,rocktomb,toxic,slackoff nature=careful held_item=cobblemon:berry_juice ability=sandstream',
 	'omastar moves=shellsmash,meteorbeam,surf,icebeam nature=timid held_item=cobblemon:power_herb ability=weakarmor',
 	'tyranitar moves=dragondance,stoneedge,firepunch,knockoff nature=jolly held_item=cobblemon:weakness_policy ability=sandstream',
 	'arcanine moves=flareblitz,headsmash,wildcharge,extremespeed nature=jolly held_item=cobblemon:focus_sash ability=rockhead aspect=hisuian',
-	'ironboulder moves=stealthrock,closecombat,mightycleave,zenheadbutt nature=jolly held_item=cobblemon:lum_berry ability=quarkdrive',
-	'irontreads moves=knockoff,earthquake,ironhead,icespinner nature=jolly ability=quarkdrive',
 	'ursaluna moves=bloodmoon,earthpower,vacuumwave,hypervoice nature=modest held_item=cobblemon:leftovers ability=scrappy aspect=bloodmoon',
 	'aerodactyl moves=dragondance,stoneedge,earthquake,dualwingbeat nature=jolly ability=toughclaws aspect=mega'
 );

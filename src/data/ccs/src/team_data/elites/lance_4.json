@@ -1,0 +1,148 @@
+[
+  {
+    "species": "Glimmora",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Toxic Debris",
+    "item": "Focus Sash",
+    "moves": [
+      "Stealth Rock",
+      "Power Gem",
+      "Sludge Wave",
+      "Energy Ball"
+    ],
+    "baseStats": {
+      "HP": "83",
+      "ATK": "55",
+      "DEF": "90",
+      "SPA": "130",
+      "SPD": "81",
+      "SPE": "86"
+    },
+    "evs": {},
+    "speedStat": "194",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Melmetal",
+    "level": "Highest Lv",
+    "nature": "Careful",
+    "ability": "Iron Fist",
+    "item": "Assault Vest",
+    "moves": [
+      "Double Iron Bash",
+      "Ice Punch",
+      "Earthquake",
+      "Thunder Punch"
+    ],
+    "baseStats": {
+      "HP": "135",
+      "ATK": "143",
+      "DEF": "143",
+      "SPA": "80",
+      "SPD": "65",
+      "SPE": "34"
+    },
+    "evs": {},
+    "speedStat": "89",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Arceus",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Multitype",
+    "item": "",
+    "moves": [
+      "Calm Mind",
+      "Judgment",
+      "Flamethrower",
+      "Recover"
+    ],
+    "baseStats": {
+      "HP": "120",
+      "ATK": "120",
+      "DEF": "120",
+      "SPA": "120",
+      "SPD": "120",
+      "SPE": "120"
+    },
+    "evs": {},
+    "speedStat": "258",
+    "altSpeeds": {},
+    "aspect": "fairy-plate"
+  },
+  {
+    "species": "Dragonite",
+    "level": "Highest Lv",
+    "nature": "Adamant",
+    "ability": "Multiscale",
+    "item": "",
+    "moves": [
+      "Dragon Dance",
+      "Dual Wingbeat",
+      "Earthquake",
+      "Extreme Speed"
+    ],
+    "baseStats": {
+      "HP": "91",
+      "ATK": "134",
+      "DEF": "95",
+      "SPA": "100",
+      "SPD": "100",
+      "SPE": "80"
+    },
+    "evs": {},
+    "speedStat": "167",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Dialga",
+    "level": "Highest Lv",
+    "nature": "Bold",
+    "ability": "Primal Armor",
+    "item": "Adamant Orb",
+    "moves": [
+      "Roar Of Time",
+      "Flash Cannon",
+      "Rest",
+      "Sleep Talk"
+    ],
+    "baseStats": {
+      "HP": "100",
+      "ATK": "120",
+      "DEF": "150",
+      "SPA": "185",
+      "SPD": "130",
+      "SPE": "90"
+    },
+    "evs": {},
+    "speedStat": "184",
+    "altSpeeds": {},
+    "aspect": ""
+  },
+  {
+    "species": "Rayquaza-Mega",
+    "level": "Highest Lv",
+    "nature": "Naive",
+    "ability": "Delta Stream",
+    "item": "",
+    "moves": [
+      "Extreme Speed",
+      "Flamethrower",
+      "Earthquake",
+      "Dragon Ascent"
+    ],
+    "baseStats": {
+      "HP": "105",
+      "ATK": "180",
+      "DEF": "100",
+      "SPA": "180",
+      "SPD": "100",
+      "SPE": "115"
+    },
+    "evs": {},
+    "speedStat": "248",
+    "altSpeeds": {}
+  }
+]

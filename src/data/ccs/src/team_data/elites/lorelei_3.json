@@ -1,0 +1,176 @@
+[
+  {
+    "species": "Ninetales-Alola",
+    "level": "85",
+    "nature": "Timid",
+    "ability": "Snow Warning",
+    "item": "Light Clay",
+    "moves": [
+      "Blizzard",
+      "Aurora Veil",
+      "Freeze-Dry",
+      "Snowscape"
+    ],
+    "baseStats": {
+      "HP": "73",
+      "ATK": "67",
+      "DEF": "75",
+      "SPA": "81",
+      "SPD": "100",
+      "SPE": "109"
+    },
+    "evs": {
+      "DEF": "4",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "297",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Glaceon",
+    "level": "85",
+    "nature": "Modest",
+    "ability": "Slush Rush",
+    "item": "Choice Specs",
+    "moves": [
+      "Blizzard",
+      "Earth Power",
+      "Freeze-Dry",
+      "Hidden Power"
+    ],
+    "baseStats": {
+      "HP": "80",
+      "ATK": "45",
+      "DEF": "100",
+      "SPA": "130",
+      "SPD": "95",
+      "SPE": "75"
+    },
+    "evs": {
+      "DEF": "4",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "211",
+    "altSpeeds": {
+      "Slush Rush": "422"
+    }
+  },
+  {
+    "species": "Rotom",
+    "level": "85",
+    "nature": "Timid",
+    "ability": "Levitate",
+    "item": "Sitrus Berry",
+    "moves": [
+      "Volt Switch",
+      "Scald",
+      "Thunderbolt",
+      "Thunder Wave"
+    ],
+    "baseStats": {
+      "HP": "50",
+      "ATK": "65",
+      "DEF": "107",
+      "SPA": "105",
+      "SPD": "107",
+      "SPE": "86"
+    },
+    "evs": {
+      "HP": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "254",
+    "altSpeeds": {},
+    "aspect": "wash-appliance"
+  },
+  {
+    "species": "Calyrex",
+    "level": "85",
+    "nature": "Adamant",
+    "ability": "As One",
+    "item": "Assault Vest",
+    "moves": [
+      "Glacial Lance",
+      "Zen Headbutt",
+      "Seed Bomb",
+      "High Horsepower"
+    ],
+    "baseStats": {
+      "HP": "100",
+      "ATK": "165",
+      "DEF": "150",
+      "SPA": "85",
+      "SPD": "130",
+      "SPE": "50"
+    },
+    "evs": {
+      "HP": "252",
+      "ATK": "252",
+      "DEF": "4"
+    },
+    "speedStat": "116",
+    "altSpeeds": {},
+    "aspect": "ice-rider"
+  },
+  {
+    "species": "Abomasnow-Mega",
+    "level": "85",
+    "nature": "Timid",
+    "ability": "Slush Rush",
+    "item": "",
+    "moves": [
+      "Blizzard",
+      "Focus Blast",
+      "Hidden Power",
+      "Giga Drain"
+    ],
+    "baseStats": {
+      "HP": "90",
+      "ATK": "132",
+      "DEF": "105",
+      "SPA": "132",
+      "SPD": "105",
+      "SPE": "60"
+    },
+    "evs": {
+      "DEF": "4",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "204",
+    "altSpeeds": {
+      "Slush Rush": "408"
+    }
+  },
+  {
+    "species": "Baxcalibur",
+    "level": "85",
+    "nature": "Jolly",
+    "ability": "Thermal Exchange",
+    "item": "Dragon Fang",
+    "moves": [
+      "Glaive Rush",
+      "Ice Shard",
+      "Icicle Crash",
+      "Protect"
+    ],
+    "baseStats": {
+      "HP": "115",
+      "ATK": "145",
+      "DEF": "92",
+      "SPA": "75",
+      "SPD": "86",
+      "SPE": "87"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "255",
+    "altSpeeds": {}
+  }
+]

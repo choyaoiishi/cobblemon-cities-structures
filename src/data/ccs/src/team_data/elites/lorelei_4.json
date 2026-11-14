@@ -1,0 +1,152 @@
+[
+  {
+    "species": "Glaceon",
+    "level": "Highest Lv",
+    "nature": "Modest",
+    "ability": "Slush Rush",
+    "item": "Choice Specs",
+    "moves": [
+      "Blizzard",
+      "Earth Power",
+      "Freeze-Dry",
+      "Hidden Power"
+    ],
+    "baseStats": {
+      "HP": "80",
+      "ATK": "45",
+      "DEF": "100",
+      "SPA": "130",
+      "SPD": "95",
+      "SPE": "75"
+    },
+    "evs": {},
+    "speedStat": "158",
+    "altSpeeds": {
+      "Slush Rush": "316"
+    }
+  },
+  {
+    "species": "Landorus",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Intimidate",
+    "item": "Assault Vest",
+    "moves": [
+      "High Horsepower",
+      "Stone Edge",
+      "U-Turn",
+      "Knock Off"
+    ],
+    "baseStats": {
+      "HP": "89",
+      "ATK": "145",
+      "DEF": "90",
+      "SPA": "105",
+      "SPD": "80",
+      "SPE": "91"
+    },
+    "evs": {},
+    "speedStat": "204",
+    "altSpeeds": {},
+    "aspect": "therian-forme"
+  },
+  {
+    "species": "Chien-Pao",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Sword Of Ruin",
+    "item": "Focus Sash",
+    "moves": [
+      "Icicle Crash",
+      "Knock Off",
+      "Sacred Sword",
+      "Ice Shard"
+    ],
+    "baseStats": {
+      "HP": "80",
+      "ATK": "120",
+      "DEF": "80",
+      "SPA": "90",
+      "SPD": "65",
+      "SPE": "135"
+    },
+    "evs": {},
+    "speedStat": "286",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Tapu Fini",
+    "level": "Highest Lv",
+    "nature": "Modest",
+    "ability": "Misty Surge",
+    "item": "Leftovers",
+    "moves": [
+      "Calm Mind",
+      "Muddy Water",
+      "Moonblast",
+      "Blizzard"
+    ],
+    "baseStats": {
+      "HP": "70",
+      "ATK": "75",
+      "DEF": "115",
+      "SPA": "95",
+      "SPD": "130",
+      "SPE": "85"
+    },
+    "evs": {},
+    "speedStat": "175",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Kyurem",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Turboblaze",
+    "item": "",
+    "moves": [
+      "Blizzard",
+      "Fusion Flare",
+      "Draco Barrage",
+      "Freeze-Dry"
+    ],
+    "baseStats": {
+      "HP": "125",
+      "ATK": "120",
+      "DEF": "90",
+      "SPA": "170",
+      "SPD": "100",
+      "SPE": "95"
+    },
+    "evs": {},
+    "speedStat": "211",
+    "altSpeeds": {},
+    "aspect": "white-fusion"
+  },
+  {
+    "species": "Abomasnow-Mega",
+    "level": "Highest Lv",
+    "nature": "Naive",
+    "ability": "Slush Rush",
+    "item": "",
+    "moves": [
+      "Giga Drain",
+      "Blizzard",
+      "Earthquake",
+      "Hidden Power"
+    ],
+    "baseStats": {
+      "HP": "90",
+      "ATK": "132",
+      "DEF": "105",
+      "SPA": "132",
+      "SPD": "105",
+      "SPE": "60"
+    },
+    "evs": {},
+    "speedStat": "145",
+    "altSpeeds": {
+      "Slush Rush": "290"
+    }
+  }
+]

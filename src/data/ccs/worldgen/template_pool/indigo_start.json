@@ -1,0 +1,15 @@
+{
+    "template_pools": "ccs:indigo_start",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "location": "ccs:houses/indigo/front",
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ccs:indigo_plateau"
+            }
+        }
+    ]
+}

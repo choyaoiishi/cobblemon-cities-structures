@@ -3,6 +3,20 @@
     "fallback": "minecraft:empty",
     "elements": [
         {
+            "weight": 100,
+            "element": {
+                "element_type": "lithostitched:delegating",
+                "delegate": {
+                    "location": "ccs:houses/cinnabar/2x2/lab",
+                    "processors": "ccs:cinnabar/general",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid"
+                },
+                "min_depth": 3,
+                "forced_count": 1
+            }
+        },
+        {
             "weight": 150,
             "element": {
                 "element_type": "lithostitched:limited",

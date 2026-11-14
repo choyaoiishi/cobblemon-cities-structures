@@ -44,7 +44,7 @@
                     "element_type": "minecraft:single_pool_element",
                     "projection": "rigid"
                 },
-                "count": 1,
+                "count": 2,
                 "min_depth": 2
             }
         },

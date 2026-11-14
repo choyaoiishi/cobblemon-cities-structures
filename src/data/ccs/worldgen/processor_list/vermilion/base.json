@@ -8,7 +8,7 @@
                 // road side
                 "minecraft:birch_log": "minecraft:polished_andesite",
                 // road
-                "minecraft:birch_wood": "minecraft:gray_concrete_powder"
+                "minecraft:birch_wood": "minecraft:gray_wool"
             }
         }
     ]

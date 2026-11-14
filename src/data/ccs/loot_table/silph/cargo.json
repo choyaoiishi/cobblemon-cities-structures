@@ -1,75 +1,43 @@
 {
-    "type": "minecraft:chest",
-    "pools": [
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 5,
+        "max": 10
+      },
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "cobblemon:rare_candy",
-                    "weight": 1
-                }
-            ]
+          "type": "loot_table",
+          "weight": 2,
+          "value": "ccs:groups/candies_tier_2"
         },
         {
-            "rolls": {
-                "type": "minecraft:uniform",
-                "max": 10.0,
-                "min": 1.0
-            },
-            "bonus_rolls": 0.0,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "cobblemon:relic_coin",
-                    "weight": 1
-                }
-            ]
+          "type": "loot_table",
+          "weight": 2,
+          "value": "ccs:groups/gems"
         },
         {
-            "rolls": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
-            },
-            "bonus_rolls": 0.0,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "cobblemon:revive",
-                    "weight": 1
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "cobblemon:ultra_ball",
-                    "weight": 1
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "cobblemon:protein",
-                    "weight": 1
-                }
-            ]
+          "type": "loot_table",
+          "weight": 5,
+          "value": "ccs:groups/potions_tier_2"
         },
         {
-            "rolls": {
-                "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 1.0
-            },
-            "bonus_rolls": 0.0,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "cobblemon:hyper_potion",
-                    "weight": 1
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "cobblemon:great_ball",
-                    "weight": 1
-                }
-            ]
+          "type": "loot_table",
+          "weight": 5,
+          "value": "ccs:groups/pokeballs"
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "ccs:groups/vitamins"
+        },
+        {
+          "type": "loot_table",
+          "weight": 20,
+          "value": "ccs:groups/coins"
         }
-    ]
+      ]
+    }
+  ]
 }

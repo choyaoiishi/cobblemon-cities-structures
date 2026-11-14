@@ -1,0 +1,8 @@
+return q.array(
+    'ninetales moves=blizzard,auroraveil,freezedry,snowscape nature=timid held_item=cobblemon:light_clay ability=snowwarning aspect=alolan',
+    'glaceon moves=blizzard,earthpower,freezedry,hiddenpower nature=modest held_item=cobblemon:choice_specs ability=slushrush',
+    'rotom moves=voltswitch,scald,thunderbolt,thunderwave nature=timid held_item=cobblemon:sitrus_berry ability=levitate aspect=wash-appliance',
+    'calyrex moves=glaciallance,zenheadbutt,seedbomb,highhorsepower nature=adamant held_item=cobblemon:assault_vest ability=asone aspect=ice-rider',
+    'abomasnow moves=blizzard,focusblast,hiddenpower,gigadrain nature=timid ability=slushrush aspect=mega',
+    'baxcalibur moves=glaiverush,iceshard,iciclecrash,protect nature=jolly held_item=cobblemon:dragon_fang ability=thermalexchange'
+);

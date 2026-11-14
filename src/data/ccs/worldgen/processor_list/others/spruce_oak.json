@@ -1,0 +1,12 @@
+{
+    "processors": [
+        {
+            "processor_type": "lithostitched:block_swap",
+            "blocks": {
+                "minecraft:spruce_wood":"minecraft:oak_wood" ,
+                "minecraft:spruce_log":"minecraft:oak_log",
+                "minecraft:spruce_leaves":"minecraft:oak_leaves"
+            }
+        }
+    ]
+}

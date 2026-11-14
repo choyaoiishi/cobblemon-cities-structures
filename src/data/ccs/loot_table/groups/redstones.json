@@ -1,0 +1,106 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 30,
+          "name": "minecraft:redstone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 30,
+          "name": "minecraft:lever",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 20,
+          "name": "minecraft:redstone_torch",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 20,
+          "name": "minecraft:tripwire_hook",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "minecraft:redstone_lamp"
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "minecraft:comparator"
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "minecraft:repeater"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:piston"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:daylight_detector"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:hopper"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:dispenser"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:dropper"
+        }
+      ]
+    }
+  ]
+}

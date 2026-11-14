@@ -1,0 +1,8 @@
+return q.array(
+    'zoroark moves=taunt,hypervoice,shadowball,flamethrower nature=timid held_item=cobblemon:focus_sash ability=illusion aspect=hisuian',
+    'gholdengo moves=makeitrain,thunderwave,shadowball,focusblast nature=timid held_item=cobblemon:air_balloon ability=goodasgold',
+    'marshadow moves=drainpunch,bulkup,spectralthief,shadowsneak nature=jolly held_item=cobblemon:focus_sash ability=technician',
+    'roaringmoon moves=dragondance,knockoff,earthquake,ironhead nature=jolly ability=protosynthesis',
+    'chi moves=darkpulse,flamethrower,psychic,hiddenpower nature=timid held_item=cobblemon:charcoal ability=beadsofruin aspect=yu',
+    'gengar moves=shadowball,sludgewave,nastyplot,focusblast nature=timid ability=shadowtag aspect=mega'
+);

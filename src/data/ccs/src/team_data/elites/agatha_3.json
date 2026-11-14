@@ -1,0 +1,172 @@
+[
+  {
+    "species": "Zoroark",
+    "level": "85",
+    "nature": "Timid",
+    "ability": "Illusion",
+    "item": "Focus Sash",
+    "moves": [
+      "Taunt",
+      "Dark Pulse",
+      "Flamethrower",
+      "Sludge Bomb"
+    ],
+    "baseStats": {
+      "HP": "60",
+      "ATK": "105",
+      "DEF": "60",
+      "SPA": "120",
+      "SPD": "60",
+      "SPE": "105"
+    },
+    "evs": {
+      "DEF": "4",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "289",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Gholdengo",
+    "level": "85",
+    "nature": "Timid",
+    "ability": "Good As Gold",
+    "item": "Air Balloon",
+    "moves": [
+      "Make It Rain",
+      "Nasty Plot",
+      "Shadow Ball",
+      "Focus Blast"
+    ],
+    "baseStats": {
+      "HP": "87",
+      "ATK": "60",
+      "DEF": "95",
+      "SPA": "133",
+      "SPD": "91",
+      "SPE": "84"
+    },
+    "evs": {
+      "DEF": "4",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "249",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Marshadow",
+    "level": "85",
+    "nature": "Jolly",
+    "ability": "Technician",
+    "item": "Focus Sash",
+    "moves": [
+      "Spectral Thief",
+      "Close Combat",
+      "Shadow Sneak",
+      "Bulk Up"
+    ],
+    "baseStats": {
+      "HP": "90",
+      "ATK": "125",
+      "DEF": "80",
+      "SPA": "90",
+      "SPD": "90",
+      "SPE": "125"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "326",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Flutter Mane",
+    "level": "85",
+    "nature": "Timid",
+    "ability": "Protosynthesis",
+    "item": "",
+    "moves": [
+      "Shadow Ball",
+      "Moonblast",
+      "Mystical Fire",
+      "Psyshock"
+    ],
+    "baseStats": {
+      "HP": "55",
+      "ATK": "55",
+      "DEF": "55",
+      "SPA": "135",
+      "SPD": "135",
+      "SPE": "135"
+    },
+    "evs": {
+      "DEF": "4",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "345",
+    "altSpeeds": {
+      "Protosyn.": "517"
+    }
+  },
+  {
+    "species": "Chien-Pao",
+    "level": "Highest Lv -2",
+    "nature": "Jolly",
+    "ability": "Swords of Ruin",
+    "item": "Black Glasses",
+    "moves": [
+      "Sacred Sword",
+      "Crunch",
+      "Icicle Crash",
+      "Ice Shard"
+    ],
+    "baseStats": {
+      "HP": "80",
+      "ATK": "120",
+      "DEF": "80",
+      "SPA": "90",
+      "SPD": "65",
+      "SPE": "135"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "337",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Gengar-Mega",
+    "level": "Highest Lv -2",
+    "nature": "Timid",
+    "ability": "Shadow Tag",
+    "item": "",
+    "moves": [
+      "Shadow Ball",
+      "Sludge Wave",
+      "Nasty Plot",
+      "Aura Sphere"
+    ],
+    "baseStats": {
+      "HP": "60",
+      "ATK": "65",
+      "DEF": "80",
+      "SPA": "170",
+      "SPD": "95",
+      "SPE": "130"
+    },
+    "evs": {
+      "DEF": "4",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "327",
+    "altSpeeds": {}
+  }
+]

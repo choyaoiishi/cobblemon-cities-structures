@@ -1,0 +1,65 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 30,
+          "name": "minecraft:glass_bottle"
+        },
+        {
+          "type": "item",
+          "weight": 30,
+          "name": "cobblemon:remedy"
+        },
+        {
+          "type": "item",
+          "weight": 30,
+          "name": "cobblemon:antidote"
+        },
+        {
+          "type": "item",
+          "weight": 30,
+          "name": "cobblemon:awakening"
+        },
+        {
+          "type": "item",
+          "weight": 30,
+          "name": "cobblemon:burn_heal"
+        },
+        {
+          "type": "item",
+          "weight": 30,
+          "name": "cobblemon:ice_heal"
+        },
+        {
+          "type": "item",
+          "weight": 30,
+          "name": "cobblemon:paralyze_heal"
+        },
+        {
+          "type": "item",
+          "weight": 20,
+          "name": "cobblemon:fine_remedy"
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "cobblemon:revive"
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "cobblemon:superb_remedy"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:max_revive"
+        }
+      ]
+    }
+  ]
+}

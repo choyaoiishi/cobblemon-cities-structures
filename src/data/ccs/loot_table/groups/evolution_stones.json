@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:dawn_stone"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:dusk_stone"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:fire_stone"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:ice_stone"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:leaf_stone"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:moon_stone"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:shiny_stone"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:sun_stone"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:thunder_stone"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:water_stone"
+        }
+      ]
+    }
+  ]
+}

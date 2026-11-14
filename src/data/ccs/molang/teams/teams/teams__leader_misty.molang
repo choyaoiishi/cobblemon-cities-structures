@@ -1,4 +1,5 @@
 q.run_script('ccs:set_loop_count');
+v.pokeball = 'net_ball';
 
 q.player.party.highest_level < 40 ? {
 	return q.array(
@@ -17,7 +18,6 @@ q.player.party.highest_level < 70 ? {
 	return q.array(
 		'ferrothorn moves=leechseed,gyroball,powerwhip,thunderwave nature=relaxed held_item=cobblemon:rocky_helmet ability=ironbarbs',
 		'gorebyss moves=shellsmash,surf,icebeam,moonblast nature=timid held_item=cobblemon:focus_sash ability=dazzling',
-		'ironbundle moves=hydropump,freezedry,flipturn,icebeam nature=timid held_item=cobblemon:focus_sash ability=quarkdrive',
 		'palafin moves=jetpunch,waterfall,drainpunch,bulkup nature=jolly held_item=cobblemon:mystic_water ability=moldbreaker aspect=hero-form',
 		'archaludon moves=bodypress,electroshot,dragonpulse,flashcannon nature=calm held_item=cobblemon:assault_vest ability=stamina',
 		'kingdra moves=hydropump,dracobarrage,hurricane,flipturn nature=modest held_item=cobblemon:life_orb ability=swiftswim',
@@ -27,12 +27,10 @@ q.player.party.highest_level < 70 ? {
 
 return q.array(
     'pikachu moves=thunder,hurricane,electroweb,fakeout nature=timid held_item=cobblemon:light_ball ability=lightningrod',
-    'kyogre moves=earthquake,waterspout,originpulse,thunder nature=hasty ability=primordialsea aspect=primal',
     'goodra moves=dracobarrage,flashcannon,thunder,muddywater nature=bold held_item=cobblemon:assault_vest ability=gooey aspect=hisuian',
-    'kingdra moves=dracobarrage,hydropump,muddywater,hurricane nature=timid ability=swiftswim',
+    'kingdra moves=dracobarrage,hydropump,muddywater,hurricane nature=timid held_item=cobblemon:life_orb ability=swiftswim',
     'drednaw moves=jawlock,aquafang,crunch,shellsmash nature=jolly ability=strongjaw aspect=mega',
     'floatzel moves=surgingstrikes,fakeout,flipturn,pursuit nature=jolly held_item=cobblemon:focus_sash ability=technician',
 	'gyarados moves=dragondance,waterfall,crunch,earthquake nature=jolly ability=moldbreaker aspect=mega',
-	'ironbundle moves=hydropump,freezedry,flipturn,icebeam nature=timid held_item=cobblemon:focus_sash ability=quarkdrive',
     'palafin moves=jetpunch,waterfall,drainpunch,bulkup nature=jolly held_item=cobblemon:mystic_water ability=moldbreaker aspect=hero-form' 
 );

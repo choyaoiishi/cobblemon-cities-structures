@@ -14,5 +14,20 @@
 			"weight": 1,
 			"location": "ccs:houses/1x1/flower"
 		}
-	]
+	],
+	"library":{
+		"lake":[
+			{
+				"weight": 100,
+				"element": {
+					"element_type": "lithostitched:delegating",
+					"delegate": {
+						"location": "ccs:houses/1x1/lake",
+						"processors": "ccs:others/lake"
+					},
+					"max_count": 1
+				}
+			}
+		]
+	}
 }

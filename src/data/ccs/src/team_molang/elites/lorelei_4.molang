@@ -1,0 +1,8 @@
+return q.array(
+    'glaceon moves=blizzard,earthpower,freezedry,hiddenpower nature=modest held_item=cobblemon:choice_specs ability=slushrush',
+    'landorus moves=highhorsepower,stoneedge,uturn,knockoff nature=jolly held_item=cobblemon:assault_vest ability=intimidate aspect=therian-forme',
+    'chien moves=iciclecrash,knockoff,sacredsword,iceshard nature=jolly held_item=cobblemon:focus_sash ability=swordofruin aspect=pao',
+    'tapufini moves=calmmind,muddywater,moonblast,blizzard nature=modest held_item=cobblemon:leftovers ability=mistysurge',
+    'kyurem moves=blizzard,fusionflare,dracobarrage,freezedry nature=timid ability=turboblaze aspect=white-fusion',
+    'abomasnow moves=gigadrain,blizzard,earthquake,hiddenpower nature=naive ability=slushrush aspect=mega'
+);

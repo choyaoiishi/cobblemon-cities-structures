@@ -28,6 +28,19 @@
                 "processors": "ccs:pallet/general",
                 "projection": "rigid"
             }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "lithostitched:delegating",
+                "delegate": {
+                    "location": "ccs:houses/1x1/lake",
+                    "processors": "ccs:others/lake",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid"
+                },
+                "max_count": 1
+            }
         }
     ]
 }

@@ -1,0 +1,33 @@
+{
+    "template_pools": "ccs:indigo",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "location": "ccs:houses/indigo/1",
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ccs:indigo_plateau"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "location": "ccs:houses/indigo/2",
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ccs:indigo_plateau"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "location": "ccs:houses/indigo/3",
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ccs:indigo_plateau"
+            }
+        }
+    ]
+}

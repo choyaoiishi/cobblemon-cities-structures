@@ -54,6 +54,54 @@
         }
       ]
     },
+    "indigo_plateau": {
+      "badges_collected": {
+        "title": "All Kanto Badges",
+        "desc": "Collect all Kanto Badges",
+        "icon": "cobblemon:black_belt",
+        "hidden": true,
+        "parent": "ccs:kanto/root",
+        "criteria": {
+          "advancements": {
+            "trigger": "minecraft:location",
+            "conditions": {
+              "player": {
+                "type_specific": {
+                  "type": "minecraft:player",
+                  "advancements": {
+                    "ccs:kanto/pewter/brock": true,
+                    "ccs:kanto/cerulean/misty": true,
+                    "ccs:kanto/vermilion/lt_surge": true,
+                    "ccs:kanto/celadon/erika": true,
+                    "ccs:kanto/fuchsia/koga": true,
+                    "ccs:kanto/saffron/sabrina": true,
+                    "ccs:kanto/cinnabar/blaine": true,
+                    "ccs:kanto/viridian/clair": true
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "root": {
+        "title": "The Ultimate Goal for Trainers!",
+        "desc": "Enter Indigo Plateau",
+        "icon": "cobblemon:max_revive",
+        "hidden": true,
+        "structure": "ccs:indigo_plateau"
+      },
+      "champion": {
+        "title": "Kanto Champion",
+        "desc": "Defeat Kanto Elite Four and Champion",
+        "icon": "minecraft:nether_star",
+        "hidden": true,
+        "frame": "goal",
+        "rewards": {
+          "function": "ccs:badges/kanto_champion"
+        }
+      }
+    },
     "pewter": {
       "root": {
         "title": "A Stone Gray City",

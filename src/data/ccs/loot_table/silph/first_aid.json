@@ -1,75 +1,28 @@
 {
-    "type": "minecraft:chest",
-    "pools": [
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 5,
+        "max": 10
+      },
+      "entries": [
         {
-            "rolls": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 0.0
-            },
-            "bonus_rolls": 0.0,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "cobblemon:super_potion",
-                    "weight": 1
-                }
-            ]
+          "type": "loot_table",
+          "weight": 5,
+          "value": "ccs:groups/potions"
         },
         {
-            "rolls": {
-                "type": "minecraft:uniform",
-                "max": 5.0,
-                "min": 0.0
-            },
-            "bonus_rolls": 0.0,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "cobblemon:potion",
-                    "weight": 1
-                }
-            ]
+          "type": "loot_table",
+          "weight": 5,
+          "value": "ccs:groups/remedies"
         },
         {
-            "rolls": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
-            },
-            "bonus_rolls": 0.0,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "cobblemon:remedy",
-                    "weight": 5
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "cobblemon:awakening",
-                    "weight": 1
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "cobblemon:paralyze_heal",
-                    "weight": 1
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "cobblemon:antidote",
-                    "weight": 1
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "cobblemon:burn_heal",
-                    "weight": 1
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "cobblemon:ice_heal",
-                    "weight": 1
-                }
-            ]
+          "type": "item",
+          "weight": 5,
+          "name": "minecraft:air"
         }
-    ]
+      ]
+    }
+  ]
 }

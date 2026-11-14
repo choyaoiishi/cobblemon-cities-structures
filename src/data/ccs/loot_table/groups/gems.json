@@ -1,0 +1,100 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:bug_gem"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:dark_gem"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:dragon_gem"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:electric_gem"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:fairy_gem"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:fighting_gem"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:fire_gem"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:flying_gem"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:ghost_gem"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:grass_gem"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:ground_gem"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:ice_gem"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:normal_gem"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:poison_gem"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:psychic_gem"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:rock_gem"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:steel_gem"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:water_gem"
+        }
+      ]
+    }
+  ]
+}

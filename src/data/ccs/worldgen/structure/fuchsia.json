@@ -90,6 +90,11 @@
 			"type": "direct",
 			"alias": "ccs:city_npc",
 			"target": "ccs:fuchsia/city_npc"
+		},
+		{
+			"type": "direct",
+			"alias": "ccs:trees",
+			"target": "ccs:fuchsia/trees"
 		}
 	],
 	"liquid_settings": "ignore_waterlogging"

@@ -15,8 +15,7 @@ TOWN_BIOMES = {
         "#cobblemon:is_forest"
     ],
     "pewter": [
-        "#cobblemon:is_mountain",
-        "#cobblemon:is_peak"
+        "#cobblemon:is_mountain"
     ],
     "cerulean": [
         "#cobblemon:is_lukewarm_and_temperate_ocean"
@@ -35,6 +34,9 @@ TOWN_BIOMES = {
     ],
     "cinnabar": [
         "#cobblemon:is_badlands"
+    ],
+    "indigo_plateau": [
+        "#cobblemon:is_peak"
     ]
 }
 

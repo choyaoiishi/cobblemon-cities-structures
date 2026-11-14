@@ -306,19 +306,6 @@
                 },
                 "limit": 1
             }
-        },
-        {
-            "weight": 20,
-            "element": {
-                "element_type": "lithostitched:limited",
-                "delegate": {
-                    "location": "ccs:city_npc/cinnabar/002",
-                    "element_type": "minecraft:single_pool_element",
-                    "projection": "rigid",
-                    "processors": "ccs:cinnabar/general"
-                },
-                "limit": 1
-            }
         }
     ]
 }

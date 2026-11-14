@@ -1,0 +1,14 @@
+q.is_blank(q.entity.config.required_advancement) ? return 1;
+
+v.msg = 'required_advancement:' + q.entity.config.required_advancement;
+q.run_script('ccs:print');
+
+t.has_advancement = q.player.has_advancement(q.entity.config.required_advancement);
+
+t.has_advancement == 1 ? {
+    return 1;
+};
+
+q.entity.run_dialogue(q.player, 'ccs:' + q.entity.config.failed_dialogue);
+
+return 0;

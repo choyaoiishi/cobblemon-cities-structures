@@ -1,0 +1,8 @@
+return q.array(
+    'politoed moves=flipturn,scald,haze,raindance nature=timid held_item=cobblemon:damp_rock ability=drizzle',
+    'ogerpon moves=ivycudgel,hornleech,knockoff,playrough nature=jolly ability=waterabsorb aspect=wellspring-mask',
+    'swampert moves=poweruppunch,earthquake,icepunch,waterfall nature=adamant ability=swiftswim aspect=mega',
+    'walkingwake moves=sleeptalk,hurricane,hydropump,dragonpulse nature=timid held_item=cobblemon:life_orb ability=protosynthesis',
+    'kyogre moves=waterspout,originpulse,thunder,icebeam nature=timid ability=primordialsea aspect=primal',
+    'ironbundle moves=hydropump,freezedry,icebeam,flipturn nature=timid held_item=cobblemon:focus_sash ability=quarkdrive'
+);

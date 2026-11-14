@@ -60,6 +60,20 @@
                 "count": 1,
                 "min_depth": 2
             }
+        },
+        {
+            "weight": 150,
+            "element": {
+                "element_type": "lithostitched:guaranteed",
+                "delegate": {
+                    "location": "ccs:foundations/2x2",
+                    "processors": "ccs:cinnabar/base",
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid"
+                },
+                "count": 1,
+                "min_depth": 3
+            }
         }
     ]
 }

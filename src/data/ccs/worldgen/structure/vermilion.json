@@ -90,6 +90,11 @@
 			"type": "direct",
 			"alias": "ccs:city_npc",
 			"target": "ccs:vermilion/city_npc"
+		},
+		{
+			"type": "direct",
+			"alias": "ccs:trees",
+			"target": "ccs:vermilion/trees"
 		}
 	],
 	"liquid_settings": "ignore_waterlogging"

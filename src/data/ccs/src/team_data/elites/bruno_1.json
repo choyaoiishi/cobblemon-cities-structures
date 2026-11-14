@@ -1,0 +1,174 @@
+[
+  {
+    "species": "Great Tusk",
+    "level": "85",
+    "nature": "Jolly",
+    "ability": "Protosynthesis",
+    "item": "Focus Sash",
+    "moves": [
+      "Headlong Rush",
+      "Close Combat",
+      "Stealth Rock",
+      "Knock Off"
+    ],
+    "baseStats": {
+      "HP": "115",
+      "ATK": "131",
+      "DEF": "131",
+      "SPA": "53",
+      "SPD": "53",
+      "SPE": "87"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "255",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Urshifu",
+    "level": "85",
+    "nature": "Jolly",
+    "ability": "Unseen Fist",
+    "item": "Mystic Water",
+    "moves": [
+      "Surging Strikes",
+      "Close Combat",
+      "Swords Dance",
+      "Thunder Punch"
+    ],
+    "baseStats": {
+      "HP": "100",
+      "ATK": "130",
+      "DEF": "100",
+      "SPA": "63",
+      "SPD": "60",
+      "SPE": "97"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "273",
+    "altSpeeds": {},
+    "aspect": "rapid_strike-style"
+  },
+  {
+    "species": "Iron Valiant",
+    "level": "85",
+    "nature": "Timid",
+    "ability": "Quark Drive",
+    "item": "",
+    "moves": [
+      "Psyshock",
+      "Shadow Ball",
+      "Moonblast",
+      "Calm Mind"
+    ],
+    "baseStats": {
+      "HP": "74",
+      "ATK": "130",
+      "DEF": "90",
+      "SPA": "120",
+      "SPD": "60",
+      "SPE": "116"
+    },
+    "evs": {
+      "DEF": "4",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "310",
+    "altSpeeds": {
+      "Quar. Drive": "465"
+    }
+  },
+  {
+    "species": "Iron Hands",
+    "level": "85",
+    "nature": "Adamant",
+    "ability": "Quark Drive",
+    "item": "Assault Vest",
+    "moves": [
+      "Drain Punch",
+      "Fake Out",
+      "Plasma Fists",
+      "Ice Punch"
+    ],
+    "baseStats": {
+      "HP": "154",
+      "ATK": "140",
+      "DEF": "108",
+      "SPA": "50",
+      "SPD": "68",
+      "SPE": "50"
+    },
+    "evs": {
+      "HP": "252",
+      "ATK": "252",
+      "SPD": "4"
+    },
+    "speedStat": "116",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Zacian",
+    "level": "85",
+    "nature": "Jolly",
+    "ability": "Intrepid Sword",
+    "item": "",
+    "moves": [
+      "Swords Dance",
+      "Behemoth Blade",
+      "Close Combat",
+      "Wild Charge"
+    ],
+    "baseStats": {
+      "HP": "92",
+      "ATK": "150",
+      "DEF": "115",
+      "SPA": "80",
+      "SPD": "115",
+      "SPE": "148"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "369",
+    "altSpeeds": {},
+    "aspect": "crowned"
+  },
+  {
+    "species": "Lucario-Mega",
+    "level": "85",
+    "nature": "Timid",
+    "ability": "Adaptability",
+    "item": "",
+    "moves": [
+      "Nasty Plot",
+      "Aura Sphere",
+      "Vacuum Wave",
+      "Flash Cannon"
+    ],
+    "baseStats": {
+      "HP": "70",
+      "ATK": "145",
+      "DEF": "88",
+      "SPA": "140",
+      "SPD": "70",
+      "SPE": "112"
+    },
+    "evs": {
+      "DEF": "4",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "302",
+    "altSpeeds": {}
+  }
+]

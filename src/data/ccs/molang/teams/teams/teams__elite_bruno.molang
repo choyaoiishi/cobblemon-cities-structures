@@ -1,0 +1,12 @@
+v.pokeball = 'fast_ball';
+
+return q.array(
+    'infernape moves=taunt,pyroball,stealthrock,closecombat nature=jolly held_item=cobblemon:focus_sash ability=blaze',
+    'kommoo moves=clangingscales,clangoroussoul,aurasphere,flashcannon nature=timid held_item=cobblemon:throat_spray ability=overcoat',
+    'lucario moves=bulletpunch,meteormash,closecombat,swordsdance nature=jolly ability=adaptability aspect=mega',
+    'hawlucha moves=swordsdance,acrobatics,closecombat,roost nature=adamant held_item=cobblemon:misty_seed ability=unburden',
+    'medicham moves=fakeout,closecombat,zenheadbutt,thunderpunch nature=jolly ability=purepower aspect=mega',
+    'hitmontop moves=triplekick,tripleaxel,fakeout,brutalswing nature=jolly held_item=cobblemon:focus_sash ability=technician',
+    'annihilape moves=bulkup,drainpunch,ragefist,icepunch nature=jolly held_item=cobblemon:salac_berry ability=defiant',
+    'machamp moves=dynamicpunch,machpunch,stoneedge,knockoff nature=adamant held_item=cobblemon:assault_vest ability=noguard'
+);

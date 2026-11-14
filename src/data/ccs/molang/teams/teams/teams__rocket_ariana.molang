@@ -1,4 +1,5 @@
 q.run_script('ccs:set_loop_count');
+v.pokeball = 'great_ball';
 
 return q.array(
     'hatterene moves=trickroom,psychic,dazzlinggleam,mysticalfire nature=modest held_item=cobblemon:sitrus_berry ability=magicbounce',

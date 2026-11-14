@@ -1,0 +1,150 @@
+[
+  {
+    "species": "Infernape",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Blaze",
+    "item": "Focus Sash",
+    "moves": [
+      "Stealth Rock",
+      "Pyro Ball",
+      "Close Combat",
+      "Thunder Punch"
+    ],
+    "baseStats": {
+      "HP": "76",
+      "ATK": "110",
+      "DEF": "71",
+      "SPA": "110",
+      "SPD": "71",
+      "SPE": "113"
+    },
+    "evs": {},
+    "speedStat": "245",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Zeraora",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Volt Absorb",
+    "item": "Misty Seed",
+    "moves": [
+      "Bulk Up",
+      "Drain Punch",
+      "Plasma Fists",
+      "Knock Off"
+    ],
+    "baseStats": {
+      "HP": "88",
+      "ATK": "112",
+      "DEF": "75",
+      "SPA": "102",
+      "SPD": "80",
+      "SPE": "143"
+    },
+    "evs": {},
+    "speedStat": "301",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Iron Valiant",
+    "level": "Highest Lv",
+    "nature": "Timid",
+    "ability": "Quark Drive",
+    "item": "",
+    "moves": [
+      "Calm Mind",
+      "Moonblast",
+      "Psyshock",
+      "Shadow Ball"
+    ],
+    "baseStats": {
+      "HP": "74",
+      "ATK": "130",
+      "DEF": "90",
+      "SPA": "120",
+      "SPD": "60",
+      "SPE": "116"
+    },
+    "evs": {},
+    "speedStat": "250",
+    "altSpeeds": {
+      "Quar. Drive": "375"
+    }
+  },
+  {
+    "species": "Necrozma",
+    "level": "Highest Lv",
+    "nature": "Adamant",
+    "ability": "Prism Armor",
+    "item": "Weakness Policy",
+    "moves": [
+      "Dragon Dance",
+      "Sunsteel Strike",
+      "Earthquake",
+      "Stone Edge"
+    ],
+    "baseStats": {
+      "HP": "97",
+      "ATK": "157",
+      "DEF": "127",
+      "SPA": "113",
+      "SPD": "109",
+      "SPE": "77"
+    },
+    "evs": {},
+    "speedStat": "162",
+    "altSpeeds": {},
+    "aspect": "dusk-fusion"
+  },
+  {
+    "species": "Zacian",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Intrepid Sword",
+    "item": "",
+    "moves": [
+      "Swords Dance",
+      "Behemoth Blade",
+      "Close Combat",
+      "Wild Charge"
+    ],
+    "baseStats": {
+      "HP": "92",
+      "ATK": "150",
+      "DEF": "115",
+      "SPA": "80",
+      "SPD": "115",
+      "SPE": "148"
+    },
+    "evs": {},
+    "speedStat": "310",
+    "altSpeeds": {},
+    "aspect": "crowned"
+  },
+  {
+    "species": "Lucario-Mega",
+    "level": "Highest Lv",
+    "nature": "Jolly",
+    "ability": "Adaptability",
+    "item": "",
+    "moves": [
+      "Swords Dance",
+      "Close Combat",
+      "Bullet Punch",
+      "Meteor Mash"
+    ],
+    "baseStats": {
+      "HP": "70",
+      "ATK": "145",
+      "DEF": "88",
+      "SPA": "140",
+      "SPD": "70",
+      "SPE": "112"
+    },
+    "evs": {},
+    "speedStat": "243",
+    "altSpeeds": {}
+  }
+]

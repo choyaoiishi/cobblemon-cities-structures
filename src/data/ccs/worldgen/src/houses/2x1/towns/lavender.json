@@ -1,3 +1,13 @@
 [
-	"basic"
+	"basic",
+	{
+		"weight": 100,
+		"element": {
+			"element_type": "lithostitched:limited",
+			"delegate": {
+				"location": "ccs:houses/#town_id/2x1/volunteer"
+			},
+			"limit": 1
+		}
+	}
 ]

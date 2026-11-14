@@ -1,0 +1,73 @@
+{
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();"
+    }
+  },
+  "pages": [
+    {
+      "id": "line_1",
+      "speaker": "npc",
+      "lines": [
+        "Er-hem! Congratulations!"
+      ],
+      "input": [
+        "q.dialogue.set_page('line_2');"
+      ]
+    },
+    {
+      "id": "line_2",
+      "speaker": "npc",
+      "lines": [
+        "This floor is the Pok\u00e9mon Hall of Fame."
+      ],
+      "input": [
+        "q.dialogue.set_page('line_3');"
+      ]
+    },
+    {
+      "id": "line_3",
+      "speaker": "npc",
+      "lines": [
+        "Pok\u00e9mon League Champions are honored for their exploits here."
+      ],
+      "input": [
+        "q.dialogue.set_page('line_4');"
+      ]
+    },
+    {
+      "id": "line_4",
+      "speaker": "npc",
+      "lines": [
+        "Their Pok\u00e9mon are also recorded in the Hall of Fame."
+      ],
+      "input": [
+        "q.dialogue.set_page('line_5');"
+      ]
+    },
+    {
+      "id": "line_5",
+      "speaker": "npc",
+      "lines": [
+        "You have worked hard to become the new League Champion."
+      ],
+      "input": [
+        "q.dialogue.set_page('line_6');"
+      ]
+    },
+    {
+      "id": "line_6",
+      "speaker": "npc",
+      "lines": [
+        "Congratulations, you and your Pok\u00e9mon are Hall of Famers!"
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    }
+  ]
+}

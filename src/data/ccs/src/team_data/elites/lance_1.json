@@ -1,0 +1,173 @@
+[
+  {
+    "species": "Aerodactyl",
+    "level": "85",
+    "nature": "Jolly",
+    "ability": "Pressure",
+    "item": "Focus Sash",
+    "moves": [
+      "Stealth Rock",
+      "Earthquake",
+      "Taunt",
+      "Stone Edge"
+    ],
+    "baseStats": {
+      "HP": "80",
+      "ATK": "105",
+      "DEF": "65",
+      "SPA": "60",
+      "SPD": "75",
+      "SPE": "130"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "335",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Melmetal",
+    "level": "85",
+    "nature": "Adamant",
+    "ability": "Iron Fist",
+    "item": "Assault Vest",
+    "moves": [
+      "Double Iron Bash",
+      "Earthquake",
+      "Thunder Punch",
+      "Ice Punch"
+    ],
+    "baseStats": {
+      "HP": "135",
+      "ATK": "143",
+      "DEF": "143",
+      "SPA": "80",
+      "SPD": "65",
+      "SPE": "34"
+    },
+    "evs": {
+      "HP": "252",
+      "ATK": "252",
+      "SPD": "4"
+    },
+    "speedStat": "89",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Iron Jugulis",
+    "level": "85",
+    "nature": "Timid",
+    "ability": "Quark Drive",
+    "item": "",
+    "moves": [
+      "Dark Hole",
+      "Flamethrower",
+      "Aeroblast",
+      "Earth Power"
+    ],
+    "baseStats": {
+      "HP": "94",
+      "ATK": "80",
+      "DEF": "86",
+      "SPA": "122",
+      "SPD": "80",
+      "SPE": "108"
+    },
+    "evs": {
+      "DEF": "4",
+      "SPA": "252",
+      "SPE": "252"
+    },
+    "speedStat": "294",
+    "altSpeeds": {
+      "Quar. Drive": "441"
+    }
+  },
+  {
+    "species": "Dragonite",
+    "level": "85",
+    "nature": "Jolly",
+    "ability": "Multiscale",
+    "item": "Weakness Policy",
+    "moves": [
+      "Extreme Speed",
+      "Dragon Dance",
+      "Dual Wingbeat",
+      "Earthquake"
+    ],
+    "baseStats": {
+      "HP": "91",
+      "ATK": "134",
+      "DEF": "95",
+      "SPA": "100",
+      "SPD": "100",
+      "SPE": "80"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "242",
+    "altSpeeds": {}
+  },
+  {
+    "species": "Dialga",
+    "level": "85",
+    "nature": "Calm",
+    "ability": "Primal Armor",
+    "item": "Adamant Orb",
+    "moves": [
+      "Roar of Time",
+      "Flash Cannon",
+      "Rest",
+      "Sleep Talk"
+    ],
+    "baseStats": {
+      "HP": "100",
+      "ATK": "120",
+      "DEF": "150",
+      "SPA": "185",
+      "SPD": "130",
+      "SPE": "90"
+    },
+    "evs": {
+      "HP": "252",
+      "SPA": "4",
+      "SPD": "252"
+    },
+    "speedStat": "184",
+    "altSpeeds": {},
+    "aspect": ""
+  },
+  {
+    "species": "Salamence-Mega",
+    "level": "85",
+    "nature": "Jolly",
+    "ability": "Aerilate",
+    "item": "",
+    "moves": [
+      "Dragon Dance",
+      "Double-Edge",
+      "Earthquake",
+      "Fire Fang"
+    ],
+    "baseStats": {
+      "HP": "95",
+      "ATK": "145",
+      "DEF": "130",
+      "SPA": "120",
+      "SPD": "90",
+      "SPE": "120"
+    },
+    "evs": {
+      "ATK": "252",
+      "DEF": "4",
+      "SPE": "252"
+    },
+    "speedStat": "316",
+    "altSpeeds": {}
+  }
+]

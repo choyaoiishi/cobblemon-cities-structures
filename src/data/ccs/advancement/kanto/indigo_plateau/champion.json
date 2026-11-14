@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "manual_trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": true,
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": {
+      "text": "Kanto Champion"
+    },
+    "description": {
+      "text": "Defeat Kanto Elite Four and Champion"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "manual_trigger"
+    ]
+  ],
+  "rewards": {
+    "function": "ccs:badges/kanto_champion"
+  },
+  "parent": "ccs:kanto/indigo_plateau/badges_collected"
+}

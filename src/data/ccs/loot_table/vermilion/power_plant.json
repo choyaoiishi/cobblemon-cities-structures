@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 5
+      },
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 30,
+          "value": "ccs:groups/junks"
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "minecraft:air"
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "minecraft:copper_ingot"
+        },
+        {
+          "type": "loot_table",
+          "weight": 5,
+          "value": "ccs:groups/redstones"
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "cobblemon:electric_gem"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:electirizer"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:magnet"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:thunder_stone"
+        }
+      ]
+    }
+  ]
+}

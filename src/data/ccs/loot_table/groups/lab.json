@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 15,
+          "value": "ccs:groups/stationeries"
+        },
+        {
+          "type": "loot_table",
+          "weight": 5,
+          "value": "ccs:groups/pokeballs"
+        },
+        {
+          "type": "loot_table",
+          "weight": 2,
+          "value": "ccs:groups/gems"
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "ccs:groups/candies"
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "ccs:groups/vitamins"
+        }
+      ]
+    }
+  ]
+}

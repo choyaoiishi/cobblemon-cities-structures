@@ -1,0 +1,8 @@
+return q.array(
+    'glimmora moves=stealthrock,powergem,earthpower,energyball nature=timid held_item=cobblemon:focus_sash ability=toxicdebris',
+    'melmetal moves=doubleironbash,icepunch,earthquake,thunderpunch nature=careful held_item=cobblemon:assault_vest ability=ironfist',
+    'arceus moves=calmmind,judgment,flamethrower,recover nature=timid ability=multitype aspect=fairy-plate',
+    'dragonite moves=dragondance,dualwingbeat,earthquake,extremespeed nature=adamant held_item=cobblemon:lum_berry ability=multiscale',
+    'dialga moves=roaroftime,flashcannon,rest,sleeptalk nature=calm held_item=cobblemon:adamant_orb ability=primalarmor',
+    'rayquaza moves=extremespeed,flamethrower,earthquake,dragonascent nature=naive ability=deltastream aspect=mega'
+);

@@ -1,0 +1,40 @@
+{
+  "criteria": {
+    "entered_structure": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "ccs:indigo_plateau"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": true,
+    "icon": {
+      "id": "cobblemon:max_revive"
+    },
+    "title": {
+      "text": "The Ultimate Goal of Trainers!"
+    },
+    "description": {
+      "text": "Enter Indigo Plateau"
+    }
+  },
+  "requirements": [
+    [
+      "entered_structure"
+    ]
+  ],
+  "parent": "ccs:kanto/root"
+}

@@ -12,6 +12,10 @@
 	},
 	"structures": [
 		{
+			"structure": "ccs:indigo_plateau",
+			"weight": 1
+		},
+		{
 			"structure": "ccs:pokecenter",
 			"weight": 1
 		},

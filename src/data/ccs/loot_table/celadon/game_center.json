@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 5,
+        "max": 10
+      },
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 10,
+          "value": "ccs:groups/stationeries"
+        },
+        {
+          "type": "loot_table",
+          "weight": 10,
+          "value": "ccs:groups/coins"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:zoom_lens"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:rabbit_foot"
+        }
+      ]
+    }
+  ]
+}

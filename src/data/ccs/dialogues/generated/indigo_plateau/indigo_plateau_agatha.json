@@ -1,0 +1,158 @@
+{
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();"
+    }
+  },
+  "pages": [
+    {
+      "id": "line_0",
+      "speaker": "npc",
+      "lines": [],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": [
+          "t.next_page = q.run_script('ccs:battle__landing');",
+          "q.dialogue.set_page(t.next_page);"
+        ]
+      }
+    },
+    {
+      "id": "line_1",
+      "speaker": "npc",
+      "lines": [
+        "I am Agatha of the Elite Four."
+      ],
+      "input": [
+        "q.dialogue.set_page('line_2');"
+      ]
+    },
+    {
+      "id": "line_2",
+      "speaker": "npc",
+      "lines": [
+        "I hear Oak's taken a lot of interest in you, child."
+      ],
+      "input": [
+        "q.dialogue.set_page('line_3');"
+      ]
+    },
+    {
+      "id": "line_3",
+      "speaker": "npc",
+      "lines": [
+        "That old duff was once tough and handsome."
+      ],
+      "input": [
+        "q.dialogue.set_page('line_4');"
+      ]
+    },
+    {
+      "id": "line_4",
+      "speaker": "npc",
+      "lines": [
+        "But that was decades ago."
+      ],
+      "input": [
+        "q.dialogue.set_page('line_5');"
+      ]
+    },
+    {
+      "id": "line_5",
+      "speaker": "npc",
+      "lines": [
+        "He's a shadow of his former self."
+      ],
+      "input": [
+        "q.dialogue.set_page('line_6');"
+      ]
+    },
+    {
+      "id": "line_6",
+      "speaker": "npc",
+      "lines": [
+        "Now he just wants to fiddle with his Pok\u00e9dex."
+      ],
+      "input": [
+        "q.dialogue.set_page('line_7');"
+      ]
+    },
+    {
+      "id": "line_7",
+      "speaker": "npc",
+      "lines": [
+        "He's wrong."
+      ],
+      "input": [
+        "q.dialogue.set_page('line_8');"
+      ]
+    },
+    {
+      "id": "line_8",
+      "speaker": "npc",
+      "lines": [
+        "Pok\u00e9mon are for battling!"
+      ],
+      "input": [
+        "q.dialogue.set_page('battle');"
+      ]
+    },
+    {
+      "id": "battle",
+      "speaker": "npc",
+      "lines": [
+        "I'll show you how a real Trainer battles!"
+      ],
+      "input": [
+        "v.min_level='85';",
+        "v.advancement='ccs:kanto/indigo_plateau/agatha';",
+        "q.player.set_npc_variable(q.npc, 'advancement', v.advancement);",
+        "q.player.set_npc_variable(q.npc, 'trainer_id', 'elite_agatha');",
+        "q.dialogue.close();",
+        "!q.is_blank(v.min_level) ? q.player.set_npc_variable(q.npc, 'min_level', v.min_level);",
+        "!q.is_blank(v.advancement) ? q.run_command('/execute at @e[type=marker,tag=elite_agatha,limit=1,sort=nearest] run tp ' + q.player.username() + ' ~ ~ ~ facing entity ' + q.npc.uuid() );",
+        "q.npc.start_battle(q.player, 'single');"
+      ]
+    },
+    {
+      "id": "win",
+      "speaker": "npc",
+      "lines": [
+        "Oh, my! You're something special, child!"
+      ],
+      "input": [
+        "t.next_page = q.run_script('ccs:battle__landing_win');",
+        "q.dialogue.set_page(t.next_page);"
+      ]
+    },
+    {
+      "id": "won",
+      "speaker": "npc",
+      "lines": [
+        "You win! I see what the old duff sees in you now. I have nothing else to say. Run along now, child!"
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    },
+    {
+      "id": "bye",
+      "speaker": "npc",
+      "lines": [],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": [
+          "q.dialogue.close();"
+        ]
+      }
+    }
+  ]
+}

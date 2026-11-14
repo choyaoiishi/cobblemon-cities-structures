@@ -1,0 +1,8 @@
+return q.array(
+    'greattusk moves=headlongrush,closecombat,stealthrock,knockoff nature=jolly held_item=cobblemon:focus_sash ability=protosynthesis',
+    'urshifu moves=surgingstrikes,closecombat,swordsdance,thunderpunch nature=jolly held_item=cobblemon:mystic_water ability=unseenfist aspect=rapid_strike-style',
+    'ironvaliant moves=psyshock,shadowball,moonblast,calmmind nature=timid ability=quarkdrive',
+    'ironhands moves=drainpunch,fakeout,plasmafists,icepunch nature=adamant held_item=cobblemon:assault_vest ability=quarkdrive',
+    'zacian moves=swordsdance,behemothblade,closecombat,wildcharge nature=jolly ability=intrepidsword aspect=crowned',
+    'lucario moves=nastyplot,aurasphere,vacuumwave,flashcannon nature=timid ability=adaptability aspect=mega'
+);

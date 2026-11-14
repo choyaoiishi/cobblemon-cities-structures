@@ -1,65 +1,38 @@
 {
-    "type": "minecraft:chest",
-    "pools": [
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 5,
+        "max": 10
+      },
+      "entries": [
         {
-            "rolls": {
-                "type": "minecraft:uniform",
-                "max": 10.0,
-                "min": 5.0
-            },
-            "bonus_rolls": 0.0,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:paper",
-                    "weight": 1
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "cobblemon:relic_coin",
-                    "weight": 2
-                }
-            ]
+          "type": "loot_table",
+          "weight": 2,
+          "value": "ccs:groups/gems"
         },
         {
-            "rolls": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
-            },
-            "bonus_rolls": 0.0,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "cobblemon:ponigiri",
-                    "weight": 1
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "cobblemon:potion",
-                    "weight": 1
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "cobblemon:poke_ball",
-                    "weight": 2
-                }
-            ]
+          "type": "loot_table",
+          "weight": 5,
+          "value": "ccs:groups/apricorns"
         },
         {
-            "rolls": {
-                "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0
-            },
-            "bonus_rolls": 0.0,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "cobblemon:link_cable",
-                    "weight": 1
-                }
-            ]
+          "type": "loot_table",
+          "weight": 5,
+          "value": "ccs:groups/candies"
+        },
+        {
+          "type": "loot_table",
+          "weight": 10,
+          "value": "ccs:groups/potions"
+        },
+        {
+          "type": "loot_table",
+          "weight": 15,
+          "value": "ccs:groups/stationeries"
         }
-    ]
+      ]
+    }
+  ]
 }
