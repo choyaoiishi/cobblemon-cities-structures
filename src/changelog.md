@@ -7,6 +7,7 @@
 	- trainers have different lines and pokemon based on their class
 	- some cities have higher chance for certain trainers
 	- some cities have trainers only found there
+- add cooldown remaining time
 - add function to spawn wild pokemon
 - opening the coffin in lavender pokemon tower will now spawns marowak
 - player now need to defeat the current room boss before the door can teleport you in indigo plateau
