@@ -1,0 +1,12 @@
+{
+	"min": -7,
+	"max": -2,
+	"count": "2-4",
+	"change_on": "20,30",
+	"ball": "azure_ball",
+	"loot": "kid",
+	"groups": [
+		"bug",
+		"mouse"
+	]
+}

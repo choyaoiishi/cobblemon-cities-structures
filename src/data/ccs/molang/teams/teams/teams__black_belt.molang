@@ -1,42 +1,63 @@
+'generated';
 v.level_variation_min = -5;
 v.level_variation_max = 0;
 v.loop_count = math.random_integer(2, 4);
-
+v.pokeball = 'ultra_ball';
 v.base_level < 30 ? {
 	return q.array(
 		'mankey',
 		'machop',
+		'hitmonchan',
+		'hitmontop',
 		'hitmonlee',
-'hitmonchan',
-'hitmontop',
-'makuhita',
-'meditite',
-'heracross',
-'croagunk',
-'tyrogue',
-'breloom',
-'riolu',
-'throh',
-'sawk',
-'poliwhirl'
-);
+		'makuhita',
+		'meditite',
+		'heracross',
+		'croagunk',
+		'breloom',
+		'riolu',
+		'throh',
+		'sawk',
+		'poliwhirl',
+		'mienfoo',
+		'pancham'
+	);
 };
-
+v.base_level < 50 ? {
+	return q.array(
+		'primeape',
+		'machoke',
+		'hitmonchan',
+		'hitmontop',
+		'hitmonlee',
+		'hariyama',
+		'medicham',
+		'heracross',
+		'toxicroak',
+		'breloom',
+		'lucario',
+		'throh',
+		'sawk',
+		'poliwhirl',
+		'mienshao',
+		'pangoro'
+	);
+};
 return q.array(
-'primeape',
-'machoke',
-'hitmonlee',
-'hitmonchan',
-'hitmontop',
-'hariyama',
-'machamp',
-'medicham',
-'heracross',
-'poliwrath',
-'marowak',
-'breloom',
-'toxicroak',
-'lucario',
-'throh',
-'sawk'
-);
+		'primeape',
+		'machamp',
+		'hitmonchan',
+		'hitmontop',
+		'hitmonlee',
+		'hariyama',
+		'medicham',
+		'heracross',
+		'toxicroak',
+		'breloom',
+		'lucario',
+		'throh',
+		'sawk',
+		'poliwrath',
+		'mienshao',
+		'pangoro'
+	);

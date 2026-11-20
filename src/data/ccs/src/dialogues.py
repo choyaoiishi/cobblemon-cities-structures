@@ -1,24 +1,26 @@
 import json
 from pathlib import Path
 
-BASE_DIR = Path(__file__).parent
-SRC_DIALOGUES_DIR = BASE_DIR / "dialogues"
-TEMPLATE_PATH = SRC_DIALOGUES_DIR / "templates" / "dialogue.json"
-REWARD_TEMPLATE_PATH = SRC_DIALOGUES_DIR / "templates" / "reward.json"
-BATTLE_TEMPLATE_PATH = SRC_DIALOGUES_DIR / "templates" / "battle.json"
-TRADE_TEMPLATE_PATH = SRC_DIALOGUES_DIR / "templates" / "trade.json"
-SHOP_TEMPLATE_PATH = SRC_DIALOGUES_DIR / "templates" / "shop.json"
-OUTPUT_DIALOGUES_DIR = BASE_DIR / ".." / "dialogues" / "generated"
+base_dir = Path(__file__).parent
+src_dialogues_dir = base_dir / "dialogues"
+template_path = src_dialogues_dir / "templates" / "dialogue.json"
+reward_template_path = src_dialogues_dir / "templates" / "reward.json"
+battle_template_path = src_dialogues_dir / "templates" / "battle.json"
+trade_template_path = src_dialogues_dir / "templates" / "trade.json"
+shop_template_path = src_dialogues_dir / "templates" / "shop.json"
+route_template_path = src_dialogues_dir / "templates" / "route.json"
+output_dialogues_dir = base_dir / ".." / "dialogues" / "generated"
 
 def build_dialogue_files():
-    base_template = json.loads(TEMPLATE_PATH.read_text(encoding="utf-8")) if TEMPLATE_PATH.exists() else {}
+    base_template = json.loads(template_path.read_text(encoding="utf-8")) if template_path.exists() else {}
     
-    reward_raw = REWARD_TEMPLATE_PATH.read_text(encoding="utf-8") if REWARD_TEMPLATE_PATH.exists() else "[]"
-    battle_raw = BATTLE_TEMPLATE_PATH.read_text(encoding="utf-8") if BATTLE_TEMPLATE_PATH.exists() else "[]"
-    trade_raw = TRADE_TEMPLATE_PATH.read_text(encoding="utf-8") if TRADE_TEMPLATE_PATH.exists() else "[]"
-    shop_raw = SHOP_TEMPLATE_PATH.read_text(encoding="utf-8") if SHOP_TEMPLATE_PATH.exists() else "[]"
+    reward_raw = reward_template_path.read_text(encoding="utf-8") if reward_template_path.exists() else "[]"
+    battle_raw = battle_template_path.read_text(encoding="utf-8") if battle_template_path.exists() else "[]"
+    trade_raw = trade_template_path.read_text(encoding="utf-8") if trade_template_path.exists() else "[]"
+    shop_raw = shop_template_path.read_text(encoding="utf-8") if shop_template_path.exists() else "[]"
+    route_raw = route_template_path.read_text(encoding="utf-8") if route_template_path.exists() else "{}"
 
-    for json_file in SRC_DIALOGUES_DIR.glob("*.json"):
+    for json_file in src_dialogues_dir.glob("*.json"):
         prefix_name = json_file.stem
         entries = json.loads(json_file.read_text(encoding="utf-8"))
         entries_iter = entries.items() if isinstance(entries, dict) else enumerate(entries)
@@ -26,17 +28,18 @@ def build_dialogue_files():
         for entry_key, entry in entries_iter:
             custom_id = str(entry_key)
             lines = entry.get("lines", [])
+            route_data = entry.get("route")
             battle_data = entry.get("battle")
             reward_data = entry.get("reward")
             trade_data = entry.get("trade")
             shop_data = entry.get("shop")
             
+            has_route = bool(route_data)
             has_battle = bool(battle_data)
             has_reward = bool(reward_data)
             has_trade = bool(trade_data)
             has_shop = bool(shop_data)
 
-            # Parse shorthand arrays safely
             b_trainer = b_battle = b_win = b_won = b_adv = b_min_level = ""
             b_type = "single"
             if has_battle and isinstance(battle_data, list):
@@ -67,8 +70,8 @@ def build_dialogue_files():
                 s_shop_text = shop_data[2] if len(shop_data) > 2 else ""
                 s_bye_text = shop_data[3] if len(shop_data) > 3 else ""
 
-            # Unified replacement map
             replacements = {
+                "#molang_script": str(route_data) if has_route else "",
                 "#battle_text": b_battle,
                 "#win_text": b_win,
                 "#won_text": b_won,
@@ -93,7 +96,20 @@ def build_dialogue_files():
 
             pages = []
 
-            if has_trade:
+            if has_route:
+                template_str = route_raw
+                for placeholder, val in replacements.items():
+                    escaped_val = json.dumps(str(val))[1:-1]
+                    template_str = template_str.replace(placeholder, escaped_val)
+                
+                dialogue_json = json.loads(template_str)
+
+                out_path = output_dialogues_dir / prefix_name / f"{prefix_name}_{custom_id}.json"
+                out_path.parent.mkdir(parents=True, exist_ok=True)
+                out_path.write_text(json.dumps(dialogue_json, indent=2), encoding="utf-8")
+                continue
+
+            elif has_trade:
                 template_str = trade_raw
                 for placeholder, val in replacements.items():
                     escaped_val = json.dumps(str(val))[1:-1]
@@ -214,7 +230,7 @@ def build_dialogue_files():
                 "pages": pages
             }
 
-            out_path = OUTPUT_DIALOGUES_DIR / prefix_name / f"{prefix_name}_{custom_id}.json"
+            out_path = output_dialogues_dir / prefix_name / f"{prefix_name}_{custom_id}.json"
             out_path.parent.mkdir(parents=True, exist_ok=True)
             out_path.write_text(json.dumps(dialogue_json, indent=2), encoding="utf-8")
 

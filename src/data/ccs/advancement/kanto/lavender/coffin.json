@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "opened_chest": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "ccs:lavender/tower_coffin"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "opened_chest"
+    ]
+  ],
+  "sends_telemetry_event": false,
+  "rewards": {
+    "function": "ccs:on_coffin_open"
+  },
+  "parent": "ccs:kanto/misc"
+}

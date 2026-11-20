@@ -1,0 +1,16 @@
+{
+  "resourceIdentifier": "ccs:gentleman",
+  "presets": [
+    "ccs:trainer"
+  ],
+  "names": [
+    "Gentleman"
+  ],
+  "config": [
+    {
+      "variableName": "trainer_id",
+      "type": "TEXT",
+      "defaultValue": "gentleman"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();"
+    }
+  },
+  "pages": [
+    {
+      "id": "line_1",
+      "speaker": "npc",
+      "lines": [
+        "Oh, good! You and your Pok\u00e9mon are looking great."
+      ],
+      "input": [
+        "q.dialogue.set_page('line_2');"
+      ]
+    },
+    {
+      "id": "line_2",
+      "speaker": "npc",
+      "lines": [
+        "Oh yes, your Pok\u00e9mon will faint if it runs out of HP."
+      ],
+      "input": [
+        "q.dialogue.set_page('line_3');"
+      ]
+    },
+    {
+      "id": "line_3",
+      "speaker": "npc",
+      "lines": [
+        "If your Pok\u00e9mon loses its HP, come home before it faints."
+      ],
+      "input": [
+        "q.dialogue.set_page('line_4');"
+      ]
+    },
+    {
+      "id": "line_4",
+      "speaker": "npc",
+      "lines": [
+        "It will be healed to full health by taking a rest."
+      ],
+      "input": [
+        "q.dialogue.set_page('line_5');"
+      ]
+    },
+    {
+      "id": "line_5",
+      "speaker": "npc",
+      "lines": [
+        "Well, honey, make me proud!"
+      ],
+      "input": [
+        "q.dialogue.set_page('line_6');"
+      ]
+    },
+    {
+      "id": "line_6",
+      "speaker": "npc",
+      "lines": [
+        "Take care!"
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    }
+  ]
+}

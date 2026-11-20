@@ -1,0 +1,12 @@
+{
+	"min": -5,
+	"max": 0,
+	"count": "2-4",
+	"change_on": "30,50",
+	"ball": "repeat_ball",
+	"groups": [
+		"scientist",
+		"electric",
+		"psychic"
+	]
+}

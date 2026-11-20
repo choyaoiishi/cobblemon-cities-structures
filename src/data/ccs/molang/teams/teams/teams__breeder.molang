@@ -1,0 +1,47 @@
+v.level_variation_min = -7;
+v.level_variation_max = -2;
+v.loop_count = math.random_integer(2, 4);
+
+v.base_level < 30 ? {
+	return q.array(
+		'whismur',
+		'zigzagoon',
+		'aron',
+		'poochyena',
+		'makuhita',
+		'taillow',
+		'shroomish',
+		'marill',
+		'roselia',
+		'skitty',
+		'goldeen',
+		'lotad',
+		'seedot',
+		'plusle',
+		'togepi',
+		'wingull',
+		'clefairy',
+		'chansey'
+	);
+};
+
+return q.array(
+	'loudred',
+	'linoone',
+	'lairon',
+	'mightyena',
+	'hariyama',
+	'swellow',
+	'breloom',
+	'azumarill',
+	'roselia',
+	'delcatty',
+	'seaking',
+	'lombre',
+	'nuzleaf',
+	'plusle',
+	'togepi',
+	'pelipper',
+	'clefable',
+	'chansey'
+);

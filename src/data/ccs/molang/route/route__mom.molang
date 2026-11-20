@@ -1,0 +1,5 @@
+! q.player.is_party_at_full_health() ? return 'mom_heal';
+
+q.player.food_level != 20 ? return 'mom_food';
+
+return 'mom_1';

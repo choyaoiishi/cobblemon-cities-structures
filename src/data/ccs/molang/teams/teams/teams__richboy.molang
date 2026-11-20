@@ -1,0 +1,90 @@
+'generated';
+v.level_variation_min = -7;
+v.level_variation_max = -2;
+v.loop_count = math.random_integer(2, 4);
+v.pokeball = 'luxury_ball';
+v.base_level < 30 ? {
+	return q.array(
+		'eevee',
+		'eevee',
+		'espurr',
+		'skitty',
+		'meowth',
+		'shinx',
+		'purrloin',
+		'lillipup',
+		'poochyena',
+		'growlithe',
+		'furfrou',
+		'rockruff',
+		'vulpix',
+		'electrike',
+		'patrat',
+		'sentret',
+		'zigzagoon',
+		'bidoof',
+		'zigzagoon galarian',
+		'rattata',
+		'marill',
+		'nidoranm',
+		'nidoranf',
+		'buizel',
+		'tandemaus'
+	);
+};
+v.base_level < 50 ? {
+	return q.array(
+		'espeon',
+		'umbreon',
+		'meowstic',
+		'delcatty',
+		'persian',
+		'luxio',
+		'liepard',
+		'herdier',
+		'mightyena',
+		'arcanine',
+		'furfrou',
+		'lycanroc',
+		'ninetales',
+		'manectric',
+		'watchog',
+		'furret',
+		'linoone',
+		'bibarel',
+		'linoone galarian',
+		'raticate',
+		'azumarill',
+		'nidorino',
+		'nidorina',
+		'floatzel',
+		'maushold'
+	);
+};
+return q.array(
+		'espeon',
+		'umbreon',
+		'meowstic',
+		'delcatty',
+		'persian',
+		'luxray',
+		'liepard',
+		'stoutland',
+		'mightyena',
+		'arcanine',
+		'furfrou',
+		'lycanroc',
+		'ninetales',
+		'manectric',
+		'watchog',
+		'furret',
+		'linoone',
+		'bibarel',
+		'linoone galarian',
+		'raticate',
+		'azumarill',
+		'nidoking',
+		'nidoqueen',
+		'floatzel',
+		'maushold'
+	);

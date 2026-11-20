@@ -1,0 +1,66 @@
+'generated';
+v.level_variation_min = -5;
+v.level_variation_max = 0;
+v.loop_count = math.random_integer(2, 4);
+v.pokeball = 'moon_ball';
+v.base_level < 30 ? {
+	return q.array(
+		'mimikyu',
+		'gastly',
+		'misdreavus',
+		'corsola galarian',
+		'sableye',
+		'shuppet',
+		'duskull',
+		'drifloon',
+		'mismagius',
+		'spiritomb',
+		'yamask',
+		'litwick',
+		'phantump',
+		'pumpkaboo',
+		'greavard',
+		'drowzee',
+		'slowpoke'
+	);
+};
+v.base_level < 50 ? {
+	return q.array(
+		'mimikyu',
+		'haunter',
+		'misdreavus',
+		'cursola',
+		'sableye',
+		'banette',
+		'dusclops',
+		'drifblim',
+		'mismagius',
+		'spiritomb',
+		'cofagrigus',
+		'lampent',
+		'trevenant',
+		'gourgeist',
+		'houndstone',
+		'hypno',
+		'slowbro'
+	);
+};
+return q.array(
+		'mimikyu',
+		'gengar',
+		'misdreavus',
+		'cursola',
+		'sableye',
+		'banette',
+		'dusclops',
+		'drifblim',
+		'mismagius',
+		'spiritomb',
+		'cofagrigus',
+		'chandelure',
+		'trevenant',
+		'gourgeist',
+		'houndstone',
+		'hypno',
+		'slowbro'
+	);

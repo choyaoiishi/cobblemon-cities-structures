@@ -1,0 +1,32 @@
+{
+    "enabled": true,
+    "spawns": [
+        {
+            "id": "richboy",
+            "npc": "ccs:richboy",
+            "presets": [
+                "ccs:cities"
+            ],
+            "type": "npc",
+            "context": "grounded",
+            "bucket": "common",
+            "weight": 0.005,
+            "level": "1",
+            "weightMultiplier": {
+                "multiplier": 2.0,
+                "condition": {
+                    "structures": [
+                        "ccs:saffron",
+                        "ccs:celadon"
+                    ]
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "structures": [
+                    "#ccs:cities"
+                ]
+            }
+        }
+    ]
+}

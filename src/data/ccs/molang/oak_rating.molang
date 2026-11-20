@@ -1,0 +1,85 @@
+t.caught_count = v.pokedex.caught_count();
+
+v.var_name = 'rating_last_reward';
+t.last_reward = q.run_script('ccs:get_npc_variable');
+
+t.caught_count >= 50 && t.last_reward < 50 ? {
+	v.reward_type = 'item';
+	v.reward = 'cobblemon:power_weight';
+	v.last_reward = 50;
+	v.reward_text = 'Power Weight is an item to be held by a Pokémon. The Pokémon will receive 8 HP EVs when gaining experience in battle';
+};
+
+t.caught_count >= 40 && t.last_reward < 40 ? {
+	v.reward_type = 'item';
+	v.reward = 'cobblemon:power_anklet';
+	v.last_reward = 40;
+	v.reward_text = 'Power Anklet is an item to be held by a Pokémon. The Pokémon will receive 8 Speed EVs when gaining experience in battle.';
+};
+
+t.caught_count >= 30 && t.last_reward < 30 ? {
+	v.reward_type = 'item';
+	v.reward = 'cobblemon:exp_share';
+	v.last_reward = 30;
+	v.reward_text = 'Exp. Share is an item to be held by a Pokémon. The Pokémon will receive a share of the Exp. Points without having to battle.';
+};
+
+t.caught_count >= 20 && t.last_reward < 20 ? {
+	v.reward_type = 'item';
+	v.reward = 'cobblemon:link_cable';
+	v.last_reward = 20;
+	v.reward_text = 'Link Cable is an evolution item. It evolve a Pokémon that would require trading.';
+};
+
+t.caught_count >= 10 && t.last_reward < 10 ? {
+	v.reward_type = 'tm';
+	v.reward = 'flash';
+	v.last_reward = 10;
+	v.reward_text = 'The TM contains Flash. It flashes a bright light at the foe and lowers its accuracy.';
+};
+
+t.caught_count >= 110 ? {
+	return 'Outstanding! You\'ve become a real pro at this!';
+};
+
+t.caught_count >= 100 ? {
+	return 'You\'ve finally hit 100 species! I can\'t believe how good you are!';
+};
+
+t.caught_count >= 90 ? {
+	return 'I\'m impressed! It must have been difficult to do!';
+};
+
+t.caught_count >= 80 ? {
+	return 'Wonderful! Let me guess... You like to collect things, don\'t you?';
+};
+
+t.caught_count >= 70 ? {
+	return 'Very good! I think you\'ll collect even more Pokémon by going fishing!';
+};
+
+t.caught_count >= 60 ? {
+	return 'Hoho! This is turning into quite the respectable Pokédex!';
+};
+
+t.caught_count >= 50 ? {
+	return 'Ah, you\'ve finally topped 50 species!';
+};
+
+t.caught_count >= 40 ? {
+	return 'Your Pokédex is coming along quite well!';
+};
+
+t.caught_count >= 30 ? {
+	return 'Good, it\'s apparent that you\'re trying hard!';
+};
+
+t.caught_count >= 20 ? {
+	return 'Your Pokédex could use a bit more volume still! Try to catch other species of Pokémon!';
+};
+
+t.caught_count >= 10 ? {
+	return 'It looks as if you\'re getting on the right track!';
+};
+
+return 'You still have lots to do. Go into every patch of grass you see and look for Pokémon!';

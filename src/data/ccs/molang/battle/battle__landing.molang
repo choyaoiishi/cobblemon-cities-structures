@@ -1,8 +1,10 @@
-q.player.get_npc_variable(q.npc, 'battle_back_to_back') == 1 && q.player.data.win == 1 ? return 'battle_2';
+q.npc.data.battle_back_to_back == 1 && q.player.data.win == 1 ? return 'battle_2';
 
 q.player.data.win == 1 ? return 'win';
 
-q.player.get_npc_variable(q.npc, 'won') == 1 && q.player.world.game_time < q.player.get_npc_variable(q.npc, 'win_cooldown') ? return 'won';
+t.player = q.player.username();
+
+q.player.world.game_time < q.get_variable(q.npc.data, t.player + '_win_cooldown') ? return 'won';
 
 return 'line_1';
           

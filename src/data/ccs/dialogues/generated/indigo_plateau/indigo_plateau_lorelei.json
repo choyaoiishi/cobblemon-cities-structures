@@ -80,13 +80,13 @@
         "Hahaha! Are you ready?"
       ],
       "input": [
-        "v.min_level='85';",
-        "v.advancement='ccs:kanto/indigo_plateau/lorelei';",
-        "q.player.set_npc_variable(q.npc, 'advancement', v.advancement);",
-        "q.player.set_npc_variable(q.npc, 'trainer_id', 'elite_lorelei');",
+        "v.min_level=85;",
+        "v.advancement='ccs:kanto/indigo_plateau/room_1';",
+        "q.npc.data.advancement=v.advancement;",
+        "q.npc.data.trainer_id='elite_lorelei';",
         "q.dialogue.close();",
-        "!q.is_blank(v.min_level) ? q.player.set_npc_variable(q.npc, 'min_level', v.min_level);",
-        "!q.is_blank(v.advancement) ? q.run_command('/execute at @e[type=marker,tag=elite_lorelei,limit=1,sort=nearest] run tp ' + q.player.username() + ' ~ ~ ~ facing entity ' + q.npc.uuid() );",
+        "!q.is_blank(v.min_level) ? {q.npc.data.min_level=v.min_level;};",
+        "!q.is_blank(v.advancement) ?{ q.run_command('/execute at @e[type=marker,tag=elite_lorelei,limit=1,sort=nearest] run tp ' + q.player.username() + ' ~ ~ ~ facing entity ' + q.npc.uuid() );};",
         "q.npc.start_battle(q.player, 'single');"
       ]
     },
@@ -94,7 +94,7 @@
       "id": "win",
       "speaker": "npc",
       "lines": [
-        "\u2026Things shouldn't be this way!"
+        "...Things shouldn't be this way!"
       ],
       "input": [
         "t.next_page = q.run_script('ccs:battle__landing_win');",

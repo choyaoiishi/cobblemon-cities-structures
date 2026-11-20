@@ -1,0 +1,12 @@
+{
+	"min": -7,
+	"max": -2,
+	"count": "2-4",
+	"change_on": "30,50",
+	"ball": "luxury_ball",
+	"groups": [
+		"cat",
+		"dog",
+		"mouse"
+	]
+}

@@ -1,22 +1,29 @@
-	v.msg = 'win';
+v.msg = 'win';
 q.run_script('ccs:print');
 
 q.run_script('ccs:chat__set_cooldown');
-t.data = q.player.data(); 
-t.data.win = 1; 
-q.player.save_data(); 
+t.data = q.player.data();
+t.data.win = 1;
+q.player.save_data();
 
-q.player.set_npc_variable(q.npc, 'won', 1);
-t.cooldown = q.player.world.game_time + (20 * 120);
-q.player.set_npc_variable(q.npc, 'win_cooldown', t.cooldown);
+t.player = q.player.username();
+q.set_variable(q.npc.data, t.player + '_win_cooldown', q.player.world.game_time + (20 * 120));
 
-t.advancement = q.player.get_npc_variable(q.npc, 'advancement');
-t.trainer_id = q.player.get_npc_variable(q.npc, 'trainer_id');
+t.advancement = q.npc.data.advancement;
 
 !q.is_blank(t.advancement) ? {
 	v.msg = 'advancement:' + t.advancement;
-q.run_script('ccs:print');
+	q.run_script('ccs:print');
 	q.run_command('/advancement grant ' + q.player.username() + ' only ' + t.advancement);
 };
 
-q.npc.run_dialogue(q.player, q.npc.config.dialogue_selection);
+q.npc.config.dialogue_selection != 0 ? {
+	'fixed npc';
+	t.dialogue = q.npc.config.dialogue_selection;
+} : {
+	t.dialogue = 'ccs:trainer';
+	t.loot = q.npc.data.trainer_loot != 0 ? q.npc.data.trainer_loot : 'generic';
+	q.run_command('/loot spawn ' + q.npc.x() + ' ' + q.npc.y() + ' ' + q.npc.z() + ' loot ccs:trainers/' + t.loot);
+};
+
+q.npc.run_dialogue(q.player, t.dialogue);

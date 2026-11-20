@@ -1,0 +1,16 @@
+{
+  "resourceIdentifier": "ccs:psychic",
+  "presets": [
+    "ccs:trainer"
+  ],
+  "names": [
+    "Psychic"
+  ],
+  "config": [
+    {
+      "variableName": "trainer_id",
+      "type": "TEXT",
+      "defaultValue": "psychic"
+    }
+  ]
+}

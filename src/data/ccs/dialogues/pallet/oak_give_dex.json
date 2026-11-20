@@ -1,0 +1,191 @@
+{
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();"
+    }
+  },
+  "pages": [
+    {
+      "id": "1",
+      "speaker": "npc",
+      "lines": [
+        "Hello there! My name is Oak. People call me the Pok\u00e9mon Professor!"
+      ],
+      "input": [
+        "q.dialogue.set_page('2');"
+      ]
+    },
+    {
+      "id": "2",
+      "speaker": "npc",
+      "lines": [
+        "Recently, there have been sightings of many rare Pok\u00e9mon species."
+      ],
+      "input": [
+        "q.dialogue.set_page('3');"
+      ]
+    },
+    {
+      "id": "3",
+      "speaker": "npc",
+      "lines": [
+        "I'm talking about Pok\u00e9mon that have never been seen in Kanto."
+      ],
+      "input": [
+        "q.dialogue.set_page('4');"
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "npc",
+      "lines": [
+        "I have a request for you. Here, take these."
+      ],
+      "input": [
+        "v.reward_type='item';",
+        "v.reward='cobblemon:pokedex_red';",
+        "q.run_script('ccs:give_reward');",
+        "v.var_name = 'dex_gave';",
+        "q.run_script('ccs:set_npc_variable');",
+        "q.dialogue.set_page('5');"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "npc",
+      "lines": [
+        "It is my invention, the Pok\u00e9dex!"
+      ],
+      "input": [
+        "q.dialogue.set_page('6');"
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "npc",
+      "lines": [
+        "It automatically records data on Pokémon you've seen or caught. It's a high-tech encyclopedia!"
+      ],
+      "input": [
+        "q.dialogue.set_page('7');"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "npc",
+      "lines": [
+        "You can't get detailed data on Pokémon by just seeing them."
+      ],
+      "input": [
+        "q.dialogue.set_page('8');"
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "npc",
+      "lines": [
+        "You must catch them to obtain complete data."
+      ],
+      "input": [
+        "q.dialogue.set_page('9');"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "npc",
+      "lines": [
+        "So, here are some Poké Balls for catching wild Pokémon."
+      ],
+      "input": [
+        "v.reward_qty=10;",
+        "v.reward='cobblemon:poke_ball';",
+        "q.run_script('ccs:give_reward');",
+        "q.dialogue.set_page('100');"
+      ]
+    },
+    {
+      "id": "100",
+      "speaker": "npc",
+      "lines": [
+        "When a wild Pokémon appears, throw a Poké Ball at it and try to catch it!"
+      ],
+      "input": [
+        "q.dialogue.set_page('101');"
+      ]
+    },
+    {
+      "id": "101",
+      "speaker": "npc",
+      "lines": [
+        "This won't always work, however. A healthy Pokémon can escape. You have to be lucky!"
+      ],
+      "input": [
+        "q.dialogue.set_page('102');"
+      ]
+    },
+    {
+      "id": "102",
+      "speaker": "npc",
+      "lines": [
+        "To make a complete guide on all the Pokémon in the world..."
+      ],
+      "input": [
+        "q.dialogue.set_page('11');"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "npc",
+      "lines": [
+        "That was my dream!"
+      ],
+      "input": [
+        "q.dialogue.set_page('12');"
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "npc",
+      "lines": [
+        "But, I'm too old. I can't get the job done."
+      ],
+      "input": [
+        "q.dialogue.set_page('13');"
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "npc",
+      "lines": [
+        "So, I want you to fulfill my dream for me."
+      ],
+      "input": [
+        "q.dialogue.set_page('14');"
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "npc",
+      "lines": [
+        "Get moving! And come see me sometime."
+      ],
+      "input": [
+        "q.dialogue.set_page('15');"
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "npc",
+      "lines": [
+        "After all, I want to know how your Pokédex is coming along."
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    }
+  ]
+}

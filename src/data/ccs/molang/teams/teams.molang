@@ -1,9 +1,9 @@
-t.trainer_id = q.player.get_npc_variable(q.npc, 'trainer_id');
+t.trainer_id = q.run_script('ccs:get_trainer_id');
 
-v.msg = 'trainer_id:' + t.trainer_id;
+v.msg = 'trainer_id:' + t.trainer_id + ' ' + q.npc.config.dialogue_selection;
 q.run_script('ccs:print');
 
-v.min_level = q.to_int(q.player.get_npc_variable(q.npc, 'min_level'));
+v.min_level = q.to_int(q.npc.data.min_level);
 v.base_level = q.player.party.highest_level;
 
 !q.is_blank(v.min_level) && v.min_level >= q.player.party.highest_level ? {
@@ -16,6 +16,10 @@ v.level_variation_max = 2;
 v.loop_count = math.random_integer(2, 6);
 v.pokeball = 'poke_ball';
 t.pokemons = q.run_script('ccs:teams__' + t.trainer_id);
+
+v.trainer_loot != 0 ? {
+	q.npc.data.trainer_loot = v.trainer_loot;
+};
 
 t.constants = ' hp_iv=31 attack_iv=31 defence_iv=31 special_attack_iv=31 special_defence_iv=31 speed_iv=31 speed_ev=252 hp_ev=252 uncatchable=true pokeball=' + v.pokeball;
 v.base_level = v.min_level >= v.base_level ?  v.min_level : v.base_level;

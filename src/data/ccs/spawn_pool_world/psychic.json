@@ -1,0 +1,31 @@
+{
+    "enabled": true,
+    "spawns": [
+        {
+            "id": "psychic",
+            "npc": "ccs:psychic",
+            "presets": [
+                "ccs:cities"
+            ],
+            "type": "npc",
+            "context": "grounded",
+            "bucket": "common",
+            "weight": 0.005,
+            "level": "1",
+            "weightMultiplier": {
+                "multiplier": 2.0,
+                "condition": {
+                    "structures": [
+                        "ccs:saffron"
+                    ]
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "structures": [
+                    "#ccs:cities"
+                ]
+            }
+        }
+    ]
+}

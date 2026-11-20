@@ -1,0 +1,16 @@
+{
+  "resourceIdentifier": "ccs:lass",
+  "presets": [
+    "ccs:trainer"
+  ],
+  "names": [
+    "Lass"
+  ],
+  "config": [
+    {
+      "variableName": "trainer_id",
+      "type": "TEXT",
+      "defaultValue": "lass"
+    }
+  ]
+}

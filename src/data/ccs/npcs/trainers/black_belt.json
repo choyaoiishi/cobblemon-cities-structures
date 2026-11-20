@@ -1,0 +1,16 @@
+{
+  "resourceIdentifier": "ccs:npcs/black_belt",
+  "presets": [
+    "ccs:trainer"
+  ],
+  "names": [
+    "Black Belt"
+  ],
+  "config": [
+    {
+      "variableName": "trainer_id",
+      "type": "TEXT",
+      "defaultValue": "black_belt"
+    }
+  ]
+}

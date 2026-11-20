@@ -1,0 +1,44 @@
+v.level_variation_min = -7;
+v.level_variation_max = -2;
+v.loop_count = math.random_integer(2, 4);
+
+v.base_level < 20 ? {
+	return q.array(
+		'finneon',
+'tentacool',
+'mantyke',
+'psyduck',
+'shellos',
+'krabby',
+'lotad',
+'remoraid',
+'carvanha',
+'frillish',
+'ducklett',
+'clauncher',
+'pyukumuku',
+'arrokuda',
+'wiglett'
+	);
+};
+
+return q.array(
+	'lumineon',
+'tentacruel',
+'mantine',
+'golduck',
+'gastrodon',
+'kingler',
+'lombre',
+'octillery',
+'sharpedo',
+'jellicent',
+'swanna',
+'clawitzer',
+'pyukumuku',
+'barraskewda',
+'wugtrio'
+);
+
+
+

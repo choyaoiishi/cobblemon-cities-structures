@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 100,
+          "name": "minecraft:air"
+        },
+        {
+          "type": "loot_table",
+          "weight": 10,
+          "value": "ccs:groups/junks"
+        },
+        {
+          "type": "loot_table",
+          "weight": 5,
+          "value": "ccs:groups/apricorns"
+        }
+      ]
+    }
+  ]
+}

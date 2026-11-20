@@ -1,0 +1,16 @@
+t.trainer_id = q.run_script('ccs:get_trainer_id');
+
+q.run_script('ccs:lines__' + t.trainer_id);
+
+t.lines_count = q.length(v.lines__battle);
+
+q.npc.data.line_id != 0 ? {
+    t.index = q.npc.data.line_id - 1;
+}:{
+    t.index = math.random_integer(0, t.lines_count - 1);
+    q.npc.data.line_id = t.index + 1;
+};
+
+v.line__battle = v.lines__battle[t.index];
+v.line__win = v.lines__win[t.index];
+v.line__won = v.lines__won[t.index];

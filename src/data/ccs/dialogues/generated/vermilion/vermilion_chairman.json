@@ -124,7 +124,7 @@
       "id": "line_7",
       "speaker": "npc",
       "lines": [
-        "So\u2026 my favorite Rapidash\u2026"
+        "So... my favorite Rapidash..."
       ],
       "input": [
         "q.dialogue.set_page('line_8');"
@@ -134,7 +134,7 @@
       "id": "line_8",
       "speaker": "npc",
       "lines": [
-        "It\u2026 cute\u2026 lovely\u2026"
+        "It... cute... lovely..."
       ],
       "input": [
         "q.dialogue.set_page('line_9');"
@@ -144,7 +144,7 @@
       "id": "line_9",
       "speaker": "npc",
       "lines": [
-        "Smart\u2026 unbearably\u2026"
+        "Smart... unbearably..."
       ],
       "input": [
         "q.dialogue.set_page('line_10');"
@@ -154,7 +154,7 @@
       "id": "line_10",
       "speaker": "npc",
       "lines": [
-        "Plus\u2026 amazing\u2026 oh\u2026"
+        "Plus... amazing... oh..."
       ],
       "input": [
         "q.dialogue.set_page('line_11');"
@@ -164,7 +164,7 @@
       "id": "line_11",
       "speaker": "npc",
       "lines": [
-        "You think so?\u2026"
+        "You think so?..."
       ],
       "input": [
         "q.dialogue.set_page('line_12');"
@@ -174,7 +174,7 @@
       "id": "line_12",
       "speaker": "npc",
       "lines": [
-        "Too much\u2026 wild\u2026"
+        "Too much... wild..."
       ],
       "input": [
         "q.dialogue.set_page('line_13');"
@@ -184,7 +184,7 @@
       "id": "line_13",
       "speaker": "npc",
       "lines": [
-        "Beautiful\u2026 kindly\u2026"
+        "Beautiful... kindly..."
       ],
       "input": [
         "q.dialogue.set_page('line_14');"
@@ -204,7 +204,7 @@
       "id": "line_15",
       "speaker": "npc",
       "lines": [
-        "Hug it\u2026 when\u2026"
+        "Hug it... when..."
       ],
       "input": [
         "q.dialogue.set_page('line_16');"
@@ -214,7 +214,7 @@
       "id": "line_16",
       "speaker": "npc",
       "lines": [
-        "Sleeping\u2026 warm and cuddly\u2026"
+        "Sleeping... warm and cuddly..."
       ],
       "input": [
         "q.dialogue.set_page('line_17');"
@@ -224,7 +224,7 @@
       "id": "line_17",
       "speaker": "npc",
       "lines": [
-        "Oh, and\u2026"
+        "Oh, and..."
       ],
       "input": [
         "q.dialogue.set_page('line_18');"
@@ -234,7 +234,7 @@
       "id": "line_18",
       "speaker": "npc",
       "lines": [
-        "Spectacular\u2026"
+        "Spectacular..."
       ],
       "input": [
         "q.dialogue.set_page('line_19');"
@@ -244,7 +244,7 @@
       "id": "line_19",
       "speaker": "npc",
       "lines": [
-        "Ravishing\u2026 simply divine\u2026"
+        "Ravishing... simply divine..."
       ],
       "input": [
         "q.dialogue.set_page('line_20');"

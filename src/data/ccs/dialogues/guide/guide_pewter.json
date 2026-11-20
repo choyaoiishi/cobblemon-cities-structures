@@ -59,7 +59,10 @@
             "text": "Cerulean City",
             "value": "map",
             "action": [
-              "t.npc_data = q.player.get_npc_data(q.npc); t.next_page = t.npc_data.map_gave == 1 ? 'map_gave' : 'map_1'; q.dialogue.set_page(t.next_page)"
+             "t.player = q.player.username();",
+             "t.next_page = q.get_variable(q.npc.data, t.player + '_map_gave') == 1 ? 'map_gave' : 'map_1';",
+             "q.dialogue.set_page(t.next_page);"
+
             ]
           },
           {
@@ -81,7 +84,8 @@
       "input": [
         "q.run_command('loot give ' + q.player.username() + ' loot ccs:maps/cerulean');",
         "q.player.play_sound_on_server('ccs:item_get','blocks');",
-        "q.player.set_npc_variable(q.npc, 'map_gave', 1);",
+                "t.player = q.player.username();",
+        "q.set_variable(q.npc.data, t.player + '_map_gave', 1);",
         "q.dialogue.close();"
       ]
     },

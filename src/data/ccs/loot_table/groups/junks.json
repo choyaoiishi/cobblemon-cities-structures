@@ -17,6 +17,16 @@
         {
           "type": "item",
           "weight": 5,
+          "name": "minecraft:clay_ball"
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "minecraft:slime_ball"
+        },
+        {
+          "type": "item",
+          "weight": 5,
           "name": "minecraft:stick",
           "functions": [
             {

@@ -142,9 +142,9 @@
         "Well, the honor is mine, you insolent child!"
       ],
       "input": [
-        "q.player.set_npc_variable(q.npc, 'advancement', 'ccs:kanto/cerulean/giovanni');",
-        "q.player.set_npc_variable(q.npc, 'trainer_id', 'rocket_giovanni');",
-                "q.player.set_npc_variable(q.npc, 'min_level', 70);",
+        "q.npc.data.advancement='ccs:kanto/cerulean/giovanni';",
+        "q.npc.data.trainer_id='rocket_giovanni';",
+        "q.npc.data.min_level=70;",
         "q.dialogue.close();",
         "q.run_command('/execute at @e[type=marker,tag=rocket_giovanni,limit=1,sort=nearest] run tp ' + q.player.username() + ' ~ ~ ~ facing entity ' + q.npc.uuid() );",
         "q.npc.start_battle(q.player, 'doubles');"

@@ -1,0 +1,5 @@
+t.data = q.player.data(); 
+t.var_id = q.npc.config.dialogue_selection + '__' + v.var_name;
+t.var_value = v.var_value == 0 ? 1 : v.var_value;
+t.data[t.var_id] = t.var_value; 
+q.player.save_data();

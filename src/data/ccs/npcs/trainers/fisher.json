@@ -1,0 +1,16 @@
+{
+  "resourceIdentifier": "ccs:fisher",
+  "presets": [
+    "ccs:trainer"
+  ],
+  "names": [
+    "Fisher"
+  ],
+  "config": [
+    {
+      "variableName": "trainer_id",
+      "type": "TEXT",
+      "defaultValue": "fisher"
+    }
+  ]
+}

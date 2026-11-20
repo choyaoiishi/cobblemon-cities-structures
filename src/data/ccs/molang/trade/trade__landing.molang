@@ -17,6 +17,7 @@ v.line_traded = q.replace(v.line_traded, 'BBB', v.pokemon_name);
 
 'next page';
 
-q.player.get_npc_variable(q.npc, 'traded') == 1 ? return 'traded';
+t.player = q.player.username();
+q.get_variable(q.npc.data, t.player + '_traded')  == 1 ? return 'traded';
 
 return 'line_1';

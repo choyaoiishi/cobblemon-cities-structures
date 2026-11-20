@@ -1,0 +1,4 @@
+v.var_name = 'dex_gave';
+q.run_script('ccs:get_npc_variable') == 0 ? return 'oak_give_dex';
+
+return 'oak_rating';

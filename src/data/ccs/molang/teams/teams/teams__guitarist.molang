@@ -1,0 +1,66 @@
+'generated';
+v.level_variation_min = -7;
+v.level_variation_max = -2;
+v.loop_count = math.random_integer(2, 4);
+v.pokeball = 'citrine_ball';
+v.base_level < 30 ? {
+	return q.array(
+		'elekid',
+		'magnemite',
+		'voltorb',
+		'voltorb hisuian',
+		'electrike',
+		'mareep',
+		'plusle',
+		'minun',
+		'pachirisu',
+		'shinx',
+		'blitzle',
+		'tynamo',
+		'emolga',
+		'geodude alolan',
+		'chinchou',
+		'charjabug',
+		'whismur'
+	);
+};
+v.base_level < 50 ? {
+	return q.array(
+		'electabuzz',
+		'magneton',
+		'electrode',
+		'electrode hisuian',
+		'manectric',
+		'flaaffy',
+		'plusle',
+		'minun',
+		'pachirisu',
+		'luxio',
+		'zebstrika',
+		'eelektrik',
+		'emolga',
+		'graveler alolan',
+		'lanturn',
+		'vikavolt',
+		'loudred'
+	);
+};
+return q.array(
+		'electivire',
+		'magnezone',
+		'electrode',
+		'electrode hisuian',
+		'manectric',
+		'ampharos',
+		'plusle',
+		'minun',
+		'pachirisu',
+		'luxray',
+		'zebstrika',
+		'eelektross',
+		'emolga',
+		'golem alolan',
+		'lanturn',
+		'vikavolt',
+		'exploud'
+	);

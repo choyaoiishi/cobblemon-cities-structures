@@ -1,0 +1,15 @@
+{
+    "init": {
+        "route": "route__mom"
+    },
+    "1": {
+        "lines": [
+            "Oh, good! You and your Pokémon are looking great.",
+            "Oh yes, your Pokémon will faint if it runs out of HP.",
+            "If your Pokémon loses its HP, come home before it faints.",
+            "It will be healed to full health by taking a rest.",
+            "Well, honey, make me proud!",
+            "Take care!"
+        ]
+    }
+}

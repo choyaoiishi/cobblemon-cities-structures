@@ -1,0 +1,96 @@
+'generated';
+v.level_variation_min = -7;
+v.level_variation_max = -2;
+v.loop_count = math.random_integer(2, 4);
+v.pokeball = 'love_ball';
+v.base_level < 30 ? {
+	return q.array(
+		'eevee',
+		'eevee',
+		'espurr',
+		'skitty',
+		'meowth',
+		'shinx',
+		'purrloin',
+		'patrat',
+		'sentret',
+		'zigzagoon',
+		'bidoof',
+		'zigzagoon galarian',
+		'rattata',
+		'marill',
+		'nidoranm',
+		'nidoranf',
+		'buizel',
+		'tandemaus',
+		'pikachu',
+		'plusle',
+		'minun',
+		'pachirisu',
+		'minccino',
+		'emolga',
+		'dedenne',
+		'gothita',
+		'ralts'
+	);
+};
+v.base_level < 50 ? {
+	return q.array(
+		'espeon',
+		'umbreon',
+		'meowstic',
+		'delcatty',
+		'persian',
+		'luxio',
+		'liepard',
+		'watchog',
+		'furret',
+		'linoone',
+		'bibarel',
+		'linoone galarian',
+		'raticate',
+		'azumarill',
+		'nidorino',
+		'nidorina',
+		'floatzel',
+		'maushold',
+		'raichu',
+		'plusle',
+		'minun',
+		'pachirisu',
+		'cinccino',
+		'emolga',
+		'dedenne',
+		'gothorita',
+		'kirlia'
+	);
+};
+return q.array(
+		'espeon',
+		'umbreon',
+		'meowstic',
+		'delcatty',
+		'persian',
+		'luxray',
+		'liepard',
+		'watchog',
+		'furret',
+		'linoone',
+		'bibarel',
+		'linoone galarian',
+		'raticate',
+		'azumarill',
+		'nidoking',
+		'nidoqueen',
+		'floatzel',
+		'maushold',
+		'raichu',
+		'plusle',
+		'minun',
+		'pachirisu',
+		'cinccino',
+		'emolga',
+		'dedenne',
+		'gothitelle',
+		'gardevoir'
+	);

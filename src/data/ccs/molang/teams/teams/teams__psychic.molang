@@ -1,0 +1,75 @@
+'generated';
+v.level_variation_min = -5;
+v.level_variation_max = 0;
+v.loop_count = math.random_integer(2, 4);
+v.pokeball = 'premier_ball';
+v.base_level < 30 ? {
+	return q.array(
+		'abra',
+		'slowpoke',
+		'slowpoke',
+		'drowzee',
+		'exeggcute',
+		'jynx',
+		'natu',
+		'girafarig',
+		'ralts',
+		'meditite',
+		'spoink',
+		'lunatone',
+		'solrock',
+		'baltoy',
+		'chimecho',
+		'chingling',
+		'munna',
+		'sigilyph',
+		'gothita',
+		'solosis'
+	);
+};
+v.base_level < 50 ? {
+	return q.array(
+		'kadabra',
+		'slowbro',
+		'slowking',
+		'hypno',
+		'exeggutor',
+		'jynx',
+		'xatu',
+		'girafarig',
+		'kirlia',
+		'medicham',
+		'grumpig',
+		'lunatone',
+		'solrock',
+		'claydol',
+		'chimecho',
+		'chingling',
+		'musharna',
+		'sigilyph',
+		'gothorita',
+		'duosion'
+	);
+};
+return q.array(
+		'alakazam',
+		'slowbro',
+		'slowking',
+		'hypno',
+		'exeggutor',
+		'jynx',
+		'xatu',
+		'girafarig',
+		'gardevoir',
+		'medicham',
+		'grumpig',
+		'lunatone',
+		'solrock',
+		'claydol',
+		'chimecho',
+		'chingling',
+		'musharna',
+		'sigilyph',
+		'gothitelle',
+		'reuniclus'
+	);

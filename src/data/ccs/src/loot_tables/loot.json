@@ -114,24 +114,14 @@
 				1
 			]
 		],
-		"foods": [
+		"raw_foods": [
 			[
 				"c:berry_juice",
 				20,
 				"1-5"
 			],
 			[
-				"cookie",
-				20,
-				"1-5"
-			],
-			[
 				"egg",
-				20,
-				"1-5"
-			],
-			[
-				"bread",
 				20,
 				"1-5"
 			],
@@ -163,6 +153,26 @@
 			[
 				"sweet_berries",
 				15,
+				"1-5"
+			],
+			[
+				"c:leftovers",
+				1
+			],
+			[
+				"c:tasty_tail",
+				1
+			]
+		],
+		"cooked_foods": [
+			[
+				"cookie",
+				20,
+				"1-5"
+			],
+			[
+				"bread",
+				20,
 				"1-5"
 			],
 			[
@@ -223,14 +233,6 @@
 			],
 			[
 				"cake",
-				1
-			],
-			[
-				"c:leftovers",
-				1
-			],
-			[
-				"c:tasty_tail",
 				1
 			]
 		],
@@ -688,6 +690,14 @@
 				10
 			],
 			[
+				"clay_ball",
+				5
+			],
+			[
+				"slime_ball",
+				5
+			],
+			[
 				"stick",
 				5,
 				"1-5"
@@ -822,7 +832,11 @@
 			"rolls": "5-10",
 			"entries": [
 				[
-					"ccs:groups/foods",
+					"ccs:groups/raw_foods",
+					5
+				],
+				[
+					"ccs:groups/cooked_foods",
 					5
 				]
 			]
@@ -1085,6 +1099,51 @@
 				[
 					"c:dusk_stone",
 					1
+				]
+			]
+		},
+		"tower_coffin":{
+			"rolls": "5-10",
+			"entries": [
+				[
+					"ccs:groups/bones",
+					1
+				]
+			]
+		}
+	},
+	"trainers":{
+		"generic": {
+			"rolls": "1",
+			"entries": [
+				[
+					"air",
+					100
+				],
+				[
+					"ccs:groups/candies",
+					10
+				],
+				[
+					"ccs:groups/potions",
+					5
+				]
+			]
+		},
+		"kid": {
+			"rolls": "1",
+			"entries": [
+				[
+					"air",
+					100
+				],
+				[
+					"ccs:groups/junks",
+					10
+				],
+				[
+					"ccs:groups/apricorns",
+					5
 				]
 			]
 		}

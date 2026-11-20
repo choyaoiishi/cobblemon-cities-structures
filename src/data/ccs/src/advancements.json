@@ -54,7 +54,23 @@
         }
       ]
     },
+    "misc": {
+      "hidden_record": true
+    },
     "indigo_plateau": {
+      "room_1": {
+        "hidden_record": true,
+        "parent": "ccs:kanto/misc"
+      },
+      "room_2": {
+        "hidden_record": true
+      },
+      "room_3": {
+        "hidden_record": true
+      },
+      "room_4": {
+        "hidden_record": true
+      },
       "badges_collected": {
         "title": "All Kanto Badges",
         "desc": "Collect all Kanto Badges",
@@ -318,6 +334,23 @@
         "rewards": {
           "function": "ccs:badges/viridian"
         }
+      }
+    },
+    "lavender":{
+      "coffin": {
+        "hidden_record": true,
+        "criteria": {
+          "opened_chest": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+              "loot_table": "ccs:lavender/tower_coffin"
+            }
+          }
+        },
+        "rewards": {
+          "function": "ccs:on_coffin_open"
+        },
+        "parent": "ccs:kanto/misc"
       }
     }
   }

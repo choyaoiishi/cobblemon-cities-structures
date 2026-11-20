@@ -1,0 +1,14 @@
+q.player.in_battle ? return 0;
+
+t.pokemon = q.player.world.spawn_pokemon(q.player.x, q.player.y, q.player.z, v.pokemon + ' ' + v.prop);
+q.player.play_sound_on_server('cobblemon:pokemon.'+v.pokemon+'.cry','blocks');
+
+t.was_attempted = 0;
+t.pokemon != 0 ? {
+    t.was_attempted = t.pokemon.attempt_wild_battle(q.player);
+};
+
+t.was_attempted ? {
+    v.pokemon = t.pokemon;
+    q.run_molang('q.player.in_battle == false ? v.pokemon.damage(1000);', 0.2);
+};

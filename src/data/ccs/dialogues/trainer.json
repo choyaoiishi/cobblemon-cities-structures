@@ -18,6 +18,7 @@
         "delay": 0.01,
         "allowSkip": false,
         "action": [
+          "q.run_script('ccs:trainer__lines');",
           "t.next_page = q.run_script('ccs:battle__landing');",
           "q.dialogue.set_page(t.next_page);"
         ]
@@ -31,23 +32,22 @@
         "type": "auto-continue",
         "delay": 0.01,
         "allowSkip": false,
-        "action": "q.dialogue.set_page('battle')"
+        "action": [
+          "q.dialogue.set_page('battle');"
+        ]
       }
     },
     {
       "id": "battle",
       "speaker": "npc",
       "lines": [
-        "Hoargh! Take your shoes off!"
+        {
+          "type": "expression",
+          "expression": "v.line__battle;"
+        }
       ],
       "input": [
-        "v.min_level='55';",
-        "v.advancement='';",
-        "q.player.set_npc_variable(q.npc, 'advancement', v.advancement);",
-        "q.player.set_npc_variable(q.npc, 'trainer_id', 'karate');",
         "q.dialogue.close();",
-        "!q.is_blank(v.min_level) ? q.player.set_npc_variable(q.npc, 'min_level', v.min_level);",
-        "!q.is_blank(v.advancement) ? q.run_command('/execute at @e[type=marker,tag=karate,limit=1,sort=nearest] run tp ' + q.player.username() + ' ~ ~ ~ facing entity ' + q.npc.uuid() );",
         "q.npc.start_battle(q.player, 'single');"
       ]
     },
@@ -55,35 +55,33 @@
       "id": "win",
       "speaker": "npc",
       "lines": [
-        "I give up!"
+        {
+          "type": "expression",
+          "expression": "v.line__win;"
+        }
       ],
       "input": [
         "t.next_page = q.run_script('ccs:battle__landing_win');",
-        "q.dialogue.set_page(t.next_page);"
+        "q.dialogue.close();"
       ]
     },
     {
       "id": "won",
       "speaker": "npc",
       "lines": [
-        "You wait 'til you see our master! I'm a small fry compared to him!"
+        {
+          "type": "expression",
+          "expression": "v.line__won;"
+        },
+        "§7§oCooldown remaining:",
+        {
+          "type": "expression",
+          "expression": "'§7§o' + q.run_script('ccs:cooldown_remaining_time');"
+        }
       ],
       "input": [
         "q.dialogue.close();"
       ]
-    },
-    {
-      "id": "bye",
-      "speaker": "npc",
-      "lines": [],
-      "input": {
-        "type": "auto-continue",
-        "delay": 0.01,
-        "allowSkip": false,
-        "action": [
-          "q.dialogue.close();"
-        ]
-      }
     }
   ]
 }

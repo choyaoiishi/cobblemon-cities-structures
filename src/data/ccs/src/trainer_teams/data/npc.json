@@ -1,0 +1,55 @@
+{
+	"gentleman": [
+		[
+			"chatot"
+		],
+		[
+			"hoothoot",
+			"noctowl"
+		],
+		[
+			"pikachu",
+			"raichu"
+		],
+		[
+			"electrike",
+			"manectric"
+		]
+	],
+	"guitarist": [
+		[
+			"whismur",
+			"loudred",
+			"exploud"
+		]
+	],
+	"medium": [
+		[
+			"drowzee",
+			"hypno"
+		],
+		[
+			"slowpoke",
+			"slowbro"
+		]
+	],
+	"science": [
+		[
+			"solosis",
+			"duosion",
+			"reuniclus"
+		]
+	],
+	"girl": [
+		[
+			"gothita",
+			"gothorita",
+			"gothitelle"
+		],
+		[
+			"ralts",
+			"kirlia",
+			"gardevoir"
+		]
+	]
+}

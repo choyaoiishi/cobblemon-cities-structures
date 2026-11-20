@@ -25,7 +25,7 @@
       "id": "cobblemon:max_revive"
     },
     "title": {
-      "text": "The Ultimate Goal of Trainers!"
+      "text": "The Ultimate Goal for Trainers!"
     },
     "description": {
       "text": "Enter Indigo Plateau"
@@ -36,5 +36,5 @@
       "entered_structure"
     ]
   ],
-  "parent": "ccs:kanto/root"
+  "parent": "ccs:kanto/indigo_plateau/badges_collected"
 }

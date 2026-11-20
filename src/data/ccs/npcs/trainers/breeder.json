@@ -1,0 +1,16 @@
+{
+  "resourceIdentifier": "ccs:breeder",
+  "presets": [
+    "ccs:trainer"
+  ],
+  "names": [
+    "Breeder"
+  ],
+  "config": [
+    {
+      "variableName": "trainer_id",
+      "type": "TEXT",
+      "defaultValue": "breeder"
+    }
+  ]
+}

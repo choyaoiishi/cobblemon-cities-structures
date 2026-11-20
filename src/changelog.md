@@ -1,3 +1,19 @@
+### 20-11-2026 - 1.0.18
+- save npc data on the npc instead of player so player data does not get bloated
+- oak will now rate your pokedex and gives rewards
+- mom will now heal you and your pokemon, and give foods if you are hungry
+- add random trainers that spawn in cities
+	- defeated trainers can drop items
+	- trainers have different lines and pokemon based on their class
+	- some cities have higher chance for certain trainers
+	- some cities have trainers only found there
+- add function to spawn wild pokemon
+- opening the coffin in lavender pokemon tower will now spawns marowak
+- player now need to defeat the current room boss before the door can teleport you in indigo plateau
+- cerulean city now spawn in coast and river, instead of sea
+- renamed terry into gary
+- fix saffron sabrina battle didn't teleport before battle
+
 ### 15-11-2026 - 1.0.17
 - add indigo plateau
 - add cinnabar lab

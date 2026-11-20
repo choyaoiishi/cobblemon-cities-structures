@@ -1,0 +1,16 @@
+{
+  "resourceIdentifier": "ccs:npcs/miko",
+  "presets": [
+    "ccs:trainer"
+  ],
+  "names": [
+    "Miko"
+  ],
+  "config": [
+    {
+      "variableName": "trainer_id",
+      "type": "TEXT",
+      "defaultValue": "miko"
+    }
+  ]
+}

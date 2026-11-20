@@ -27,5 +27,5 @@
   "rewards": {
     "function": "ccs:badges/kanto_champion"
   },
-  "parent": "ccs:kanto/indigo_plateau/badges_collected"
+  "parent": "ccs:kanto/indigo_plateau/root"
 }

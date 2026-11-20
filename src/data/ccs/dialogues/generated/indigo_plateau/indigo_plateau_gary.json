@@ -67,7 +67,7 @@
       "id": "line_5",
       "speaker": "npc",
       "lines": [
-        "And now\u2026 I'm the Pok\u00e9mon League Champion!"
+        "And now... I'm the Pok\u00e9mon League Champion!"
       ],
       "input": [
         "q.dialogue.set_page('line_6');"
@@ -100,13 +100,13 @@
         "I am the most powerful Trainer in the world!"
       ],
       "input": [
-        "v.min_level='85';",
+        "v.min_level=85;",
         "v.advancement='ccs:kanto/indigo_plateau/champion';",
-        "q.player.set_npc_variable(q.npc, 'advancement', v.advancement);",
-        "q.player.set_npc_variable(q.npc, 'trainer_id', 'rival_gary');",
+        "q.npc.data.advancement=v.advancement;",
+        "q.npc.data.trainer_id='rival_gary';",
         "q.dialogue.close();",
-        "!q.is_blank(v.min_level) ? q.player.set_npc_variable(q.npc, 'min_level', v.min_level);",
-        "!q.is_blank(v.advancement) ? q.run_command('/execute at @e[type=marker,tag=rival_gary,limit=1,sort=nearest] run tp ' + q.player.username() + ' ~ ~ ~ facing entity ' + q.npc.uuid() );",
+        "!q.is_blank(v.min_level) ? {q.npc.data.min_level=v.min_level;};",
+        "!q.is_blank(v.advancement) ?{ q.run_command('/execute at @e[type=marker,tag=rival_gary,limit=1,sort=nearest] run tp ' + q.player.username() + ' ~ ~ ~ facing entity ' + q.npc.uuid() );};",
         "q.npc.start_battle(q.player, 'single');"
       ]
     },
@@ -125,7 +125,7 @@
       "id": "won",
       "speaker": "npc",
       "lines": [
-        "Why? Why did I lose? I never made any mistakes raising my Pok\u00e9mon\u2026 Darn it! You're the new Pok\u00e9mon League Champion!"
+        "Why? Why did I lose? I never made any mistakes raising my Pok\u00e9mon... Darn it! You're the new Pok\u00e9mon League Champion!"
       ],
       "input": [
         "q.dialogue.close();"

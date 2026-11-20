@@ -1,0 +1,7 @@
+t.data = q.player.data(); 
+t.var_id = q.npc.config.dialogue_selection + '__' + v.var_name;
+
+v.msg = t.data[t.var_id];
+q.run_script('ccs:print');
+
+return t.data[t.var_id];

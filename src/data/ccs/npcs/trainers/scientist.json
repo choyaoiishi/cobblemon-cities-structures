@@ -1,0 +1,16 @@
+{
+  "resourceIdentifier": "ccs:scientist",
+  "presets": [
+    "ccs:trainer"
+  ],
+  "names": [
+    "Scientist"
+  ],
+  "config": [
+    {
+      "variableName": "trainer_id",
+      "type": "TEXT",
+      "defaultValue": "scientist"
+    }
+  ]
+}

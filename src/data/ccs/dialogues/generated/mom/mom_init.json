@@ -1,0 +1,14 @@
+{
+  "initializationAction": [
+    "t.dialogue = q.run_script('ccs:route__mom');",
+    "q.dialogue.close();",
+    "q.npc.run_dialogue(q.player, 'ccs:' + t.dialogue);"
+  ],
+  "pages": [
+    {
+      "lines": [
+        "-"
+      ]
+    }
+  ]
+}

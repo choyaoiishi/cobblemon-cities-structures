@@ -1,0 +1,112 @@
+{
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();"
+    }
+  },
+  "pages": [
+    {
+      "id": "1",
+      "speaker": "npc",
+      "lines": [
+        "Good to see you!"
+      ],
+      "input": [
+        "q.dialogue.set_page('2');"
+      ]
+    },
+    {
+      "id": "2",
+      "speaker": "npc",
+      "lines": [
+        "How is your Pokédex coming along?"
+      ],
+      "input": [
+        "q.dialogue.set_page('3');"
+      ]
+    },
+    {
+      "id": "3",
+      "speaker": "npc",
+      "lines": [
+        "Here, let me take a look."
+      ],
+      "input": [
+        "v.pokedex = q.player.pokedex();",
+        "q.dialogue.set_page('4');"
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "npc",
+      "lines": [
+        "The amount of progress you've made on your Pokédex is:",
+        {
+          "type": "expression",
+          "expression": "v.pokedex.seen_count() + ' Pokémon seen and '+ v.pokedex.caught_count() +' Pokémon owned.'"
+        }
+      ],
+      "input": [
+        "q.dialogue.set_page('5');"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "npc",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "q.run_script('ccs:oak_rating');"
+        }
+      ],
+      "input": [
+        "t.page = v.reward != 0 ? 'reward' : 'bye';",
+        "q.dialogue.set_page(t.page);"
+      ]
+    },
+    {
+      "id": "reward",
+      "speaker": "npc",
+      "lines": [
+        "Congratulations! Here you go!"
+      ],
+      "input": [
+        "v.var_name = 'rating_last_reward';",
+        "v.var_value = v.last_reward;",
+        "q.run_script('ccs:set_npc_variable');",
+        "q.run_script('ccs:give_reward');",
+        "q.dialogue.set_page('reward_gave');"
+      ]
+    },
+    {
+      "id": "reward_gave",
+      "speaker": "npc",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "v.reward_text;"
+        }
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    },
+    {
+      "id": "bye",
+      "speaker": "npc",
+      "lines": [],
+      "input": {
+        "type": "auto-continue",
+        "delay": 0.01,
+        "allowSkip": false,
+        "action": [
+          "q.dialogue.close();"
+        ]
+      }
+    }
+  ]
+}

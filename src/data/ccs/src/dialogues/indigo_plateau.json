@@ -4,6 +4,31 @@
             "Come back when you have all kanto badges."
         ]
     },
+    "room_1": {
+        "lines": [
+            "Lorelei blocks the way. Defeat her to go on."
+        ]
+    },
+    "room_2": {
+        "lines": [
+            "Bruno blocks the way. Defeat him to go on."
+        ]
+    },
+    "room_3": {
+        "lines": [
+            "Agatha blocks the way. Defeat her to go on."
+        ]
+    },
+    "room_4": {
+        "lines": [
+            "Lance blocks the way. Defeat him to go on."
+        ]
+    },
+    "champion": {
+        "lines": [
+            "Gary blocks the way. Defeat him and become champion!"
+        ]
+    },
     "lorelei": {
         "lines": [
             "Welcome to the Pokémon League.",
@@ -15,10 +40,10 @@
         "battle": [
             "elite_lorelei",
             "Hahaha! Are you ready?",
-            "…Things shouldn't be this way!",
+            "...Things shouldn't be this way!",
             "You're better than I thought. Go on ahead. You only got a taste of the Pokémon League's power.",
             "85",
-            "ccs:kanto/indigo_plateau/lorelei"
+            "ccs:kanto/indigo_plateau/room_1"
         ]
     },
     "bruno": {
@@ -34,7 +59,7 @@
             "Why? How could I lose?",
             "My job is done. Go face your next challenge.",
             "85",
-            "ccs:kanto/indigo_plateau/bruno"
+            "ccs:kanto/indigo_plateau/room_2"
         ]
     },
     "agatha": {
@@ -54,7 +79,7 @@
             "Oh, my! You're something special, child!",
             "You win! I see what the old duff sees in you now. I have nothing else to say. Run along now, child!",
             "85",
-            "ccs:kanto/indigo_plateau/agatha"
+            "ccs:kanto/indigo_plateau/room_3"
         ]
     },
     "lance": {
@@ -73,7 +98,7 @@
             "That's it! I hate to admit it, but you are a Pokémon master!",
             "I still can't believe my dragons lost to you.",
             "85",
-            "ccs:kanto/indigo_plateau/lance"
+            "ccs:kanto/indigo_plateau/room_4"
         ]
     },
     "gary": {
@@ -82,7 +107,7 @@
             "My rival should be strong to keep me sharp.",
             "While working on my Pokédex, I looked all over for Pokémon.",
             "Not only that, I assembled teams that would beat any Pokémon type.",
-            "And now… I'm the Pokémon League Champion!",
+            "And now... I'm the Pokémon League Champion!",
             "Do you know what that means?",
             "I'll tell you."
         ],
@@ -90,7 +115,7 @@
             "rival_gary",
             "I am the most powerful Trainer in the world!",
             "No! That can't be! You beat me at my best! After all that work to become the League Champ?",
-            "Why? Why did I lose? I never made any mistakes raising my Pokémon… Darn it! You're the new Pokémon League Champion!",
+            "Why? Why did I lose? I never made any mistakes raising my Pokémon... Darn it! You're the new Pokémon League Champion!",
             "85",
             "ccs:kanto/indigo_plateau/champion"
         ]

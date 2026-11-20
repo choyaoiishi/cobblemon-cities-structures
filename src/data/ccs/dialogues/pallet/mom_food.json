@@ -1,0 +1,89 @@
+{
+  "initializationAction": [
+    "t.player = q.player.username();",
+    "t.page = q.player.world.game_time < q.get_variable(q.npc.data, t.player + '_food_cooldown') ? 'food_gave' : 'line_1';",
+    "q.dialogue.set_page(t.page);"
+  ],
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();"
+    }
+  },
+  "pages": [
+    {
+      "id": "line_1",
+      "speaker": "npc",
+      "lines": [
+        "Welcome back."
+      ],
+      "input": [
+        "q.dialogue.set_page('line_2');"
+      ]
+    },
+    {
+      "id": "line_2",
+      "speaker": "npc",
+      "lines": [
+        "You must be starving after being out all day."
+      ],
+      "input": [
+        "q.dialogue.set_page('line_3');"
+      ]
+    },
+    {
+      "id": "line_3",
+      "speaker": "npc",
+      "lines": [
+        "Let me prepared some food for you."
+      ],
+      "input": [
+        "q.run_command('loot give ' + q.player.username + ' loot ccs:groups/cooked_foods');",
+        "q.player.play_sound_on_server('ccs:item_get','blocks');",
+        "t.cooldown = q.player.world.game_time + (20 * 120);",
+        "t.player = q.player.username();",
+        "q.set_variable(q.npc.data, t.player + '_food_cooldown', t.cooldown);",
+        "q.dialogue.set_page('line_4');"
+      ]
+    },
+    {
+      "id": "line_4",
+      "speaker": "npc",
+      "lines": [
+        "There you go! Eat up and feel better."
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    },
+    {
+      "id": "food_gave",
+      "speaker": "npc",
+      "lines": [
+        "You already took some food."
+      ],
+      "input": [
+        "v.cooldown_var = 'food_cooldown';",
+        "q.dialogue.set_page('5');"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "npc",
+      "lines": [
+        "Hurry up and eat before it gets cold!\n",
+        "§7§oCooldown remaining:",
+        {
+          "type": "expression",
+          "expression": "'§7§o' + q.run_script('ccs:cooldown_remaining_time');"
+        }
+      ],
+      "input": [
+        "q.dialogue.close();"
+      ]
+    }
+  ]
+}

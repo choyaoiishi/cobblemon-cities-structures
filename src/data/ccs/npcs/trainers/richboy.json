@@ -1,0 +1,16 @@
+{
+  "resourceIdentifier": "ccs:richboy",
+  "presets": [
+    "ccs:trainer"
+  ],
+  "names": [
+    "Richboy"
+  ],
+  "config": [
+    {
+      "variableName": "trainer_id",
+      "type": "TEXT",
+      "defaultValue": "richboy"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+v.pokemon = 'marowak';
+v.prop = 'alolan uncatchable lvl=100';
+q.run_script('ccs:spawn_wild_pokemon');

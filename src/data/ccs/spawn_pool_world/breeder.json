@@ -1,0 +1,23 @@
+{
+    "enabled": true,
+    "spawns": [
+        {
+            "id": "breeder",
+            "npc": "ccs:breeder",
+            "presets": [
+                "ccs:cities"
+            ],
+            "type": "npc",
+            "context": "grounded",
+            "bucket": "common",
+            "weight": 0.005,
+            "level": "1",
+            "condition": {
+                "canSeeSky": true,
+                "structures": [
+                    "#ccs:cities"
+                ]
+            }
+        }
+    ]
+}

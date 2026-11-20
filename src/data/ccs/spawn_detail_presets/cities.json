@@ -1,0 +1,27 @@
+{
+    "condition": {
+        "neededBaseBlocks": [
+            "minecraft:gray_wool",
+            "minecraft:polished_andesite",
+            "minecraft:smooth_quartz",
+            "minecraft:quartz_block",
+            "minecraft:light_gray_concrete",
+            "minecraft:red_sandstone",
+            "minecraft:cobblestone",
+            "minecraft:mossy_cobblestone",
+            "minecraft:stone",
+            "minecraft:smooth_stone",
+            "minecraft:dirt",
+            "minecraft:dirt_path",
+            "minecraft:andesite",
+            "minecraft:grass_block",
+            "minecraft:stone_bricks",
+            "minecraft:mossy_stone_bricks",
+            "minecraft:polished_andesite",
+            "minecraft:light_gray_wool",
+            "minecraft:blackstone",
+            "minecraft:polished_blackstone",
+            "minecraft:polished_blackstone_bricks"
+        ]
+    }
+}

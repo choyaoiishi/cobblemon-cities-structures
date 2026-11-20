@@ -1,0 +1,100 @@
+'generated';
+v.level_variation_min = -7;
+v.level_variation_max = -2;
+v.loop_count = math.random_integer(2, 4);
+v.pokeball = 'nest_ball';
+v.trainer_loot = 'kid';
+v.base_level < 20 ? {
+	return q.array(
+		'caterpie',
+		'weedle',
+		'wurmple',
+		'wurmple',
+		'spinarak',
+		'paras',
+		'volbeat',
+		'illumise',
+		'venonat',
+		'shuckle',
+		'heracross',
+		'surskit',
+		'nincada',
+		'combee',
+		'venipede',
+		'scyther',
+		'pinsir',
+		'ledyba',
+		'spinarak',
+		'kricketot',
+		'sewaddle',
+		'scatterbug',
+		'grubbin',
+		'dwebble',
+		'durant',
+		'karrablast',
+		'shelmet',
+		'yanma'
+	);
+};
+v.base_level < 30 ? {
+	return q.array(
+		'metapod',
+		'kakuna',
+		'silcoon',
+		'cascoon',
+		'ariados',
+		'parasect',
+		'volbeat',
+		'illumise',
+		'venomoth',
+		'shuckle',
+		'heracross',
+		'masquerain',
+		'ninjask',
+		'vespiquen',
+		'whirlipede',
+		'scyther',
+		'pinsir',
+		'ledian',
+		'ariados',
+		'kricketune',
+		'swadloon',
+		'spewpa',
+		'charjabug',
+		'crustle',
+		'durant',
+		'escavalier',
+		'accelgor',
+		'yanmege'
+	);
+};
+return q.array(
+		'butterfree',
+		'beedrill',
+		'beautifly',
+		'dustox',
+		'ariados',
+		'parasect',
+		'volbeat',
+		'illumise',
+		'venomoth',
+		'shuckle',
+		'heracross',
+		'masquerain',
+		'ninjask',
+		'vespiquen',
+		'scolipede',
+		'scyther',
+		'pinsir',
+		'ledian',
+		'ariados',
+		'kricketune',
+		'leavanny',
+		'vivillon',
+		'vikavolt',
+		'crustle',
+		'durant',
+		'escavalier',
+		'accelgor',
+		'yanmege'
+	);

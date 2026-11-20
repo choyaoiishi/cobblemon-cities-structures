@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 10,
+          "value": "ccs:groups/candies"
+        },
+        {
+          "type": "loot_table",
+          "weight": 5,
+          "value": "ccs:groups/potions"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cobblemon:love_ball"
+        }
+      ]
+    }
+  ]
+}

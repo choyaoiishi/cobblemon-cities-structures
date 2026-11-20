@@ -1,0 +1,1 @@
+return q.npc.data.trainer_id == 0 ? q.npc.config.trainer_id : q.npc.data.trainer_id;

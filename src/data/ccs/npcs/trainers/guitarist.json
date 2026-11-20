@@ -1,0 +1,16 @@
+{
+  "resourceIdentifier": "ccs:guitarist",
+  "presets": [
+    "ccs:trainer"
+  ],
+  "names": [
+    "Guitarist"
+  ],
+  "config": [
+    {
+      "variableName": "trainer_id",
+      "type": "TEXT",
+      "defaultValue": "guitarist"
+    }
+  ]
+}

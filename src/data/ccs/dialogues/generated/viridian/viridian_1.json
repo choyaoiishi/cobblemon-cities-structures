@@ -69,7 +69,8 @@
         "v.player_party.remove_by_id(v.target_pokemon_uuid);",
         "q.run_command('pokegiveother ' + q.player.username() + ' ' + v.pokemon_id + ' ottype=NPC ot=Unknown nick=' + v.nickname);",
         "q.player.play_sound_on_server('ccs:pokemon_get','blocks');",
-        "q.player.set_npc_variable(q.npc, 'traded', 1);",
+        "t.player = q.player.username();",
+        "q.set_variable(q.npc.data, t.player + '_traded', 1);",
         "q.dialogue.set_page('trade_2');"
       ]
     },

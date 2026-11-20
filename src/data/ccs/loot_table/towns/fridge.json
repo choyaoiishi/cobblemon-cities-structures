@@ -10,7 +10,12 @@
         {
           "type": "loot_table",
           "weight": 5,
-          "value": "ccs:groups/foods"
+          "value": "ccs:groups/raw_foods"
+        },
+        {
+          "type": "loot_table",
+          "weight": 5,
+          "value": "ccs:groups/cooked_foods"
         }
       ]
     }

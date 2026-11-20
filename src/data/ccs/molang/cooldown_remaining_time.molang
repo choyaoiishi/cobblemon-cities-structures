@@ -1,0 +1,9 @@
+v.cooldown_var = v.cooldown_var != 0 ? v.cooldown_var : 'win_cooldown';
+
+t.player = q.player.username();
+t.remaining_ticks = q.get_variable(q.npc.data, t.player + '_' + v.cooldown_var) - q.player.world.game_time;
+
+t.total_seconds = math.max(0, math.floor(t.remaining_ticks / 20));
+t.minutes = math.floor(t.total_seconds / 60);
+t.seconds = math.mod(t.total_seconds, 60);
+return t.minutes + 'm ' + t.seconds + 's';
